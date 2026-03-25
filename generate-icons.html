@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><body>
+<canvas id="c192" width="192" height="192"></canvas>
+<canvas id="c512" width="512" height="512"></canvas>
+<script>
+function drawIcon(canvas) {
+  const s = canvas.width;
+  const ctx = canvas.getContext('2d');
+  // Background
+  ctx.fillStyle = '#111827';
+  ctx.beginPath();
+  ctx.roundRect(0, 0, s, s, s * 0.2);
+  ctx.fill();
+  // Chart bars
+  const bars = [0.4, 0.7, 0.5, 0.85, 0.6];
+  const colors = ['#818cf8', '#6366f1', '#34d399', '#818cf8', '#34d399'];
+  const bw = s * 0.1;
+  const gap = s * 0.04;
+  const startX = s * 0.18;
+  bars.forEach((h, i) => {
+    ctx.fillStyle = colors[i];
+    const x = startX + i * (bw + gap);
+    const barH = h * s * 0.5;
+    ctx.beginPath();
+    ctx.roundRect(x, s * 0.7 - barH, bw, barH, bw * 0.2);
+    ctx.fill();
+  });
+  // Arrow up
+  ctx.strokeStyle = '#34d399';
+  ctx.lineWidth = s * 0.03;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  ctx.beginPath();
+  ctx.moveTo(s * 0.25, s * 0.35);
+  ctx.lineTo(s * 0.5, s * 0.15);
+  ctx.lineTo(s * 0.75, s * 0.28);
+  ctx.stroke();
+  // P letter
+  ctx.fillStyle = '#fff';
+  ctx.font = `bold ${s * 0.14}px system-ui`;
+  ctx.textAlign = 'center';
+  ctx.fillText('PM', s * 0.5, s * 0.88);
+  return canvas.toDataURL('image/png');
+}
+['c192', 'c512'].forEach(id => {
+  const c = document.getElementById(id);
+  drawIcon(c);
+  const a = document.createElement('a');
+  a.download = `icon-${c.width}.png`;
+  a.href = c.toDataURL('image/png');
+  a.click();
+});
+</script></body></html>
