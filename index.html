@@ -440,7 +440,10 @@ function renderBot() {
 
 async function loadData() {
   try {
-    const resp = await fetch('/api/portfolio');
+    const DATA_URL = window.location.hostname === 'localhost'
+      ? '/api/portfolio'
+      : 'https://raw.githubusercontent.com/pmhenrik399/polymarket-dashboard/main/data/portfolio.json';
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
 
