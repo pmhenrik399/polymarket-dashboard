@@ -21,12 +21,26 @@
     "max_positions": 15,
     "max_per_category": 5,
     "auto_exit_edge_below": 0.01,
-    "max_resolution_days": 3
+    "max_resolution_days": 1
+  },
+  "strategy": {
+    "type": "compound_growth",
+    "daily_target_pct": 0.05,
+    "description": "Compound 5% daglig. Reinvester alt. Skaler posisjoner med kapital.",
+    "mix": {
+      "safe_bets_pct": 0.60,
+      "medium_bets_pct": 0.30,
+      "longshot_bets_pct": 0.10
+    },
+    "safe_bet_range": "70-90 cent, edge 3-5%, lav men sikker avkastning",
+    "medium_bet_range": "40-65 cent, edge 5-10%, god risk/reward",
+    "longshot_range": "10-35 cent, edge 8%+, høy gevinst hvis riktig"
   },
   "monthly": {
     "current_month": "2026-04",
     "month_start_value_nok": 1000,
-    "target_profit_nok": 100,
+    "target_profit_nok": 3300,
+    "daily_target_pct": 0.05,
     "realized_pnl_nok": 0,
     "trades_this_month": 8,
     "wins_this_month": 0,
