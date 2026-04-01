@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-01T14:30:00+02:00",
+    "last_updated": "2026-04-01T20:40:00+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.72
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 200,
+    "balance_nok": 391,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -41,35 +41,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 0,
+    "realized_pnl_nok": -35,
     "trades_this_month": 8,
-    "wins_this_month": 0,
-    "losses_this_month": 0
+    "wins_this_month": 1,
+    "losses_this_month": 1
   },
   "positions": [
-    {
-      "id": "pos_001",
-      "market_id": "1702328",
-      "question": "LoL: T1 vs KT Rolster - Game 2 Winner (T1)",
-      "slug": "lol-t1-kt-2026-04-01-game2",
-      "side": "YES",
-      "entry_price_usd": 0.735,
-      "current_price_usd": 0.735,
-      "shares": 17.65,
-      "cost_usd": 12.97,
-      "cost_nok": 126,
-      "usd_nok_at_entry": 9.72,
-      "edge_at_entry": 0.045,
-      "our_probability": 0.78,
-      "kelly_fraction_used": 0.50,
-      "stop_loss_price": 0.515,
-      "opened_at": "2026-04-01T14:30:00+02:00",
-      "end_date": "2026-04-01",
-      "category": "sport",
-      "notes": "T1 dominant i LCK, historisk overlegen mot KT. Faker-effekten.",
-      "unrealized_pnl_usd": 0,
-      "unrealized_pnl_nok": 0
-    },
     {
       "id": "pos_002",
       "market_id": "1809162",
@@ -77,7 +54,7 @@
       "slug": "mlb-nym-stl-2026-04-01-total-7pt5",
       "side": "NO",
       "entry_price_usd": 0.48,
-      "current_price_usd": 0.48,
+      "current_price_usd": 0.485,
       "shares": 22.10,
       "cost_usd": 10.61,
       "cost_nok": 103,
@@ -90,31 +67,8 @@
       "end_date": "2026-04-01",
       "category": "sport",
       "notes": "Tidlig MLB-sesong, pitching dominerer. Under har historisk edge i april-kamper.",
-      "unrealized_pnl_usd": 0,
-      "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_003",
-      "market_id": "1810087",
-      "question": "100 Thieves vs HOTU: O/U 2.5 games — Over",
-      "slug": "cs2-100t-hotu-2026-04-01-total-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.525,
-      "current_price_usd": 0.525,
-      "shares": 19.61,
-      "cost_usd": 10.29,
-      "cost_nok": 100,
-      "usd_nok_at_entry": 9.72,
-      "edge_at_entry": 0.05,
-      "our_probability": 0.575,
-      "kelly_fraction_used": 0.50,
-      "stop_loss_price": 0.368,
-      "opened_at": "2026-04-01T14:30:02+02:00",
-      "end_date": "2026-04-01",
-      "category": "sport",
-      "notes": "Jevne lag, Over 2.5 games i BO3 har edge nar lagene er tett matched.",
-      "unrealized_pnl_usd": 0,
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_usd": 0.11,
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_004",
@@ -146,7 +100,7 @@
       "slug": "mlb-sf-sd-2026-04-01-total-8pt5",
       "side": "YES",
       "entry_price_usd": 0.545,
-      "current_price_usd": 0.545,
+      "current_price_usd": 0.56,
       "shares": 18.87,
       "cost_usd": 10.28,
       "cost_nok": 100,
@@ -159,8 +113,8 @@
       "end_date": "2026-04-01",
       "category": "sport",
       "notes": "Tidlig sesong MLB, pitching dominerer. Under har edge.",
-      "unrealized_pnl_usd": 0,
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_usd": 0.28,
+      "unrealized_pnl_nok": 3
     },
     {
       "id": "pos_006",
@@ -169,7 +123,7 @@
       "slug": "es2-and-mal-2026-04-01-btts",
       "side": "YES",
       "entry_price_usd": 0.555,
-      "current_price_usd": 0.555,
+      "current_price_usd": 0.9995,
       "shares": 18.55,
       "cost_usd": 10.29,
       "cost_nok": 100,
@@ -181,9 +135,9 @@
       "opened_at": "2026-04-01T14:30:05+02:00",
       "end_date": "2026-04-01",
       "category": "sport",
-      "notes": "Segunda Division, begge lag scorer jevnlig. BTTS har edge i denne ligaen.",
-      "unrealized_pnl_usd": 0,
-      "unrealized_pnl_nok": 0
+      "notes": "Segunda Division, begge lag scorer jevnlig. BTTS har edge i denne ligaen. Pris nå 99.95% - venter på formell resolution.",
+      "unrealized_pnl_usd": 8.25,
+      "unrealized_pnl_nok": 80
     },
     {
       "id": "pos_007",
@@ -192,7 +146,7 @@
       "slug": "elon-musk-65-89-tweets-march-30-april-1",
       "side": "YES",
       "entry_price_usd": 0.855,
-      "current_price_usd": 0.855,
+      "current_price_usd": 0.0005,
       "shares": 12.04,
       "cost_usd": 10.29,
       "cost_nok": 100,
@@ -204,9 +158,9 @@
       "opened_at": "2026-04-01T14:30:06+02:00",
       "end_date": "2026-04-01",
       "category": "annet",
-      "notes": "Musk tweeter gjennomsnittlig 25-30/dag. 65-89 over 3 dager er 22-30/dag, innenfor norm.",
-      "unrealized_pnl_usd": 0,
-      "unrealized_pnl_nok": 0
+      "notes": "Musk tweeter gjennomsnittlig 25-30/dag. Markedet viser 0.05% - ser ut som TAPT. Venter formell resolution.",
+      "unrealized_pnl_usd": -10.28,
+      "unrealized_pnl_nok": -100
     },
     {
       "id": "pos_008",
@@ -215,7 +169,7 @@
       "slug": "mlb-oak-atl-2026-04-01-total-8pt5",
       "side": "YES",
       "entry_price_usd": 0.555,
-      "current_price_usd": 0.555,
+      "current_price_usd": 0.565,
       "shares": 15.47,
       "cost_usd": 8.59,
       "cost_nok": 83,
@@ -228,11 +182,58 @@
       "end_date": "2026-04-01",
       "category": "sport",
       "notes": "Athletics svakt lag offensivt, Braves pitching er elite. Under-favoritt.",
-      "unrealized_pnl_usd": 0,
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_usd": 0.15,
+      "unrealized_pnl_nok": 2
     }
   ],
-  "closed_positions": [],
+  "closed_positions": [
+    {
+      "id": "pos_001",
+      "market_id": "1702328",
+      "question": "LoL: T1 vs KT Rolster - Game 2 Winner (T1)",
+      "slug": "lol-t1-kt-2026-04-01-game2",
+      "side": "YES",
+      "entry_price_usd": 0.735,
+      "exit_price_usd": 0.00,
+      "shares": 17.65,
+      "cost_usd": 12.97,
+      "cost_nok": 126,
+      "payout_usd": 0,
+      "payout_nok": 0,
+      "profit_usd": -12.97,
+      "profit_nok": -126,
+      "result": "LOSS",
+      "usd_nok_at_entry": 9.72,
+      "opened_at": "2026-04-01T14:30:00+02:00",
+      "closed_at": "2026-04-01T20:40:00+02:00",
+      "end_date": "2026-04-01",
+      "category": "sport",
+      "notes": "T1 tapte Game 2 mot KT Rolster. KT NO vant."
+    },
+    {
+      "id": "pos_003",
+      "market_id": "1810087",
+      "question": "100 Thieves vs HOTU: O/U 2.5 games — Over",
+      "slug": "cs2-100t-hotu-2026-04-01-total-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.525,
+      "exit_price_usd": 1.00,
+      "shares": 19.61,
+      "cost_usd": 10.29,
+      "cost_nok": 100,
+      "payout_usd": 19.61,
+      "payout_nok": 191,
+      "profit_usd": 9.32,
+      "profit_nok": 91,
+      "result": "WIN",
+      "usd_nok_at_entry": 9.72,
+      "opened_at": "2026-04-01T14:30:02+02:00",
+      "closed_at": "2026-04-01T20:40:00+02:00",
+      "end_date": "2026-04-01",
+      "category": "sport",
+      "notes": "Over 2.5 games vant! Matchen gikk til 3 maps."
+    }
+  ],
   "trade_log": [
     {
       "timestamp": "2026-04-01T14:30:00+02:00",
@@ -337,22 +338,43 @@
       "amount_nok": 83,
       "edge": 0.035,
       "balance_after_nok": 165
+    },
+    {
+      "timestamp": "2026-04-01T20:40:00+02:00",
+      "action": "RESOLVED_LOSS",
+      "position_id": "pos_001",
+      "market_id": "1702328",
+      "question": "LoL: T1 vs KT Rolster - Game 2 (T1 YES)",
+      "result": "LOSS",
+      "profit_nok": -126,
+      "balance_after_nok": 200
+    },
+    {
+      "timestamp": "2026-04-01T20:40:00+02:00",
+      "action": "RESOLVED_WIN",
+      "position_id": "pos_003",
+      "market_id": "1810087",
+      "question": "100 Thieves vs HOTU O/U 2.5 — Over YES",
+      "result": "WIN",
+      "payout_nok": 191,
+      "profit_nok": 91,
+      "balance_after_nok": 391
     }
   ],
   "monthly_history": [],
   "statistics": {
     "total_trades": 8,
-    "total_wins": 0,
-    "total_losses": 0,
-    "total_realized_pnl_nok": 0,
-    "best_trade_nok": 0,
-    "worst_trade_nok": 0,
+    "total_wins": 1,
+    "total_losses": 1,
+    "total_realized_pnl_nok": -35,
+    "best_trade_nok": 91,
+    "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.043,
-    "avg_hold_time_hours": 0,
+    "avg_hold_time_hours": 6,
     "categories_traded": {
       "politikk": 0,
       "crypto": 0,
-      "sport": 6,
+      "sport": 7,
       "okonomi": 0,
       "annet": 1
     }
