@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T19:36:35Z",
+    "last_updated": "2026-04-02T20:07:01Z",
     "currency": "NOK",
     "usd_nok_rate": 9.698356
   },
@@ -120,7 +120,7 @@
       "slug": "cs2-gl-nip-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.535,
-      "current_price_usd": 0.495,
+      "current_price_usd": 0.615,
       "shares": 19.24,
       "cost_usd": 10.3,
       "cost_nok": 100,
@@ -133,7 +133,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "GamerLegion slight edge i BO3.",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": 14
     },
     {
       "id": "pos_013",
@@ -142,7 +142,7 @@
       "slug": "arg-bar-uca-2026-04-02",
       "side": "NO",
       "entry_price_usd": 0.665,
-      "current_price_usd": 0.9555,
+      "current_price_usd": 0.9995,
       "shares": 17.67,
       "cost_usd": 11.75,
       "cost_nok": 114,
@@ -155,7 +155,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Barracas Central svakt, favoritt å ikke vinne.",
-      "unrealized_pnl_nok": 49
+      "unrealized_pnl_nok": 57
     },
     {
       "id": "pos_014",
