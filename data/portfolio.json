@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T20:25:44+02:00",
+    "last_updated": "2026-04-02T20:27:17+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.698356
   },
@@ -120,7 +120,7 @@
       "slug": "cs2-gl-nip-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.535,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.265,
       "shares": 19.24,
       "cost_usd": 10.3,
       "cost_nok": 100,
@@ -133,7 +133,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "GamerLegion slight edge i BO3.",
-      "unrealized_pnl_nok": -47
+      "unrealized_pnl_nok": -50
     },
     {
       "id": "pos_013",
