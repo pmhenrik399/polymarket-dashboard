@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T22:05:36Z",
+    "last_updated": "2026-04-02T22:49:37Z",
     "currency": "NOK",
     "usd_nok_rate": 9.698356,
     "copy_trader": {
@@ -45,7 +45,7 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.925,
+      "current_price_usd": 0.92,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
@@ -63,7 +63,7 @@
       "slug": "elc-wba-wre-2026-04-03-wre",
       "side": "NO",
       "entry_price_usd": 0.735,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.745,
       "shares": 11.62,
       "cost_usd": 8.54,
       "cost_nok": 83,
@@ -71,7 +71,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0,
+      "unrealized_pnl_nok": 1,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -127,25 +127,6 @@
       "category": "sport",
       "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
-    },
-    {
-      "id": "cp_013",
-      "market_id": "1659567",
-      "question": "Will Real Sociedad B vs. SD Eibar end in a draw?",
-      "slug": "esb-rso-eib-2026-04-02-draw",
-      "side": "YES",
-      "entry_price_usd": 0.315,
-      "current_price_usd": 0.0005,
-      "shares": 33.64,
-      "cost_usd": 10.6,
-      "cost_nok": 103,
-      "usd_nok_at_entry": 9.7,
-      "opened_at": "2026-04-02T10:00:00+02:00",
-      "end_date": "2026-04-02",
-      "category": "sport",
-      "unrealized_pnl_nok": -102,
-      "last_checked": "2026-04-02T18:30:00+02:00",
-      "note": "RESOLVES TODAY — game kicked off 18:00 UTC. Draw YES @ 0.305, not yet resolved."
     },
     {
       "id": "cp_014",
@@ -346,6 +327,28 @@
       "result": "LOSS",
       "closed_at": "2026-04-01T23:28:00+02:00",
       "category": "sport"
+    },
+    {
+      "id": "cp_013",
+      "market_id": "1659567",
+      "question": "Will Real Sociedad B vs. SD Eibar end in a draw?",
+      "slug": "esb-rso-eib-2026-04-02-draw",
+      "side": "YES",
+      "entry_price_usd": 0.315,
+      "current_price_usd": 0.0,
+      "shares": 33.64,
+      "cost_usd": 10.6,
+      "cost_nok": 103,
+      "usd_nok_at_entry": 9.7,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-02",
+      "category": "sport",
+      "unrealized_pnl_nok": -102,
+      "last_checked": "2026-04-02T18:30:00+02:00",
+      "note": "RESOLVES TODAY — game kicked off 18:00 UTC. Draw YES @ 0.305, not yet resolved.",
+      "result": "LOSS",
+      "profit_nok": -103,
+      "closed_at": "2026-04-02T22:49:34Z"
     }
   ],
   "trade_log": [
@@ -453,13 +456,16 @@
   "statistics": {
     "total_trades": 19,
     "total_wins": 2,
-    "total_losses": 4,
-    "total_realized_pnl_nok": -156,
+    "total_losses": 5,
+    "total_realized_pnl_nok": -259,
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
     "syncs_completed": 7
   },
   "next_position_id": 20,
-  "monthly": {}
+  "monthly": {
+    "losses_this_month": 1,
+    "realized_pnl_nok": -103
+  }
 }

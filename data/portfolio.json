@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T22:05:30Z",
+    "last_updated": "2026-04-02T22:49:31Z",
     "currency": "NOK",
     "usd_nok_rate": 9.698356
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 101,
+    "balance_nok": 78,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -41,9 +41,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -4,
-    "trades_this_month": 17,
-    "wins_this_month": 4,
+    "realized_pnl_nok": 53,
+    "trades_this_month": 20,
+    "wins_this_month": 5,
     "losses_this_month": 5
   },
   "positions": [
@@ -136,35 +136,13 @@
       "unrealized_pnl_nok": 86
     },
     {
-      "id": "pos_013",
-      "market_id": "1744657",
-      "question": "CA Barracas Central win — NO",
-      "slug": "arg-bar-uca-2026-04-02",
-      "side": "NO",
-      "entry_price_usd": 0.665,
-      "current_price_usd": 0.9995,
-      "shares": 17.67,
-      "cost_usd": 11.75,
-      "cost_nok": 114,
-      "usd_nok_at_entry": 9.72,
-      "edge_at_entry": 0.035,
-      "our_probability": 0.7,
-      "kelly_fraction_used": 0.5,
-      "stop_loss_price": 0.466,
-      "opened_at": "2026-04-02T09:15:04+02:00",
-      "end_date": "2026-04-02",
-      "category": "sport",
-      "notes": "Barracas Central svakt, favoritt å ikke vinne.",
-      "unrealized_pnl_nok": 57
-    },
-    {
       "id": "pos_014",
       "market_id": "1745899",
       "question": "Santos FC vs. Remo — NO Draw",
       "slug": "bra-san-rem-2026-04-02-draw",
       "side": "NO",
       "entry_price_usd": 0.775,
-      "current_price_usd": 0.75,
+      "current_price_usd": 0.835,
       "shares": 16.06,
       "cost_usd": 12.45,
       "cost_nok": 121,
@@ -177,7 +155,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Santos favoritt hjemme. Lav draw-sjanse.",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": 9
     },
     {
       "id": "pos_015",
@@ -208,7 +186,7 @@
       "slug": "ligue1-psg-tou-2026-04-03-total",
       "side": "YES",
       "entry_price_usd": 0.615,
-      "current_price_usd": 0.635,
+      "current_price_usd": 0.64,
       "shares": 13.41,
       "cost_usd": 8.25,
       "cost_nok": 80,
@@ -221,7 +199,64 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 3
+    },
+    {
+      "id": "pos_018",
+      "market_id": "1736159",
+      "question": "Will CD Malacateco win on 2026-04-02?",
+      "slug": "gtm-adm-cdg-2026-04-02-adm",
+      "side": "YES",
+      "entry_price_usd": 0.645,
+      "current_price_usd": 0.645,
+      "shares": 9.43,
+      "cost_usd": 6.08,
+      "cost_nok": 59,
+      "usd_nok_at_entry": 9.698356,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.685,
+      "opened_at": "2026-04-02T22:49:39Z",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_019",
+      "market_id": "1713149",
+      "question": "Will Real Sociedad de Fútbol vs. Levante UD end in a draw?",
+      "slug": "lal-rso-lev-2026-04-04-draw",
+      "side": "NO",
+      "entry_price_usd": 0.775,
+      "current_price_usd": 0.775,
+      "shares": 12.37,
+      "cost_usd": 9.59,
+      "cost_nok": 93,
+      "usd_nok_at_entry": 9.698356,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.815,
+      "opened_at": "2026-04-02T22:49:39Z",
+      "end_date": "2026-04-04",
+      "category": "sport",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_020",
+      "market_id": "1825063",
+      "question": "Bitcoin Up or Down - April 3, 1:55AM-2:00AM ET",
+      "slug": "btc-updown-5m-1775195700",
+      "side": "YES",
+      "entry_price_usd": 0.505,
+      "current_price_usd": 0.505,
+      "shares": 8.58,
+      "cost_usd": 4.33,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.698356,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.545,
+      "opened_at": "2026-04-02T22:49:40Z",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -316,6 +351,31 @@
       "result": "STOP_LOSS",
       "closed_at": "2026-04-02T13:00:00+02:00",
       "notes": "Stop-loss: entry 0.605, exit 0.205 (-66%). End date passed. Macarthur appeared to win."
+    },
+    {
+      "id": "pos_013",
+      "market_id": "1744657",
+      "question": "CA Barracas Central win — NO",
+      "slug": "arg-bar-uca-2026-04-02",
+      "side": "NO",
+      "entry_price_usd": 0.665,
+      "current_price_usd": 1.0,
+      "shares": 17.67,
+      "cost_usd": 11.75,
+      "cost_nok": 114,
+      "usd_nok_at_entry": 9.72,
+      "edge_at_entry": 0.035,
+      "our_probability": 0.7,
+      "kelly_fraction_used": 0.5,
+      "stop_loss_price": 0.466,
+      "opened_at": "2026-04-02T09:15:04+02:00",
+      "end_date": "2026-04-02",
+      "category": "sport",
+      "notes": "Barracas Central svakt, favoritt å ikke vinne.",
+      "unrealized_pnl_nok": 57,
+      "result": "WIN",
+      "profit_nok": 57,
+      "closed_at": "2026-04-02T22:49:30Z"
     }
   ],
   "trade_log": [
@@ -452,9 +512,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 4,
+    "total_wins": 5,
     "total_losses": 5,
-    "total_realized_pnl_nok": -4,
+    "total_realized_pnl_nok": 53,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -467,5 +527,5 @@
       "annet": 1
     }
   },
-  "next_position_id": 18
+  "next_position_id": 21
 }
