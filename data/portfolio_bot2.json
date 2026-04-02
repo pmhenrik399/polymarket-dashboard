@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T16:30:00+02:00",
+    "last_updated": "2026-04-02T18:30:00+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.70,
     "copy_trader": {
@@ -11,7 +11,7 @@
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
       "portfolio_value_usd": 2800000,
       "description": "48K+ predictions, $4.77M portfolio, diversified sports/esports trader",
-      "last_synced": "2026-04-02T16:30:00+02:00"
+      "last_synced": "2026-04-02T18:30:00+02:00"
     }
   },
   "account": {
@@ -36,7 +36,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_003",
@@ -54,7 +54,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": -3,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_004",
@@ -72,7 +72,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": -1,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_005",
@@ -90,7 +90,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 1,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_011",
@@ -108,7 +108,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_012",
@@ -117,7 +117,7 @@
       "slug": "sea-int-rom-2026-04-05-rom",
       "side": "NO",
       "entry_price_usd": 0.835,
-      "current_price_usd": 0.835,
+      "current_price_usd": 0.825,
       "shares": 5.29,
       "cost_usd": 4.42,
       "cost_nok": 43,
@@ -125,8 +125,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-05",
       "category": "sport",
-      "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "unrealized_pnl_nok": -1,
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_013",
@@ -135,7 +135,7 @@
       "slug": "esb-rso-eib-2026-04-02-draw",
       "side": "YES",
       "entry_price_usd": 0.315,
-      "current_price_usd": 0.295,
+      "current_price_usd": 0.305,
       "shares": 33.64,
       "cost_usd": 10.60,
       "cost_nok": 103,
@@ -143,9 +143,9 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
-      "unrealized_pnl_nok": -7,
-      "last_checked": "2026-04-02T16:30:00+02:00",
-      "note": "RESOLVES TODAY 18:00 UTC — draw probability 29.5%, price down from 0.315 entry"
+      "unrealized_pnl_nok": -3,
+      "last_checked": "2026-04-02T18:30:00+02:00",
+      "note": "RESOLVES TODAY — game kicked off 18:00 UTC. Draw YES @ 0.305, not yet resolved."
     },
     {
       "id": "cp_014",
@@ -163,7 +163,7 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_015",
@@ -181,7 +181,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": 1,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_016",
@@ -199,7 +199,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_017",
@@ -217,7 +217,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_018",
@@ -226,7 +226,7 @@
       "slug": "li2-bas-ams-2026-04-03-bas",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.505,
       "shares": 5.39,
       "cost_usd": 2.78,
       "cost_nok": 27,
@@ -234,8 +234,8 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "unrealized_pnl_nok": -1,
+      "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
       "id": "cp_019",
@@ -253,7 +253,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T16:30:00+02:00"
+      "last_checked": "2026-04-02T18:30:00+02:00"
     }
   ],
   "closed_positions": [
@@ -400,6 +400,32 @@
       "portfolio_value_nok": 835,
       "usd_nok_rate": 9.70,
       "trader_new_positions_skipped": ["Dortmund Win $9.90", "CS2 BESTIA vs 3DMAX $218", "Brisbane Roar Win $188", "ATP Chazal vs Dalla Valle $10.50", "Brisbane O/U 1.5 $12.22"]
+    },
+    {
+      "timestamp": "2026-04-02T17:30:00+02:00",
+      "action": "PRICE_UPDATE",
+      "note": "All 13 positions checked. No resolved positions. cp_013 (RSB Draw YES) still active at 0.305 — resolves today. cp_018 (Bastia NO) moved to 0.505 from 0.515 entry (-1 NOK). cp_015 (PSG YES) up to 0.765 (+1 NOK). cp_005 (Atletico NO) at 0.685 (+1 NOK). USD/NOK: 9.698. Trader profile still JS-only. Total unrealized P&L: -6 NOK. Portfolio value: ~839 NOK.",
+      "resolved_count": 0,
+      "unrealized_pnl_nok": -6,
+      "portfolio_value_nok": 839,
+      "usd_nok_rate": 9.70,
+      "price_changes": {
+        "cp_013": {"from": 0.295, "to": 0.305, "note": "RSB Draw - still open"},
+        "cp_018": {"from": 0.515, "to": 0.505, "note": "Bastia NO - slight adverse"},
+        "cp_019": {"from": 0.52, "to": 0.525, "note": "Galatasaray NO - slight favorable"}
+      }
+    },
+    {
+      "timestamp": "2026-04-02T18:30:00+02:00",
+      "action": "PRICE_UPDATE",
+      "note": "All 13 positions checked. No resolved positions. cp_013 (RSB Draw YES) game kicked off 18:00 UTC — not yet resolved, price 0.305. cp_012 (AS Roma NO) dipped from 0.83 to 0.825 (-1 NOK). USD/NOK: 9.698. Trader profile JS-only — no new positions to copy. Total unrealized P&L: -7 NOK. Portfolio value: ~837 NOK.",
+      "resolved_count": 0,
+      "unrealized_pnl_nok": -7,
+      "portfolio_value_nok": 837,
+      "usd_nok_rate": 9.698,
+      "price_changes": {
+        "cp_012": {"from": 0.83, "to": 0.825, "note": "AS Roma NO - slight adverse"}
+      }
     }
   ],
   "statistics": {
@@ -410,7 +436,7 @@
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
-    "syncs_completed": 5
+    "syncs_completed": 7
   },
   "next_position_id": 20
 }
