@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T11:00:00+02:00",
+    "last_updated": "2026-04-02T14:00:00+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.698
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 136,
+    "balance_nok": 101,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -21,7 +21,7 @@
     "max_positions": 15,
     "max_per_category": 5,
     "auto_exit_edge_below": 0.01,
-    "max_resolution_days": 1
+    "max_resolution_days": 3
   },
   "strategy": {
     "type": "compound_growth",
@@ -41,10 +41,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 84,
-    "trades_this_month": 16,
+    "realized_pnl_nok": -4,
+    "trades_this_month": 17,
     "wins_this_month": 4,
-    "losses_this_month": 4
+    "losses_this_month": 5
   },
   "positions": [
     {
@@ -54,7 +54,7 @@
       "slug": "nhl-buf-ott-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.525,
-      "current_price_usd": 0.525,
+      "current_price_usd": 0.475,
       "shares": 23.62,
       "cost_usd": 12.40,
       "cost_nok": 121,
@@ -67,7 +67,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Senators playoff-jagende, Sabres bunnlag.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -12
     },
     {
       "id": "pos_010",
@@ -98,7 +98,7 @@
       "slug": "nhl-buf-ott-2026-04-02-total-6pt5",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.505,
       "shares": 23.30,
       "cost_usd": 12.00,
       "cost_nok": 117,
@@ -111,7 +111,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Under 6.5 i NHL er solid.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_012",
@@ -120,7 +120,7 @@
       "slug": "cs2-gl-nip-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.535,
-      "current_price_usd": 0.535,
+      "current_price_usd": 0.515,
       "shares": 19.24,
       "cost_usd": 10.30,
       "cost_nok": 100,
@@ -133,7 +133,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "GamerLegion slight edge i BO3.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_013",
@@ -142,7 +142,7 @@
       "slug": "arg-bar-uca-2026-04-02",
       "side": "NO",
       "entry_price_usd": 0.665,
-      "current_price_usd": 0.665,
+      "current_price_usd": 0.645,
       "shares": 17.67,
       "cost_usd": 11.75,
       "cost_nok": 114,
@@ -155,7 +155,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Barracas Central svakt, favoritt å ikke vinne.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_014",
@@ -202,25 +202,25 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_016",
-      "market_id": "1510473",
-      "question": "Macarthur FC win — NO",
-      "slug": "a-league-mac-2026-04-02",
-      "side": "NO",
-      "entry_price_usd": 0.605,
-      "current_price_usd": 0.605,
-      "shares": 22.53,
-      "cost_usd": 13.63,
-      "cost_nok": 133,
-      "usd_nok_at_entry": 9.72,
-      "edge_at_entry": 0.045,
-      "our_probability": 0.65,
+      "id": "pos_017",
+      "market_id": "1733649",
+      "question": "Paris Saint-Germain FC vs. Toulouse FC: O/U 2.5 — Over",
+      "slug": "ligue1-psg-tou-2026-04-03-total",
+      "side": "YES",
+      "entry_price_usd": 0.615,
+      "current_price_usd": 0.615,
+      "shares": 13.41,
+      "cost_usd": 8.25,
+      "cost_nok": 80,
+      "usd_nok_at_entry": 9.698,
+      "edge_at_entry": 0.065,
+      "our_probability": 0.68,
       "kelly_fraction_used": 0.50,
-      "stop_loss_price": 0.424,
-      "opened_at": "2026-04-02T09:15:07+02:00",
-      "end_date": "2026-04-02",
+      "stop_loss_price": 0.431,
+      "opened_at": "2026-04-02T14:00:00+02:00",
+      "end_date": "2026-04-03",
       "category": "sport",
-      "notes": "Macarthur bunnlag i A-League.",
+      "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -304,6 +304,18 @@
       "profit_nok": 67,
       "result": "WIN",
       "closed_at": "2026-04-02T04:00:00+02:00"
+    },
+    {
+      "id": "pos_016",
+      "market_id": "1510473",
+      "question": "Macarthur FC win — NO",
+      "side": "NO",
+      "cost_nok": 133,
+      "exit_price_usd": 0.205,
+      "profit_nok": -88,
+      "result": "STOP_LOSS",
+      "closed_at": "2026-04-02T13:00:00+02:00",
+      "notes": "Stop-loss: entry 0.605, exit 0.205 (-66%). End date passed. Macarthur appeared to win."
     }
   ],
   "trade_log": [
@@ -322,25 +334,26 @@
     {"timestamp": "2026-04-02T09:15:04+02:00", "action": "BUY_NO", "position_id": "pos_013", "question": "Barracas Central NO", "amount_nok": 114, "edge": 0.035},
     {"timestamp": "2026-04-02T09:15:05+02:00", "action": "BUY_NO", "position_id": "pos_014", "question": "Santos/Remo NO draw", "amount_nok": 121, "edge": 0.035},
     {"timestamp": "2026-04-02T09:15:06+02:00", "action": "BUY_NO", "position_id": "pos_015", "question": "Bastia/Amiens NO draw", "amount_nok": 122, "edge": 0.035},
-    {"timestamp": "2026-04-02T09:15:07+02:00", "action": "BUY_NO", "position_id": "pos_016", "question": "Macarthur NO win", "amount_nok": 133, "edge": 0.045}
+    {"timestamp": "2026-04-02T13:00:00+02:00", "action": "STOP_LOSS_EXIT", "position_id": "pos_016", "question": "Macarthur NO win", "exit_price": 0.205, "profit_nok": -88, "note": "Stop-loss triggered: entry 0.605 → 0.205, end date passed"},
+    {"timestamp": "2026-04-02T14:00:00+02:00", "action": "BUY_YES", "position_id": "pos_017", "question": "PSG vs Toulouse Over 2.5", "amount_nok": 80, "edge": 0.065}
   ],
   "monthly_history": [],
   "statistics": {
-    "total_trades": 16,
+    "total_trades": 17,
     "total_wins": 4,
-    "total_losses": 4,
-    "total_realized_pnl_nok": 84,
+    "total_losses": 5,
+    "total_realized_pnl_nok": -4,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
-    "avg_edge_at_entry": 0.042,
+    "avg_edge_at_entry": 0.044,
     "avg_hold_time_hours": 12,
     "categories_traded": {
       "politikk": 0,
       "crypto": 0,
-      "sport": 15,
+      "sport": 16,
       "okonomi": 0,
       "annet": 1
     }
   },
-  "next_position_id": 17
+  "next_position_id": 18
 }
