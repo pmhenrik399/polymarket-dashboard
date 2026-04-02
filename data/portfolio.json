@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T21:34:15Z",
+    "last_updated": "2026-04-02T22:05:30Z",
     "currency": "NOK",
     "usd_nok_rate": 9.698356
   },
@@ -54,7 +54,7 @@
       "slug": "nhl-buf-ott-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.525,
-      "current_price_usd": 0.475,
+      "current_price_usd": 0.485,
       "shares": 23.62,
       "cost_usd": 12.4,
       "cost_nok": 121,
@@ -67,7 +67,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Senators playoff-jagende, Sabres bunnlag.",
-      "unrealized_pnl_nok": -11
+      "unrealized_pnl_nok": -9
     },
     {
       "id": "pos_010",
@@ -164,7 +164,7 @@
       "slug": "bra-san-rem-2026-04-02-draw",
       "side": "NO",
       "entry_price_usd": 0.775,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.75,
       "shares": 16.06,
       "cost_usd": 12.45,
       "cost_nok": 121,
@@ -177,7 +177,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Santos favoritt hjemme. Lav draw-sjanse.",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_015",
@@ -208,7 +208,7 @@
       "slug": "ligue1-psg-tou-2026-04-03-total",
       "side": "YES",
       "entry_price_usd": 0.615,
-      "current_price_usd": 0.63,
+      "current_price_usd": 0.635,
       "shares": 13.41,
       "cost_usd": 8.25,
       "cost_nok": 80,
@@ -221,7 +221,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 2
     }
   ],
   "closed_positions": [
