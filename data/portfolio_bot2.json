@@ -3,15 +3,15 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T10:00:00+02:00",
+    "last_updated": "2026-04-02T12:30:00+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.70,
     "copy_trader": {
       "username": "GamblingIsAllYouNeed",
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
-      "portfolio_value_usd": 14726,
-      "description": "47K+ predictions, $945K profit, diversified sports/esports trader",
-      "last_synced": "2026-04-02T10:00:00+02:00"
+      "portfolio_value_usd": 2800000,
+      "description": "48K+ predictions, $4.77M portfolio, diversified sports/esports trader",
+      "last_synced": "2026-04-02T12:30:00+02:00"
     }
   },
   "account": {
@@ -36,7 +36,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_003",
@@ -45,7 +45,7 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.935,
+      "current_price_usd": 0.91,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
@@ -53,8 +53,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "unrealized_pnl_nok": -3,
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_004",
@@ -72,7 +72,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": -1,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_005",
@@ -90,7 +90,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 1,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_011",
@@ -108,7 +108,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_012",
@@ -126,7 +126,7 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_013",
@@ -135,7 +135,7 @@
       "slug": "esb-rso-eib-2026-04-02-draw",
       "side": "YES",
       "entry_price_usd": 0.315,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.295,
       "shares": 33.64,
       "cost_usd": 10.60,
       "cost_nok": 103,
@@ -143,8 +143,9 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
-      "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "unrealized_pnl_nok": -7,
+      "last_checked": "2026-04-02T12:30:00+02:00",
+      "note": "Game today Apr 2, market price dropped to 0.295 — draw less likely"
     },
     {
       "id": "cp_014",
@@ -162,7 +163,7 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_015",
@@ -171,7 +172,7 @@
       "slug": "li1-psg-tfc-2026-04-03-psg",
       "side": "YES",
       "entry_price_usd": 0.755,
-      "current_price_usd": 0.755,
+      "current_price_usd": 0.765,
       "shares": 9.95,
       "cost_usd": 7.51,
       "cost_nok": 73,
@@ -179,8 +180,8 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "unrealized_pnl_nok": 1,
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_016",
@@ -198,7 +199,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_017",
@@ -216,7 +217,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_018",
@@ -234,7 +235,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     },
     {
       "id": "cp_019",
@@ -243,7 +244,7 @@
       "slug": "sul-trab-gal-2026-04-04-gal",
       "side": "NO",
       "entry_price_usd": 0.52,
-      "current_price_usd": 0.52,
+      "current_price_usd": 0.525,
       "shares": 4.95,
       "cost_usd": 2.58,
       "cost_nok": 25,
@@ -252,7 +253,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T10:00:00+02:00"
+      "last_checked": "2026-04-02T12:30:00+02:00"
     }
   ],
   "closed_positions": [
@@ -371,6 +372,15 @@
       "positions_copied": 7,
       "total_invested_nok": 396,
       "balance_after_nok": 0
+    },
+    {
+      "timestamp": "2026-04-02T12:30:00+02:00",
+      "action": "PRICE_UPDATE",
+      "note": "Price check — no resolved positions. Updated prices on 13 open positions. cp_013 (RSB Draw YES) price dropped to 0.295 — game today, draw unlikely. Total unrealized P&L: -8 NOK. Portfolio value: ~835 NOK.",
+      "resolved_count": 0,
+      "unrealized_pnl_nok": -8,
+      "portfolio_value_nok": 835,
+      "usd_nok_rate": 9.70
     }
   ],
   "statistics": {
@@ -381,7 +391,7 @@
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
-    "syncs_completed": 3
+    "syncs_completed": 4
   },
   "next_position_id": 20
 }
