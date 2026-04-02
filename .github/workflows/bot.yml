@@ -1,0 +1,38 @@
+name: Polymarket Bot Engine
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes
+  workflow_dispatch: {}     # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run bot engine
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/bot_engine.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "polymarket-bot"
+          git config user.email "bot@polymarket-bot.local"
+          git add data/
+          git diff --staged --quiet || (git commit -m "bot auto-update $(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)
