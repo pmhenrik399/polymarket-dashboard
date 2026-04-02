@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T22:49:31Z",
+    "last_updated": "2026-04-02T23:21:30Z",
     "currency": "NOK",
     "usd_nok_rate": 9.698356
   },
@@ -54,7 +54,7 @@
       "slug": "nhl-buf-ott-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.525,
-      "current_price_usd": 0.485,
+      "current_price_usd": 0.475,
       "shares": 23.62,
       "cost_usd": 12.4,
       "cost_nok": 121,
@@ -67,7 +67,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Senators playoff-jagende, Sabres bunnlag.",
-      "unrealized_pnl_nok": -9
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_010",
@@ -98,7 +98,7 @@
       "slug": "nhl-buf-ott-2026-04-02-total-6pt5",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.525,
+      "current_price_usd": 0.575,
       "shares": 23.3,
       "cost_usd": 12.0,
       "cost_nok": 117,
@@ -111,7 +111,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Under 6.5 i NHL er solid.",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 13
     },
     {
       "id": "pos_012",
@@ -142,7 +142,7 @@
       "slug": "bra-san-rem-2026-04-02-draw",
       "side": "NO",
       "entry_price_usd": 0.775,
-      "current_price_usd": 0.835,
+      "current_price_usd": 0.845,
       "shares": 16.06,
       "cost_usd": 12.45,
       "cost_nok": 121,
@@ -155,7 +155,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Santos favoritt hjemme. Lav draw-sjanse.",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_015",
