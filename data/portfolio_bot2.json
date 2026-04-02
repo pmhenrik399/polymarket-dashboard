@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T20:58:21+02:00",
+    "last_updated": "2026-04-02T21:03:21+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.698356,
     "copy_trader": {
@@ -135,7 +135,7 @@
       "slug": "esb-rso-eib-2026-04-02-draw",
       "side": "YES",
       "entry_price_usd": 0.315,
-      "current_price_usd": 0.215,
+      "current_price_usd": 0.225,
       "shares": 33.64,
       "cost_usd": 10.6,
       "cost_nok": 103,
@@ -143,7 +143,7 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
-      "unrealized_pnl_nok": -32,
+      "unrealized_pnl_nok": -29,
       "last_checked": "2026-04-02T18:30:00+02:00",
       "note": "RESOLVES TODAY — game kicked off 18:00 UTC. Draw YES @ 0.305, not yet resolved."
     },
