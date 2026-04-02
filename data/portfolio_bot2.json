@@ -3,9 +3,9 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T08:00:00+02:00",
+    "last_updated": "2026-04-02T09:00:00+02:00",
     "currency": "NOK",
-    "usd_nok_rate": 9.72,
+    "usd_nok_rate": 9.70,
     "copy_trader": {
       "username": "GamblingIsAllYouNeed",
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
@@ -35,7 +35,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T09:00:00+02:00"
     },
     {
       "id": "cp_003",
@@ -44,7 +45,7 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.94,
+      "current_price_usd": 0.935,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
@@ -52,7 +53,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T09:00:00+02:00"
     },
     {
       "id": "cp_004",
@@ -61,7 +63,7 @@
       "slug": "elc-wba-wre-2026-04-03-wre",
       "side": "NO",
       "entry_price_usd": 0.735,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.725,
       "shares": 11.62,
       "cost_usd": 8.54,
       "cost_nok": 83,
@@ -69,7 +71,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1,
+      "last_checked": "2026-04-02T09:00:00+02:00"
     },
     {
       "id": "cp_005",
@@ -78,7 +81,7 @@
       "slug": "lal-mad-bar-2026-04-04-mad",
       "side": "NO",
       "entry_price_usd": 0.675,
-      "current_price_usd": 0.675,
+      "current_price_usd": 0.685,
       "shares": 12.50,
       "cost_usd": 8.44,
       "cost_nok": 82,
@@ -86,7 +89,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1,
+      "last_checked": "2026-04-02T09:00:00+02:00"
     },
     {
       "id": "cp_011",
@@ -103,7 +107,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T09:00:00+02:00"
     },
     {
       "id": "cp_012",
@@ -120,7 +125,8 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-05",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T09:00:00+02:00"
     }
   ],
   "closed_positions": [
