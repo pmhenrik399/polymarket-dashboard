@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T09:00:00+02:00",
+    "last_updated": "2026-04-02T10:00:00+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.70,
     "copy_trader": {
@@ -11,12 +11,12 @@
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
       "portfolio_value_usd": 14726,
       "description": "47K+ predictions, $945K profit, diversified sports/esports trader",
-      "last_synced": "2026-04-02T08:00:00+02:00"
+      "last_synced": "2026-04-02T10:00:00+02:00"
     }
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 396,
+    "balance_nok": 0,
     "total_deposited_nok": 1000
   },
   "positions": [
@@ -36,7 +36,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T09:00:00+02:00"
+      "last_checked": "2026-04-02T10:00:00+02:00"
     },
     {
       "id": "cp_003",
@@ -54,7 +54,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T09:00:00+02:00"
+      "last_checked": "2026-04-02T10:00:00+02:00"
     },
     {
       "id": "cp_004",
@@ -72,7 +72,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": -1,
-      "last_checked": "2026-04-02T09:00:00+02:00"
+      "last_checked": "2026-04-02T10:00:00+02:00"
     },
     {
       "id": "cp_005",
@@ -90,7 +90,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 1,
-      "last_checked": "2026-04-02T09:00:00+02:00"
+      "last_checked": "2026-04-02T10:00:00+02:00"
     },
     {
       "id": "cp_011",
@@ -108,7 +108,7 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T09:00:00+02:00"
+      "last_checked": "2026-04-02T10:00:00+02:00"
     },
     {
       "id": "cp_012",
@@ -126,7 +126,133 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T09:00:00+02:00"
+      "last_checked": "2026-04-02T10:00:00+02:00"
+    },
+    {
+      "id": "cp_013",
+      "market_id": "1659567",
+      "question": "Will Real Sociedad B vs. SD Eibar end in a draw?",
+      "slug": "esb-rso-eib-2026-04-02-draw",
+      "side": "YES",
+      "entry_price_usd": 0.315,
+      "current_price_usd": 0.315,
+      "shares": 33.64,
+      "cost_usd": 10.60,
+      "cost_nok": 103,
+      "usd_nok_at_entry": 9.70,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-02",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T10:00:00+02:00"
+    },
+    {
+      "id": "cp_014",
+      "market_id": "1719430",
+      "question": "Pisa SC vs. Torino FC: O/U 4.5 (Under = NO wins)",
+      "slug": "ser-pis-tor-2026-04-05-total-4pt5",
+      "side": "NO",
+      "entry_price_usd": 0.905,
+      "current_price_usd": 0.905,
+      "shares": 11.71,
+      "cost_usd": 10.60,
+      "cost_nok": 103,
+      "usd_nok_at_entry": 9.70,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-05",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T10:00:00+02:00"
+    },
+    {
+      "id": "cp_015",
+      "market_id": "1668534",
+      "question": "Will Paris Saint-Germain FC win on 2026-04-03?",
+      "slug": "li1-psg-tfc-2026-04-03-psg",
+      "side": "YES",
+      "entry_price_usd": 0.755,
+      "current_price_usd": 0.755,
+      "shares": 9.95,
+      "cost_usd": 7.51,
+      "cost_nok": 73,
+      "usd_nok_at_entry": 9.70,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T10:00:00+02:00"
+    },
+    {
+      "id": "cp_016",
+      "market_id": "1538196",
+      "question": "Will Real Salt Lake win on 2026-04-04?",
+      "slug": "mls-rsl-skc-2026-04-04-rsl",
+      "side": "NO",
+      "entry_price_usd": 0.325,
+      "current_price_usd": 0.325,
+      "shares": 9.18,
+      "cost_usd": 2.99,
+      "cost_nok": 29,
+      "usd_nok_at_entry": 9.70,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-04",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T10:00:00+02:00"
+    },
+    {
+      "id": "cp_017",
+      "market_id": "1713155",
+      "question": "Will Real Betis win on 2026-04-04?",
+      "slug": "lal-rbe-esp-2026-04-04-rbe",
+      "side": "YES",
+      "entry_price_usd": 0.565,
+      "current_price_usd": 0.565,
+      "shares": 6.56,
+      "cost_usd": 3.71,
+      "cost_nok": 36,
+      "usd_nok_at_entry": 9.70,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-04",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T10:00:00+02:00"
+    },
+    {
+      "id": "cp_018",
+      "market_id": "1669720",
+      "question": "Will SC Bastia win on 2026-04-03?",
+      "slug": "li2-bas-ams-2026-04-03-bas",
+      "side": "NO",
+      "entry_price_usd": 0.515,
+      "current_price_usd": 0.515,
+      "shares": 5.39,
+      "cost_usd": 2.78,
+      "cost_nok": 27,
+      "usd_nok_at_entry": 9.70,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T10:00:00+02:00"
+    },
+    {
+      "id": "cp_019",
+      "market_id": "1743886",
+      "question": "Will Galatasaray SK win on 2026-04-04?",
+      "slug": "sul-trab-gal-2026-04-04-gal",
+      "side": "NO",
+      "entry_price_usd": 0.52,
+      "current_price_usd": 0.52,
+      "shares": 4.95,
+      "cost_usd": 2.58,
+      "cost_nok": 25,
+      "usd_nok_at_entry": 9.70,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-04",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "last_checked": "2026-04-02T10:00:00+02:00"
     }
   ],
   "closed_positions": [
@@ -237,17 +363,25 @@
       "wins": 2,
       "losses": 4,
       "realized_pnl_nok": -156
+    },
+    {
+      "timestamp": "2026-04-02T10:00:00+02:00",
+      "action": "COPY_SYNC",
+      "note": "Reinvested 396 NOK into 7 new positions: RSB Draw YES, Pisa O/U 4.5 NO, PSG YES, RSL NO, Real Betis YES, SC Bastia NO, Galatasaray NO. Portfolio now fully invested.",
+      "positions_copied": 7,
+      "total_invested_nok": 396,
+      "balance_after_nok": 0
     }
   ],
   "statistics": {
-    "total_trades": 12,
+    "total_trades": 19,
     "total_wins": 2,
     "total_losses": 4,
     "total_realized_pnl_nok": -156,
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
-    "syncs_completed": 2
+    "syncs_completed": 3
   },
-  "next_position_id": 13
+  "next_position_id": 20
 }
