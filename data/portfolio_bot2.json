@@ -3,9 +3,9 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T18:30:00+02:00",
+    "last_updated": "2026-04-02T20:25:54+02:00",
     "currency": "NOK",
-    "usd_nok_rate": 9.70,
+    "usd_nok_rate": 9.698356,
     "copy_trader": {
       "username": "GamblingIsAllYouNeed",
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
@@ -29,7 +29,7 @@
       "entry_price_usd": 0.81,
       "current_price_usd": 0.81,
       "shares": 13.33,
-      "cost_usd": 10.80,
+      "cost_usd": 10.8,
       "cost_nok": 105,
       "usd_nok_at_entry": 9.72,
       "opened_at": "2026-04-01T18:00:00+02:00",
@@ -45,7 +45,7 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.91,
+      "current_price_usd": 0.915,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
@@ -53,7 +53,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -3,
+      "unrealized_pnl_nok": -2,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -63,7 +63,7 @@
       "slug": "elc-wba-wre-2026-04-03-wre",
       "side": "NO",
       "entry_price_usd": 0.735,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.745,
       "shares": 11.62,
       "cost_usd": 8.54,
       "cost_nok": 83,
@@ -71,7 +71,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -1,
+      "unrealized_pnl_nok": 1,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -82,7 +82,7 @@
       "side": "NO",
       "entry_price_usd": 0.675,
       "current_price_usd": 0.685,
-      "shares": 12.50,
+      "shares": 12.5,
       "cost_usd": 8.44,
       "cost_nok": 82,
       "usd_nok_at_entry": 9.72,
@@ -125,7 +125,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-05",
       "category": "sport",
-      "unrealized_pnl_nok": -1,
+      "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -135,15 +135,15 @@
       "slug": "esb-rso-eib-2026-04-02-draw",
       "side": "YES",
       "entry_price_usd": 0.315,
-      "current_price_usd": 0.305,
+      "current_price_usd": 0.22,
       "shares": 33.64,
-      "cost_usd": 10.60,
+      "cost_usd": 10.6,
       "cost_nok": 103,
-      "usd_nok_at_entry": 9.70,
+      "usd_nok_at_entry": 9.7,
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
-      "unrealized_pnl_nok": -3,
+      "unrealized_pnl_nok": -30,
       "last_checked": "2026-04-02T18:30:00+02:00",
       "note": "RESOLVES TODAY — game kicked off 18:00 UTC. Draw YES @ 0.305, not yet resolved."
     },
@@ -154,11 +154,11 @@
       "slug": "ser-pis-tor-2026-04-05-total-4pt5",
       "side": "NO",
       "entry_price_usd": 0.905,
-      "current_price_usd": 0.905,
+      "current_price_usd": 0.91,
       "shares": 11.71,
-      "cost_usd": 10.60,
+      "cost_usd": 10.6,
       "cost_nok": 103,
-      "usd_nok_at_entry": 9.70,
+      "usd_nok_at_entry": 9.7,
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-05",
       "category": "sport",
@@ -176,11 +176,11 @@
       "shares": 9.95,
       "cost_usd": 7.51,
       "cost_nok": 73,
-      "usd_nok_at_entry": 9.70,
+      "usd_nok_at_entry": 9.7,
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 1,
+      "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -194,7 +194,7 @@
       "shares": 9.18,
       "cost_usd": 2.99,
       "cost_nok": 29,
-      "usd_nok_at_entry": 9.70,
+      "usd_nok_at_entry": 9.7,
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
@@ -212,7 +212,7 @@
       "shares": 6.56,
       "cost_usd": 3.71,
       "cost_nok": 36,
-      "usd_nok_at_entry": 9.70,
+      "usd_nok_at_entry": 9.7,
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
@@ -226,11 +226,11 @@
       "slug": "li2-bas-ams-2026-04-03-bas",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.505,
+      "current_price_usd": 0.495,
       "shares": 5.39,
       "cost_usd": 2.78,
       "cost_nok": 27,
-      "usd_nok_at_entry": 9.70,
+      "usd_nok_at_entry": 9.7,
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
@@ -248,7 +248,7 @@
       "shares": 4.95,
       "cost_usd": 2.58,
       "cost_nok": 25,
-      "usd_nok_at_entry": 9.70,
+      "usd_nok_at_entry": 9.7,
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
@@ -263,7 +263,7 @@
       "question": "Will Sao Paulo FC win on 2026-04-01?",
       "side": "NO",
       "entry_price_usd": 0.715,
-      "exit_price_usd": 1.00,
+      "exit_price_usd": 1.0,
       "shares": 17.84,
       "cost_nok": 124,
       "payout_nok": 173,
@@ -278,7 +278,7 @@
       "question": "Will Cruzeiro EC win on 2026-04-01?",
       "side": "YES",
       "entry_price_usd": 0.635,
-      "exit_price_usd": 1.00,
+      "exit_price_usd": 1.0,
       "shares": 12.47,
       "cost_nok": 77,
       "payout_nok": 121,
@@ -293,7 +293,7 @@
       "question": "Spread: Atlanta Braves (-1.5) — Athletics",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "exit_price_usd": 0.00,
+      "exit_price_usd": 0.0,
       "shares": 14.99,
       "cost_nok": 75,
       "payout_nok": 0,
@@ -308,7 +308,7 @@
       "question": "Will Burgos CF win on 2026-04-01?",
       "side": "YES",
       "entry_price_usd": 0.57,
-      "exit_price_usd": 0.00,
+      "exit_price_usd": 0.0,
       "shares": 11.37,
       "cost_nok": 63,
       "payout_nok": 0,
@@ -323,7 +323,7 @@
       "question": "Will SC Internacional win on 2026-04-01?",
       "side": "YES",
       "entry_price_usd": 0.415,
-      "exit_price_usd": 0.00,
+      "exit_price_usd": 0.0,
       "shares": 14.12,
       "cost_nok": 57,
       "payout_nok": 0,
@@ -338,7 +338,7 @@
       "question": "Will FC Andorra win on 2026-04-01?",
       "side": "YES",
       "entry_price_usd": 0.425,
-      "exit_price_usd": 0.00,
+      "exit_price_usd": 0.0,
       "shares": 13.08,
       "cost_nok": 54,
       "payout_nok": 0,
@@ -380,7 +380,7 @@
       "resolved_count": 0,
       "unrealized_pnl_nok": -8,
       "portfolio_value_nok": 835,
-      "usd_nok_rate": 9.70
+      "usd_nok_rate": 9.7
     },
     {
       "timestamp": "2026-04-02T14:00:00+02:00",
@@ -389,7 +389,7 @@
       "resolved_count": 0,
       "unrealized_pnl_nok": -9,
       "portfolio_value_nok": 835,
-      "usd_nok_rate": 9.70
+      "usd_nok_rate": 9.7
     },
     {
       "timestamp": "2026-04-02T16:30:00+02:00",
@@ -398,8 +398,14 @@
       "resolved_count": 0,
       "unrealized_pnl_nok": -9,
       "portfolio_value_nok": 835,
-      "usd_nok_rate": 9.70,
-      "trader_new_positions_skipped": ["Dortmund Win $9.90", "CS2 BESTIA vs 3DMAX $218", "Brisbane Roar Win $188", "ATP Chazal vs Dalla Valle $10.50", "Brisbane O/U 1.5 $12.22"]
+      "usd_nok_rate": 9.7,
+      "trader_new_positions_skipped": [
+        "Dortmund Win $9.90",
+        "CS2 BESTIA vs 3DMAX $218",
+        "Brisbane Roar Win $188",
+        "ATP Chazal vs Dalla Valle $10.50",
+        "Brisbane O/U 1.5 $12.22"
+      ]
     },
     {
       "timestamp": "2026-04-02T17:30:00+02:00",
@@ -408,11 +414,23 @@
       "resolved_count": 0,
       "unrealized_pnl_nok": -6,
       "portfolio_value_nok": 839,
-      "usd_nok_rate": 9.70,
+      "usd_nok_rate": 9.7,
       "price_changes": {
-        "cp_013": {"from": 0.295, "to": 0.305, "note": "RSB Draw - still open"},
-        "cp_018": {"from": 0.515, "to": 0.505, "note": "Bastia NO - slight adverse"},
-        "cp_019": {"from": 0.52, "to": 0.525, "note": "Galatasaray NO - slight favorable"}
+        "cp_013": {
+          "from": 0.295,
+          "to": 0.305,
+          "note": "RSB Draw - still open"
+        },
+        "cp_018": {
+          "from": 0.515,
+          "to": 0.505,
+          "note": "Bastia NO - slight adverse"
+        },
+        "cp_019": {
+          "from": 0.52,
+          "to": 0.525,
+          "note": "Galatasaray NO - slight favorable"
+        }
       }
     },
     {
@@ -424,7 +442,11 @@
       "portfolio_value_nok": 837,
       "usd_nok_rate": 9.698,
       "price_changes": {
-        "cp_012": {"from": 0.83, "to": 0.825, "note": "AS Roma NO - slight adverse"}
+        "cp_012": {
+          "from": 0.83,
+          "to": 0.825,
+          "note": "AS Roma NO - slight adverse"
+        }
       }
     }
   ],
@@ -438,5 +460,6 @@
     "copy_accuracy": 0.33,
     "syncs_completed": 7
   },
-  "next_position_id": 20
+  "next_position_id": 20,
+  "monthly": {}
 }

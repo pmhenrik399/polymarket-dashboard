@@ -2,9 +2,9 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T14:00:00+02:00",
+    "last_updated": "2026-04-02T20:25:38+02:00",
     "currency": "NOK",
-    "usd_nok_rate": 9.698
+    "usd_nok_rate": 9.698356
   },
   "account": {
     "starting_capital": 1000,
@@ -13,10 +13,10 @@
   },
   "risk_rules": {
     "max_per_trade_pct": 0.15,
-    "max_total_exposure_pct": 0.90,
-    "stop_loss_pct": 0.30,
+    "max_total_exposure_pct": 0.9,
+    "stop_loss_pct": 0.3,
     "min_edge_pct": 0.03,
-    "kelly_fraction": 0.50,
+    "kelly_fraction": 0.5,
     "min_liquidity_usd": 1000,
     "max_positions": 15,
     "max_per_category": 5,
@@ -28,9 +28,9 @@
     "daily_target_pct": 0.05,
     "description": "Compound 5% daglig. Reinvester alt. Skaler posisjoner med kapital.",
     "mix": {
-      "safe_bets_pct": 0.60,
-      "medium_bets_pct": 0.30,
-      "longshot_bets_pct": 0.10
+      "safe_bets_pct": 0.6,
+      "medium_bets_pct": 0.3,
+      "longshot_bets_pct": 0.1
     },
     "safe_bet_range": "70-90 cent, edge 3-5%, lav men sikker avkastning",
     "medium_bet_range": "40-65 cent, edge 5-10%, god risk/reward",
@@ -56,12 +56,12 @@
       "entry_price_usd": 0.525,
       "current_price_usd": 0.475,
       "shares": 23.62,
-      "cost_usd": 12.40,
+      "cost_usd": 12.4,
       "cost_nok": 121,
       "usd_nok_at_entry": 9.72,
       "edge_at_entry": 0.055,
       "our_probability": 0.58,
-      "kelly_fraction_used": 0.50,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.368,
       "opened_at": "2026-04-02T09:15:00+02:00",
       "end_date": "2026-04-02",
@@ -77,13 +77,13 @@
       "side": "YES",
       "entry_price_usd": 0.565,
       "current_price_usd": 0.565,
-      "shares": 21.80,
+      "shares": 21.8,
       "cost_usd": 12.32,
       "cost_nok": 120,
       "usd_nok_at_entry": 9.72,
       "edge_at_entry": 0.035,
-      "our_probability": 0.60,
-      "kelly_fraction_used": 0.50,
+      "our_probability": 0.6,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.396,
       "opened_at": "2026-04-02T09:15:01+02:00",
       "end_date": "2026-04-03",
@@ -98,20 +98,20 @@
       "slug": "nhl-buf-ott-2026-04-02-total-6pt5",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.505,
-      "shares": 23.30,
-      "cost_usd": 12.00,
+      "current_price_usd": 0.525,
+      "shares": 23.3,
+      "cost_usd": 12.0,
       "cost_nok": 117,
       "usd_nok_at_entry": 9.72,
       "edge_at_entry": 0.045,
       "our_probability": 0.56,
-      "kelly_fraction_used": 0.50,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.361,
       "opened_at": "2026-04-02T09:15:02+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Under 6.5 i NHL er solid.",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_012",
@@ -120,20 +120,20 @@
       "slug": "cs2-gl-nip-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.535,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.28,
       "shares": 19.24,
-      "cost_usd": 10.30,
+      "cost_usd": 10.3,
       "cost_nok": 100,
       "usd_nok_at_entry": 9.72,
       "edge_at_entry": 0.055,
       "our_probability": 0.59,
-      "kelly_fraction_used": 0.50,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.375,
       "opened_at": "2026-04-02T09:15:03+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "GamerLegion slight edge i BO3.",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": -47
     },
     {
       "id": "pos_013",
@@ -142,20 +142,20 @@
       "slug": "arg-bar-uca-2026-04-02",
       "side": "NO",
       "entry_price_usd": 0.665,
-      "current_price_usd": 0.645,
+      "current_price_usd": 0.635,
       "shares": 17.67,
       "cost_usd": 11.75,
       "cost_nok": 114,
       "usd_nok_at_entry": 9.72,
       "edge_at_entry": 0.035,
-      "our_probability": 0.70,
-      "kelly_fraction_used": 0.50,
+      "our_probability": 0.7,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.466,
       "opened_at": "2026-04-02T09:15:04+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Barracas Central svakt, favoritt å ikke vinne.",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -5
     },
     {
       "id": "pos_014",
@@ -164,20 +164,20 @@
       "slug": "bra-san-rem-2026-04-02-draw",
       "side": "NO",
       "entry_price_usd": 0.775,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.755,
       "shares": 16.06,
       "cost_usd": 12.45,
       "cost_nok": 121,
       "usd_nok_at_entry": 9.72,
       "edge_at_entry": 0.035,
       "our_probability": 0.81,
-      "kelly_fraction_used": 0.50,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.543,
       "opened_at": "2026-04-02T09:15:05+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Santos favoritt hjemme. Lav draw-sjanse.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_015",
@@ -186,20 +186,20 @@
       "slug": "fr2-bas-ami-2026-04-03-draw",
       "side": "NO",
       "entry_price_usd": 0.735,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.745,
       "shares": 17.14,
-      "cost_usd": 12.60,
+      "cost_usd": 12.6,
       "cost_nok": 122,
       "usd_nok_at_entry": 9.72,
       "edge_at_entry": 0.035,
       "our_probability": 0.77,
-      "kelly_fraction_used": 0.50,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.515,
       "opened_at": "2026-04-02T09:15:06+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "Ligue 2. Bastia hjemme favoritt.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_017",
@@ -215,7 +215,7 @@
       "usd_nok_at_entry": 9.698,
       "edge_at_entry": 0.065,
       "our_probability": 0.68,
-      "kelly_fraction_used": 0.50,
+      "kelly_fraction_used": 0.5,
       "stop_loss_price": 0.431,
       "opened_at": "2026-04-02T14:00:00+02:00",
       "end_date": "2026-04-03",
@@ -319,23 +319,135 @@
     }
   ],
   "trade_log": [
-    {"timestamp": "2026-04-01T14:30:00+02:00", "action": "BUY_YES", "position_id": "pos_001", "question": "T1 vs KT Game 2", "amount_nok": 126},
-    {"timestamp": "2026-04-01T14:30:01+02:00", "action": "BUY_NO", "position_id": "pos_002", "question": "Mets/Cards Under 7.5", "amount_nok": 103},
-    {"timestamp": "2026-04-01T14:30:02+02:00", "action": "BUY_YES", "position_id": "pos_003", "question": "100T/HOTU Over 2.5", "amount_nok": 100},
-    {"timestamp": "2026-04-01T14:30:03+02:00", "action": "BUY_YES", "position_id": "pos_004", "question": "Avalanche win", "amount_nok": 123},
-    {"timestamp": "2026-04-01T14:30:04+02:00", "action": "BUY_NO", "position_id": "pos_005", "question": "Giants/Padres Under 8.5", "amount_nok": 100},
-    {"timestamp": "2026-04-01T14:30:05+02:00", "action": "BUY_YES", "position_id": "pos_006", "question": "Andorra/Malaga BTTS", "amount_nok": 100},
-    {"timestamp": "2026-04-01T14:30:06+02:00", "action": "BUY_YES", "position_id": "pos_007", "question": "Elon tweets", "amount_nok": 100},
-    {"timestamp": "2026-04-01T14:30:07+02:00", "action": "BUY_NO", "position_id": "pos_008", "question": "Athletics/Braves Under", "amount_nok": 83},
-    {"timestamp": "2026-04-02T09:15:00+02:00", "action": "BUY_YES", "position_id": "pos_009", "question": "Senators win", "amount_nok": 121, "edge": 0.055},
-    {"timestamp": "2026-04-02T09:15:01+02:00", "action": "BUY_YES", "position_id": "pos_010", "question": "Utah win", "amount_nok": 120, "edge": 0.035},
-    {"timestamp": "2026-04-02T09:15:02+02:00", "action": "BUY_NO", "position_id": "pos_011", "question": "Sabres/Senators Under 6.5", "amount_nok": 117, "edge": 0.045},
-    {"timestamp": "2026-04-02T09:15:03+02:00", "action": "BUY_YES", "position_id": "pos_012", "question": "GamerLegion vs NIP", "amount_nok": 100, "edge": 0.055},
-    {"timestamp": "2026-04-02T09:15:04+02:00", "action": "BUY_NO", "position_id": "pos_013", "question": "Barracas Central NO", "amount_nok": 114, "edge": 0.035},
-    {"timestamp": "2026-04-02T09:15:05+02:00", "action": "BUY_NO", "position_id": "pos_014", "question": "Santos/Remo NO draw", "amount_nok": 121, "edge": 0.035},
-    {"timestamp": "2026-04-02T09:15:06+02:00", "action": "BUY_NO", "position_id": "pos_015", "question": "Bastia/Amiens NO draw", "amount_nok": 122, "edge": 0.035},
-    {"timestamp": "2026-04-02T13:00:00+02:00", "action": "STOP_LOSS_EXIT", "position_id": "pos_016", "question": "Macarthur NO win", "exit_price": 0.205, "profit_nok": -88, "note": "Stop-loss triggered: entry 0.605 → 0.205, end date passed"},
-    {"timestamp": "2026-04-02T14:00:00+02:00", "action": "BUY_YES", "position_id": "pos_017", "question": "PSG vs Toulouse Over 2.5", "amount_nok": 80, "edge": 0.065}
+    {
+      "timestamp": "2026-04-01T14:30:00+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_001",
+      "question": "T1 vs KT Game 2",
+      "amount_nok": 126
+    },
+    {
+      "timestamp": "2026-04-01T14:30:01+02:00",
+      "action": "BUY_NO",
+      "position_id": "pos_002",
+      "question": "Mets/Cards Under 7.5",
+      "amount_nok": 103
+    },
+    {
+      "timestamp": "2026-04-01T14:30:02+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_003",
+      "question": "100T/HOTU Over 2.5",
+      "amount_nok": 100
+    },
+    {
+      "timestamp": "2026-04-01T14:30:03+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_004",
+      "question": "Avalanche win",
+      "amount_nok": 123
+    },
+    {
+      "timestamp": "2026-04-01T14:30:04+02:00",
+      "action": "BUY_NO",
+      "position_id": "pos_005",
+      "question": "Giants/Padres Under 8.5",
+      "amount_nok": 100
+    },
+    {
+      "timestamp": "2026-04-01T14:30:05+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_006",
+      "question": "Andorra/Malaga BTTS",
+      "amount_nok": 100
+    },
+    {
+      "timestamp": "2026-04-01T14:30:06+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_007",
+      "question": "Elon tweets",
+      "amount_nok": 100
+    },
+    {
+      "timestamp": "2026-04-01T14:30:07+02:00",
+      "action": "BUY_NO",
+      "position_id": "pos_008",
+      "question": "Athletics/Braves Under",
+      "amount_nok": 83
+    },
+    {
+      "timestamp": "2026-04-02T09:15:00+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_009",
+      "question": "Senators win",
+      "amount_nok": 121,
+      "edge": 0.055
+    },
+    {
+      "timestamp": "2026-04-02T09:15:01+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_010",
+      "question": "Utah win",
+      "amount_nok": 120,
+      "edge": 0.035
+    },
+    {
+      "timestamp": "2026-04-02T09:15:02+02:00",
+      "action": "BUY_NO",
+      "position_id": "pos_011",
+      "question": "Sabres/Senators Under 6.5",
+      "amount_nok": 117,
+      "edge": 0.045
+    },
+    {
+      "timestamp": "2026-04-02T09:15:03+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_012",
+      "question": "GamerLegion vs NIP",
+      "amount_nok": 100,
+      "edge": 0.055
+    },
+    {
+      "timestamp": "2026-04-02T09:15:04+02:00",
+      "action": "BUY_NO",
+      "position_id": "pos_013",
+      "question": "Barracas Central NO",
+      "amount_nok": 114,
+      "edge": 0.035
+    },
+    {
+      "timestamp": "2026-04-02T09:15:05+02:00",
+      "action": "BUY_NO",
+      "position_id": "pos_014",
+      "question": "Santos/Remo NO draw",
+      "amount_nok": 121,
+      "edge": 0.035
+    },
+    {
+      "timestamp": "2026-04-02T09:15:06+02:00",
+      "action": "BUY_NO",
+      "position_id": "pos_015",
+      "question": "Bastia/Amiens NO draw",
+      "amount_nok": 122,
+      "edge": 0.035
+    },
+    {
+      "timestamp": "2026-04-02T13:00:00+02:00",
+      "action": "STOP_LOSS_EXIT",
+      "position_id": "pos_016",
+      "question": "Macarthur NO win",
+      "exit_price": 0.205,
+      "profit_nok": -88,
+      "note": "Stop-loss triggered: entry 0.605 → 0.205, end date passed"
+    },
+    {
+      "timestamp": "2026-04-02T14:00:00+02:00",
+      "action": "BUY_YES",
+      "position_id": "pos_017",
+      "question": "PSG vs Toulouse Over 2.5",
+      "amount_nok": 80,
+      "edge": 0.065
+    }
   ],
   "monthly_history": [],
   "statistics": {
