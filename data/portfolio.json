@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T20:07:01Z",
+    "last_updated": "2026-04-02T20:53:08Z",
     "currency": "NOK",
     "usd_nok_rate": 9.698356
   },
@@ -120,7 +120,7 @@
       "slug": "cs2-gl-nip-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.535,
-      "current_price_usd": 0.615,
+      "current_price_usd": 0.9995,
       "shares": 19.24,
       "cost_usd": 10.3,
       "cost_nok": 100,
@@ -133,7 +133,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "GamerLegion slight edge i BO3.",
-      "unrealized_pnl_nok": 14
+      "unrealized_pnl_nok": 86
     },
     {
       "id": "pos_013",
@@ -208,7 +208,7 @@
       "slug": "ligue1-psg-tou-2026-04-03-total",
       "side": "YES",
       "entry_price_usd": 0.615,
-      "current_price_usd": 0.615,
+      "current_price_usd": 0.625,
       "shares": 13.41,
       "cost_usd": 8.25,
       "cost_nok": 80,
@@ -221,7 +221,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     }
   ],
   "closed_positions": [
