@@ -3,9 +3,9 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T20:48:15+02:00",
+    "last_updated": "2026-04-02T20:53:59+02:00",
     "currency": "NOK",
-    "usd_nok_rate": 9.698356,
+    "usd_nok_rate": 9.7,
     "copy_trader": {
       "username": "GamblingIsAllYouNeed",
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
@@ -63,7 +63,7 @@
       "slug": "elc-wba-wre-2026-04-03-wre",
       "side": "NO",
       "entry_price_usd": 0.735,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.74,
       "shares": 11.62,
       "cost_usd": 8.54,
       "cost_nok": 83,
@@ -71,7 +71,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 1,
+      "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {

@@ -2,9 +2,9 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T20:47:58+02:00",
+    "last_updated": "2026-04-02T20:53:07+02:00",
     "currency": "NOK",
-    "usd_nok_rate": 9.698356
+    "usd_nok_rate": 9.7
   },
   "account": {
     "starting_capital": 1000,
@@ -142,7 +142,7 @@
       "slug": "arg-bar-uca-2026-04-02",
       "side": "NO",
       "entry_price_usd": 0.665,
-      "current_price_usd": 0.975,
+      "current_price_usd": 0.9825,
       "shares": 17.67,
       "cost_usd": 11.75,
       "cost_nok": 114,
@@ -155,7 +155,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Barracas Central svakt, favoritt å ikke vinne.",
-      "unrealized_pnl_nok": 53
+      "unrealized_pnl_nok": 54
     },
     {
       "id": "pos_014",
