@@ -3,9 +3,9 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-02T23:56:26Z",
+    "last_updated": "2026-04-03T02:48:03Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.698356,
+    "usd_nok_rate": 9.734244,
     "copy_trader": {
       "username": "GamblingIsAllYouNeed",
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
@@ -45,7 +45,7 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.925,
+      "current_price_usd": 0.92,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
@@ -153,7 +153,7 @@
       "slug": "li1-psg-tfc-2026-04-03-psg",
       "side": "YES",
       "entry_price_usd": 0.755,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.765,
       "shares": 9.95,
       "cost_usd": 7.51,
       "cost_nok": 73,
@@ -161,7 +161,7 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 1,
+      "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {

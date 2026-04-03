@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-02T23:56:20Z",
+    "last_updated": "2026-04-03T02:47:58Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.698356
+    "usd_nok_rate": 9.734244
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 78,
+    "balance_nok": 228,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -41,9 +41,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 53,
-    "trades_this_month": 20,
-    "wins_this_month": 5,
+    "realized_pnl_nok": 175,
+    "trades_this_month": 24,
+    "wins_this_month": 7,
     "losses_this_month": 5
   },
   "positions": [
@@ -54,7 +54,7 @@
       "slug": "nhl-buf-ott-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.525,
-      "current_price_usd": 0.485,
+      "current_price_usd": 0.0005,
       "shares": 23.62,
       "cost_usd": 12.4,
       "cost_nok": 121,
@@ -67,7 +67,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Senators playoff-jagende, Sabres bunnlag.",
-      "unrealized_pnl_nok": -9
+      "unrealized_pnl_nok": -120
     },
     {
       "id": "pos_010",
@@ -76,7 +76,7 @@
       "slug": "nhl-utah-sea-2026-04-02",
       "side": "YES",
       "entry_price_usd": 0.565,
-      "current_price_usd": 0.565,
+      "current_price_usd": 0.41,
       "shares": 21.8,
       "cost_usd": 12.32,
       "cost_nok": 120,
@@ -89,7 +89,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "Utah hjemme, playoff-form.",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -32
     },
     {
       "id": "pos_011",
@@ -98,7 +98,7 @@
       "slug": "nhl-buf-ott-2026-04-02-total-6pt5",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.9995,
       "shares": 23.3,
       "cost_usd": 12.0,
       "cost_nok": 117,
@@ -111,51 +111,7 @@
       "end_date": "2026-04-02",
       "category": "sport",
       "notes": "Under 6.5 i NHL er solid.",
-      "unrealized_pnl_nok": 58
-    },
-    {
-      "id": "pos_012",
-      "market_id": "1820300",
-      "question": "Counter-Strike: GamerLegion vs NIP — GamerLegion",
-      "slug": "cs2-gl-nip-2026-04-02",
-      "side": "YES",
-      "entry_price_usd": 0.535,
-      "current_price_usd": 0.9995,
-      "shares": 19.24,
-      "cost_usd": 10.3,
-      "cost_nok": 100,
-      "usd_nok_at_entry": 9.72,
-      "edge_at_entry": 0.055,
-      "our_probability": 0.59,
-      "kelly_fraction_used": 0.5,
-      "stop_loss_price": 0.375,
-      "opened_at": "2026-04-02T09:15:03+02:00",
-      "end_date": "2026-04-02",
-      "category": "sport",
-      "notes": "GamerLegion slight edge i BO3.",
-      "unrealized_pnl_nok": 86
-    },
-    {
-      "id": "pos_014",
-      "market_id": "1745899",
-      "question": "Santos FC vs. Remo — NO Draw",
-      "slug": "bra-san-rem-2026-04-02-draw",
-      "side": "NO",
-      "entry_price_usd": 0.775,
-      "current_price_usd": 0.9975,
-      "shares": 16.06,
-      "cost_usd": 12.45,
-      "cost_nok": 121,
-      "usd_nok_at_entry": 9.72,
-      "edge_at_entry": 0.035,
-      "our_probability": 0.81,
-      "kelly_fraction_used": 0.5,
-      "stop_loss_price": 0.543,
-      "opened_at": "2026-04-02T09:15:05+02:00",
-      "end_date": "2026-04-02",
-      "category": "sport",
-      "notes": "Santos favoritt hjemme. Lav draw-sjanse.",
-      "unrealized_pnl_nok": 34
+      "unrealized_pnl_nok": 109
     },
     {
       "id": "pos_015",
@@ -186,7 +142,7 @@
       "slug": "ligue1-psg-tou-2026-04-03-total",
       "side": "YES",
       "entry_price_usd": 0.615,
-      "current_price_usd": 0.635,
+      "current_price_usd": 0.625,
       "shares": 13.41,
       "cost_usd": 8.25,
       "cost_nok": 80,
@@ -199,7 +155,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_018",
@@ -208,7 +164,7 @@
       "slug": "gtm-adm-cdg-2026-04-02-adm",
       "side": "YES",
       "entry_price_usd": 0.645,
-      "current_price_usd": 0.645,
+      "current_price_usd": 0.495,
       "shares": 9.43,
       "cost_usd": 6.08,
       "cost_nok": 59,
@@ -218,7 +174,7 @@
       "opened_at": "2026-04-02T22:49:39Z",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -13
     },
     {
       "id": "pos_019",
@@ -254,6 +210,82 @@
       "edge_at_entry": 0.04,
       "our_probability": 0.545,
       "opened_at": "2026-04-02T22:49:40Z",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_021",
+      "market_id": "1760810",
+      "question": "Timberwolves vs. 76ers",
+      "slug": "nba-min-phi-2026-04-03",
+      "side": "YES",
+      "entry_price_usd": 0.475,
+      "current_price_usd": 0.475,
+      "shares": 9.52,
+      "cost_usd": 4.52,
+      "cost_nok": 44,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.515,
+      "opened_at": "2026-04-03T02:48:04Z",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_022",
+      "market_id": "1736081",
+      "question": "Will Bristol Rovers FC win on 2026-04-03?",
+      "slug": "el2-bri-fle-2026-04-03-bri",
+      "side": "NO",
+      "entry_price_usd": 0.575,
+      "current_price_usd": 0.575,
+      "shares": 9.83,
+      "cost_usd": 5.65,
+      "cost_nok": 55,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.615,
+      "opened_at": "2026-04-03T02:48:05Z",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_023",
+      "market_id": "1825371",
+      "question": "Solana Up or Down - April 3, 2:40AM-2:45AM ET",
+      "slug": "sol-updown-5m-1775198400",
+      "side": "YES",
+      "entry_price_usd": 0.5,
+      "current_price_usd": 0.5,
+      "shares": 9.66,
+      "cost_usd": 4.83,
+      "cost_nok": 47,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.54,
+      "opened_at": "2026-04-03T02:48:06Z",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_024",
+      "market_id": "1825384",
+      "question": "Solana Up or Down - April 3, 2:45AM-3:00AM ET",
+      "slug": "sol-updown-15m-1775198700",
+      "side": "YES",
+      "entry_price_usd": 0.5,
+      "current_price_usd": 0.5,
+      "shares": 9.66,
+      "cost_usd": 4.83,
+      "cost_nok": 47,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.54,
+      "opened_at": "2026-04-03T02:48:06Z",
       "end_date": "2026-04-03",
       "category": "sport",
       "unrealized_pnl_nok": 0
@@ -376,6 +408,56 @@
       "result": "WIN",
       "profit_nok": 57,
       "closed_at": "2026-04-02T22:49:30Z"
+    },
+    {
+      "id": "pos_012",
+      "market_id": "1820300",
+      "question": "Counter-Strike: GamerLegion vs NIP — GamerLegion",
+      "slug": "cs2-gl-nip-2026-04-02",
+      "side": "YES",
+      "entry_price_usd": 0.535,
+      "current_price_usd": 1.0,
+      "shares": 19.24,
+      "cost_usd": 10.3,
+      "cost_nok": 100,
+      "usd_nok_at_entry": 9.72,
+      "edge_at_entry": 0.055,
+      "our_probability": 0.59,
+      "kelly_fraction_used": 0.5,
+      "stop_loss_price": 0.375,
+      "opened_at": "2026-04-02T09:15:03+02:00",
+      "end_date": "2026-04-02",
+      "category": "sport",
+      "notes": "GamerLegion slight edge i BO3.",
+      "unrealized_pnl_nok": 86,
+      "result": "WIN",
+      "profit_nok": 87,
+      "closed_at": "2026-04-03T02:47:55Z"
+    },
+    {
+      "id": "pos_014",
+      "market_id": "1745899",
+      "question": "Santos FC vs. Remo — NO Draw",
+      "slug": "bra-san-rem-2026-04-02-draw",
+      "side": "NO",
+      "entry_price_usd": 0.775,
+      "current_price_usd": 1.0,
+      "shares": 16.06,
+      "cost_usd": 12.45,
+      "cost_nok": 121,
+      "usd_nok_at_entry": 9.72,
+      "edge_at_entry": 0.035,
+      "our_probability": 0.81,
+      "kelly_fraction_used": 0.5,
+      "stop_loss_price": 0.543,
+      "opened_at": "2026-04-02T09:15:05+02:00",
+      "end_date": "2026-04-02",
+      "category": "sport",
+      "notes": "Santos favoritt hjemme. Lav draw-sjanse.",
+      "unrealized_pnl_nok": 34,
+      "result": "WIN",
+      "profit_nok": 35,
+      "closed_at": "2026-04-03T02:47:56Z"
     }
   ],
   "trade_log": [
@@ -512,9 +594,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 5,
+    "total_wins": 7,
     "total_losses": 5,
-    "total_realized_pnl_nok": 53,
+    "total_realized_pnl_nok": 175,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -527,5 +609,5 @@
       "annet": 1
     }
   },
-  "next_position_id": 21
+  "next_position_id": 25
 }
