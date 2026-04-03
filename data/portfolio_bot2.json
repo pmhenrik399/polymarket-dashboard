@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-03T14:06:38Z",
+    "last_updated": "2026-04-03T15:00:16Z",
     "currency": "NOK",
     "usd_nok_rate": 9.734244,
     "copy_trader": {
@@ -16,7 +16,7 @@
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 0,
+    "balance_nok": 110,
     "total_deposited_nok": 1000
   },
   "positions": [
@@ -27,7 +27,7 @@
       "slug": "mls-nyc-stl-2026-04-04-stl",
       "side": "NO",
       "entry_price_usd": 0.81,
-      "current_price_usd": 0.81,
+      "current_price_usd": 0.815,
       "shares": 13.33,
       "cost_usd": 10.8,
       "cost_nok": 105,
@@ -45,28 +45,10 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.905,
+      "current_price_usd": 0.9,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
-      "usd_nok_at_entry": 9.72,
-      "opened_at": "2026-04-01T18:00:00+02:00",
-      "end_date": "2026-04-03",
-      "category": "sport",
-      "unrealized_pnl_nok": -3,
-      "last_checked": "2026-04-02T18:30:00+02:00"
-    },
-    {
-      "id": "cp_004",
-      "market_id": "1520694",
-      "question": "Will Wrexham AFC win on 2026-04-03?",
-      "slug": "elc-wba-wre-2026-04-03-wre",
-      "side": "NO",
-      "entry_price_usd": 0.735,
-      "current_price_usd": 0.705,
-      "shares": 11.62,
-      "cost_usd": 8.54,
-      "cost_nok": 83,
       "usd_nok_at_entry": 9.72,
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
@@ -171,7 +153,7 @@
       "slug": "mls-rsl-skc-2026-04-04-rsl",
       "side": "NO",
       "entry_price_usd": 0.325,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.32,
       "shares": 9.18,
       "cost_usd": 2.99,
       "cost_nok": 29,
@@ -207,7 +189,7 @@
       "slug": "li2-bas-ams-2026-04-03-bas",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.495,
+      "current_price_usd": 0.505,
       "shares": 5.39,
       "cost_usd": 2.78,
       "cost_nok": 27,
@@ -215,7 +197,7 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -1,
+      "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -349,6 +331,29 @@
       "result": "LOSS",
       "profit_nok": -103,
       "closed_at": "2026-04-03T07:55:45+02:00"
+    },
+    {
+      "id": "cp_004",
+      "market_id": "1520694",
+      "question": "Will Wrexham AFC win on 2026-04-03?",
+      "slug": "elc-wba-wre-2026-04-03-wre",
+      "side": "NO",
+      "entry_price_usd": 0.735,
+      "current_price_usd": 0.9805,
+      "shares": 11.62,
+      "cost_usd": 8.54,
+      "cost_nok": 83,
+      "usd_nok_at_entry": 9.72,
+      "opened_at": "2026-04-01T18:00:00+02:00",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 27,
+      "last_checked": "2026-04-02T18:30:00+02:00",
+      "result": "TAKE_PROFIT",
+      "profit_nok": 27,
+      "fee_nok": 0,
+      "exit_price_usd": 0.9805,
+      "closed_at": "2026-04-03T15:00:11Z"
     }
   ],
   "trade_log": [
@@ -455,17 +460,22 @@
   ],
   "statistics": {
     "total_trades": 19,
-    "total_wins": 2,
+    "total_wins": 3,
     "total_losses": 5,
-    "total_realized_pnl_nok": -259,
+    "total_realized_pnl_nok": -232,
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
-    "syncs_completed": 7
+    "syncs_completed": 7,
+    "clv_history": [
+      0.2455
+    ],
+    "avg_clv": 0.2455
   },
   "next_position_id": 20,
   "monthly": {
     "losses_this_month": 1,
-    "realized_pnl_nok": -103
+    "realized_pnl_nok": -76,
+    "wins_this_month": 1
   }
 }
