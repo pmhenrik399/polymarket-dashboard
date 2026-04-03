@@ -1081,6 +1081,92 @@ def get_summary(portfolio):
     return total_value, balance, invested, unrealized, wins, losses
 
 
+def check_telegram_commands(bot1, bot2, state):
+    """Check for /dashboard commands in Telegram and respond."""
+    if not TOKEN or not CHAT_ID:
+        return
+    try:
+        last_update_id = state.get('last_telegram_update_id', 0)
+        url = f'https://api.telegram.org/bot{TOKEN}/getUpdates?offset={last_update_id + 1}&timeout=0&limit=10'
+        data = api_fetch(url)
+        if not data or not data.get('ok'):
+            return
+        results = data.get('result', [])
+        for update in results:
+            update_id = update.get('update_id', 0)
+            state['last_telegram_update_id'] = max(state.get('last_telegram_update_id', 0), update_id)
+            msg = update.get('message', {})
+            text = (msg.get('text') or '').strip().lower()
+            chat_id = str(msg.get('chat', {}).get('id', ''))
+            if chat_id != CHAT_ID:
+                continue
+            if text == '/dashboard':
+                send_dashboard_reply(bot1, bot2)
+            elif text == '/positions':
+                send_positions_reply(bot1, bot2)
+            elif text == '/help':
+                send_telegram("Kommandoer:\n/dashboard - Full oversikt\n/positions - Alle apne posisjoner\n/help - Vis kommandoer")
+    except Exception as e:
+        print(f"Telegram commands check error: {e}")
+
+
+def send_dashboard_reply(bot1, bot2):
+    """Send a formatted dashboard to Telegram."""
+    v1, b1, i1, u1, w1, l1 = get_summary(bot1)
+    v2, b2, i2, u2, w2, l2 = get_summary(bot2)
+    n1 = len(bot1.get('positions', [])) if bot1 else 0
+    n2 = len(bot2.get('positions', [])) if bot2 else 0
+    r1 = (bot1 or {}).get('statistics', {}).get('total_realized_pnl_nok', 0)
+    r2 = (bot2 or {}).get('statistics', {}).get('total_realized_pnl_nok', 0)
+    wr1 = round(w1 / (w1 + l1) * 100) if (w1 + l1) > 0 else 0
+    wr2 = round(w2 / (w2 + l2) * 100) if (w2 + l2) > 0 else 0
+    total = v1 + v2
+
+    lines = [
+        "POLYMARKET DASHBOARD",
+        "",
+        "--- BOT 1 (Smart Trader) ---",
+        f"Total verdi: {v1} kr",
+        f"Ledig: {b1} kr | Investert: {i1} kr",
+        f"Urealisert P&L: {u1:+d} kr",
+        f"Realisert P&L: {r1:+.0f} kr",
+        f"Posisjoner: {n1} | W{w1}/L{l1} ({wr1}%)",
+        "",
+        "--- BOT 2 (Copy Trader) ---",
+        f"Total verdi: {v2} kr",
+        f"Ledig: {b2} kr | Investert: {i2} kr",
+        f"Urealisert P&L: {u2:+d} kr",
+        f"Realisert P&L: {r2:+.0f} kr",
+        f"Posisjoner: {n2} | W{w2}/L{l2} ({wr2}%)",
+        "",
+        f"TOTALT: {total} kr",
+        f"USD/NOK: {USD_NOK:.2f}",
+    ]
+    send_telegram('\n'.join(lines))
+
+
+def send_positions_reply(bot1, bot2):
+    """Send all open positions to Telegram."""
+    lines = ["APNE POSISJONER", ""]
+    for name, portfolio in [("BOT1", bot1), ("BOT2", bot2)]:
+        positions = (portfolio or {}).get('positions', [])
+        if not positions:
+            lines.append(f"{name}: Ingen posisjoner")
+            continue
+        lines.append(f"--- {name} ({len(positions)} stk) ---")
+        for p in positions:
+            q = p.get('question', '?')[:40]
+            side = p.get('side', '?')
+            entry = p.get('entry_price_usd', 0)
+            curr = p.get('current_price_usd', entry)
+            pnl = p.get('unrealized_pnl_nok', 0)
+            end = p.get('end_date', '?')
+            lines.append(f"{side} {q}")
+            lines.append(f"  Inn: ${entry:.3f} Na: ${curr:.3f} P&L: {pnl:+.0f} kr | {end}")
+        lines.append("")
+    send_telegram('\n'.join(lines))
+
+
 def main():
     print(f"Bot engine v2 starting at {datetime.datetime.now(datetime.timezone.utc).isoformat()}")
 
@@ -1101,6 +1187,9 @@ def main():
         print("ERROR: Could not load Bot1 portfolio")
     if not bot2:
         print("ERROR: Could not load Bot2 portfolio")
+
+    # 0. Check Telegram commands (/dashboard, /positions, /help)
+    check_telegram_commands(bot1, bot2, state)
 
     # 1. Resolve positions
     c1 = check_and_resolve(bot1, 'BOT1', rate)
