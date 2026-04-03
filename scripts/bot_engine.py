@@ -209,9 +209,17 @@ def estimate_edge(market):
         return None
 
     question = market.get('question', '').lower()
+    slug = market.get('slug', '').lower()
     liquidity = float(market.get('liquidity', 0) or 0)
 
     if liquidity < 1000:
+        return None
+
+    # Skip crypto coin flips (zero edge)
+    coin_flip_tokens = ['sol-updown', 'bnb-updown', 'btc-updown', 'eth-updown',
+                        'doge-updown', 'xrp-updown', 'ada-updown', 'avax-updown',
+                        'up or down']
+    if any(t in slug or t in question for t in coin_flip_tokens):
         return None
 
     best_side = None

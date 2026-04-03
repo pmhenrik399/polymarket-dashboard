@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-03T07:39:56Z",
+    "last_updated": "2026-04-03T10:03:05+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.734244,
     "copy_trader": {
@@ -45,7 +45,7 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.915,
+      "current_price_usd": 0.925,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
@@ -53,7 +53,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -2,
+      "unrealized_pnl_nok": -1,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -63,7 +63,7 @@
       "slug": "elc-wba-wre-2026-04-03-wre",
       "side": "NO",
       "entry_price_usd": 0.735,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.735,
       "shares": 11.62,
       "cost_usd": 8.54,
       "cost_nok": 83,
@@ -71,7 +71,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -1,
+      "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -153,7 +153,7 @@
       "slug": "li1-psg-tfc-2026-04-03-psg",
       "side": "YES",
       "entry_price_usd": 0.755,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.765,
       "shares": 9.95,
       "cost_usd": 7.51,
       "cost_nok": 73,
@@ -161,7 +161,7 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 1,
+      "unrealized_pnl_nok": 0,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -343,12 +343,12 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-02",
       "category": "sport",
-      "unrealized_pnl_nok": -102,
+      "unrealized_pnl_nok": -68,
       "last_checked": "2026-04-02T18:30:00+02:00",
       "note": "RESOLVES TODAY — game kicked off 18:00 UTC. Draw YES @ 0.305, not yet resolved.",
       "result": "LOSS",
       "profit_nok": -103,
-      "closed_at": "2026-04-02T22:49:34Z"
+      "closed_at": "2026-04-03T07:55:45+02:00"
     }
   ],
   "trade_log": [
