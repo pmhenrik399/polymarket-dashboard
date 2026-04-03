@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-03T17:57:54+02:00",
+    "last_updated": "2026-04-03T18:02:54+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.734244,
     "copy_trader": {
@@ -45,7 +45,7 @@
       "slug": "spl-nsr-njm-2026-04-03-nsr",
       "side": "YES",
       "entry_price_usd": 0.94,
-      "current_price_usd": 0.905,
+      "current_price_usd": 0.895,
       "shares": 9.41,
       "cost_usd": 8.85,
       "cost_nok": 86,
@@ -53,7 +53,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -3,
+      "unrealized_pnl_nok": -4,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -189,7 +189,7 @@
       "slug": "li2-bas-ams-2026-04-03-bas",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.505,
+      "current_price_usd": 0.5,
       "shares": 5.39,
       "cost_usd": 2.78,
       "cost_nok": 27,

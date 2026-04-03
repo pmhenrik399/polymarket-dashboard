@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-03T17:57:49+02:00",
+    "last_updated": "2026-04-03T18:02:49+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.734244
   },
@@ -76,7 +76,7 @@
       "slug": "ligue1-psg-tou-2026-04-03-total",
       "side": "YES",
       "entry_price_usd": 0.615,
-      "current_price_usd": 0.685,
+      "current_price_usd": 0.675,
       "shares": 13.41,
       "cost_usd": 8.25,
       "cost_nok": 80,
@@ -89,7 +89,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_018",
@@ -155,7 +155,7 @@
       "slug": "elc-wba-wre-2026-04-03-total-4pt5",
       "side": "NO",
       "entry_price_usd": 0.885,
-      "current_price_usd": 0.89,
+      "current_price_usd": 0.9995,
       "shares": 16.14,
       "cost_usd": 14.28,
       "cost_nok": 139,
@@ -165,7 +165,7 @@
       "opened_at": "2026-04-03T08:13:14+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 17
     },
     {
       "id": "pos_025",
