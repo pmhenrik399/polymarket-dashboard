@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-03T14:22:56+02:00",
+    "last_updated": "2026-04-03T14:27:56+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.734244,
     "copy_trader": {
@@ -207,7 +207,7 @@
       "slug": "li2-bas-ams-2026-04-03-bas",
       "side": "NO",
       "entry_price_usd": 0.515,
-      "current_price_usd": 0.505,
+      "current_price_usd": 0.495,
       "shares": 5.39,
       "cost_usd": 2.78,
       "cost_nok": 27,
@@ -215,7 +215,7 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0,
+      "unrealized_pnl_nok": -1,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {

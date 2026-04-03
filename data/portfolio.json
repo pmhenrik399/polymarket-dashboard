@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-03T14:22:51+02:00",
+    "last_updated": "2026-04-03T14:27:51+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.734244
   },
@@ -155,7 +155,7 @@
       "slug": "will-the-march-2026-unemployment-rate-be-4pt6",
       "side": "NO",
       "entry_price_usd": 0.922,
-      "current_price_usd": 0.911,
+      "current_price_usd": 0.9285,
       "shares": 15.49,
       "cost_usd": 14.28,
       "cost_nok": 139,
@@ -165,7 +165,7 @@
       "opened_at": "2026-04-03T07:55:54+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_022",
@@ -174,7 +174,7 @@
       "slug": "cs2-hero-nip-2026-04-03",
       "side": "YES",
       "entry_price_usd": 0.535,
-      "current_price_usd": 0.375,
+      "current_price_usd": 0.455,
       "shares": 9.6,
       "cost_usd": 5.14,
       "cost_nok": 50,
@@ -184,7 +184,7 @@
       "opened_at": "2026-04-03T08:13:13+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": -14
+      "unrealized_pnl_nok": -7
     },
     {
       "id": "pos_024",
