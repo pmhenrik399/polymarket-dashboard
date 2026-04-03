@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-03T16:27:51+02:00",
+    "last_updated": "2026-04-03T16:32:51+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.734244
   },
@@ -174,7 +174,7 @@
       "slug": "elc-wba-wre-2026-04-03-total-4pt5",
       "side": "NO",
       "entry_price_usd": 0.885,
-      "current_price_usd": 0.945,
+      "current_price_usd": 0.955,
       "shares": 16.14,
       "cost_usd": 14.28,
       "cost_nok": 139,
@@ -184,7 +184,7 @@
       "opened_at": "2026-04-03T08:13:14+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_025",
@@ -297,7 +297,7 @@
       "side": "NO",
       "entry_price_usd": 0.8352,
       "mid_price_usd": 0.83,
-      "current_price_usd": 0.755,
+      "current_price_usd": 0.75,
       "slippage_pct": 0.62,
       "shares": 7.38,
       "cost_usd": 6.16,
@@ -314,7 +314,7 @@
       "category": "no_draw",
       "opened_at": "2026-04-03T14:48:02+02:00",
       "end_date": "2026-04-03",
-      "unrealized_pnl_nok": -5
+      "unrealized_pnl_nok": -6
     }
   ],
   "closed_positions": [
