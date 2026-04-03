@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-03T11:11:17Z",
+    "last_updated": "2026-04-03T11:54:49Z",
     "currency": "NOK",
     "usd_nok_rate": 9.734244
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 47,
+    "balance_nok": 140,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -41,9 +41,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 256,
+    "realized_pnl_nok": 302,
     "trades_this_month": 28,
-    "wins_this_month": 9,
+    "wins_this_month": 10,
     "losses_this_month": 6
   },
   "positions": [
@@ -76,7 +76,7 @@
       "slug": "ligue1-psg-tou-2026-04-03-total",
       "side": "YES",
       "entry_price_usd": 0.615,
-      "current_price_usd": 0.665,
+      "current_price_usd": 0.675,
       "shares": 13.41,
       "cost_usd": 8.25,
       "cost_nok": 80,
@@ -89,7 +89,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
-      "unrealized_pnl_nok": 6
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_018",
@@ -155,7 +155,7 @@
       "slug": "will-the-march-2026-unemployment-rate-be-4pt6",
       "side": "NO",
       "entry_price_usd": 0.922,
-      "current_price_usd": 0.9175,
+      "current_price_usd": 0.906,
       "shares": 15.49,
       "cost_usd": 14.28,
       "cost_nok": 139,
@@ -165,7 +165,7 @@
       "opened_at": "2026-04-03T07:55:54+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_022",
@@ -174,7 +174,7 @@
       "slug": "cs2-hero-nip-2026-04-03",
       "side": "YES",
       "entry_price_usd": 0.535,
-      "current_price_usd": 0.525,
+      "current_price_usd": 0.495,
       "shares": 9.6,
       "cost_usd": 5.14,
       "cost_nok": 50,
@@ -184,26 +184,7 @@
       "opened_at": "2026-04-03T08:13:13+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_023",
-      "market_id": "1828276",
-      "question": "Solana Up or Down - April 3, 7:40AM-7:45AM ET",
-      "slug": "sol-updown-5m-1775216400",
-      "side": "YES",
-      "entry_price_usd": 0.505,
-      "current_price_usd": 0.5,
-      "shares": 9.56,
-      "cost_usd": 4.83,
-      "cost_nok": 47,
-      "usd_nok_at_entry": 9.734244,
-      "edge_at_entry": 0.04,
-      "our_probability": 0.545,
-      "opened_at": "2026-04-03T08:13:13+02:00",
-      "end_date": "2026-04-03",
-      "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_024",
@@ -288,7 +269,7 @@
       "slug": "cze1-fhk-bop-2026-04-05-fhk",
       "side": "YES",
       "entry_price_usd": 0.475,
-      "current_price_usd": 0.47,
+      "current_price_usd": 0.48,
       "shares": 10.16,
       "cost_usd": 4.83,
       "cost_nok": 47,
@@ -543,6 +524,28 @@
       "result": "WIN",
       "profit_nok": 92,
       "closed_at": "2026-04-03T09:02:47+02:00"
+    },
+    {
+      "id": "pos_023",
+      "market_id": "1828276",
+      "question": "Solana Up or Down - April 3, 7:40AM-7:45AM ET",
+      "slug": "sol-updown-5m-1775216400",
+      "side": "YES",
+      "entry_price_usd": 0.505,
+      "current_price_usd": 1.0,
+      "shares": 9.56,
+      "cost_usd": 4.83,
+      "cost_nok": 47,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.545,
+      "opened_at": "2026-04-03T08:13:13+02:00",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 0,
+      "result": "WIN",
+      "profit_nok": 46,
+      "closed_at": "2026-04-03T11:54:46Z"
     }
   ],
   "trade_log": [
@@ -679,9 +682,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 9,
+    "total_wins": 10,
     "total_losses": 6,
-    "total_realized_pnl_nok": 256,
+    "total_realized_pnl_nok": 302,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
