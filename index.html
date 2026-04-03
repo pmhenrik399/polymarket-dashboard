@@ -11,6 +11,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/icon-192.png">
 <title>Polymarket Paper Trading</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 body {
@@ -23,464 +24,572 @@ body {
   padding-top: env(safe-area-inset-top);
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+/* Header */
 .header {
   background: linear-gradient(135deg, #111827 0%, #1a1f36 100%);
   border-bottom: 1px solid #2d3748;
-  padding: 16px 20px;
+  padding: 14px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 100;
-  padding-top: max(16px, env(safe-area-inset-top));
+  padding-top: max(14px, env(safe-area-inset-top));
 }
+.header-left { display: flex; align-items: center; gap: 10px; }
 .header h1 { font-size: 18px; font-weight: 700; color: #fff; }
 .header h1 span { color: #818cf8; }
-.header-right { display: flex; align-items: center; gap: 10px; font-size: 11px; color: #94a3b8; }
 .live-dot {
-  width: 7px; height: 7px; background: #34d399; border-radius: 50%;
+  width: 8px; height: 8px; background: #34d399; border-radius: 50%;
   animation: pulse 2s infinite;
+  box-shadow: 0 0 6px #34d399;
 }
-@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
-
-.container { padding: 16px; max-width: 800px; margin: 0 auto; }
-
-/* Pull to refresh indicator */
-.pull-indicator {
-  text-align: center; padding: 12px; color: #64748b; font-size: 12px;
-  display: none;
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.85)} }
+.header-right { display: flex; align-items: center; gap: 10px; font-size: 11px; color: #94a3b8; }
+.refresh-timer {
+  background: #1e293b; padding: 3px 8px; border-radius: 10px; font-size: 10px;
+  font-variant-numeric: tabular-nums; color: #64748b;
 }
-.pull-indicator.active { display: block; }
 
-/* Alerts */
-.alerts { margin-bottom: 12px; }
-.alert {
-  padding: 10px 14px; border-radius: 8px; margin-bottom: 6px;
-  font-size: 13px; font-weight: 500;
+/* Container */
+.container { padding: 16px; max-width: 900px; margin: 0 auto; }
+
+/* Bot Tabs */
+.bot-tabs {
+  display: flex; gap: 4px; background: #111827; border: 1px solid #1e293b;
+  border-radius: 12px; padding: 4px; margin-bottom: 16px;
 }
-.alert-critical { background: rgba(239,68,68,.15); border: 1px solid rgba(239,68,68,.3); color: #fca5a5; }
-.alert-warning { background: rgba(245,158,11,.15); border: 1px solid rgba(245,158,11,.3); color: #fcd34d; }
-.alert-success { background: rgba(52,211,153,.15); border: 1px solid rgba(52,211,153,.3); color: #6ee7b7; }
+.bot-tab {
+  flex: 1; text-align: center; padding: 10px 16px; border-radius: 8px;
+  font-size: 13px; font-weight: 600; color: #64748b; cursor: pointer;
+  transition: all .2s; border: none; background: none;
+}
+.bot-tab.active {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff; box-shadow: 0 2px 8px rgba(99,102,241,.3);
+}
+.bot-tab:not(.active):hover { color: #94a3b8; background: #1e293b; }
 
-/* Cards grid - 2x2 on mobile */
+/* Top Cards */
 .top-cards {
   display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px;
 }
 .card {
-  background: #111827; border: 1px solid #1e293b; border-radius: 10px; padding: 14px;
+  background: #111827; border: 1px solid #1e293b; border-radius: 12px; padding: 16px;
+  position: relative; overflow: hidden;
 }
-.card-label { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; color: #64748b; margin-bottom: 4px; }
+.card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+}
+.card:nth-child(1)::before { background: linear-gradient(90deg, #818cf8, #6366f1); }
+.card:nth-child(2)::before { background: linear-gradient(90deg, #34d399, #10b981); }
+.card:nth-child(3)::before { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+.card:nth-child(4)::before { background: linear-gradient(90deg, #60a5fa, #3b82f6); }
+.card-label { font-size: 10px; text-transform: uppercase; letter-spacing: .8px; color: #64748b; margin-bottom: 6px; }
 .card-value { font-size: 22px; font-weight: 700; color: #fff; }
 .card-value.positive { color: #34d399; }
 .card-value.negative { color: #f87171; }
-.card-sub { font-size: 11px; color: #64748b; margin-top: 2px; }
+.card-sub { font-size: 11px; color: #64748b; margin-top: 4px; }
 
 /* Section */
 .section {
-  background: #111827; border: 1px solid #1e293b; border-radius: 10px;
+  background: #111827; border: 1px solid #1e293b; border-radius: 12px;
   padding: 16px; margin-bottom: 16px;
 }
 .section-title {
-  font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 12px;
+  font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 8px;
 }
+.section-title .icon { font-size: 16px; }
 
-/* Progress */
-.progress-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-.progress-pct { font-size: 20px; font-weight: 700; }
-.progress-bar-bg { background: #1e293b; border-radius: 6px; height: 20px; overflow: hidden; margin-bottom: 8px; }
-.progress-bar-fill {
-  height: 100%; border-radius: 6px;
-  background: linear-gradient(90deg, #818cf8, #6366f1);
-  transition: width 1s ease; min-width: 2px;
+/* Chart */
+.chart-container { position: relative; height: 220px; width: 100%; }
+
+/* Category Heatmap */
+.heatmap-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px;
 }
-.progress-bar-fill.success { background: linear-gradient(90deg, #34d399, #10b981); }
-.progress-bar-fill.danger { background: linear-gradient(90deg, #f87171, #ef4444); }
-.progress-details { display: flex; justify-content: space-between; font-size: 11px; color: #94a3b8; }
+.heatmap-cell {
+  border-radius: 8px; padding: 12px; text-align: center;
+  border: 1px solid rgba(255,255,255,.06);
+}
+.heatmap-name { font-size: 12px; font-weight: 600; color: #fff; margin-bottom: 4px; }
+.heatmap-record { font-size: 11px; color: rgba(255,255,255,.7); }
+.heatmap-pct { font-size: 20px; font-weight: 700; color: #fff; margin-top: 2px; }
 
-/* Risk */
-.risk-meter { background: #1e293b; border-radius: 6px; height: 12px; overflow: hidden; margin-bottom: 10px; }
-.risk-meter-fill { height: 100%; border-radius: 6px; transition: width 1s; }
-.risk-meter-fill.green { background: linear-gradient(90deg, #34d399, #10b981); }
-.risk-meter-fill.yellow { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
-.risk-meter-fill.red { background: linear-gradient(90deg, #f87171, #ef4444); }
-.risk-info { display: flex; justify-content: space-between; font-size: 11px; color: #94a3b8; margin-bottom: 8px; }
-.risk-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
-.risk-item { display: flex; justify-content: space-between; font-size: 12px; padding: 6px 0; border-bottom: 1px solid #1e293b; }
-.risk-item-label { color: #94a3b8; }
-.risk-item-val { color: #e2e8f0; font-weight: 600; }
-
-/* Positions - card layout on mobile */
+/* Positions */
 .pos-card {
-  background: #0f1724; border: 1px solid #1e293b; border-radius: 8px;
-  padding: 12px; margin-bottom: 8px;
+  background: #0f1724; border: 1px solid #1e293b; border-radius: 10px;
+  padding: 12px; margin-bottom: 8px; transition: border-color .2s;
 }
-.pos-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
-.pos-question { font-size: 13px; font-weight: 600; color: #e2e8f0; flex: 1; margin-right: 8px; }
+.pos-card:hover { border-color: #2d3748; }
+.pos-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; gap: 8px; }
+.pos-question { font-size: 13px; font-weight: 600; color: #e2e8f0; flex: 1; line-height: 1.3; }
 .side-badge {
-  display: inline-block; padding: 2px 8px; border-radius: 4px;
-  font-size: 10px; font-weight: 700;
+  display: inline-block; padding: 2px 10px; border-radius: 4px;
+  font-size: 10px; font-weight: 700; flex-shrink: 0;
 }
-.side-yes { background: rgba(52,211,153,.2); color: #34d399; }
-.side-no { background: rgba(248,113,113,.2); color: #f87171; }
-.pos-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; }
+.side-yes { background: rgba(52,211,153,.15); color: #34d399; border: 1px solid rgba(52,211,153,.2); }
+.side-no { background: rgba(248,113,113,.15); color: #f87171; border: 1px solid rgba(248,113,113,.2); }
+.pos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+@media (min-width: 500px) { .pos-grid { grid-template-columns: repeat(5, 1fr); } }
 .pos-metric { text-align: center; }
-.pos-metric-label { font-size: 9px; text-transform: uppercase; color: #64748b; }
-.pos-metric-val { font-size: 13px; font-weight: 600; color: #e2e8f0; }
+.pos-metric-label { font-size: 9px; text-transform: uppercase; color: #64748b; letter-spacing: .3px; }
+.pos-metric-val { font-size: 12px; font-weight: 600; color: #e2e8f0; margin-top: 2px; }
 .pnl-positive { color: #34d399 !important; }
 .pnl-negative { color: #f87171 !important; }
-.pnl-neutral { color: #94a3b8 !important; }
-.edge-badge { background: rgba(129,140,248,.15); color: #a5b4fc; padding: 1px 5px; border-radius: 3px; font-size: 11px; }
-.deadline-warn { color: #fbbf24 !important; }
 
-/* Log */
-.log-entry {
+/* Closed positions */
+.closed-entry {
   display: flex; align-items: center; gap: 8px;
-  padding: 10px 0; border-bottom: 1px solid #1e293b; font-size: 12px;
+  padding: 8px 0; border-bottom: 1px solid #1e293b; font-size: 12px;
 }
-.log-entry:last-child { border-bottom: none; }
-.log-time { color: #64748b; min-width: 40px; }
-.log-action { padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: 700; }
-.log-buy { background: rgba(52,211,153,.2); color: #34d399; }
-.log-sell { background: rgba(248,113,113,.2); color: #f87171; }
-.log-win { background: rgba(52,211,153,.2); color: #34d399; }
-.log-loss { background: rgba(248,113,113,.2); color: #f87171; }
-.log-question { flex: 1; color: #cbd5e1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.log-amount { color: #e2e8f0; font-weight: 600; min-width: 70px; text-align: right; }
-
-/* Bot status */
-.bot-task {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 10px 0; border-bottom: 1px solid #1e293b;
+.closed-entry:last-child { border-bottom: none; }
+.result-badge {
+  padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700;
+  min-width: 42px; text-align: center; flex-shrink: 0;
 }
-.bot-task:last-child { border-bottom: none; }
-.bot-task-name { font-weight: 600; color: #e2e8f0; font-size: 13px; }
-.bot-task-freq { color: #94a3b8; font-size: 11px; }
-.bot-badge { padding: 3px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; background: rgba(52,211,153,.15); color: #34d399; }
+.result-win { background: rgba(52,211,153,.15); color: #34d399; }
+.result-loss { background: rgba(248,113,113,.15); color: #f87171; }
+.result-tp { background: rgba(96,165,250,.15); color: #60a5fa; }
+.result-sl { background: rgba(251,191,36,.15); color: #fbbf24; }
+.closed-question { flex: 1; color: #94a3b8; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.closed-pnl { font-weight: 600; min-width: 70px; text-align: right; }
 
-/* Category bars */
-.cat-row { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
-.cat-bar-bg { flex: 1; height: 5px; background: #1e293b; border-radius: 3px; overflow: hidden; }
-.cat-bar-fill { height: 100%; border-radius: 3px; }
-.cat-politikk { background: #818cf8; }
-.cat-crypto { background: #fbbf24; }
-.cat-sport { background: #34d399; }
-.cat-okonomi { background: #f87171; }
-.cat-annet { background: #94a3b8; }
-
-.stat-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #1e293b; font-size: 13px; }
+/* Statistics */
+.stat-row {
+  display: flex; justify-content: space-between; padding: 8px 0;
+  border-bottom: 1px solid #1e293b; font-size: 13px;
+}
 .stat-row:last-child { border-bottom: none; }
 .stat-label { color: #94a3b8; }
 .stat-value { color: #e2e8f0; font-weight: 600; }
 
-.empty-state { text-align: center; color: #64748b; padding: 24px; font-size: 13px; }
-
-/* Install banner */
-.install-banner {
-  display: none; background: linear-gradient(135deg, #4f46e5, #6366f1);
-  padding: 12px 16px; border-radius: 10px; margin-bottom: 16px;
-  cursor: pointer;
+/* Bot status */
+.bot-status-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 0;
 }
-.install-banner.show { display: flex; align-items: center; gap: 12px; }
-.install-banner-text { flex: 1; }
-.install-banner-title { font-size: 14px; font-weight: 700; color: #fff; }
-.install-banner-sub { font-size: 11px; color: #c7d2fe; }
-.install-banner-btn {
-  background: #fff; color: #4f46e5; border: none; border-radius: 6px;
-  padding: 8px 16px; font-weight: 700; font-size: 12px; cursor: pointer;
-}
-.install-banner-close {
-  background: none; border: none; color: #c7d2fe; font-size: 18px; cursor: pointer; padding: 4px;
+.bot-status-left { display: flex; align-items: center; gap: 8px; }
+.bot-status-name { font-weight: 600; color: #e2e8f0; font-size: 13px; }
+.bot-badge-green {
+  padding: 3px 10px; border-radius: 10px; font-size: 11px; font-weight: 600;
+  background: rgba(52,211,153,.12); color: #34d399; border: 1px solid rgba(52,211,153,.2);
 }
 
-/* Stats two-col on larger screens */
+/* Two col layout */
 @media (min-width: 600px) {
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 }
 
-/* Last updated footer */
+/* Footer */
 .footer {
   text-align: center; padding: 16px; font-size: 11px; color: #475569;
   padding-bottom: max(16px, env(safe-area-inset-bottom));
 }
+
+/* Empty state */
+.empty-state { text-align: center; color: #64748b; padding: 24px; font-size: 13px; }
+
+/* Loading */
+.loading-spinner {
+  display: flex; align-items: center; justify-content: center; padding: 40px;
+  color: #64748b; font-size: 13px; gap: 8px;
+}
+.spinner {
+  width: 16px; height: 16px; border: 2px solid #1e293b; border-top-color: #818cf8;
+  border-radius: 50%; animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>Polymarket <span>Trading</span></h1>
-  <div class="header-right">
+  <div class="header-left">
     <div class="live-dot"></div>
-    <span id="header-rate">—</span>
+    <h1>Polymarket <span>Trading</span></h1>
+  </div>
+  <div class="header-right">
+    <span class="refresh-timer" id="refresh-timer">30s</span>
   </div>
 </div>
 
 <div class="container">
-  <div class="pull-indicator" id="pull-indicator">Oppdaterer...</div>
-
-  <div id="install-banner" class="install-banner">
-    <div class="install-banner-text">
-      <div class="install-banner-title">Installer som app</div>
-      <div class="install-banner-sub">Legg til pa hjemskjermen for rask tilgang</div>
-    </div>
-    <button class="install-banner-btn" id="install-btn">Installer</button>
-    <button class="install-banner-close" id="install-close">&times;</button>
+  <div class="bot-tabs" id="bot-tabs">
+    <button class="bot-tab active" data-bot="bot1">Bot 1</button>
+    <button class="bot-tab" data-bot="bot2">Bot 2</button>
   </div>
 
-  <div class="alerts" id="alerts"></div>
-  <div class="top-cards" id="top-cards"></div>
-  <div class="section" id="progress-section"></div>
-  <div class="section" id="risk-section"></div>
-  <div class="section" id="positions-section"></div>
-
-  <div class="two-col">
-    <div class="section" id="stats-section"></div>
-    <div class="section" id="log-section"></div>
+  <div id="main-content">
+    <div class="loading-spinner"><div class="spinner"></div>Laster data...</div>
   </div>
 
-  <div class="section" id="bot-status"></div>
-
-  <div class="footer" id="footer">Sist oppdatert: —</div>
+  <div class="footer" id="footer">Sist oppdatert: --</div>
 </div>
 
 <script>
-// PWA install prompt
+// PWA
 let deferredPrompt;
-window.addEventListener('beforeinstallprompt', e => {
-  e.preventDefault();
-  deferredPrompt = e;
-  document.getElementById('install-banner').classList.add('show');
-});
-document.getElementById('install-btn').addEventListener('click', async () => {
-  if (!deferredPrompt) return;
-  deferredPrompt.prompt();
-  await deferredPrompt.userChoice;
-  deferredPrompt = null;
-  document.getElementById('install-banner').classList.remove('show');
-});
-document.getElementById('install-close').addEventListener('click', () => {
-  document.getElementById('install-banner').classList.remove('show');
-});
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; });
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(()=>{});
 
-// Service worker
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+// State
+const URLS = {
+  bot1: 'https://raw.githubusercontent.com/pmhenrik399/polymarket-dashboard/main/data/portfolio.json',
+  bot2: 'https://raw.githubusercontent.com/pmhenrik399/polymarket-dashboard/main/data/portfolio_bot2.json'
+};
+let activeBot = 'bot1';
+let botData = { bot1: null, bot2: null };
+let portfolioChart = null;
+let refreshCountdown = 30;
+let countdownInterval = null;
+
+// Tab switching
+document.getElementById('bot-tabs').addEventListener('click', e => {
+  const tab = e.target.closest('.bot-tab');
+  if (!tab) return;
+  document.querySelectorAll('.bot-tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  activeBot = tab.dataset.bot;
+  render();
+});
 
 // Helpers
 const NOK = n => {
+  if (n == null || isNaN(n)) return '0 kr';
   if (Math.abs(n) >= 1000) return n.toLocaleString('nb-NO', {maximumFractionDigits: 0}) + ' kr';
   return n.toLocaleString('nb-NO', {maximumFractionDigits: 2}) + ' kr';
 };
+const pnlClass = n => n > 0 ? 'pnl-positive' : n < 0 ? 'pnl-negative' : '';
+const pnlSign = n => n > 0 ? '+' : '';
+function daysLeft(d) { if (!d) return null; return Math.ceil((new Date(d) - new Date()) / 864e5); }
+function truncate(s, n) { return (s||'').length > n ? (s||'').slice(0, n) + '...' : (s||''); }
 
-function daysLeft(endDate) {
-  if (!endDate) return -999;
-  return Math.ceil((new Date(endDate) - new Date()) / (1000*60*60*24));
+function classifyCategory(pos) {
+  const q = (pos?.question || '').toLowerCase();
+  const s = (pos?.slug || pos?.market_slug || '').toLowerCase();
+  if (q.includes('draw')) return 'NO Draw';
+  if (s.includes('o/u') || s.includes('under') || s.includes('over') || s.includes('total') ||
+      q.includes('o/u') || q.includes('under') || q.includes('over') || q.includes('total goals') || q.includes('total points') || q.includes('total maps')) return 'Over/Under';
+  if (s.includes('counter-strike') || s.includes('cs2') || s.includes('lol') ||
+      q.includes('counter-strike') || q.includes('cs2') || q.includes('league of legends')) return 'Esport';
+  if (q.includes('win')) return 'Moneyline';
+  return 'Andre';
 }
 
-function renderAlerts(data) {
-  const el = document.getElementById('alerts');
-  let html = '';
-  const totalExposure = data.positions.reduce((s,p) => s + p.cost_nok, 0);
-  const pv = data.account.balance_nok + totalExposure;
-  const ep = totalExposure / pv;
-  const mp = data.monthly.realized_pnl_nok + data.positions.reduce((s,p) => s + (p.unrealized_pnl_nok||0), 0);
+function heatmapColor(pct) {
+  // red (0%) -> yellow (50%) -> green (100%)
+  if (pct <= 50) {
+    const r = 220, g = Math.round(50 + (pct / 50) * 170), b = 50;
+    return `rgba(${r},${g},${b},0.25)`;
+  } else {
+    const r = Math.round(220 - ((pct - 50) / 50) * 170), g = 220, b = 50;
+    return `rgba(${r},${g},${b},0.25)`;
+  }
+}
 
-  if (ep > 0.60) html += '<div class="alert alert-critical">Eksponering over 60%!</div>';
-  data.positions.forEach(p => {
-    if (p.cost_nok / pv > 0.08) html += `<div class="alert alert-critical">"${p.question.slice(0,40)}" over 8%!</div>`;
+function buildPortfolioHistory(data) {
+  // Reconstruct from closed_positions
+  const closed = data?.closed_positions || [];
+  if (!closed.length) return { labels: [], values: [] };
+
+  const startCap = data?.account?.starting_capital || 500000;
+  // Sort by closed_at
+  const sorted = [...closed].filter(p => p.closed_at).sort((a, b) => new Date(a.closed_at) - new Date(b.closed_at));
+
+  const labels = ['Start'];
+  const values = [startCap];
+  let cumulative = startCap;
+
+  sorted.forEach(p => {
+    cumulative += (p.profit_nok || 0);
+    const d = new Date(p.closed_at);
+    labels.push(d.toLocaleDateString('nb-NO', { day: '2-digit', month: '2-digit' }));
+    values.push(cumulative);
   });
-  const now = new Date();
-  const eom = new Date(now.getFullYear(), now.getMonth()+1, 0);
-  const dl = Math.ceil((eom-now)/(864e5));
-  if (dl <= 5 && (data.monthly.target_profit_nok - mp) > 20000)
-    html += `<div class="alert alert-warning">${dl}d igjen, ${NOK(data.monthly.target_profit_nok - mp)} til mal</div>`;
-  data.positions.forEach(p => {
-    const d = daysLeft(p.end_date);
-    if (d <= 2 && d >= 0) html += `<div class="alert alert-warning">"${p.question.slice(0,35)}" utloper om ${d}d</div>`;
-  });
-  if (mp >= data.monthly.target_profit_nok) html += '<div class="alert alert-success">MAL NADD: 50.000 kr!</div>';
-  el.innerHTML = html;
+
+  // Add current value as last point
+  const positions = data?.positions || [];
+  const unrealized = positions.reduce((s, p) => s + (p.unrealized_pnl_nok || 0), 0);
+  cumulative += unrealized;
+  labels.push('Na');
+  values.push(cumulative);
+
+  return { labels, values };
 }
 
-function renderTopCards(data) {
-  const te = data.positions.reduce((s,p) => s+p.cost_nok, 0);
-  const up = data.positions.reduce((s,p) => s+(p.unrealized_pnl_nok||0), 0);
-  const pv = data.account.balance_nok + te + up;
-  const tp = data.monthly.realized_pnl_nok + up;
-  const tr = pv - data.account.starting_capital;
-  const wr = data.statistics.total_wins + data.statistics.total_losses > 0 ?
-    Math.round(data.statistics.total_wins/(data.statistics.total_wins+data.statistics.total_losses)*100)+'%' : '—';
-
-  document.getElementById('top-cards').innerHTML = `
-    <div class="card"><div class="card-label">Portefolje</div><div class="card-value">${NOK(pv)}</div><div class="card-sub">${tr>=0?'+':''}${NOK(tr)}</div></div>
-    <div class="card"><div class="card-label">Mnd P&L</div><div class="card-value ${tp>=0?'positive':'negative'}">${tp>=0?'+':''}${NOK(tp)}</div><div class="card-sub">R: ${NOK(data.monthly.realized_pnl_nok)} | U: ${NOK(up)}</div></div>
-    <div class="card"><div class="card-label">Kontant</div><div class="card-value">${NOK(data.account.balance_nok)}</div><div class="card-sub">Investert: ${NOK(te)}</div></div>
-    <div class="card"><div class="card-label">Posisjoner</div><div class="card-value">${data.positions.length}</div><div class="card-sub">Trades: ${data.monthly.trades_this_month} | WR: ${wr}</div></div>`;
-}
-
-function renderProgress(data) {
-  const up = data.positions.reduce((s,p) => s+(p.unrealized_pnl_nok||0), 0);
-  const tp = data.monthly.realized_pnl_nok + up;
-  const pct = Math.max(0, Math.min(100, (tp/data.monthly.target_profit_nok)*100));
-  const now = new Date();
-  const dl = Math.ceil((new Date(now.getFullYear(),now.getMonth()+1,0)-now)/864e5);
-  const rem = data.monthly.target_profit_nok - tp;
-  let bc = ''; if (pct>=100) bc='success'; else if (pct<30 && dl<10) bc='danger';
-  const mn = ['Jan','Feb','Mar','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Des'];
-
-  document.getElementById('progress-section').innerHTML = `
-    <div class="progress-header">
-      <div class="section-title" style="margin:0">Manedmal — ${mn[now.getMonth()]} ${now.getFullYear()}</div>
-      <div class="progress-pct ${tp>=0?'pnl-positive':'pnl-negative'}">${pct.toFixed(0)}%</div>
-    </div>
-    <div class="progress-bar-bg"><div class="progress-bar-fill ${bc}" style="width:${pct}%"></div></div>
-    <div class="progress-details">
-      <span>${tp>=0?'+':''}${NOK(tp)} av ${NOK(data.monthly.target_profit_nok)}</span>
-      <span>${NOK(Math.max(0,rem))} igjen | ${dl}d</span>
-    </div>`;
-}
-
-function renderRisk(data) {
-  const te = data.positions.reduce((s,p) => s+p.cost_nok, 0);
-  const pv = data.account.balance_nok + te;
-  const ep = te/pv;
-  const me = pv * 0.60;
-  const lp = data.positions.length > 0 ? Math.max(...data.positions.map(p=>p.cost_nok)) : 0;
-  let mc = 'green'; if (ep>0.55) mc='red'; else if (ep>0.40) mc='yellow';
-
-  document.getElementById('risk-section').innerHTML = `
-    <div class="section-title">Risikoeksponering</div>
-    <div class="risk-info">
-      <span>Eksponert: ${NOK(te)} (${(ep*100).toFixed(1)}%)</span>
-      <span>Maks: ${NOK(me)} (60%)</span>
-    </div>
-    <div class="risk-meter"><div class="risk-meter-fill ${mc}" style="width:${Math.min(100,ep/0.60*100)}%"></div></div>
-    <div class="risk-grid">
-      <div class="risk-item"><span class="risk-item-label">Posisjoner</span><span class="risk-item-val">${data.positions.length}/15</span></div>
-      <div class="risk-item"><span class="risk-item-label">Storste</span><span class="risk-item-val">${NOK(lp)}</span></div>
-      <div class="risk-item"><span class="risk-item-label">Snitt edge</span><span class="risk-item-val">${(data.statistics.avg_edge_at_entry*100).toFixed(1)}%</span></div>
-      <div class="risk-item"><span class="risk-item-label">Ledig</span><span class="risk-item-val">${NOK(Math.max(0,me-te))}</span></div>
-    </div>`;
-}
-
-function renderPositions(data) {
-  const el = document.getElementById('positions-section');
-  if (!data.positions.length) {
-    el.innerHTML = '<div class="section-title">Apne Posisjoner</div><div class="empty-state">Ingen apne posisjoner</div>';
+function render() {
+  const data = botData[activeBot];
+  if (!data) {
+    document.getElementById('main-content').innerHTML = '<div class="loading-spinner"><div class="spinner"></div>Laster data...</div>';
     return;
   }
-  const cards = data.positions.map(p => {
-    const pnl = p.unrealized_pnl_nok||0;
-    const pc = pnl>0?'pnl-positive':pnl<0?'pnl-negative':'pnl-neutral';
-    const d = daysLeft(p.end_date);
-    const dc = d<=2?'deadline-warn':'';
-    return `<div class="pos-card">
-      <div class="pos-header">
-        <span class="pos-question">${p.question.length>45?p.question.slice(0,45)+'...':p.question}</span>
-        <span class="side-badge side-${p.side.toLowerCase()}">${p.side}</span>
-      </div>
-      <div class="pos-grid">
-        <div class="pos-metric"><div class="pos-metric-label">Inngang</div><div class="pos-metric-val">$${p.entry_price_usd.toFixed(3)}</div></div>
-        <div class="pos-metric"><div class="pos-metric-label">Storrelse</div><div class="pos-metric-val">${NOK(p.cost_nok)}</div></div>
-        <div class="pos-metric"><div class="pos-metric-label">P&L</div><div class="pos-metric-val ${pc}">${pnl>=0?'+':''}${NOK(pnl)}</div></div>
-        <div class="pos-metric"><div class="pos-metric-label">Utloper</div><div class="pos-metric-val ${dc}">${d>=0?d+'d':'Utlopt'}</div></div>
-      </div>
-    </div>`;
-  }).join('');
-  el.innerHTML = `<div class="section-title">Apne Posisjoner (${data.positions.length})</div>${cards}`;
-}
 
-function renderStats(data) {
-  const cats = data.statistics.categories_traded;
-  const tc = Object.values(cats).reduce((s,v)=>s+v,0)||1;
-  const cb = Object.entries(cats).filter(([,v])=>v>0).map(([k,v])=>`
-    <div class="cat-row">
-      <span style="min-width:55px;font-size:11px;color:#94a3b8;text-transform:capitalize">${k}</span>
-      <div class="cat-bar-bg"><div class="cat-bar-fill cat-${k}" style="width:${v/tc*100}%"></div></div>
-      <span style="font-size:11px;color:#e2e8f0;min-width:20px;text-align:right">${v}</span>
-    </div>`).join('');
+  const positions = data?.positions || [];
+  const closed = data?.closed_positions || [];
+  const stats = data?.statistics || {};
+  const monthly = data?.monthly || {};
+  const account = data?.account || {};
+  const meta = data?.meta || {};
 
-  document.getElementById('stats-section').innerHTML = `
-    <div class="section-title">Statistikk</div>
-    <div class="stat-row"><span class="stat-label">Trades</span><span class="stat-value">${data.statistics.total_trades}</span></div>
-    <div class="stat-row"><span class="stat-label">W / L</span><span class="stat-value">${data.statistics.total_wins}W / ${data.statistics.total_losses}L</span></div>
-    <div class="stat-row"><span class="stat-label">Realisert</span><span class="stat-value ${data.statistics.total_realized_pnl_nok>=0?'pnl-positive':'pnl-negative'}">${data.statistics.total_realized_pnl_nok>=0?'+':''}${NOK(data.statistics.total_realized_pnl_nok)}</span></div>
-    <div style="margin-top:10px">${cb||'<span style="color:#64748b;font-size:12px">—</span>'}</div>`;
-}
+  const totalInvested = positions.reduce((s, p) => s + (p.cost_nok || 0), 0);
+  const totalUnrealized = positions.reduce((s, p) => s + (p.unrealized_pnl_nok || 0), 0);
+  const balance = account.balance_nok || 0;
+  const totalValue = balance + totalInvested + totalUnrealized;
+  const totalPnl = (stats.total_realized_pnl_nok || 0) + totalUnrealized;
 
-function renderLog(data) {
-  const el = document.getElementById('log-section');
-  const log = (data.trade_log||[]).slice(-8).reverse();
-  if (!log.length) { el.innerHTML = '<div class="section-title">Handelslogg</div><div class="empty-state">Ingen trades</div>'; return; }
-  const entries = log.map(t => {
-    const tm = new Date(t.timestamp).toLocaleDateString('nb-NO',{day:'2-digit',month:'2-digit'});
-    const ac = t.action.includes('BUY')?'log-buy':t.action.includes('CLOSE')?(t.result==='WIN'?'log-win':'log-loss'):'log-sell';
-    const lb = t.action.includes('BUY')?'KJOP':t.action.includes('CLOSE')?(t.result==='WIN'?'VUNNET':'TAPT'):'SOLGT';
-    return `<div class="log-entry">
-      <span class="log-time">${tm}</span>
-      <span class="log-action ${ac}">${lb}</span>
-      <span class="log-question">${(t.question||'').slice(0,30)}</span>
-      <span class="log-amount">${NOK(t.amount_nok||0)}</span>
-    </div>`;
-  }).join('');
-  el.innerHTML = `<div class="section-title">Handelslogg</div>${entries}`;
-}
-
-function renderBot() {
-  document.getElementById('bot-status').innerHTML = `
-    <div class="section-title">Bot-status</div>
-    <div class="bot-task">
-      <div><div class="bot-task-name">polymarket-scanner</div><div class="bot-task-freq">Scanner nye muligheter</div></div>
-      <span class="bot-badge">Hver 2t</span>
+  // Top Cards
+  let html = `<div class="top-cards">
+    <div class="card">
+      <div class="card-label">Total verdi</div>
+      <div class="card-value">${NOK(totalValue)}</div>
+      <div class="card-sub">Investert: ${NOK(totalInvested)}</div>
     </div>
-    <div class="bot-task">
-      <div><div class="bot-task-name">position-check</div><div class="bot-task-freq">Priser, resolved, auto-exit</div></div>
-      <span class="bot-badge">Hver 30m</span>
-    </div>`;
-}
+    <div class="card">
+      <div class="card-label">Total P&L</div>
+      <div class="card-value ${totalPnl >= 0 ? 'positive' : 'negative'}">${pnlSign(totalPnl)}${NOK(totalPnl)}</div>
+      <div class="card-sub">R: ${NOK(stats.total_realized_pnl_nok || 0)} | U: ${NOK(totalUnrealized)}</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Ledig kapital</div>
+      <div class="card-value">${NOK(balance)}</div>
+      <div class="card-sub">USD/NOK: ${(meta.usd_nok_rate || 0).toFixed(2)}</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Posisjoner</div>
+      <div class="card-value">${positions.length}</div>
+      <div class="card-sub">Maks 15 | Lukket: ${closed.length}</div>
+    </div>
+  </div>`;
 
-async function loadData() {
-  try {
-    const DATA_URL = window.location.hostname === 'localhost'
-      ? '/api/portfolio'
-      : 'https://raw.githubusercontent.com/pmhenrik399/polymarket-dashboard/main/data/portfolio.json';
-    const resp = await fetch(DATA_URL + '?t=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const data = await resp.json();
+  // Portfolio Value Chart
+  html += `<div class="section">
+    <div class="section-title">Portefjeljeutvikling</div>
+    <div class="chart-container"><canvas id="portfolioChart"></canvas></div>
+  </div>`;
 
-    document.getElementById('header-rate').textContent = `USD/NOK: ${data.meta.usd_nok_rate.toFixed(2)}`;
+  // Category Heatmap
+  const catMap = {};
+  closed.forEach(p => {
+    const cat = classifyCategory(p);
+    if (!catMap[cat]) catMap[cat] = { wins: 0, losses: 0 };
+    if (p.result === 'WIN' || p.result === 'TAKE_PROFIT') catMap[cat].wins++;
+    else catMap[cat].losses++;
+  });
 
-    renderAlerts(data);
-    renderTopCards(data);
-    renderProgress(data);
-    renderRisk(data);
-    renderPositions(data);
-    renderStats(data);
-    renderLog(data);
-    renderBot();
-
-    const updated = new Date(data.meta.last_updated);
-    document.getElementById('footer').textContent = `Sist oppdatert: ${updated.toLocaleString('nb-NO')}`;
-
-    // Cache data for offline
-    localStorage.setItem('portfolio_cache', JSON.stringify(data));
-  } catch (err) {
-    // Try cached data
-    const cached = localStorage.getItem('portfolio_cache');
-    if (cached) {
-      const data = JSON.parse(cached);
-      renderAlerts(data); renderTopCards(data); renderProgress(data);
-      renderRisk(data); renderPositions(data); renderStats(data);
-      renderLog(data); renderBot();
-      document.getElementById('footer').textContent = 'Offline — viser cached data';
-    } else {
-      document.getElementById('alerts').innerHTML = '<div class="alert alert-critical">Kunne ikke laste data</div>';
-    }
+  if (Object.keys(catMap).length > 0) {
+    html += `<div class="section">
+      <div class="section-title">Kategori-oversikt</div>
+      <div class="heatmap-grid">`;
+    Object.entries(catMap).forEach(([cat, v]) => {
+      const total = v.wins + v.losses;
+      const wr = total > 0 ? Math.round(v.wins / total * 100) : 0;
+      html += `<div class="heatmap-cell" style="background:${heatmapColor(wr)}">
+        <div class="heatmap-name">${cat}</div>
+        <div class="heatmap-pct">${wr}%</div>
+        <div class="heatmap-record">${v.wins}W / ${v.losses}L</div>
+      </div>`;
+    });
+    html += `</div></div>`;
   }
-  document.getElementById('pull-indicator').classList.remove('active');
+
+  // Open Positions
+  html += `<div class="section">
+    <div class="section-title">Apne posisjoner (${positions.length})</div>`;
+  if (!positions.length) {
+    html += '<div class="empty-state">Ingen apne posisjoner</div>';
+  } else {
+    positions.forEach(p => {
+      const pnl = p.unrealized_pnl_nok || 0;
+      const dl = daysLeft(p.end_date);
+      const dlText = dl != null ? (dl >= 0 ? dl + 'd' : 'Utlopt') : '--';
+      const dlClass = dl != null && dl <= 2 && dl >= 0 ? 'pnl-negative' : '';
+      html += `<div class="pos-card">
+        <div class="pos-header">
+          <span class="pos-question">${truncate(p.question, 55)}</span>
+          <span class="side-badge side-${(p.side||'').toLowerCase()}">${p.side || '--'}</span>
+        </div>
+        <div class="pos-grid">
+          <div class="pos-metric"><div class="pos-metric-label">Inngang</div><div class="pos-metric-val">$${(p.entry_price_usd || 0).toFixed(3)}</div></div>
+          <div class="pos-metric"><div class="pos-metric-label">Na-pris</div><div class="pos-metric-val">$${(p.current_price_usd || 0).toFixed(3)}</div></div>
+          <div class="pos-metric"><div class="pos-metric-label">Kostnad</div><div class="pos-metric-val">${NOK(p.cost_nok || 0)}</div></div>
+          <div class="pos-metric"><div class="pos-metric-label">P&L</div><div class="pos-metric-val ${pnlClass(pnl)}">${pnlSign(pnl)}${NOK(pnl)}</div></div>
+          <div class="pos-metric"><div class="pos-metric-label">Utloper</div><div class="pos-metric-val ${dlClass}">${dlText}</div></div>
+        </div>
+      </div>`;
+    });
+  }
+  html += '</div>';
+
+  // Closed Positions (last 10)
+  const recentClosed = [...closed].reverse().slice(0, 10);
+  html += `<div class="section">
+    <div class="section-title">Siste lukkede posisjoner</div>`;
+  if (!recentClosed.length) {
+    html += '<div class="empty-state">Ingen lukkede posisjoner</div>';
+  } else {
+    recentClosed.forEach(p => {
+      const r = p.result || 'LOSS';
+      let badgeClass = 'result-loss';
+      let badgeText = r;
+      if (r === 'WIN') { badgeClass = 'result-win'; badgeText = 'WIN'; }
+      else if (r === 'TAKE_PROFIT') { badgeClass = 'result-tp'; badgeText = 'TP'; }
+      else if (r === 'STOP_LOSS') { badgeClass = 'result-sl'; badgeText = 'SL'; }
+      else { badgeClass = 'result-loss'; badgeText = 'LOSS'; }
+      const profit = p.profit_nok || 0;
+      html += `<div class="closed-entry">
+        <span class="result-badge ${badgeClass}">${badgeText}</span>
+        <span class="closed-question">${truncate(p.question, 40)}</span>
+        <span class="closed-pnl ${pnlClass(profit)}">${pnlSign(profit)}${NOK(profit)}</span>
+      </div>`;
+    });
+  }
+  html += '</div>';
+
+  // Two-col: Statistics + Bot Status
+  const totalWins = stats.total_wins || 0;
+  const totalLosses = stats.total_losses || 0;
+  const totalTrades = totalWins + totalLosses;
+  const winRate = totalTrades > 0 ? Math.round(totalWins / totalTrades * 100) : 0;
+
+  html += `<div class="two-col">
+    <div class="section">
+      <div class="section-title">Statistikk</div>
+      <div class="stat-row"><span class="stat-label">W / L</span><span class="stat-value">${totalWins}W / ${totalLosses}L</span></div>
+      <div class="stat-row"><span class="stat-label">Win Rate</span><span class="stat-value">${winRate}%</span></div>
+      <div class="stat-row"><span class="stat-label">Realisert P&L</span><span class="stat-value ${pnlClass(stats.total_realized_pnl_nok || 0)}">${pnlSign(stats.total_realized_pnl_nok || 0)}${NOK(stats.total_realized_pnl_nok || 0)}</span></div>
+      <div class="stat-row"><span class="stat-label">Snitt CLV</span><span class="stat-value">${((stats.avg_clv || 0) * 100).toFixed(1)}%</span></div>
+      <div class="stat-row"><span class="stat-label">Totalt trades</span><span class="stat-value">${totalTrades}</span></div>
+    </div>
+    <div class="section">
+      <div class="section-title">Bot-status</div>
+      <div class="bot-status-row">
+        <div class="bot-status-left">
+          <div class="bot-status-name">GitHub Actions</div>
+        </div>
+        <span class="bot-badge-green">Hver 5 min</span>
+      </div>
+      <div style="margin-top:10px;font-size:12px;color:#64748b;">
+        Sist oppdatert: ${meta.last_updated ? new Date(meta.last_updated).toLocaleString('nb-NO') : '--'}
+      </div>
+    </div>
+  </div>`;
+
+  document.getElementById('main-content').innerHTML = html;
+
+  // Render chart after DOM update
+  requestAnimationFrame(() => renderChart(data));
+
+  // Footer
+  document.getElementById('footer').textContent = `Sist oppdatert: ${meta.last_updated ? new Date(meta.last_updated).toLocaleString('nb-NO') : '--'}`;
 }
 
-loadData();
-setInterval(loadData, 30000);
+function renderChart(data) {
+  const canvas = document.getElementById('portfolioChart');
+  if (!canvas) return;
+
+  if (portfolioChart) { portfolioChart.destroy(); portfolioChart = null; }
+
+  const history = buildPortfolioHistory(data);
+  if (history.values.length < 2) return;
+
+  const ctx = canvas.getContext('2d');
+  const gradient = ctx.createLinearGradient(0, 0, 0, 220);
+  gradient.addColorStop(0, 'rgba(52,211,153,0.25)');
+  gradient.addColorStop(1, 'rgba(52,211,153,0)');
+
+  portfolioChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: history.labels,
+      datasets: [{
+        data: history.values,
+        borderColor: '#34d399',
+        backgroundColor: gradient,
+        borderWidth: 2,
+        fill: true,
+        tension: 0.3,
+        pointRadius: 0,
+        pointHitRadius: 10,
+        pointHoverRadius: 4,
+        pointHoverBackgroundColor: '#34d399',
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1e293b',
+          titleColor: '#94a3b8',
+          bodyColor: '#e2e8f0',
+          borderColor: '#2d3748',
+          borderWidth: 1,
+          padding: 10,
+          callbacks: {
+            label: ctx => NOK(ctx.raw)
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: '#475569', font: { size: 10 }, maxTicksLimit: 8 },
+          grid: { color: 'rgba(30,41,59,0.5)' },
+          border: { color: '#1e293b' }
+        },
+        y: {
+          ticks: {
+            color: '#475569', font: { size: 10 },
+            callback: v => (v/1000).toFixed(0) + 'k'
+          },
+          grid: { color: 'rgba(30,41,59,0.5)' },
+          border: { color: '#1e293b' }
+        }
+      }
+    }
+  });
+}
+
+async function fetchData() {
+  const fetches = Object.entries(URLS).map(async ([key, url]) => {
+    try {
+      const resp = await fetch(url + '?t=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const json = await resp.json();
+      botData[key] = json;
+      localStorage.setItem('cache_' + key, JSON.stringify(json));
+    } catch {
+      const cached = localStorage.getItem('cache_' + key);
+      if (cached) botData[key] = JSON.parse(cached);
+    }
+  });
+  await Promise.all(fetches);
+  render();
+}
+
+// Refresh timer
+function startCountdown() {
+  if (countdownInterval) clearInterval(countdownInterval);
+  refreshCountdown = 30;
+  const el = document.getElementById('refresh-timer');
+  countdownInterval = setInterval(() => {
+    refreshCountdown--;
+    if (el) el.textContent = refreshCountdown + 's';
+    if (refreshCountdown <= 0) {
+      refreshCountdown = 30;
+      fetchData();
+    }
+  }, 1000);
+}
+
+// Init
+fetchData();
+startCountdown();
 </script>
 </body>
 </html>
