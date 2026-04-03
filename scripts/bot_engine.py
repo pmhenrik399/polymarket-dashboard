@@ -542,13 +542,11 @@ def check_and_resolve(portfolio, bot_name, rate):
                 account['balance_nok'] = account.get('balance_nok', 0) + payout_nok
                 stats['total_wins'] = stats.get('total_wins', 0) + 1
                 monthly['wins_this_month'] = monthly.get('wins_this_month', 0) + 1
-                send_telegram(f"[WIN] {bot_name}: {pos.get('question','?')} | +{profit} kr (fee: {fee_nok} kr) CLV: {clv:+.3f}")
             else:
                 pos['result'] = 'LOSS'
                 pos['profit_nok'] = -cost_nok
                 stats['total_losses'] = stats.get('total_losses', 0) + 1
                 monthly['losses_this_month'] = monthly.get('losses_this_month', 0) + 1
-                send_telegram(f"[LOSS] {bot_name}: {pos.get('question','?')} | -{cost_nok} kr CLV: {clv:+.3f}")
 
             pos['closed_at'] = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
             pnl = pos.get('profit_nok', 0)
@@ -569,8 +567,51 @@ def check_and_resolve(portfolio, bot_name, rate):
             cur = pos.get('current_price_usd', entry)
             shares = pos.get('shares', 0)
             pos['unrealized_pnl_nok'] = int((cur - entry) * shares * rate)
-            still_open.append(pos)
-            changed = True
+
+            # [6] TAKE PROFIT: sell if up 15%+ and >2h to resolution
+            gain_pct = (cur - entry) / entry if entry > 0 else 0
+            end_date_str = pos.get('end_date', '')
+            hours_left = 999
+            if end_date_str:
+                try:
+                    end_dt = datetime.datetime.strptime(end_date_str, '%Y-%m-%d')
+                    end_dt = end_dt.replace(hour=23, minute=59, tzinfo=datetime.timezone.utc)
+                    hours_left = (end_dt - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 3600
+                except:
+                    pass
+
+            if gain_pct >= 0.15 and hours_left > 2:
+                # Sell at current price
+                sell_value_usd = shares * cur
+                sell_value_nok = int(sell_value_usd * rate)
+                cost_nok = pos.get('cost_nok', 0)
+                profit_nok = sell_value_nok - cost_nok
+                fee_nok = int(max(profit_nok, 0) * POLYMARKET_FEE_PCT)
+                net_profit = profit_nok - fee_nok
+                payout = sell_value_nok - fee_nok
+
+                pos['result'] = 'TAKE_PROFIT'
+                pos['profit_nok'] = net_profit
+                pos['fee_nok'] = fee_nok
+                pos['exit_price_usd'] = cur
+                pos['closed_at'] = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+                account['balance_nok'] = account.get('balance_nok', 0) + payout
+                stats['total_wins'] = stats.get('total_wins', 0) + 1
+                monthly['wins_this_month'] = monthly.get('wins_this_month', 0) + 1
+                stats['total_realized_pnl_nok'] = stats.get('total_realized_pnl_nok', 0) + net_profit
+                monthly['realized_pnl_nok'] = monthly.get('realized_pnl_nok', 0) + net_profit
+
+                clv_list = stats.get('clv_history', [])
+                clv_list.append(round(cur - entry, 4))
+                stats['clv_history'] = clv_list
+                stats['avg_clv'] = round(sum(clv_list) / len(clv_list), 4) if clv_list else 0
+
+                closed.append(pos)
+                changed = True
+            else:
+                still_open.append(pos)
+                changed = True
 
     portfolio['positions'] = still_open
     portfolio['closed_positions'] = closed
@@ -727,7 +768,7 @@ def bot1_scan_and_trade(portfolio, rate, state):
         price_cents = int(market_price * 100)
         edge_pct = int(edge * 100)
         sig_str = ' '.join(signals)
-        send_telegram(f"[NY TRADE] BOT1: {question} | {side} @ {price_cents}c | {size_nok} kr | Edge {edge_pct}% | {sig_str}")
+        print(f"[NY TRADE] BOT1: {question} | {side} @ {price_cents}c | {size_nok} kr | Edge {edge_pct}% | {sig_str}")
         time.sleep(0.3)
 
     if changed:
@@ -870,7 +911,7 @@ def bot2_copy_sync(portfolio, rate, state):
         changed = True
 
         price_cents = int(price * 100)
-        send_telegram(f"[COPY] BOT2: {question} | {side} @ {price_cents}c | {size_nok} kr")
+        print(f"[COPY] BOT2: {question} | {side} @ {price_cents}c | {size_nok} kr")
         time.sleep(0.3)
 
     if changed:
@@ -887,17 +928,17 @@ def bot2_copy_sync(portfolio, rate, state):
 
 def get_summary(portfolio):
     if not portfolio:
-        return 0, 0, 0, 0, 0
+        return 0, 0, 0, 0, 0, 0
     positions = portfolio.get('positions', [])
     account = portfolio.get('account', {})
     stats = portfolio.get('statistics', {})
     balance = account.get('balance_nok', 0)
-    total_cost = sum(p.get('cost_nok', 0) for p in positions)
-    value = balance + total_cost
+    invested = sum(p.get('cost_nok', 0) for p in positions)
+    unrealized = sum(p.get('unrealized_pnl_nok', 0) for p in positions)
+    total_value = balance + invested + unrealized
     wins = stats.get('total_wins', 0)
     losses = stats.get('total_losses', 0)
-    avg_clv = stats.get('avg_clv', 0)
-    return value, len(positions), wins, losses, avg_clv
+    return total_value, balance, invested, unrealized, wins, losses
 
 
 def main():
@@ -956,12 +997,12 @@ def main():
             pass
 
     if send_hb:
-        v1, p1, w1, l1, clv1 = get_summary(bot1)
-        v2, p2, w2, l2, clv2 = get_summary(bot2)
-        msg = (f"[{now}] POLYMARKET STATUS v2\n"
-               f"Bot1: {v1} kr | {p1} pos | W{w1}/L{l1} | CLV: {clv1:+.3f}\n"
-               f"Bot2: {v2} kr | {p2} pos | W{w2}/L{l2}\n"
-               f"Totalt: {v1 + v2} kr | Kurs: {rate:.2f}")
+        v1, b1, i1, u1, w1, l1 = get_summary(bot1)
+        v2, b2, i2, u2, w2, l2 = get_summary(bot2)
+        msg = (f"[{now}] POLYMARKET\n"
+               f"Bot1: {v1} kr ({b1} ledig / {i1} investert / {u1:+d} urealisert) W{w1}/L{l1}\n"
+               f"Bot2: {v2} kr ({b2} ledig / {i2} investert / {u2:+d} urealisert) W{w2}/L{l2}\n"
+               f"Totalt: {v1 + v2} kr")
         send_telegram(msg)
         state['last_heartbeat'] = now
         print(f"Heartbeat sent")
