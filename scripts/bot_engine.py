@@ -158,14 +158,18 @@ def check_and_resolve(portfolio, bot_name, rate):
             won = (yes_p > 0.9) if side == 'YES' else (no_p > 0.9)
 
             if won:
-                payout_nok = int(shares * rate)
+                gross_payout_nok = int(shares * rate)
+                winnings = gross_payout_nok - cost_nok
+                fee_nok = int(max(winnings, 0) * POLYMARKET_FEE_PCT)
+                payout_nok = gross_payout_nok - fee_nok
                 profit = payout_nok - cost_nok
                 pos['result'] = 'WIN'
                 pos['profit_nok'] = profit
+                pos['fee_nok'] = fee_nok
                 account['balance_nok'] = account.get('balance_nok', 0) + payout_nok
                 stats['total_wins'] = stats.get('total_wins', 0) + 1
                 monthly['wins_this_month'] = monthly.get('wins_this_month', 0) + 1
-                send_telegram(f"[WIN] {bot_name}: {pos.get('question','?')} | +{profit} kr")
+                send_telegram(f"[WIN] {bot_name}: {pos.get('question','?')} | +{profit} kr (fee: {fee_nok} kr)")
             else:
                 pos['result'] = 'LOSS'
                 pos['profit_nok'] = -cost_nok
@@ -266,6 +270,20 @@ def estimate_edge(market):
     if best_edge >= 0.03 and best_side:
         return (best_side, best_prob, best_price, best_edge)
     return None
+
+
+def calc_slippage(market_price, size_usd, liquidity):
+    """Estimate slippage based on order size vs liquidity.
+    Small order on deep market = ~0.5%. Large order on thin market = ~3%."""
+    if liquidity <= 0:
+        return 0.03
+    ratio = size_usd / liquidity
+    # 0.5% base + scales with size/liquidity ratio
+    slip = 0.005 + ratio * 0.5
+    return min(slip, 0.05)  # cap at 5%
+
+
+POLYMARKET_FEE_PCT = 0.02  # 2% fee on winnings
 
 
 def half_kelly(prob, price):
@@ -369,7 +387,15 @@ def bot1_scan_and_trade(portfolio, rate, state):
             continue
 
         size_usd = size_nok / rate
-        shares = round(size_usd / market_price, 2)
+        liquidity = float(m.get('liquidity', 0) or 0)
+        slippage = calc_slippage(market_price, size_usd, liquidity)
+
+        # Apply slippage: we pay more than mid price
+        fill_price = round(market_price * (1 + slippage), 4)
+        if fill_price >= 0.98:
+            continue
+
+        shares = round(size_usd / fill_price, 2)
 
         question = m.get('question', '?')
         slug = m.get('slug', '')
@@ -381,8 +407,10 @@ def bot1_scan_and_trade(portfolio, rate, state):
             'question': question,
             'slug': slug,
             'side': side,
-            'entry_price_usd': market_price,
-            'current_price_usd': market_price,
+            'entry_price_usd': fill_price,
+            'mid_price_usd': market_price,
+            'current_price_usd': fill_price,
+            'slippage_pct': round(slippage * 100, 2),
             'shares': shares,
             'cost_usd': round(size_usd, 2),
             'cost_nok': size_nok,
