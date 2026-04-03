@@ -247,41 +247,83 @@ def line_movement_signal(snaps, current_price):
     return 0
 
 
-# ===== [3] CATEGORY LEARNING =====
+# ===== [3] ADVANCED SELF-LEARNING =====
 
 def get_category_weights(portfolio):
-    """Calculate category weights based on historical win rates."""
+    """Advanced category learning with continuous scaling, profit-weighting, and time decay.
+    Recent results matter more than old ones."""
     closed = portfolio.get('closed_positions', [])
     if not closed:
         return {}
 
+    now_ts = time.time()
     cats = {}
+
     for pos in closed:
-        # Determine category from question/slug
         cat = classify_bet(pos.get('question', ''), pos.get('slug', ''))
         if cat not in cats:
-            cats[cat] = {'wins': 0, 'losses': 0}
-        if pos.get('result') == 'WIN':
-            cats[cat]['wins'] += 1
-        elif pos.get('result') in ('LOSS', 'STOP_LOSS'):
-            cats[cat]['losses'] += 1
+            cats[cat] = {'weighted_wins': 0, 'weighted_losses': 0, 'total_profit': 0, 'count': 0}
+
+        # Time decay: recent trades weighted more (half-life = 3 days)
+        closed_at = pos.get('closed_at', '')
+        try:
+            if 'T' in closed_at:
+                ct = datetime.datetime.fromisoformat(closed_at.replace('Z', '+00:00'))
+                age_hours = (now_ts - ct.timestamp()) / 3600
+            else:
+                age_hours = 168  # default 1 week
+        except:
+            age_hours = 168
+
+        decay = 0.5 ** (age_hours / 72)  # half-life 3 days
+
+        result = pos.get('result', '')
+        profit = pos.get('profit_nok', 0)
+
+        if result in ('WIN', 'TAKE_PROFIT'):
+            cats[cat]['weighted_wins'] += decay
+        elif result in ('LOSS', 'STOP_LOSS'):
+            cats[cat]['weighted_losses'] += decay
+
+        cats[cat]['total_profit'] += profit * decay
+        cats[cat]['count'] += 1
 
     weights = {}
-    for cat, record in cats.items():
-        total = record['wins'] + record['losses']
-        if total >= 2:
-            win_rate = record['wins'] / total
-            # Boost categories with >55% win rate, penalize <45%
-            if win_rate > 0.55:
-                weights[cat] = 0.02  # +2% edge boost
-            elif win_rate < 0.45:
-                weights[cat] = -0.02  # -2% edge penalty
-            else:
-                weights[cat] = 0
-        else:
-            weights[cat] = 0  # not enough data
+    for cat, data in cats.items():
+        total = data['weighted_wins'] + data['weighted_losses']
+        if total < 1.5:  # need ~2 recent trades minimum
+            weights[cat] = 0
+            continue
+
+        win_rate = data['weighted_wins'] / total
+        avg_profit = data['total_profit'] / total
+
+        # Continuous scaling: 50% = 0, 60% = +0.02, 70% = +0.04, 80% = +0.06
+        # Below 50%: 40% = -0.02, 30% = -0.04
+        edge_adj = (win_rate - 0.5) * 0.2
+
+        # Profit bonus: if avg profit per trade is high, boost further
+        if avg_profit > 50:
+            edge_adj += 0.01
+        elif avg_profit < -50:
+            edge_adj -= 0.01
+
+        # Cap at +/- 5%
+        weights[cat] = max(-0.05, min(0.05, round(edge_adj, 3)))
 
     return weights
+
+
+def get_learning_summary(portfolio):
+    """Get a summary of what the bot has learned for logging."""
+    weights = get_category_weights(portfolio)
+    if not weights:
+        return "No data yet"
+    parts = []
+    for cat, w in sorted(weights.items(), key=lambda x: x[1], reverse=True):
+        if w != 0:
+            parts.append(f"{cat}:{w:+.1%}")
+    return ' | '.join(parts) if parts else "Neutral"
 
 
 def classify_bet(question, slug=''):
@@ -307,10 +349,93 @@ def classify_bet(question, slug=''):
         return 'other'
 
 
+# ===== [MULTI-MARKET] CRYPTO MOMENTUM SIGNAL =====
+
+def fetch_crypto_momentum():
+    """Fetch BTC/ETH prices and calculate short-term momentum.
+    Used as signal for crypto-related Polymarket bets."""
+    try:
+        btc = api_fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd&include_24hr_change=true')
+        if not btc:
+            return {}
+        momentum = {}
+        for coin in ['bitcoin', 'ethereum', 'solana']:
+            if coin in btc:
+                change = btc[coin].get('usd_24h_change', 0)
+                # Normalize: >3% = bullish, <-3% = bearish
+                if change > 5:
+                    momentum[coin] = 0.02
+                elif change > 3:
+                    momentum[coin] = 0.01
+                elif change < -5:
+                    momentum[coin] = -0.02
+                elif change < -3:
+                    momentum[coin] = -0.01
+                else:
+                    momentum[coin] = 0
+        return momentum
+    except:
+        return {}
+
+
+def crypto_signal_for_market(question, slug, crypto_momentum):
+    """Check if this market is crypto-related and apply momentum signal."""
+    q = (question or '').lower()
+    s = (slug or '').lower()
+
+    if not crypto_momentum:
+        return 0
+
+    # Map market keywords to coins
+    if 'bitcoin' in q or 'btc' in q or 'btc' in s:
+        return crypto_momentum.get('bitcoin', 0)
+    elif 'ethereum' in q or 'eth' in q or 'eth-' in s:
+        return crypto_momentum.get('ethereum', 0)
+    elif 'solana' in q or 'sol' in q or 'sol-' in s:
+        return crypto_momentum.get('solana', 0)
+    elif 'crypto' in q:
+        # General crypto sentiment = average
+        vals = list(crypto_momentum.values())
+        return sum(vals) / len(vals) if vals else 0
+
+    return 0
+
+
+# ===== [SMART ENTRIES] ORDERBOOK TIMING =====
+
+def should_wait_for_better_entry(market, side):
+    """Check orderbook for entry timing. Returns True if we should wait."""
+    try:
+        tokens = json.loads(market.get('clobTokenIds', '[]'))
+        if not tokens:
+            return False
+        token_idx = 0 if side == 'YES' else 1
+        if token_idx >= len(tokens):
+            return False
+        ob = fetch_orderbook(tokens[token_idx])
+        if not ob:
+            return False
+
+        spread = ob['spread']
+        imbalance = ob['imbalance']
+
+        # Don't buy if spread is too wide (>4c) — wait for tighter market
+        if spread > 0.04:
+            return True
+
+        # Don't buy if strong sell pressure (imbalance < -0.4)
+        if imbalance < -0.4:
+            return True
+
+        return False
+    except:
+        return False
+
+
 # ===== [4] EDGE ESTIMATION (SMART VERSION) =====
 
-def estimate_edge_smart(market, portfolio, state):
-    """Smart edge estimation using orderbook, line movement, and category learning.
+def estimate_edge_smart(market, portfolio, state, crypto_momentum=None):
+    """Smart edge estimation using orderbook, line movement, category learning, and crypto momentum.
     Returns (side, our_prob, market_price, edge, signals_used) or None."""
     try:
         prices = json.loads(market.get('outcomePrices', '[]'))
@@ -408,10 +533,16 @@ def estimate_edge_smart(market, portfolio, state):
     if not best_side:
         return None
 
+    # [MULTI-MARKET] Crypto momentum signal
+    crypto_adj = crypto_signal_for_market(question, slug, crypto_momentum or {})
+    if crypto_adj != 0:
+        best_edge += crypto_adj
+        best_prob += crypto_adj
+        signals.append(f'crypto:{crypto_adj:.3f}')
+
     # [4] Dead zone check: 45-55c requires extra edge
     if 0.45 <= best_price <= 0.55:
         in_deadzone = True
-        # Need at least 5% edge in dead zone (normally 3%)
         if best_edge < 0.05:
             return None
 
@@ -688,10 +819,14 @@ def bot1_scan_and_trade(portfolio, rate, state):
     existing_ids = set(p.get('market_id', '') for p in positions)
     candidates = [m for m in all_markets if str(m.get('id', '')) not in existing_ids]
 
+    # Fetch crypto momentum once for all candidates
+    crypto_momentum = fetch_crypto_momentum()
+    time.sleep(0.3)
+
     # Score all candidates first, then pick best ones (not random)
     scored = []
     for m in candidates:
-        result = estimate_edge_smart(m, portfolio, state)
+        result = estimate_edge_smart(m, portfolio, state, crypto_momentum)
         if not result:
             continue
         side, our_prob, market_price, edge, signals = result
@@ -712,6 +847,11 @@ def bot1_scan_and_trade(portfolio, rate, state):
             break
         if balance < 50:
             break
+
+        # [SMART ENTRY] Check if orderbook suggests waiting
+        if should_wait_for_better_entry(m, side):
+            print(f"  Skipping {m.get('question','?')[:40]} — spread too wide or sell pressure")
+            continue
 
         kelly_f = half_kelly(our_prob, market_price)
         if kelly_f <= 0:
@@ -966,6 +1106,12 @@ def main():
     c1 = check_and_resolve(bot1, 'BOT1', rate)
     c2 = check_and_resolve(bot2, 'BOT2', rate)
     print(f"Resolve: bot1={c1}, bot2={c2}")
+
+    # Store learning data in portfolio for dashboard
+    if bot1:
+        weights = get_category_weights(bot1)
+        bot1['learning'] = {'category_weights': weights, 'summary': get_learning_summary(bot1)}
+        print(f"Bot1 learning: {get_learning_summary(bot1)}")
 
     # 2. Bot 1: smart scan and trade
     c3 = bot1_scan_and_trade(bot1, rate, state)
