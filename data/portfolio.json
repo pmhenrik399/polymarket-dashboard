@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-03T21:20:36Z",
+    "last_updated": "2026-04-03T21:54:41Z",
     "currency": "NOK",
     "usd_nok_rate": 9.734244
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 439,
+    "balance_nok": 568,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -41,9 +41,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 351,
+    "realized_pnl_nok": 400,
     "trades_this_month": 30,
-    "wins_this_month": 14,
+    "wins_this_month": 15,
     "losses_this_month": 6
   },
   "positions": [
@@ -54,7 +54,7 @@
       "slug": "fr2-bas-ami-2026-04-03-draw",
       "side": "NO",
       "entry_price_usd": 0.735,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.0005,
       "shares": 17.14,
       "cost_usd": 12.6,
       "cost_nok": 122,
@@ -67,29 +67,7 @@
       "end_date": "2026-04-03",
       "category": "sport",
       "notes": "Ligue 2. Bastia hjemme favoritt.",
-      "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_017",
-      "market_id": "1733649",
-      "question": "Paris Saint-Germain FC vs. Toulouse FC: O/U 2.5 — Over",
-      "slug": "ligue1-psg-tou-2026-04-03-total",
-      "side": "YES",
-      "entry_price_usd": 0.615,
-      "current_price_usd": 0.685,
-      "shares": 13.41,
-      "cost_usd": 8.25,
-      "cost_nok": 80,
-      "usd_nok_at_entry": 9.698,
-      "edge_at_entry": 0.065,
-      "our_probability": 0.68,
-      "kelly_fraction_used": 0.5,
-      "stop_loss_price": 0.431,
-      "opened_at": "2026-04-02T14:00:00+02:00",
-      "end_date": "2026-04-03",
-      "category": "sport",
-      "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": -122
     },
     {
       "id": "pos_018",
@@ -98,7 +76,7 @@
       "slug": "bra-cam-cap-2026-04-05-cap",
       "side": "NO",
       "entry_price_usd": 0.765,
-      "current_price_usd": 0.77,
+      "current_price_usd": 0.775,
       "shares": 13.29,
       "cost_usd": 10.17,
       "cost_nok": 99,
@@ -108,7 +86,7 @@
       "opened_at": "2026-04-03T07:55:52+02:00",
       "end_date": "2026-04-05",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_019",
@@ -174,7 +152,7 @@
       "slug": "por-spo-cds-2026-04-03-cds",
       "side": "NO",
       "entry_price_usd": 0.925,
-      "current_price_usd": 0.925,
+      "current_price_usd": 0.9995,
       "shares": 15.88,
       "cost_usd": 14.69,
       "cost_nok": 143,
@@ -184,7 +162,7 @@
       "opened_at": "2026-04-03T09:03:03+02:00",
       "end_date": "2026-04-03",
       "category": "sport",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 11
     },
     {
       "id": "pos_027",
@@ -212,7 +190,7 @@
       "slug": "cze1-fhk-bop-2026-04-05-fhk",
       "side": "YES",
       "entry_price_usd": 0.475,
-      "current_price_usd": 0.48,
+      "current_price_usd": 0.485,
       "shares": 10.16,
       "cost_usd": 4.83,
       "cost_nok": 47,
@@ -232,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.6684,
       "mid_price_usd": 0.665,
-      "current_price_usd": 0.665,
+      "current_price_usd": 0.675,
       "slippage_pct": 0.5,
       "shares": 11.99,
       "cost_usd": 8.01,
@@ -622,6 +600,33 @@
       "profit_nok": 18,
       "fee_nok": 0,
       "closed_at": "2026-04-03T19:24:19Z"
+    },
+    {
+      "id": "pos_017",
+      "market_id": "1733649",
+      "question": "Paris Saint-Germain FC vs. Toulouse FC: O/U 2.5 — Over",
+      "slug": "ligue1-psg-tou-2026-04-03-total",
+      "side": "YES",
+      "entry_price_usd": 0.615,
+      "current_price_usd": 0.9995,
+      "shares": 13.41,
+      "cost_usd": 8.25,
+      "cost_nok": 80,
+      "usd_nok_at_entry": 9.698,
+      "edge_at_entry": 0.065,
+      "our_probability": 0.68,
+      "kelly_fraction_used": 0.5,
+      "stop_loss_price": 0.431,
+      "opened_at": "2026-04-02T14:00:00+02:00",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "notes": "PSG høyskårende mot Toulouse. EG ~3.5 totalt. Ligue 1.",
+      "unrealized_pnl_nok": 50,
+      "result": "TAKE_PROFIT",
+      "profit_nok": 49,
+      "fee_nok": 1,
+      "exit_price_usd": 0.9995,
+      "closed_at": "2026-04-03T21:54:37Z"
     }
   ],
   "trade_log": [
@@ -758,9 +763,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 14,
+    "total_wins": 15,
     "total_losses": 6,
-    "total_realized_pnl_nok": 351,
+    "total_realized_pnl_nok": 400,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -776,9 +781,10 @@
       0.1,
       0.0775,
       0.1643,
-      0.115
+      0.115,
+      0.3845
     ],
-    "avg_clv": 0.1142
+    "avg_clv": 0.1683
   },
   "next_position_id": 31,
   "learning": {
