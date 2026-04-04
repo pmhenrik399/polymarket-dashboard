@@ -3,9 +3,9 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-03T23:47:56Z",
+    "last_updated": "2026-04-04T00:58:31Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.734244,
+    "usd_nok_rate": 9.76906,
     "copy_trader": {
       "username": "GamblingIsAllYouNeed",
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
@@ -16,7 +16,7 @@
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 258,
+    "balance_nok": 349,
     "total_deposited_nok": 1000
   },
   "positions": [
@@ -27,7 +27,7 @@
       "slug": "mls-nyc-stl-2026-04-04-stl",
       "side": "NO",
       "entry_price_usd": 0.81,
-      "current_price_usd": 0.81,
+      "current_price_usd": 0.815,
       "shares": 13.33,
       "cost_usd": 10.8,
       "cost_nok": 105,
@@ -36,24 +36,6 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T18:30:00+02:00"
-    },
-    {
-      "id": "cp_003",
-      "market_id": "1517764",
-      "question": "Will Al Nassr Saudi Club win on 2026-04-03?",
-      "slug": "spl-nsr-njm-2026-04-03-nsr",
-      "side": "YES",
-      "entry_price_usd": 0.94,
-      "current_price_usd": 0.9995,
-      "shares": 9.41,
-      "cost_usd": 8.85,
-      "cost_nok": 86,
-      "usd_nok_at_entry": 9.72,
-      "opened_at": "2026-04-01T18:00:00+02:00",
-      "end_date": "2026-04-03",
-      "category": "sport",
-      "unrealized_pnl_nok": 5,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -364,6 +346,30 @@
       "fee_nok": 0,
       "exit_price_usd": 0.9995,
       "closed_at": "2026-04-03T21:54:46Z"
+    },
+    {
+      "id": "cp_003",
+      "market_id": "1517764",
+      "question": "Will Al Nassr Saudi Club win on 2026-04-03?",
+      "slug": "spl-nsr-njm-2026-04-03-nsr",
+      "side": "YES",
+      "entry_price_usd": 0.94,
+      "current_price_usd": 1.0,
+      "shares": 9.41,
+      "cost_usd": 8.85,
+      "cost_nok": 86,
+      "usd_nok_at_entry": 9.72,
+      "opened_at": "2026-04-01T18:00:00+02:00",
+      "end_date": "2026-04-03",
+      "category": "sport",
+      "unrealized_pnl_nok": 5,
+      "last_checked": "2026-04-02T18:30:00+02:00",
+      "closing_price": 1.0,
+      "clv": 0.06,
+      "result": "WIN",
+      "profit_nok": 5,
+      "fee_nok": 0,
+      "closed_at": "2026-04-04T00:58:27Z"
     }
   ],
   "trade_log": [
@@ -470,9 +476,9 @@
   ],
   "statistics": {
     "total_trades": 19,
-    "total_wins": 5,
+    "total_wins": 6,
     "total_losses": 5,
-    "total_realized_pnl_nok": -184,
+    "total_realized_pnl_nok": -179,
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
@@ -480,14 +486,15 @@
     "clv_history": [
       0.2455,
       0.2445,
-      0.4845
+      0.4845,
+      0.06
     ],
-    "avg_clv": 0.3248
+    "avg_clv": 0.2586
   },
   "next_position_id": 20,
   "monthly": {
     "losses_this_month": 1,
-    "realized_pnl_nok": -28,
-    "wins_this_month": 3
+    "realized_pnl_nok": -23,
+    "wins_this_month": 4
   }
 }
