@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-04T14:00:19Z",
+    "last_updated": "2026-04-04T14:45:23Z",
     "currency": "NOK",
     "usd_nok_rate": 9.76906
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 821,
+    "balance_nok": 925,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -41,9 +41,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 338,
+    "realized_pnl_nok": 364,
     "trades_this_month": 30,
-    "wins_this_month": 17,
+    "wins_this_month": 18,
     "losses_this_month": 7
   },
   "positions": [
@@ -111,7 +111,7 @@
       "slug": "spl-hil-taa-2026-04-04-total-1pt5",
       "side": "YES",
       "entry_price_usd": 0.855,
-      "current_price_usd": 0.83,
+      "current_price_usd": 0.835,
       "shares": 8.89,
       "cost_usd": 7.6,
       "cost_nok": 74,
@@ -121,7 +121,7 @@
       "opened_at": "2026-04-03T08:13:15+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_028",
@@ -130,7 +130,7 @@
       "slug": "cze1-fhk-bop-2026-04-05-fhk",
       "side": "YES",
       "entry_price_usd": 0.475,
-      "current_price_usd": 0.48,
+      "current_price_usd": 0.465,
       "shares": 10.16,
       "cost_usd": 4.83,
       "cost_nok": 47,
@@ -141,33 +141,6 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_029",
-      "market_id": "1536332",
-      "question": "PSV vs. FC Utrecht: O/U 2.5",
-      "slug": "ere-psv-utr-2026-04-04-total-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.6684,
-      "mid_price_usd": 0.665,
-      "current_price_usd": 0.72,
-      "slippage_pct": 0.5,
-      "shares": 11.99,
-      "cost_usd": 8.01,
-      "cost_nok": 78,
-      "usd_nok_at_entry": 9.734244,
-      "edge_at_entry": 0.04,
-      "our_probability": 0.705,
-      "signals": [
-        "base:0.030",
-        "cat:0.020",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "over_under",
-      "opened_at": "2026-04-03T14:48:02+02:00",
-      "end_date": "2026-04-04",
-      "unrealized_pnl_nok": 6
     }
   ],
   "closed_positions": [
@@ -644,6 +617,38 @@
       "profit_nok": 49,
       "fee_nok": 1,
       "closed_at": "2026-04-04T06:13:52Z"
+    },
+    {
+      "id": "pos_029",
+      "market_id": "1536332",
+      "question": "PSV vs. FC Utrecht: O/U 2.5",
+      "slug": "ere-psv-utr-2026-04-04-total-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.6684,
+      "mid_price_usd": 0.665,
+      "current_price_usd": 0.895,
+      "slippage_pct": 0.5,
+      "shares": 11.99,
+      "cost_usd": 8.01,
+      "cost_nok": 78,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.705,
+      "signals": [
+        "base:0.030",
+        "cat:0.020",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "over_under",
+      "opened_at": "2026-04-03T14:48:02+02:00",
+      "end_date": "2026-04-04",
+      "unrealized_pnl_nok": 26,
+      "result": "TAKE_PROFIT",
+      "profit_nok": 26,
+      "fee_nok": 0,
+      "exit_price_usd": 0.895,
+      "closed_at": "2026-04-04T14:45:23Z"
     }
   ],
   "trade_log": [
@@ -780,9 +785,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 17,
+    "total_wins": 18,
     "total_losses": 7,
-    "total_realized_pnl_nok": 338,
+    "total_realized_pnl_nok": 364,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -802,9 +807,10 @@
       0.3845,
       -0.735,
       0.075,
-      0.5
+      0.5,
+      0.2266
     ],
-    "avg_clv": 0.0852
+    "avg_clv": 0.1009
   },
   "next_position_id": 31,
   "learning": {
