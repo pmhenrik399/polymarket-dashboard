@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-04T03:38:35Z",
+    "last_updated": "2026-04-04T05:12:24Z",
     "currency": "NOK",
     "usd_nok_rate": 9.76906
   },
@@ -111,7 +111,7 @@
       "slug": "spl-hil-taa-2026-04-04-total-1pt5",
       "side": "YES",
       "entry_price_usd": 0.855,
-      "current_price_usd": 0.855,
+      "current_price_usd": 0.845,
       "shares": 8.89,
       "cost_usd": 7.6,
       "cost_nok": 74,
@@ -130,7 +130,7 @@
       "slug": "bnb-updown-5m-1775281500",
       "side": "YES",
       "entry_price_usd": 0.5,
-      "current_price_usd": 0.5,
+      "current_price_usd": 0.505,
       "shares": 10.27,
       "cost_usd": 5.14,
       "cost_nok": 50,
@@ -169,7 +169,7 @@
       "side": "YES",
       "entry_price_usd": 0.6684,
       "mid_price_usd": 0.665,
-      "current_price_usd": 0.685,
+      "current_price_usd": 0.7,
       "slippage_pct": 0.5,
       "shares": 11.99,
       "cost_usd": 8.01,
@@ -186,7 +186,7 @@
       "category": "over_under",
       "opened_at": "2026-04-03T14:48:02+02:00",
       "end_date": "2026-04-04",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 3
     }
   ],
   "closed_positions": [
