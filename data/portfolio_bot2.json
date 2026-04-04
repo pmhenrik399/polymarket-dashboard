@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-04T23:42:48+02:00",
+    "last_updated": "2026-04-04T23:47:48+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.76906,
     "copy_trader": {
@@ -81,7 +81,7 @@
       "slug": "mls-rsl-skc-2026-04-04-rsl",
       "side": "NO",
       "entry_price_usd": 0.325,
-      "current_price_usd": 0.115,
+      "current_price_usd": 0.1,
       "shares": 9.18,
       "cost_usd": 2.99,
       "cost_nok": 29,
@@ -89,7 +89,7 @@
       "opened_at": "2026-04-02T10:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
-      "unrealized_pnl_nok": -18,
+      "unrealized_pnl_nok": -20,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
