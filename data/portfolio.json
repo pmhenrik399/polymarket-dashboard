@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-04T21:17:46+02:00",
+    "last_updated": "2026-04-04T21:22:46+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.76906
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 925,
+    "balance_nok": 1011,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -44,9 +44,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 364,
+    "realized_pnl_nok": 376,
     "trades_this_month": 30,
-    "wins_this_month": 18,
+    "wins_this_month": 19,
     "losses_this_month": 7
   },
   "positions": [
@@ -106,25 +106,6 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 2
-    },
-    {
-      "id": "pos_025",
-      "market_id": "1528412",
-      "question": "Al Hilal Saudi Club vs. Al Taawoun Saudi Club: O/U 1.5",
-      "slug": "spl-hil-taa-2026-04-04-total-1pt5",
-      "side": "YES",
-      "entry_price_usd": 0.855,
-      "current_price_usd": 0.77,
-      "shares": 8.89,
-      "cost_usd": 7.6,
-      "cost_nok": 74,
-      "usd_nok_at_entry": 9.734244,
-      "edge_at_entry": 0.03,
-      "our_probability": 0.885,
-      "opened_at": "2026-04-03T08:13:15+02:00",
-      "end_date": "2026-04-04",
-      "category": "sport",
-      "unrealized_pnl_nok": -7
     },
     {
       "id": "pos_028",
@@ -653,6 +634,30 @@
       "fee_nok": 0,
       "exit_price_usd": 0.895,
       "closed_at": "2026-04-04T16:42:48+02:00"
+    },
+    {
+      "id": "pos_025",
+      "market_id": "1528412",
+      "question": "Al Hilal Saudi Club vs. Al Taawoun Saudi Club: O/U 1.5",
+      "slug": "spl-hil-taa-2026-04-04-total-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.855,
+      "current_price_usd": 0.9965,
+      "shares": 8.89,
+      "cost_usd": 7.6,
+      "cost_nok": 74,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.03,
+      "our_probability": 0.885,
+      "opened_at": "2026-04-03T08:13:15+02:00",
+      "end_date": "2026-04-04",
+      "category": "sport",
+      "unrealized_pnl_nok": 12,
+      "result": "TAKE_PROFIT",
+      "profit_nok": 12,
+      "fee_nok": 0,
+      "exit_price_usd": 0.9965,
+      "closed_at": "2026-04-04T21:22:46+02:00"
     }
   ],
   "trade_log": [
@@ -789,9 +794,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 18,
+    "total_wins": 19,
     "total_losses": 7,
-    "total_realized_pnl_nok": 364,
+    "total_realized_pnl_nok": 376,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -812,9 +817,10 @@
       0.385,
       0.075,
       0.5,
-      0.2266
+      0.2266,
+      0.1415
     ],
-    "avg_clv": 0.0977
+    "avg_clv": 0.102
   },
   "next_position_id": 31,
   "learning": {
