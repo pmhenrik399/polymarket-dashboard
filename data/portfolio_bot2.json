@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-04T17:00:54Z",
+    "last_updated": "2026-04-04T17:42:59Z",
     "currency": "NOK",
     "usd_nok_rate": 9.76906,
     "copy_trader": {
@@ -16,7 +16,7 @@
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 349,
+    "balance_nok": 387,
     "total_deposited_nok": 1000
   },
   "positions": [
@@ -117,7 +117,7 @@
       "slug": "lal-rbe-esp-2026-04-04-rbe",
       "side": "YES",
       "entry_price_usd": 0.565,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.505,
       "shares": 6.56,
       "cost_usd": 3.71,
       "cost_nok": 36,
@@ -126,24 +126,6 @@
       "end_date": "2026-04-04",
       "category": "sport",
       "unrealized_pnl_nok": -3,
-      "last_checked": "2026-04-02T18:30:00+02:00"
-    },
-    {
-      "id": "cp_019",
-      "market_id": "1743886",
-      "question": "Will Galatasaray SK win on 2026-04-04?",
-      "slug": "sul-trab-gal-2026-04-04-gal",
-      "side": "NO",
-      "entry_price_usd": 0.52,
-      "current_price_usd": 0.545,
-      "shares": 4.95,
-      "cost_usd": 2.58,
-      "cost_nok": 25,
-      "usd_nok_at_entry": 9.7,
-      "opened_at": "2026-04-02T10:00:00+02:00",
-      "end_date": "2026-04-04",
-      "category": "sport",
-      "unrealized_pnl_nok": 1,
       "last_checked": "2026-04-02T18:30:00+02:00"
     }
   ],
@@ -375,6 +357,29 @@
       "result": "LOSS",
       "profit_nok": -50,
       "closed_at": "2026-04-04T16:22:57Z"
+    },
+    {
+      "id": "cp_019",
+      "market_id": "1743886",
+      "question": "Will Galatasaray SK win on 2026-04-04?",
+      "slug": "sul-trab-gal-2026-04-04-gal",
+      "side": "NO",
+      "entry_price_usd": 0.52,
+      "current_price_usd": 0.795,
+      "shares": 4.95,
+      "cost_usd": 2.58,
+      "cost_nok": 25,
+      "usd_nok_at_entry": 9.7,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-04",
+      "category": "sport",
+      "unrealized_pnl_nok": 13,
+      "last_checked": "2026-04-02T18:30:00+02:00",
+      "result": "TAKE_PROFIT",
+      "profit_nok": 13,
+      "fee_nok": 0,
+      "exit_price_usd": 0.795,
+      "closed_at": "2026-04-04T17:42:59Z"
     }
   ],
   "trade_log": [
@@ -481,9 +486,9 @@
   ],
   "statistics": {
     "total_trades": 19,
-    "total_wins": 6,
+    "total_wins": 7,
     "total_losses": 6,
-    "total_realized_pnl_nok": -229,
+    "total_realized_pnl_nok": -216,
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
@@ -493,14 +498,15 @@
       0.2445,
       0.4845,
       0.06,
-      -0.385
+      -0.385,
+      0.275
     ],
-    "avg_clv": 0.1299
+    "avg_clv": 0.1541
   },
   "next_position_id": 20,
   "monthly": {
     "losses_this_month": 2,
-    "realized_pnl_nok": -73,
-    "wins_this_month": 4
+    "realized_pnl_nok": -60,
+    "wins_this_month": 5
   }
 }
