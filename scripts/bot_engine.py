@@ -954,6 +954,20 @@ def check_and_resolve(portfolio, bot_name, rate):
 
 # ===== BOT 1: SMART SCANNER =====
 
+def hours_until_resolution(market):
+    """Estimate hours until market resolves."""
+    end_date = market.get('endDate', market.get('end_date_iso', ''))[:10]
+    if not end_date:
+        return 999
+    try:
+        end_dt = datetime.datetime.strptime(end_date, '%Y-%m-%d')
+        end_dt = end_dt.replace(hour=23, minute=59, tzinfo=datetime.timezone.utc)
+        hours = (end_dt - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 3600
+        return max(0, hours)
+    except:
+        return 999
+
+
 def bot1_scan_and_trade(portfolio, rate, state):
     if not portfolio:
         return False
@@ -964,65 +978,65 @@ def bot1_scan_and_trade(portfolio, rate, state):
     total_cost = sum(p.get('cost_nok', 0) for p in positions)
     port_value = balance + total_cost
 
-    if balance < port_value * 0.10:
+    if balance < port_value * 0.05:
         return False
 
-    # Only scan every 15 minutes
-    last_scan = state.get('last_scan', '')
-    now_str = time.strftime('%H:%M', time.gmtime())
-    if last_scan:
-        try:
-            lm = int(last_scan[:2]) * 60 + int(last_scan[3:5])
-            nm = int(now_str[:2]) * 60 + int(now_str[3:5])
-            if abs(nm - lm) < 14:
-                return False
-        except:
-            pass
-
-    state['last_scan'] = now_str
+    # Scan every 5 minutes (no throttle — GitHub Actions already runs every 5 min)
 
     if len(positions) >= 15:
         return False
 
     today = datetime.date.today()
-    end_max = (today + datetime.timedelta(days=3)).isoformat()
+    tomorrow = (today + datetime.timedelta(days=1)).isoformat()
+    end_max_3d = (today + datetime.timedelta(days=3)).isoformat()
 
     # Fetch bookmaker odds (cached, refreshes every 30 min)
     odds_cache = fetch_bookmaker_odds(state)
 
-    # Scan more markets — volume sorted + sports + recent (new markets = inefficient)
-    markets = fetch_markets({
+    # PRIORITY 1: Same-day markets (resolve TODAY — fastest capital rotation)
+    today_markets = fetch_markets({
         'active': 'true', 'closed': 'false',
         'limit': 100, 'order': 'volume', 'ascending': 'false',
-        'liquidity_num_min': 1000,
+        'liquidity_num_min': 500,
         'end_date_min': today.isoformat(),
-        'end_date_max': end_max
+        'end_date_max': today.isoformat()
     })
     time.sleep(0.5)
 
+    # PRIORITY 2: Tomorrow markets
+    tomorrow_markets = fetch_markets({
+        'active': 'true', 'closed': 'false',
+        'limit': 80, 'order': 'volume', 'ascending': 'false',
+        'liquidity_num_min': 1000,
+        'end_date_min': tomorrow,
+        'end_date_max': tomorrow
+    })
+    time.sleep(0.5)
+
+    # PRIORITY 3: Sports + general (1-3 days)
     sports = fetch_markets({
         'active': 'true', 'closed': 'false',
         'limit': 80, 'order': 'volume', 'ascending': 'false',
         'tag': 'sports',
-        'liquidity_num_min': 1000,
+        'liquidity_num_min': 500,
         'end_date_min': today.isoformat(),
-        'end_date_max': end_max
+        'end_date_max': end_max_3d
     })
     time.sleep(0.5)
 
-    # Also fetch newest markets (most likely to be mispriced)
+    # PRIORITY 4: Newest markets (most likely mispriced)
     new_markets = fetch_markets({
         'active': 'true', 'closed': 'false',
         'limit': 50, 'order': 'startDate', 'ascending': 'false',
         'liquidity_num_min': 500,
         'end_date_min': today.isoformat(),
-        'end_date_max': end_max
+        'end_date_max': end_max_3d
     })
     time.sleep(0.5)
 
     seen_ids = set()
     all_markets = []
-    for m in markets + sports + new_markets:
+    for m in today_markets + tomorrow_markets + sports + new_markets:
         mid = m.get('id', '')
         if mid and mid not in seen_ids:
             seen_ids.add(mid)
@@ -1040,10 +1054,24 @@ def bot1_scan_and_trade(portfolio, rate, state):
         if not result:
             continue
         side, our_prob, market_price, edge, signals = result
-        # Bonus for bookmaker-backed edge
+
+        # Sort score: prioritize fast resolution + bookmaker edge
+        hours = hours_until_resolution(m)
         has_bookie = any('bookie' in s for s in signals)
-        sort_edge = edge + (0.02 if has_bookie else 0)
-        scored.append((sort_edge, edge, m, side, our_prob, market_price, signals))
+
+        # Speed bonus: same-day gets big boost, tomorrow gets small boost
+        speed_bonus = 0
+        if hours <= 12:
+            speed_bonus = 0.04   # resolves within 12h — huge bonus
+        elif hours <= 24:
+            speed_bonus = 0.02   # resolves within 24h
+        elif hours <= 36:
+            speed_bonus = 0.01   # resolves tomorrow
+
+        bookie_bonus = 0.02 if has_bookie else 0
+        sort_edge = edge + speed_bonus + bookie_bonus
+
+        scored.append((sort_edge, edge, m, side, our_prob, market_price, signals, hours))
         time.sleep(0.2)
 
     scored.sort(key=lambda x: x[0], reverse=True)
@@ -1052,12 +1080,12 @@ def bot1_scan_and_trade(portfolio, rate, state):
     changed = False
     next_id = portfolio.get('next_position_id', len(positions) + 1)
 
-    for sort_edge, edge, m, side, our_prob, market_price, signals in scored:
-        if trades_opened >= 6:
+    for sort_edge, edge, m, side, our_prob, market_price, signals, hours in scored:
+        if trades_opened >= 8:
             break
         if len(positions) >= 15:
             break
-        if balance < 30:
+        if balance < 25:
             break
 
         # [SMART ENTRY] Check if orderbook suggests waiting
@@ -1069,8 +1097,8 @@ def bot1_scan_and_trade(portfolio, rate, state):
         if kelly_f <= 0:
             continue
 
-        size_nok = int(min(kelly_f * port_value, port_value * 0.07, balance * 0.4))
-        if size_nok < 25:
+        size_nok = int(min(kelly_f * port_value, port_value * 0.04, balance * 0.3))
+        if size_nok < 20:
             continue
 
         size_usd = size_nok / rate
@@ -1120,7 +1148,8 @@ def bot1_scan_and_trade(portfolio, rate, state):
         price_cents = int(market_price * 100)
         edge_pct = int(edge * 100)
         sig_str = ' '.join(signals)
-        print(f"[NY TRADE] BOT1: {question} | {side} @ {price_cents}c | {size_nok} kr | Edge {edge_pct}% | {sig_str}")
+        hours_str = f"{int(hours)}h" if hours < 48 else f"{int(hours/24)}d"
+        print(f"[NY TRADE] BOT1: {question} | {side} @ {price_cents}c | {size_nok} kr | Edge {edge_pct}% | {hours_str} | {sig_str}")
         time.sleep(0.3)
 
     if changed:
