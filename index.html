@@ -220,7 +220,6 @@ body {
 <div class="container">
   <div class="bot-tabs" id="bot-tabs">
     <button class="bot-tab active" data-bot="bot1">Bot 1</button>
-    <button class="bot-tab" data-bot="bot2">Bot 2</button>
   </div>
 
   <div id="main-content">
@@ -238,11 +237,10 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').cat
 
 // State
 const URLS = {
-  bot1: 'https://raw.githubusercontent.com/pmhenrik399/polymarket-dashboard/main/data/portfolio.json',
-  bot2: 'https://raw.githubusercontent.com/pmhenrik399/polymarket-dashboard/main/data/portfolio_bot2.json'
+  bot1: 'https://raw.githubusercontent.com/pmhenrik399/polymarket-dashboard/main/data/portfolio.json'
 };
 let activeBot = 'bot1';
-let botData = { bot1: null, bot2: null };
+let botData = { bot1: null };
 let portfolioChart = null;
 let refreshCountdown = 30;
 let countdownInterval = null;

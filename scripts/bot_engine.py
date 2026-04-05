@@ -17,8 +17,6 @@ import urllib.parse
 import time
 import random
 import datetime
-import re
-
 os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 TOKEN = os.environ.get('TELEGRAM_TOKEN', '')
@@ -27,7 +25,6 @@ CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '')
 REPO_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 DATA_DIR = os.path.join(REPO_ROOT, 'data')
 BOT1_FILE = os.path.join(DATA_DIR, 'portfolio.json')
-BOT2_FILE = os.path.join(DATA_DIR, 'portfolio_bot2.json')
 STATE_FILE = os.path.join(DATA_DIR, 'bot_engine_state.json')
 
 USD_NOK = 9.70
@@ -923,147 +920,6 @@ def bot1_scan_and_trade(portfolio, rate, state):
     return changed
 
 
-# ===== BOT 2: COPY TRADER =====
-
-def bot2_copy_sync(portfolio, rate, state):
-    if not portfolio:
-        return False
-
-    last_sync = state.get('last_copy_sync', '')
-    now_str = time.strftime('%H:%M', time.gmtime())
-    if last_sync:
-        try:
-            lm = int(last_sync[:2]) * 60 + int(last_sync[3:5])
-            nm = int(now_str[:2]) * 60 + int(now_str[3:5])
-            if abs(nm - lm) < 28:
-                return False
-        except:
-            pass
-
-    state['last_copy_sync'] = now_str
-
-    try:
-        url = 'https://polymarket.com/@gamblingisallyouneed'
-        req = urllib.request.Request(url)
-        req.add_header('User-Agent', 'Mozilla/5.0')
-        r = urllib.request.urlopen(req, timeout=20)
-        html = r.read().decode('utf-8', errors='ignore')
-    except:
-        return False
-
-    slugs = re.findall(r'/event/([a-zA-Z0-9_-]+)', html)
-    unique_slugs = list(dict.fromkeys(slugs))
-
-    if not unique_slugs:
-        return False
-
-    positions = portfolio.get('positions', [])
-    known_slugs = set(state.get('known_copy_slugs', []))
-    account = portfolio.get('account', {})
-    balance = account.get('balance_nok', 0)
-    next_id = portfolio.get('next_position_id', len(positions) + 1)
-    changed = False
-    trades_opened = 0
-
-    for event_slug in unique_slugs[:20]:
-        if trades_opened >= 3:
-            break
-        if balance < 25:
-            break
-        if len(positions) >= 15:
-            break
-        if event_slug in known_slugs:
-            continue
-
-        known_slugs.add(event_slug)
-
-        event_data = api_fetch(f'https://gamma-api.polymarket.com/events?slug={event_slug}')
-        time.sleep(0.5)
-        if not event_data or not isinstance(event_data, list) or len(event_data) == 0:
-            continue
-
-        event = event_data[0]
-        event_markets = event.get('markets', [])
-        if not event_markets:
-            continue
-
-        m = event_markets[0]
-        mid_val = str(m.get('id', ''))
-        slug = m.get('slug', '')
-        question = m.get('question', '')
-        closed = m.get('closed', False)
-
-        if closed:
-            continue
-
-        if any(p.get('market_id') == mid_val for p in positions):
-            continue
-
-        try:
-            prices = json.loads(m.get('outcomePrices', '[]'))
-            yes_p = float(prices[0])
-            no_p = float(prices[1])
-        except:
-            continue
-
-        if yes_p > 0.5:
-            side = 'YES'
-            price = yes_p
-        else:
-            side = 'NO'
-            price = no_p
-
-        if price < 0.10 or price > 0.95:
-            continue
-
-        total_cost = sum(p.get('cost_nok', 0) for p in positions)
-        port_value = balance + total_cost
-        size_nok = min(int(port_value * 0.07), int(balance * 0.4), 80)
-        if size_nok < 25:
-            continue
-
-        size_usd = size_nok / rate
-        shares = round(size_usd / price, 2)
-        end_date = m.get('endDate', '')[:10]
-
-        pos = {
-            'id': f'cp_{next_id:03d}',
-            'market_id': mid_val,
-            'question': question,
-            'slug': slug,
-            'side': side,
-            'entry_price_usd': price,
-            'current_price_usd': price,
-            'shares': shares,
-            'cost_usd': round(size_usd, 2),
-            'cost_nok': size_nok,
-            'usd_nok_at_entry': rate,
-            'opened_at': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-            'end_date': end_date,
-            'category': 'sport',
-            'unrealized_pnl_nok': 0
-        }
-
-        positions.append(pos)
-        balance -= size_nok
-        next_id += 1
-        trades_opened += 1
-        changed = True
-
-        price_cents = int(price * 100)
-        print(f"[COPY] BOT2: {question} | {side} @ {price_cents}c | {size_nok} kr")
-        time.sleep(0.3)
-
-    if changed:
-        account['balance_nok'] = balance
-        portfolio['positions'] = positions
-        portfolio['account'] = account
-        portfolio['next_position_id'] = next_id
-
-    state['known_copy_slugs'] = list(known_slugs)
-    return changed
-
-
 # ===== MAIN =====
 
 def get_summary(portfolio):
@@ -1081,7 +937,7 @@ def get_summary(portfolio):
     return total_value, balance, invested, unrealized, wins, losses
 
 
-def check_telegram_commands(bot1, bot2, state):
+def check_telegram_commands(bot1, state):
     """Check for /dashboard commands in Telegram and respond."""
     if not TOKEN or not CHAT_ID:
         return
@@ -1101,59 +957,46 @@ def check_telegram_commands(bot1, bot2, state):
             if chat_id != CHAT_ID:
                 continue
             if text == '/dashboard':
-                send_dashboard_reply(bot1, bot2)
+                send_dashboard_reply(bot1)
             elif text == '/positions':
-                send_positions_reply(bot1, bot2)
+                send_positions_reply(bot1)
             elif text == '/help':
                 send_telegram("Kommandoer:\n/dashboard - Full oversikt\n/positions - Alle apne posisjoner\n/help - Vis kommandoer")
     except Exception as e:
         print(f"Telegram commands check error: {e}")
 
 
-def send_dashboard_reply(bot1, bot2):
+def send_dashboard_reply(bot1):
     """Send a formatted dashboard to Telegram."""
     v1, b1, i1, u1, w1, l1 = get_summary(bot1)
-    v2, b2, i2, u2, w2, l2 = get_summary(bot2)
     n1 = len(bot1.get('positions', [])) if bot1 else 0
-    n2 = len(bot2.get('positions', [])) if bot2 else 0
     r1 = (bot1 or {}).get('statistics', {}).get('total_realized_pnl_nok', 0)
-    r2 = (bot2 or {}).get('statistics', {}).get('total_realized_pnl_nok', 0)
     wr1 = round(w1 / (w1 + l1) * 100) if (w1 + l1) > 0 else 0
-    wr2 = round(w2 / (w2 + l2) * 100) if (w2 + l2) > 0 else 0
-    total = v1 + v2
+    start = (bot1 or {}).get('account', {}).get('starting_capital', 1000)
+    ath = (bot1 or {}).get('telegram', {}).get('ath_value_nok', start)
 
     lines = [
         "POLYMARKET DASHBOARD",
         "",
-        "--- BOT 1 (Smart Trader) ---",
         f"Total verdi: {v1} kr",
+        f"ATH: {ath} kr",
         f"Ledig: {b1} kr | Investert: {i1} kr",
         f"Urealisert P&L: {u1:+d} kr",
         f"Realisert P&L: {r1:+.0f} kr",
         f"Posisjoner: {n1} | W{w1}/L{l1} ({wr1}%)",
-        "",
-        "--- BOT 2 (Copy Trader) ---",
-        f"Total verdi: {v2} kr",
-        f"Ledig: {b2} kr | Investert: {i2} kr",
-        f"Urealisert P&L: {u2:+d} kr",
-        f"Realisert P&L: {r2:+.0f} kr",
-        f"Posisjoner: {n2} | W{w2}/L{l2} ({wr2}%)",
-        "",
-        f"TOTALT: {total} kr",
         f"USD/NOK: {USD_NOK:.2f}",
     ]
     send_telegram('\n'.join(lines))
 
 
-def send_positions_reply(bot1, bot2):
+def send_positions_reply(bot1):
     """Send all open positions to Telegram."""
     lines = ["APNE POSISJONER", ""]
-    for name, portfolio in [("BOT1", bot1), ("BOT2", bot2)]:
-        positions = (portfolio or {}).get('positions', [])
-        if not positions:
-            lines.append(f"{name}: Ingen posisjoner")
-            continue
-        lines.append(f"--- {name} ({len(positions)} stk) ---")
+    positions = (bot1 or {}).get('positions', [])
+    if not positions:
+        lines.append("Ingen posisjoner")
+    else:
+        lines.append(f"--- {len(positions)} stk ---")
         for p in positions:
             q = p.get('question', '?')[:40]
             side = p.get('side', '?')
@@ -1163,15 +1006,40 @@ def send_positions_reply(bot1, bot2):
             end = p.get('end_date', '?')
             lines.append(f"{side} {q}")
             lines.append(f"  Inn: ${entry:.3f} Na: ${curr:.3f} P&L: {pnl:+.0f} kr | {end}")
-        lines.append("")
     send_telegram('\n'.join(lines))
+
+
+def check_and_send_ath(bot1):
+    """Send Telegram only when bot1 hits a new all-time high value."""
+    if not bot1:
+        return
+    v1, b1, i1, u1, w1, l1 = get_summary(bot1)
+    telegram_cfg = bot1.get('telegram', {})
+    ath = telegram_cfg.get('ath_value_nok', bot1.get('account', {}).get('starting_capital', 1000))
+
+    if v1 > ath:
+        old_ath = ath
+        telegram_cfg['ath_value_nok'] = v1
+        bot1['telegram'] = telegram_cfg
+
+        gain_from_start = v1 - bot1.get('account', {}).get('starting_capital', 1000)
+        gain_pct = (v1 / bot1.get('account', {}).get('starting_capital', 1000) - 1) * 100
+        wr = round(w1 / (w1 + l1) * 100) if (w1 + l1) > 0 else 0
+
+        msg = (f"NY ATH! {v1} kr (forrige: {old_ath} kr)\n"
+               f"Avkastning: +{gain_from_start:.0f} kr ({gain_pct:.1f}%)\n"
+               f"W{w1}/L{l1} ({wr}%)\n"
+               f"Posisjoner: {len(bot1.get('positions', []))}")
+        send_telegram(msg)
+        print(f"ATH alert sent: {v1} kr")
+    else:
+        print(f"No ATH (current: {v1}, ath: {ath})")
 
 
 def main():
     print(f"Bot engine v2 starting at {datetime.datetime.now(datetime.timezone.utc).isoformat()}")
 
     state = load_state()
-    # Ensure new state fields exist
     if 'price_snapshots' not in state:
         state['price_snapshots'] = {}
     if 'category_stats' not in state:
@@ -1181,20 +1049,16 @@ def main():
     print(f"USD/NOK rate: {rate}")
 
     bot1 = load_json(BOT1_FILE)
-    bot2 = load_json(BOT2_FILE)
 
     if not bot1:
         print("ERROR: Could not load Bot1 portfolio")
-    if not bot2:
-        print("ERROR: Could not load Bot2 portfolio")
 
     # 0. Check Telegram commands (/dashboard, /positions, /help)
-    check_telegram_commands(bot1, bot2, state)
+    check_telegram_commands(bot1, state)
 
     # 1. Resolve positions
     c1 = check_and_resolve(bot1, 'BOT1', rate)
-    c2 = check_and_resolve(bot2, 'BOT2', rate)
-    print(f"Resolve: bot1={c1}, bot2={c2}")
+    print(f"Resolve: bot1={c1}")
 
     # Store learning data in portfolio for dashboard
     if bot1:
@@ -1206,41 +1070,17 @@ def main():
     c3 = bot1_scan_and_trade(bot1, rate, state)
     print(f"Bot1 scan: {c3}")
 
-    # 3. Bot 2: copy sync
-    c4 = bot2_copy_sync(bot2, rate, state)
-    print(f"Bot2 copy: {c4}")
-
-    # 4. Save
+    # 3. Save
     if bot1 and (c1 or c3):
         save_json(BOT1_FILE, bot1)
         print("Saved Bot1 portfolio")
-    if bot2 and (c2 or c4):
-        save_json(BOT2_FILE, bot2)
-        print("Saved Bot2 portfolio")
 
-    # 5. Heartbeat every 30 min
-    now = time.strftime('%H:%M', time.gmtime())
-    now_m = int(now[:2]) * 60 + int(now[3:5])
-    last_hb = state.get('last_heartbeat', '')
-    send_hb = True
-    if last_hb:
-        try:
-            lm = int(last_hb[:2]) * 60 + int(last_hb[3:5])
-            if abs(now_m - lm) < 25:
-                send_hb = False
-        except:
-            pass
+    # 4. ATH check — only send Telegram when new all-time high
+    check_and_send_ath(bot1)
 
-    if send_hb:
-        v1, b1, i1, u1, w1, l1 = get_summary(bot1)
-        v2, b2, i2, u2, w2, l2 = get_summary(bot2)
-        msg = (f"[{now}] POLYMARKET\n"
-               f"Bot1: {v1} kr ({b1} ledig / {i1} investert / {u1:+d} urealisert) W{w1}/L{l1}\n"
-               f"Bot2: {v2} kr ({b2} ledig / {i2} investert / {u2:+d} urealisert) W{w2}/L{l2}\n"
-               f"Totalt: {v1 + v2} kr")
-        send_telegram(msg)
-        state['last_heartbeat'] = now
-        print(f"Heartbeat sent")
+    # Always save after ATH check (ath_value_nok may have updated)
+    if bot1:
+        save_json(BOT1_FILE, bot1)
 
     # Clean old price snapshots (keep last 24h only)
     cutoff = int(time.time()) - 86400
