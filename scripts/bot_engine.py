@@ -449,6 +449,12 @@ def estimate_edge_smart(market, portfolio, state, crypto_momentum=None):
     if liquidity < 1000:
         return None
 
+    # [FILTER] Skip high-price NO bets (>0.80) — bad risk/reward
+    if no_p > 0.80 and yes_p < 0.20:
+        return None
+    if yes_p > 0.80 and no_p < 0.20:
+        return None
+
     # [FILTER] Skip crypto coin flips
     coin_flip_tokens = ['sol-updown', 'bnb-updown', 'btc-updown', 'eth-updown',
                         'doge-updown', 'xrp-updown', 'ada-updown', 'avax-updown',
@@ -540,11 +546,11 @@ def estimate_edge_smart(market, portfolio, state, crypto_momentum=None):
     # [4] Dead zone check: 45-55c requires extra edge
     if 0.45 <= best_price <= 0.55:
         in_deadzone = True
-        if best_edge < 0.05:
+        if best_edge < 0.07:
             return None
 
-    # Minimum edge threshold
-    if best_edge < 0.03:
+    # Minimum edge threshold (5% required)
+    if best_edge < 0.05:
         return None
 
     # [1] Orderbook analysis (only for candidates that pass base filter)
@@ -555,7 +561,7 @@ def estimate_edge_smart(market, portfolio, state, crypto_momentum=None):
         signals.append(f'ob:{ob_adj:.3f}')
 
     # Re-check after orderbook adjustment
-    min_edge = 0.05 if in_deadzone else 0.03
+    min_edge = 0.07 if in_deadzone else 0.05
     if best_edge < min_edge:
         return None
 
@@ -695,51 +701,8 @@ def check_and_resolve(portfolio, bot_name, rate):
             cur = pos.get('current_price_usd', entry)
             shares = pos.get('shares', 0)
             pos['unrealized_pnl_nok'] = int((cur - entry) * shares * rate)
-
-            # [6] TAKE PROFIT: sell if up 15%+ and >2h to resolution
-            gain_pct = (cur - entry) / entry if entry > 0 else 0
-            end_date_str = pos.get('end_date', '')
-            hours_left = 999
-            if end_date_str:
-                try:
-                    end_dt = datetime.datetime.strptime(end_date_str, '%Y-%m-%d')
-                    end_dt = end_dt.replace(hour=23, minute=59, tzinfo=datetime.timezone.utc)
-                    hours_left = (end_dt - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 3600
-                except:
-                    pass
-
-            if gain_pct >= 0.15 and hours_left > 2:
-                # Sell at current price
-                sell_value_usd = shares * cur
-                sell_value_nok = int(sell_value_usd * rate)
-                cost_nok = pos.get('cost_nok', 0)
-                profit_nok = sell_value_nok - cost_nok
-                fee_nok = int(max(profit_nok, 0) * POLYMARKET_FEE_PCT)
-                net_profit = profit_nok - fee_nok
-                payout = sell_value_nok - fee_nok
-
-                pos['result'] = 'TAKE_PROFIT'
-                pos['profit_nok'] = net_profit
-                pos['fee_nok'] = fee_nok
-                pos['exit_price_usd'] = cur
-                pos['closed_at'] = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-
-                account['balance_nok'] = account.get('balance_nok', 0) + payout
-                stats['total_wins'] = stats.get('total_wins', 0) + 1
-                monthly['wins_this_month'] = monthly.get('wins_this_month', 0) + 1
-                stats['total_realized_pnl_nok'] = stats.get('total_realized_pnl_nok', 0) + net_profit
-                monthly['realized_pnl_nok'] = monthly.get('realized_pnl_nok', 0) + net_profit
-
-                clv_list = stats.get('clv_history', [])
-                clv_list.append(round(cur - entry, 4))
-                stats['clv_history'] = clv_list
-                stats['avg_clv'] = round(sum(clv_list) / len(clv_list), 4) if clv_list else 0
-
-                closed.append(pos)
-                changed = True
-            else:
-                still_open.append(pos)
-                changed = True
+            still_open.append(pos)
+            changed = True
 
     portfolio['positions'] = still_open
     portfolio['closed_positions'] = closed
@@ -854,7 +817,7 @@ def bot1_scan_and_trade(portfolio, rate, state):
         if kelly_f <= 0:
             continue
 
-        size_nok = int(min(kelly_f * port_value, port_value * 0.12, balance * 0.5))
+        size_nok = int(min(kelly_f * port_value, port_value * 0.07, balance * 0.5))
         if size_nok < 40:
             continue
 
