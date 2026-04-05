@@ -3,9 +3,9 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-04T23:55:47Z",
+    "last_updated": "2026-04-05T02:49:36Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.76906,
+    "usd_nok_rate": 9.766586,
     "copy_trader": {
       "username": "GamblingIsAllYouNeed",
       "profile_url": "https://polymarket.com/@gamblingisallyouneed",
@@ -27,7 +27,7 @@
       "slug": "mls-nyc-stl-2026-04-04-stl",
       "side": "NO",
       "entry_price_usd": 0.81,
-      "current_price_usd": 0.785,
+      "current_price_usd": 0.9995,
       "shares": 13.33,
       "cost_usd": 10.8,
       "cost_nok": 105,
@@ -35,7 +35,7 @@
       "opened_at": "2026-04-01T18:00:00+02:00",
       "end_date": "2026-04-04",
       "category": "sport",
-      "unrealized_pnl_nok": -3,
+      "unrealized_pnl_nok": 24,
       "last_checked": "2026-04-02T18:30:00+02:00"
     },
     {
@@ -72,24 +72,6 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 0,
-      "last_checked": "2026-04-02T18:30:00+02:00"
-    },
-    {
-      "id": "cp_016",
-      "market_id": "1538196",
-      "question": "Will Real Salt Lake win on 2026-04-04?",
-      "slug": "mls-rsl-skc-2026-04-04-rsl",
-      "side": "NO",
-      "entry_price_usd": 0.325,
-      "current_price_usd": 0.0005,
-      "shares": 9.18,
-      "cost_usd": 2.99,
-      "cost_nok": 29,
-      "usd_nok_at_entry": 9.7,
-      "opened_at": "2026-04-02T10:00:00+02:00",
-      "end_date": "2026-04-04",
-      "category": "sport",
-      "unrealized_pnl_nok": -29,
       "last_checked": "2026-04-02T18:30:00+02:00"
     }
   ],
@@ -390,6 +372,29 @@
       "result": "LOSS",
       "profit_nok": -36,
       "closed_at": "2026-04-04T23:55:46Z"
+    },
+    {
+      "id": "cp_016",
+      "market_id": "1538196",
+      "question": "Will Real Salt Lake win on 2026-04-04?",
+      "slug": "mls-rsl-skc-2026-04-04-rsl",
+      "side": "NO",
+      "entry_price_usd": 0.325,
+      "current_price_usd": 0.0,
+      "shares": 9.18,
+      "cost_usd": 2.99,
+      "cost_nok": 29,
+      "usd_nok_at_entry": 9.7,
+      "opened_at": "2026-04-02T10:00:00+02:00",
+      "end_date": "2026-04-04",
+      "category": "sport",
+      "unrealized_pnl_nok": -29,
+      "last_checked": "2026-04-02T18:30:00+02:00",
+      "closing_price": 0.0,
+      "clv": -0.325,
+      "result": "LOSS",
+      "profit_nok": -29,
+      "closed_at": "2026-04-05T02:49:35Z"
     }
   ],
   "trade_log": [
@@ -497,8 +502,8 @@
   "statistics": {
     "total_trades": 19,
     "total_wins": 8,
-    "total_losses": 7,
-    "total_realized_pnl_nok": -225,
+    "total_losses": 8,
+    "total_realized_pnl_nok": -254,
     "best_trade_nok": 49,
     "worst_trade_nok": -75,
     "copy_accuracy": 0.33,
@@ -511,14 +516,15 @@
       -0.385,
       0.275,
       0.22,
-      -0.565
+      -0.565,
+      -0.325
     ],
-    "avg_clv": 0.0724
+    "avg_clv": 0.0283
   },
   "next_position_id": 20,
   "monthly": {
-    "losses_this_month": 3,
-    "realized_pnl_nok": -69,
+    "losses_this_month": 4,
+    "realized_pnl_nok": -98,
     "wins_this_month": 6
   }
 }
