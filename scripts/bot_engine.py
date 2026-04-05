@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Polymarket Bot Engine v2 - Smart Edition
+Polymarket Bot Engine v3 - Bookmaker Edge Edition
 Runs every 5 min via GitHub Actions cron.
 
-Improvements over v1:
-1. Orderbook analysis - reads CLOB orderbook for buy/sell pressure signals
-2. Line movement - tracks price changes, follows sharp money
-3. Category learning - weights bets toward historically winning categories
-4. Avoids 50c zone - skips 45-55c markets unless strong signal
-5. CLV tracking - measures closing line value to validate real edge
+Key strategy: Compare Polymarket prices against real bookmaker odds
+to find genuine mispricings. Falls back to orderbook/line signals
+only when no bookmaker match is found.
 """
 import json
 import os
@@ -21,6 +18,7 @@ os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 TOKEN = os.environ.get('TELEGRAM_TOKEN', '')
 CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID', '')
+ODDS_API_KEY = os.environ.get('ODDS_API_KEY', '')
 
 REPO_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 DATA_DIR = os.path.join(REPO_ROOT, 'data')
@@ -105,6 +103,232 @@ def load_state():
 def save_state(state):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(state, f, indent=2)
+
+
+# ===== [0] BOOKMAKER ODDS =====
+
+ODDS_SPORTS = [
+    'soccer_epl', 'soccer_spain_la_liga', 'soccer_italy_serie_a',
+    'soccer_germany_bundesliga', 'soccer_france_ligue_one', 'soccer_brazil_serie_a',
+    'soccer_portugal_primeira_liga', 'soccer_netherlands_eredivisie',
+    'soccer_turkey_super_league', 'soccer_korea_kleague1',
+    'basketball_nba', 'icehockey_nhl', 'baseball_mlb', 'mma_mixed_martial_arts',
+    'soccer_efl_champ', 'soccer_argentina_primera_division',
+]
+
+# Common suffixes to strip for matching
+TEAM_NOISE = ['fc', 'sc', 'cf', 'afc', 'bc', 'sk', 'fk', 'club', 'city', 'united',
+              'sporting', 'athletic', 'real', 'deportivo', 'sd', 'cd', 'ca', 'ec']
+
+
+def normalize_team(name):
+    """Normalize team name for fuzzy matching."""
+    n = name.lower().strip()
+    # Remove common prefixes/suffixes
+    for noise in TEAM_NOISE:
+        n = n.replace(f' {noise} ', ' ').replace(f' {noise}', '').replace(f'{noise} ', '')
+    # Remove non-alpha
+    n = ''.join(c for c in n if c.isalpha() or c == ' ')
+    return ' '.join(n.split())
+
+
+def team_match(poly_text, odds_team):
+    """Check if a bookmaker team name appears in Polymarket text."""
+    poly = normalize_team(poly_text)
+    team = normalize_team(odds_team)
+    if not team or len(team) < 3:
+        return False
+    # Check if major words match
+    team_words = [w for w in team.split() if len(w) >= 3]
+    if not team_words:
+        return False
+    matches = sum(1 for w in team_words if w in poly)
+    return matches >= max(1, len(team_words) * 0.5)
+
+
+def fetch_bookmaker_odds(state):
+    """Fetch odds from the-odds-api.com. Cache for 30 min in state."""
+    if not ODDS_API_KEY:
+        return state.get('cached_odds', {})
+
+    last_fetch = state.get('odds_last_fetched', 0)
+    now = int(time.time())
+    if now - last_fetch < 1800 and state.get('cached_odds'):
+        return state['cached_odds']
+
+    all_odds = {}
+    fetched_sports = 0
+    for sport in ODDS_SPORTS:
+        if fetched_sports >= 6:  # limit API calls per run
+            break
+        url = (f'https://api.the-odds-api.com/v4/sports/{sport}/odds/?'
+               f'apiKey={ODDS_API_KEY}&regions=eu&markets=h2h&oddsFormat=decimal')
+        data = api_fetch(url)
+        if not data or not isinstance(data, list):
+            continue
+        fetched_sports += 1
+        for event in data:
+            home = event.get('home_team', '')
+            away = event.get('away_team', '')
+            commence = event.get('commence_time', '')
+            bookmakers = event.get('bookmakers', [])
+            if not bookmakers:
+                continue
+            # Average odds across bookmakers for more accurate line
+            home_odds_list = []
+            away_odds_list = []
+            draw_odds_list = []
+            for bm in bookmakers:
+                for market in bm.get('markets', []):
+                    if market.get('key') != 'h2h':
+                        continue
+                    for outcome in market.get('outcomes', []):
+                        name = outcome.get('name', '')
+                        price = outcome.get('price', 0)
+                        if name == home:
+                            home_odds_list.append(price)
+                        elif name == away:
+                            away_odds_list.append(price)
+                        elif name == 'Draw':
+                            draw_odds_list.append(price)
+
+            if not home_odds_list or not away_odds_list:
+                continue
+
+            avg_home = sum(home_odds_list) / len(home_odds_list)
+            avg_away = sum(away_odds_list) / len(away_odds_list)
+            avg_draw = sum(draw_odds_list) / len(draw_odds_list) if draw_odds_list else 0
+
+            # Convert decimal odds to implied probability (remove vig)
+            raw_total = 1/avg_home + 1/avg_away + (1/avg_draw if avg_draw else 0)
+            home_prob = (1/avg_home) / raw_total
+            away_prob = (1/avg_away) / raw_total
+            draw_prob = (1/avg_draw) / raw_total if avg_draw else 0
+
+            key = f"{normalize_team(home)} vs {normalize_team(away)}"
+            all_odds[key] = {
+                'home': home, 'away': away,
+                'home_prob': round(home_prob, 4),
+                'away_prob': round(away_prob, 4),
+                'draw_prob': round(draw_prob, 4),
+                'commence': commence,
+                'sport': sport,
+                'bookmaker_count': len(bookmakers)
+            }
+        time.sleep(0.3)
+
+    if all_odds:
+        state['cached_odds'] = all_odds
+        state['odds_last_fetched'] = now
+        print(f"Fetched {len(all_odds)} events from {fetched_sports} sports")
+    return state.get('cached_odds', {})
+
+
+def find_bookmaker_edge(market, odds_cache):
+    """Match a Polymarket market to bookmaker odds and calculate real edge.
+    Returns (side, our_prob, market_price, edge, signal_str) or None."""
+    if not odds_cache:
+        return None
+
+    try:
+        prices = json.loads(market.get('outcomePrices', '[]'))
+        yes_p = float(prices[0])
+        no_p = float(prices[1])
+    except:
+        return None
+
+    question = market.get('question', '')
+    slug = market.get('slug', '')
+    poly_text = f"{question} {slug}".lower()
+
+    for key, odds in odds_cache.items():
+        home = odds['home']
+        away = odds['away']
+
+        # Try to match this Polymarket market to this bookmaker event
+        home_in = team_match(poly_text, home)
+        away_in = team_match(poly_text, away)
+
+        if not (home_in or away_in):
+            continue
+
+        # Determine which team the Polymarket question is about
+        q_lower = question.lower()
+        is_draw_market = 'draw' in q_lower
+        is_over_under = any(x in q_lower for x in ['o/u', 'over', 'under', 'total'])
+
+        if is_over_under:
+            continue  # odds-api h2h doesn't cover totals
+
+        if is_draw_market:
+            bookie_prob = odds['draw_prob']
+            if bookie_prob <= 0:
+                continue
+            # For "will it draw? NO" — poly NO price vs (1 - draw_prob)
+            poly_no = no_p
+            real_no_prob = 1 - bookie_prob
+            edge_no = real_no_prob - poly_no
+            if edge_no > 0.03 and 0.20 < poly_no < 0.80:
+                return ('NO', real_no_prob, poly_no, edge_no, f'bookie:draw={bookie_prob:.0%}')
+            # Check YES side too
+            edge_yes = bookie_prob - yes_p
+            if edge_yes > 0.03 and 0.20 < yes_p < 0.80:
+                return ('YES', bookie_prob, yes_p, edge_yes, f'bookie:draw={bookie_prob:.0%}')
+            continue
+
+        # Moneyline: "Will [team] win?"
+        # Figure out which team the question is about
+        target_prob = None
+        if home_in and 'win' in q_lower:
+            # Check if question is about home team winning
+            if team_match(q_lower.split('win')[0], home):
+                target_prob = odds['home_prob']
+            elif team_match(q_lower.split('win')[0], away):
+                target_prob = odds['away_prob']
+        if target_prob is None and away_in and 'win' in q_lower:
+            if team_match(q_lower.split('win')[0], away):
+                target_prob = odds['away_prob']
+            elif team_match(q_lower.split('win')[0], home):
+                target_prob = odds['home_prob']
+
+        # Fallback: if only one team matches, assume it's about that team
+        if target_prob is None:
+            if home_in and not away_in:
+                target_prob = odds['home_prob']
+            elif away_in and not home_in:
+                target_prob = odds['away_prob']
+
+        if target_prob is None:
+            continue
+
+        # Compare bookmaker probability vs Polymarket price
+        # YES side: bookie says team wins with prob X, Polymarket prices YES at yes_p
+        edge_yes = target_prob - yes_p
+        # NO side: bookie says team loses with prob (1-X), Polymarket prices NO at no_p
+        edge_no = (1 - target_prob) - no_p
+
+        best_side = None
+        best_edge = 0
+        best_price = 0
+        best_prob = 0
+
+        if edge_yes > best_edge and 0.20 < yes_p < 0.80:
+            best_side = 'YES'
+            best_edge = edge_yes
+            best_price = yes_p
+            best_prob = target_prob
+
+        if edge_no > best_edge and 0.20 < no_p < 0.80:
+            best_side = 'NO'
+            best_edge = edge_no
+            best_price = no_p
+            best_prob = 1 - target_prob
+
+        if best_side and best_edge >= 0.03:
+            sig = f'bookie:{target_prob:.0%}vs{best_price:.0%}'
+            return (best_side, best_prob, best_price, best_edge, sig)
+
+    return None
 
 
 # ===== [1] ORDERBOOK ANALYSIS =====
@@ -431,9 +655,23 @@ def should_wait_for_better_entry(market, side):
 
 # ===== [4] EDGE ESTIMATION (SMART VERSION) =====
 
-def estimate_edge_smart(market, portfolio, state, crypto_momentum=None):
-    """Smart edge estimation using orderbook, line movement, category learning, and crypto momentum.
+def estimate_edge_smart(market, portfolio, state, crypto_momentum=None, odds_cache=None):
+    """Edge estimation: bookmaker odds first, then orderbook/line/category signals.
     Returns (side, our_prob, market_price, edge, signals_used) or None."""
+
+    # [PRIORITY] Try bookmaker odds match first — this is real edge
+    bookie_result = find_bookmaker_edge(market, odds_cache or {})
+    if bookie_result:
+        side, prob, price, edge, sig = bookie_result
+        # Still check orderbook for entry timing signal
+        ob_adj = orderbook_signal(market, side)
+        signals = [sig]
+        if ob_adj != 0:
+            edge += ob_adj
+            signals.append(f'ob:{ob_adj:.3f}')
+        if edge >= 0.03:  # lower threshold for bookie-backed edges
+            return (side, prob, price, edge, signals)
+        return None
     try:
         prices = json.loads(market.get('outcomePrices', '[]'))
         yes_p = float(prices[0])
@@ -726,7 +964,7 @@ def bot1_scan_and_trade(portfolio, rate, state):
     total_cost = sum(p.get('cost_nok', 0) for p in positions)
     port_value = balance + total_cost
 
-    if balance < port_value * 0.15:
+    if balance < port_value * 0.10:
         return False
 
     # Only scan every 15 minutes
@@ -749,10 +987,14 @@ def bot1_scan_and_trade(portfolio, rate, state):
     today = datetime.date.today()
     end_max = (today + datetime.timedelta(days=3)).isoformat()
 
+    # Fetch bookmaker odds (cached, refreshes every 30 min)
+    odds_cache = fetch_bookmaker_odds(state)
+
+    # Scan more markets — volume sorted + sports + recent (new markets = inefficient)
     markets = fetch_markets({
         'active': 'true', 'closed': 'false',
-        'limit': 80, 'order': 'volume', 'ascending': 'false',
-        'liquidity_num_min': 2000,
+        'limit': 100, 'order': 'volume', 'ascending': 'false',
+        'liquidity_num_min': 1000,
         'end_date_min': today.isoformat(),
         'end_date_max': end_max
     })
@@ -760,9 +1002,19 @@ def bot1_scan_and_trade(portfolio, rate, state):
 
     sports = fetch_markets({
         'active': 'true', 'closed': 'false',
-        'limit': 50, 'order': 'volume', 'ascending': 'false',
+        'limit': 80, 'order': 'volume', 'ascending': 'false',
         'tag': 'sports',
-        'liquidity_num_min': 2000,
+        'liquidity_num_min': 1000,
+        'end_date_min': today.isoformat(),
+        'end_date_max': end_max
+    })
+    time.sleep(0.5)
+
+    # Also fetch newest markets (most likely to be mispriced)
+    new_markets = fetch_markets({
+        'active': 'true', 'closed': 'false',
+        'limit': 50, 'order': 'startDate', 'ascending': 'false',
+        'liquidity_num_min': 500,
         'end_date_min': today.isoformat(),
         'end_date_max': end_max
     })
@@ -770,7 +1022,7 @@ def bot1_scan_and_trade(portfolio, rate, state):
 
     seen_ids = set()
     all_markets = []
-    for m in markets + sports:
+    for m in markets + sports + new_markets:
         mid = m.get('id', '')
         if mid and mid not in seen_ids:
             seen_ids.add(mid)
@@ -779,33 +1031,33 @@ def bot1_scan_and_trade(portfolio, rate, state):
     existing_ids = set(p.get('market_id', '') for p in positions)
     candidates = [m for m in all_markets if str(m.get('id', '')) not in existing_ids]
 
-    # Fetch crypto momentum once for all candidates
     crypto_momentum = fetch_crypto_momentum()
     time.sleep(0.3)
 
-    # Score all candidates first, then pick best ones (not random)
     scored = []
     for m in candidates:
-        result = estimate_edge_smart(m, portfolio, state, crypto_momentum)
+        result = estimate_edge_smart(m, portfolio, state, crypto_momentum, odds_cache)
         if not result:
             continue
         side, our_prob, market_price, edge, signals = result
-        scored.append((edge, m, side, our_prob, market_price, signals))
-        time.sleep(0.2)  # rate limit for orderbook calls
+        # Bonus for bookmaker-backed edge
+        has_bookie = any('bookie' in s for s in signals)
+        sort_edge = edge + (0.02 if has_bookie else 0)
+        scored.append((sort_edge, edge, m, side, our_prob, market_price, signals))
+        time.sleep(0.2)
 
-    # Sort by edge descending — take the best opportunities
     scored.sort(key=lambda x: x[0], reverse=True)
 
     trades_opened = 0
     changed = False
     next_id = portfolio.get('next_position_id', len(positions) + 1)
 
-    for edge, m, side, our_prob, market_price, signals in scored:
-        if trades_opened >= 4:
+    for sort_edge, edge, m, side, our_prob, market_price, signals in scored:
+        if trades_opened >= 6:
             break
         if len(positions) >= 15:
             break
-        if balance < 50:
+        if balance < 30:
             break
 
         # [SMART ENTRY] Check if orderbook suggests waiting
@@ -817,8 +1069,8 @@ def bot1_scan_and_trade(portfolio, rate, state):
         if kelly_f <= 0:
             continue
 
-        size_nok = int(min(kelly_f * port_value, port_value * 0.07, balance * 0.5))
-        if size_nok < 40:
+        size_nok = int(min(kelly_f * port_value, port_value * 0.07, balance * 0.4))
+        if size_nok < 25:
             continue
 
         size_usd = size_nok / rate
