@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-05T13:27:46+02:00",
+    "last_updated": "2026-04-05T13:32:45+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.766586
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1124,
+    "balance_nok": 1195,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -44,9 +44,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 409,
+    "realized_pnl_nok": 433,
     "trades_this_month": 30,
-    "wins_this_month": 20,
+    "wins_this_month": 21,
     "losses_this_month": 7
   },
   "positions": [
@@ -87,25 +87,6 @@
       "end_date": "2026-04-05",
       "category": "sport",
       "unrealized_pnl_nok": 5
-    },
-    {
-      "id": "pos_028",
-      "market_id": "1541362",
-      "question": "Will FC Hradec Králové win on 2026-04-05?",
-      "slug": "cze1-fhk-bop-2026-04-05-fhk",
-      "side": "YES",
-      "entry_price_usd": 0.475,
-      "current_price_usd": 0.48,
-      "shares": 10.16,
-      "cost_usd": 4.83,
-      "cost_nok": 47,
-      "usd_nok_at_entry": 9.734244,
-      "edge_at_entry": 0.04,
-      "our_probability": 0.515,
-      "opened_at": "2026-04-03T09:03:04+02:00",
-      "end_date": "2026-04-05",
-      "category": "sport",
-      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -663,6 +644,30 @@
       "fee_nok": 0,
       "exit_price_usd": 0.9995,
       "closed_at": "2026-04-05T13:12:55+02:00"
+    },
+    {
+      "id": "pos_028",
+      "market_id": "1541362",
+      "question": "Will FC Hradec Králové win on 2026-04-05?",
+      "slug": "cze1-fhk-bop-2026-04-05-fhk",
+      "side": "YES",
+      "entry_price_usd": 0.475,
+      "current_price_usd": 0.725,
+      "shares": 10.16,
+      "cost_usd": 4.83,
+      "cost_nok": 47,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.515,
+      "opened_at": "2026-04-03T09:03:04+02:00",
+      "end_date": "2026-04-05",
+      "category": "sport",
+      "unrealized_pnl_nok": 24,
+      "result": "TAKE_PROFIT",
+      "profit_nok": 24,
+      "fee_nok": 0,
+      "exit_price_usd": 0.725,
+      "closed_at": "2026-04-05T13:32:45+02:00"
     }
   ],
   "trade_log": [
@@ -799,9 +804,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 20,
+    "total_wins": 21,
     "total_losses": 7,
-    "total_realized_pnl_nok": 409,
+    "total_realized_pnl_nok": 433,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -824,22 +829,23 @@
       0.5,
       0.2266,
       0.1415,
-      0.2895
+      0.2895,
+      0.25
     ],
-    "avg_clv": 0.1191
+    "avg_clv": 0.13
   },
   "next_position_id": 31,
   "learning": {
     "category_weights": {
       "esport": 0.05,
       "over_under": 0.05,
-      "moneyline": 0.012,
+      "moneyline": 0.031,
       "other": 0,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+5.0% | over_under:+5.0% | no_draw:+5.0% | moneyline:+1.2%"
+    "summary": "esport:+5.0% | over_under:+5.0% | no_draw:+5.0% | moneyline:+3.1%"
   }
 }
