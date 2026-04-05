@@ -1345,8 +1345,39 @@ def check_and_send_ath(bot1):
         print(f"No ATH (current: {v1}, ath: {ath})")
 
 
+def sanitize_portfolio(bot1):
+    """Fix any fields that remote trigger may have corrupted.
+    This runs every 5 min and overwrites bad values."""
+    if not bot1:
+        return
+    # Fix telegram section — remote trigger keeps resetting these
+    tg = bot1.get('telegram', {})
+    if 'bot2' in tg.get('description', '').lower() or 'bot1+bot2' in tg.get('description', ''):
+        tg['description'] = 'Send Telegram KUN naar total verdi slaar nytt ATH'
+    # Never let ATH be 0 if we have a portfolio value
+    if tg.get('ath_value_nok', 0) == 0:
+        v, _, _, _, _, _ = get_summary(bot1)
+        if v > 0:
+            tg['ath_value_nok'] = v
+    bot1['telegram'] = tg
+
+    # Fix risk rules if remote trigger overwrote them
+    rr = bot1.get('risk_rules', {})
+    rr['max_per_trade_pct'] = 0.04
+    rr['min_edge_pct'] = 0.05
+    rr['take_profit'] = False
+    rr['realistic_mode'] = True
+    bot1['risk_rules'] = rr
+
+    # Delete any bot2 file that might have been recreated
+    bot2_path = os.path.join(DATA_DIR, 'portfolio_bot2.json')
+    if os.path.exists(bot2_path):
+        os.remove(bot2_path)
+        print("Deleted portfolio_bot2.json")
+
+
 def main():
-    print(f"Bot engine v2 starting at {datetime.datetime.now(datetime.timezone.utc).isoformat()}")
+    print(f"Bot engine v4 starting at {datetime.datetime.now(datetime.timezone.utc).isoformat()}")
 
     state = load_state()
     if 'price_snapshots' not in state:
@@ -1361,6 +1392,9 @@ def main():
 
     if not bot1:
         print("ERROR: Could not load Bot1 portfolio")
+
+    # ALWAYS sanitize — fix anything remote trigger may have broken
+    sanitize_portfolio(bot1)
 
     # 0. Check Telegram commands (/dashboard, /positions, /help)
     check_telegram_commands(bot1, state)
@@ -1379,15 +1413,15 @@ def main():
     c3 = bot1_scan_and_trade(bot1, rate, state)
     print(f"Bot1 scan: {c3}")
 
-    # 3. Save
-    if bot1 and (c1 or c3):
+    # 3. ALWAYS save — overwrites any bad values from remote trigger
+    if bot1:
         save_json(BOT1_FILE, bot1)
         print("Saved Bot1 portfolio")
 
     # 4. ATH check — only send Telegram when new all-time high
     check_and_send_ath(bot1)
 
-    # Always save after ATH check (ath_value_nok may have updated)
+    # Save again after ATH check (ath_value_nok may have updated)
     if bot1:
         save_json(BOT1_FILE, bot1)
 
