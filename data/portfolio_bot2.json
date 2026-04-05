@@ -3,7 +3,7 @@
     "version": "1.0",
     "bot_name": "Bot 2 - Copy Trader",
     "created_at": "2026-04-01T18:00:00+02:00",
-    "last_updated": "2026-04-05T06:42:47+02:00",
+    "last_updated": "2026-04-05T06:47:47+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.766586,
     "copy_trader": {
@@ -27,7 +27,7 @@
       "slug": "sea-int-rom-2026-04-05-rom",
       "side": "NO",
       "entry_price_usd": 0.835,
-      "current_price_usd": 0.83,
+      "current_price_usd": 0.835,
       "shares": 5.29,
       "cost_usd": 4.42,
       "cost_nok": 43,
