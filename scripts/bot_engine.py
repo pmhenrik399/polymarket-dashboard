@@ -624,6 +624,40 @@ def crypto_signal_for_market(question, slug, crypto_momentum):
     return 0
 
 
+# ===== [NEWS FILTER] SKIP RISKY MARKETS =====
+
+RISK_KEYWORDS = [
+    'postponed', 'cancelled', 'canceled', 'suspended', 'delayed',
+    'injured', 'injury', 'out for', 'ruled out', 'doubtful',
+    'walkover', 'forfeit', 'abandoned', 'weather delay',
+    'red card', 'sent off', 'disqualified'
+]
+
+def check_market_risk(market):
+    """Check market description and details for risk signals.
+    Returns (is_risky, reason) tuple."""
+    desc = (market.get('description', '') or '').lower()
+    question = (market.get('question', '') or '').lower()
+    slug = (market.get('slug', '') or '').lower()
+
+    # Check Gamma API description for risk keywords
+    combined = f"{desc} {question} {slug}"
+    for keyword in RISK_KEYWORDS:
+        if keyword in combined:
+            return True, keyword
+
+    # Check if market has abnormally low volume relative to liquidity
+    # (sign of uncertainty — smart money staying away)
+    volume = float(market.get('volume', 0) or 0)
+    liquidity = float(market.get('liquidity', 0) or 0)
+    if liquidity > 0 and volume > 0:
+        vol_liq_ratio = volume / liquidity
+        if vol_liq_ratio < 0.1:  # very low activity relative to liquidity
+            return True, 'low_activity'
+
+    return False, ''
+
+
 # ===== [SMART ENTRIES] ORDERBOOK TIMING =====
 
 def should_wait_for_better_entry(market, side):
@@ -1102,6 +1136,12 @@ def bot1_scan_and_trade(portfolio, rate, state):
             break
         if balance < 25:
             break
+
+        # [NEWS FILTER] Skip markets with risk signals
+        is_risky, risk_reason = check_market_risk(m)
+        if is_risky:
+            print(f"  Risk skip: {m.get('question','?')[:40]} — {risk_reason}")
+            continue
 
         # [REALISTIC] Simulate fill probability — 20% of orders don't fill
         if random.random() > FILL_RATE:
