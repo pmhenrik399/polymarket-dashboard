@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-06T00:27:47+02:00",
+    "last_updated": "2026-04-06T00:32:45+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.766586
   },
@@ -57,7 +57,7 @@
       "slug": "bra-cam-cap-2026-04-05-cap",
       "side": "NO",
       "entry_price_usd": 0.765,
-      "current_price_usd": 0.9925,
+      "current_price_usd": 0.9995,
       "shares": 13.29,
       "cost_usd": 10.17,
       "cost_nok": 99,
@@ -67,7 +67,7 @@
       "opened_at": "2026-04-03T07:55:52+02:00",
       "end_date": "2026-04-05",
       "category": "sport",
-      "unrealized_pnl_nok": 29
+      "unrealized_pnl_nok": 30
     },
     {
       "id": "pos_020",
