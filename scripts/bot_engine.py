@@ -27,6 +27,9 @@ STATE_FILE = os.path.join(DATA_DIR, 'bot_engine_state.json')
 
 USD_NOK = 9.70
 POLYMARKET_FEE_PCT = 0.02
+POLYGON_GAS_USD = 0.03  # avg gas fee per transaction on Polygon
+SPREAD_COST_PCT = 0.015  # half-spread cost (you buy at ask, not mid)
+FILL_RATE = 0.80  # 80% of limit orders get filled in practice
 
 
 # ===== UTILITIES =====
@@ -808,11 +811,18 @@ def estimate_edge_smart(market, portfolio, state, crypto_momentum=None, odds_cac
 # ===== SLIPPAGE & KELLY =====
 
 def calc_slippage(market_price, size_usd, liquidity):
+    """Realistic slippage: spread cost + market impact + timing drift."""
     if liquidity <= 0:
-        return 0.03
+        return 0.05
     ratio = size_usd / liquidity
-    slip = 0.005 + ratio * 0.5
-    return min(slip, 0.05)
+    # Base: half-spread (you pay ask, not mid)
+    # + market impact proportional to order size vs liquidity
+    # + random timing drift (price moves between signal and fill)
+    spread = SPREAD_COST_PCT
+    impact = ratio * 0.8
+    drift = random.uniform(0, 0.01)  # 0-1% random price drift
+    slip = spread + impact + drift
+    return min(slip, 0.08)
 
 
 def half_kelly(prob, price):
@@ -901,21 +911,27 @@ def check_and_resolve(portfolio, bot_name, rate):
             closing_price = yes_p if side == 'YES' else no_p
             clv = record_clv(pos, closing_price)
 
+            # [REALISTIC] Gas fee for claim/redeem transaction
+            gas_nok = round(POLYGON_GAS_USD * rate, 1)
+
             if won:
                 gross_payout_nok = int(shares * rate)
                 winnings = gross_payout_nok - cost_nok
                 fee_nok = int(max(winnings, 0) * POLYMARKET_FEE_PCT)
-                payout_nok = gross_payout_nok - fee_nok
+                payout_nok = gross_payout_nok - fee_nok - gas_nok
                 profit = payout_nok - cost_nok
                 pos['result'] = 'WIN'
                 pos['profit_nok'] = profit
                 pos['fee_nok'] = fee_nok
+                pos['gas_nok'] = gas_nok
                 account['balance_nok'] = account.get('balance_nok', 0) + payout_nok
                 stats['total_wins'] = stats.get('total_wins', 0) + 1
                 monthly['wins_this_month'] = monthly.get('wins_this_month', 0) + 1
             else:
                 pos['result'] = 'LOSS'
-                pos['profit_nok'] = -cost_nok
+                pos['profit_nok'] = -cost_nok - gas_nok  # lost cost + gas for entry
+                pos['gas_nok'] = gas_nok
+                # No claim needed for losses, but entry gas was already paid
                 stats['total_losses'] = stats.get('total_losses', 0) + 1
                 monthly['losses_this_month'] = monthly.get('losses_this_month', 0) + 1
 
@@ -1087,6 +1103,11 @@ def bot1_scan_and_trade(portfolio, rate, state):
         if balance < 25:
             break
 
+        # [REALISTIC] Simulate fill probability — 20% of orders don't fill
+        if random.random() > FILL_RATE:
+            print(f"  No fill: {m.get('question','?')[:40]} — order not executed")
+            continue
+
         # [SMART ENTRY] Check if orderbook suggests waiting
         if should_wait_for_better_entry(m, side):
             print(f"  Skipping {m.get('question','?')[:40]} — spread too wide or sell pressure")
@@ -1098,6 +1119,11 @@ def bot1_scan_and_trade(portfolio, rate, state):
 
         size_nok = int(min(kelly_f * port_value, port_value * 0.04, balance * 0.3))
         if size_nok < 20:
+            continue
+
+        # [REALISTIC] Deduct gas fee from balance (entry transaction)
+        gas_nok = round(POLYGON_GAS_USD * rate, 1)
+        if balance < size_nok + gas_nok:
             continue
 
         size_usd = size_nok / rate
@@ -1139,7 +1165,7 @@ def bot1_scan_and_trade(portfolio, rate, state):
         }
 
         positions.append(pos)
-        balance -= size_nok
+        balance -= size_nok + gas_nok  # trade cost + gas fee
         next_id += 1
         trades_opened += 1
         changed = True
