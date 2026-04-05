@@ -12,19 +12,20 @@
     "total_deposited_nok": 1000
   },
   "risk_rules": {
-    "max_per_trade_pct": 0.15,
-    "max_total_exposure_pct": 0.9,
-    "stop_loss_pct": 0.3,
-    "min_edge_pct": 0.03,
+    "max_per_trade_pct": 0.04,
+    "max_total_exposure_pct": 0.95,
+    "min_edge_pct": 0.05,
     "kelly_fraction": 0.5,
-    "min_liquidity_usd": 1000,
+    "min_liquidity_usd": 500,
     "max_positions": 15,
     "max_per_category": 5,
-    "max_resolution_days": 3
+    "max_trades_per_scan": 8,
+    "prefer_same_day": true,
+    "take_profit": false
   },
   "telegram": {
-    "ath_value_nok": 0,
-    "description": "Send Telegram KUN naar total verdi (bot1+bot2) slaar nytt ATH"
+    "ath_value_nok": 1441,
+    "description": "Send Telegram KUN naar total verdi slaar nytt ATH. ALDRI sett ath_value_nok til 0."
   },
   "strategy": {
     "type": "compound_growth",

@@ -95,8 +95,7 @@ def load_state():
         with open(STATE_FILE, 'r', encoding='utf-8') as f:
             return json.load(f)
     except:
-        return {'last_heartbeat': '', 'last_scan': '', 'last_copy_sync': '',
-                'known_copy_slugs': [], 'price_snapshots': {},
+        return {'last_scan': '', 'price_snapshots': {},
                 'category_stats': {}}
 
 
