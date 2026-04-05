@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-05T05:27:46+02:00",
+    "last_updated": "2026-04-05T05:32:46+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.766586
   },
@@ -831,9 +831,9 @@
       "other": 0,
       "social_media": 0,
       "no_draw": 0.025,
-      "crypto_flip": 0.05,
+      "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+5.0% | over_under:+5.0% | crypto_flip:+5.0% | no_draw:+2.5% | moneyline:+1.2%"
+    "summary": "esport:+5.0% | over_under:+5.0% | no_draw:+2.5% | moneyline:+1.2%"
   }
 }
