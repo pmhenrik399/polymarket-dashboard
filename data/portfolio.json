@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-06T01:47:47+02:00",
+    "last_updated": "2026-04-05T23:52:39Z",
     "currency": "NOK",
     "usd_nok_rate": 9.766586
   },
@@ -12,19 +12,21 @@
     "total_deposited_nok": 1000
   },
   "risk_rules": {
-    "max_per_trade_pct": 0.15,
+    "max_per_trade_pct": 0.04,
     "max_total_exposure_pct": 0.9,
     "stop_loss_pct": 0.3,
-    "min_edge_pct": 0.03,
+    "min_edge_pct": 0.05,
     "kelly_fraction": 0.5,
     "min_liquidity_usd": 1000,
     "max_positions": 15,
     "max_per_category": 5,
-    "max_resolution_days": 3
+    "max_resolution_days": 3,
+    "take_profit": false,
+    "realistic_mode": true
   },
   "telegram": {
-    "ath_value_nok": 0,
-    "description": "Send Telegram KUN naar total verdi (bot1+bot2) slaar nytt ATH"
+    "ath_value_nok": 1468,
+    "description": "Send Telegram KUN naar total verdi slaar nytt ATH"
   },
   "strategy": {
     "type": "compound_growth",
