@@ -2,31 +2,29 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-05T23:17:28Z",
+    "last_updated": "2026-04-06T01:17:45+02:00",
     "currency": "NOK",
     "usd_nok_rate": 9.766586
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1080.4,
+    "balance_nok": 609,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
-    "max_per_trade_pct": 0.04,
+    "max_per_trade_pct": 0.15,
     "max_total_exposure_pct": 0.9,
     "stop_loss_pct": 0.3,
-    "min_edge_pct": 0.05,
+    "min_edge_pct": 0.03,
     "kelly_fraction": 0.5,
     "min_liquidity_usd": 1000,
     "max_positions": 15,
     "max_per_category": 5,
-    "max_resolution_days": 3,
-    "take_profit": false,
-    "realistic_mode": true
+    "max_resolution_days": 3
   },
   "telegram": {
-    "ath_value_nok": 1469,
-    "description": "Send Telegram KUN naar total verdi slaar nytt ATH"
+    "ath_value_nok": 0,
+    "description": "Send Telegram KUN naar total verdi (bot1+bot2) slaar nytt ATH"
   },
   "strategy": {
     "type": "compound_growth",
@@ -47,7 +45,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 433,
-    "trades_this_month": 32,
+    "trades_this_month": 34,
     "wins_this_month": 21,
     "losses_this_month": 7
   },
@@ -92,49 +90,105 @@
     },
     {
       "id": "pos_031",
-      "market_id": "1827454",
-      "question": "Will the highest temperature in Denver be between 68-69°F on April 6?",
-      "slug": "highest-temperature-in-denver-on-april-6-2026-68-69f",
+      "market_id": "1553980",
+      "question": "Will Al Fayha Saudi Club vs. Al Ahli Saudi Club end in a draw?",
+      "slug": "spl-fay-ahl-2026-04-07-draw",
       "side": "NO",
-      "entry_price_usd": 0.6802,
-      "mid_price_usd": 0.66,
-      "current_price_usd": 0.6802,
-      "slippage_pct": 3.07,
-      "shares": 8.58,
-      "cost_usd": 5.84,
-      "cost_nok": 57,
+      "entry_price_usd": 0.8004,
+      "mid_price_usd": 0.795,
+      "current_price_usd": 0.8004,
+      "slippage_pct": 0.68,
+      "shares": 21.87,
+      "cost_usd": 17.51,
+      "cost_nok": 171,
       "usd_nok_at_entry": 9.766586,
-      "edge_at_entry": 0.125,
-      "our_probability": 0.785,
+      "edge_at_entry": 0.09,
+      "our_probability": 0.885,
       "signals": [
-        "bookie:21%vs66%"
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000"
       ],
-      "category": "other",
-      "opened_at": "2026-04-05T23:17:38Z",
-      "end_date": "2026-04-06",
+      "category": "no_draw",
+      "opened_at": "2026-04-06T01:17:52+02:00",
+      "end_date": "2026-04-07",
       "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_032",
-      "market_id": "1827455",
-      "question": "Will the highest temperature in Denver be between 70-71°F on April 6?",
-      "slug": "highest-temperature-in-denver-on-april-6-2026-70-71f",
+      "market_id": "1700967",
+      "question": "Will UC Sampdoria vs. Empoli FC end in a draw?",
+      "slug": "itsb-sam-emp-2026-04-06-draw",
       "side": "NO",
-      "entry_price_usd": 0.7737,
-      "mid_price_usd": 0.75,
-      "current_price_usd": 0.7737,
-      "slippage_pct": 3.15,
-      "shares": 7.54,
-      "cost_usd": 5.84,
-      "cost_nok": 57,
+      "entry_price_usd": 0.6985,
+      "mid_price_usd": 0.695,
+      "current_price_usd": 0.6985,
+      "slippage_pct": 0.5,
+      "shares": 25.07,
+      "cost_usd": 17.51,
+      "cost_nok": 171,
       "usd_nok_at_entry": 9.766586,
-      "edge_at_entry": 0.035,
+      "edge_at_entry": 0.09,
       "our_probability": 0.785,
       "signals": [
-        "bookie:21%vs75%"
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000"
       ],
-      "category": "other",
-      "opened_at": "2026-04-05T23:17:38Z",
+      "category": "no_draw",
+      "opened_at": "2026-04-06T01:17:52+02:00",
+      "end_date": "2026-04-06",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_033",
+      "market_id": "1543773",
+      "question": "Hamarkameratene vs. SK Brann: O/U 1.5",
+      "slug": "nor-ham-bra-2026-04-06-total-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.7922,
+      "mid_price_usd": 0.785,
+      "current_price_usd": 0.7922,
+      "slippage_pct": 0.91,
+      "shares": 22.1,
+      "cost_usd": 17.51,
+      "cost_nok": 171,
+      "usd_nok_at_entry": 9.766586,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.865,
+      "signals": [
+        "base:0.030",
+        "cat:0.050",
+        "line:0.000"
+      ],
+      "category": "over_under",
+      "opened_at": "2026-04-06T01:17:53+02:00",
+      "end_date": "2026-04-06",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_034",
+      "market_id": "1550465",
+      "question": "Portsmouth FC vs. Oxford United FC: O/U 3.5",
+      "slug": "elc-por-oxf-2026-04-06-total-3pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2211,
+      "mid_price_usd": 0.22,
+      "current_price_usd": 0.2211,
+      "slippage_pct": 0.5,
+      "shares": 33.81,
+      "cost_usd": 7.47,
+      "cost_nok": 73,
+      "usd_nok_at_entry": 9.766586,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.3,
+      "signals": [
+        "base:0.030",
+        "cat:0.050",
+        "line:0.000"
+      ],
+      "category": "over_under",
+      "opened_at": "2026-04-06T01:17:53+02:00",
       "end_date": "2026-04-06",
       "unrealized_pnl_nok": 0
     }
@@ -884,7 +938,7 @@
     ],
     "avg_clv": 0.13
   },
-  "next_position_id": 33,
+  "next_position_id": 35,
   "learning": {
     "category_weights": {
       "esport": 0,
