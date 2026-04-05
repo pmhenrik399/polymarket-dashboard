@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-05T08:59:21Z",
+    "last_updated": "2026-04-05T09:51:24Z",
     "currency": "NOK",
     "usd_nok_rate": 9.766586
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1011,
+    "balance_nok": 1124,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -44,9 +44,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 376,
+    "realized_pnl_nok": 409,
     "trades_this_month": 30,
-    "wins_this_month": 19,
+    "wins_this_month": 20,
     "losses_this_month": 7
   },
   "positions": [
@@ -70,32 +70,13 @@
       "unrealized_pnl_nok": 3
     },
     {
-      "id": "pos_019",
-      "market_id": "1544335",
-      "question": "Will Incheon United FC vs. Gimcheon Sangmu FC end in a draw?",
-      "slug": "kor-inc-san-2026-04-05-draw",
-      "side": "NO",
-      "entry_price_usd": 0.71,
-      "current_price_usd": 0.775,
-      "shares": 11.58,
-      "cost_usd": 8.22,
-      "cost_nok": 80,
-      "usd_nok_at_entry": 9.734244,
-      "edge_at_entry": 0.04,
-      "our_probability": 0.75,
-      "opened_at": "2026-04-03T07:55:52+02:00",
-      "end_date": "2026-04-05",
-      "category": "sport",
-      "unrealized_pnl_nok": 7
-    },
-    {
       "id": "pos_020",
       "market_id": "1791522",
       "question": "Jazz vs. Thunder",
       "slug": "nba-uta-okc-2026-04-05",
       "side": "NO",
       "entry_price_usd": 0.935,
-      "current_price_usd": 0.9745,
+      "current_price_usd": 0.9705,
       "shares": 15.27,
       "cost_usd": 14.28,
       "cost_nok": 139,
@@ -658,6 +639,30 @@
       "fee_nok": 0,
       "exit_price_usd": 0.9965,
       "closed_at": "2026-04-04T21:22:46+02:00"
+    },
+    {
+      "id": "pos_019",
+      "market_id": "1544335",
+      "question": "Will Incheon United FC vs. Gimcheon Sangmu FC end in a draw?",
+      "slug": "kor-inc-san-2026-04-05-draw",
+      "side": "NO",
+      "entry_price_usd": 0.71,
+      "current_price_usd": 0.9995,
+      "shares": 11.58,
+      "cost_usd": 8.22,
+      "cost_nok": 80,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.75,
+      "opened_at": "2026-04-03T07:55:52+02:00",
+      "end_date": "2026-04-05",
+      "category": "sport",
+      "unrealized_pnl_nok": 32,
+      "result": "TAKE_PROFIT",
+      "profit_nok": 33,
+      "fee_nok": 0,
+      "exit_price_usd": 0.9995,
+      "closed_at": "2026-04-05T09:51:23Z"
     }
   ],
   "trade_log": [
@@ -794,9 +799,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 19,
+    "total_wins": 20,
     "total_losses": 7,
-    "total_realized_pnl_nok": 376,
+    "total_realized_pnl_nok": 409,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -818,9 +823,10 @@
       0.075,
       0.5,
       0.2266,
-      0.1415
+      0.1415,
+      0.2895
     ],
-    "avg_clv": 0.102
+    "avg_clv": 0.1191
   },
   "next_position_id": 31,
   "learning": {
@@ -830,10 +836,10 @@
       "moneyline": 0.012,
       "other": 0,
       "social_media": 0,
-      "no_draw": 0.025,
+      "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+5.0% | over_under:+5.0% | no_draw:+2.5% | moneyline:+1.2%"
+    "summary": "esport:+5.0% | over_under:+5.0% | no_draw:+5.0% | moneyline:+1.2%"
   }
 }
