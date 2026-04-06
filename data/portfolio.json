@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-06T02:37:47+02:00",
+    "last_updated": "2026-04-06T02:42:47+02:00",
     "currency": "NOK",
-    "usd_nok_rate": 9.766586
+    "usd_nok_rate": 9.774786
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 609,
+    "balance_nok": 738,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -44,31 +44,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 433,
+    "realized_pnl_nok": 463,
     "trades_this_month": 34,
-    "wins_this_month": 21,
+    "wins_this_month": 22,
     "losses_this_month": 7
   },
   "positions": [
-    {
-      "id": "pos_018",
-      "market_id": "1746009",
-      "question": "Will CA Paranaense win on 2026-04-05?",
-      "slug": "bra-cam-cap-2026-04-05-cap",
-      "side": "NO",
-      "entry_price_usd": 0.765,
-      "current_price_usd": 0.9995,
-      "shares": 13.29,
-      "cost_usd": 10.17,
-      "cost_nok": 99,
-      "usd_nok_at_entry": 9.734244,
-      "edge_at_entry": 0.04,
-      "our_probability": 0.805,
-      "opened_at": "2026-04-03T07:55:52+02:00",
-      "end_date": "2026-04-05",
-      "category": "sport",
-      "unrealized_pnl_nok": 30
-    },
     {
       "id": "pos_020",
       "market_id": "1791522",
@@ -772,6 +753,31 @@
       "fee_nok": 0,
       "exit_price_usd": 0.725,
       "closed_at": "2026-04-05T13:32:45+02:00"
+    },
+    {
+      "id": "pos_018",
+      "market_id": "1746009",
+      "question": "Will CA Paranaense win on 2026-04-05?",
+      "slug": "bra-cam-cap-2026-04-05-cap",
+      "side": "NO",
+      "entry_price_usd": 0.765,
+      "current_price_usd": 1.0,
+      "shares": 13.29,
+      "cost_usd": 10.17,
+      "cost_nok": 99,
+      "usd_nok_at_entry": 9.734244,
+      "edge_at_entry": 0.04,
+      "our_probability": 0.805,
+      "opened_at": "2026-04-03T07:55:52+02:00",
+      "end_date": "2026-04-05",
+      "category": "sport",
+      "unrealized_pnl_nok": 30,
+      "closing_price": 1.0,
+      "clv": 0.235,
+      "result": "WIN",
+      "profit_nok": 30,
+      "fee_nok": 0,
+      "closed_at": "2026-04-06T02:42:45+02:00"
     }
   ],
   "trade_log": [
@@ -908,9 +914,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 21,
+    "total_wins": 22,
     "total_losses": 7,
-    "total_realized_pnl_nok": 433,
+    "total_realized_pnl_nok": 463,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -934,22 +940,23 @@
       0.2266,
       0.1415,
       0.2895,
-      0.25
+      0.25,
+      0.235
     ],
-    "avg_clv": 0.13
+    "avg_clv": 0.1381
   },
   "next_position_id": 35,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0.05,
-      "moneyline": 0.031,
+      "moneyline": 0.045,
       "other": 0,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "over_under:+5.0% | no_draw:+5.0% | moneyline:+3.1%"
+    "summary": "over_under:+5.0% | no_draw:+5.0% | moneyline:+4.5%"
   }
 }
