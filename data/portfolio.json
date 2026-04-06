@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-06T12:36:36Z",
+    "last_updated": "2026-04-06T13:57:43Z",
     "currency": "NOK",
     "usd_nok_rate": 9.774786
   },
@@ -25,7 +25,7 @@
     "realistic_mode": true
   },
   "telegram": {
-    "ath_value_nok": 1467,
+    "ath_value_nok": 1725,
     "description": "Send Telegram KUN naar total verdi slaar nytt ATH"
   },
   "strategy": {
@@ -138,7 +138,7 @@
       "side": "YES",
       "entry_price_usd": 0.2211,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.125,
+      "current_price_usd": 0.9995,
       "slippage_pct": 0.5,
       "shares": 33.81,
       "cost_usd": 7.47,
@@ -154,7 +154,7 @@
       "category": "over_under",
       "opened_at": "2026-04-06T01:17:53+02:00",
       "end_date": "2026-04-06",
-      "unrealized_pnl_nok": -31
+      "unrealized_pnl_nok": 257
     }
   ],
   "closed_positions": [
