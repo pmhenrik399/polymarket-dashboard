@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-06T05:32:46+02:00",
+    "last_updated": "2026-04-06T04:51:20Z",
     "currency": "NOK",
     "usd_nok_rate": 9.774786
   },
@@ -12,19 +12,21 @@
     "total_deposited_nok": 1000
   },
   "risk_rules": {
-    "max_per_trade_pct": 0.15,
+    "max_per_trade_pct": 0.04,
     "max_total_exposure_pct": 0.9,
     "stop_loss_pct": 0.3,
-    "min_edge_pct": 0.03,
+    "min_edge_pct": 0.05,
     "kelly_fraction": 0.5,
     "min_liquidity_usd": 1000,
     "max_positions": 15,
     "max_per_category": 5,
-    "max_resolution_days": 3
+    "max_resolution_days": 3,
+    "take_profit": false,
+    "realistic_mode": true
   },
   "telegram": {
-    "ath_value_nok": 0,
-    "description": "Send Telegram KUN naar total verdi (bot1+bot2) slaar nytt ATH"
+    "ath_value_nok": 1469,
+    "description": "Send Telegram KUN naar total verdi slaar nytt ATH"
   },
   "strategy": {
     "type": "compound_growth",
@@ -58,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.8004,
       "mid_price_usd": 0.795,
-      "current_price_usd": 0.795,
+      "current_price_usd": 0.81,
       "slippage_pct": 0.68,
       "shares": 21.87,
       "cost_usd": 17.51,
@@ -74,7 +76,7 @@
       "category": "no_draw",
       "opened_at": "2026-04-06T01:17:52+02:00",
       "end_date": "2026-04-07",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_032",
@@ -136,7 +138,7 @@
       "side": "YES",
       "entry_price_usd": 0.2211,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.21,
+      "current_price_usd": 0.215,
       "slippage_pct": 0.5,
       "shares": 33.81,
       "cost_usd": 7.47,
@@ -152,7 +154,7 @@
       "category": "over_under",
       "opened_at": "2026-04-06T01:17:53+02:00",
       "end_date": "2026-04-06",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -2
     }
   ],
   "closed_positions": [
