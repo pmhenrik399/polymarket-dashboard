@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-06T14:58:34Z",
+    "last_updated": "2026-04-06T15:57:09Z",
     "currency": "NOK",
     "usd_nok_rate": 9.774786
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 887,
+    "balance_nok": 1211.7,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -25,7 +25,7 @@
     "realistic_mode": true
   },
   "telegram": {
-    "ath_value_nok": 1726,
+    "ath_value_nok": 1743.7,
     "description": "Send Telegram KUN naar total verdi slaar nytt ATH"
   },
   "strategy": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 473,
+    "realized_pnl_nok": 724.7,
     "trades_this_month": 34,
-    "wins_this_month": 23,
+    "wins_this_month": 24,
     "losses_this_month": 7
   },
   "positions": [
@@ -86,7 +86,7 @@
       "side": "NO",
       "entry_price_usd": 0.6985,
       "mid_price_usd": 0.695,
-      "current_price_usd": 0.685,
+      "current_price_usd": 0.595,
       "slippage_pct": 0.5,
       "shares": 25.07,
       "cost_usd": 17.51,
@@ -102,7 +102,7 @@
       "category": "no_draw",
       "opened_at": "2026-04-06T01:17:52+02:00",
       "end_date": "2026-04-06",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -25
     },
     {
       "id": "pos_033",
@@ -112,7 +112,7 @@
       "side": "YES",
       "entry_price_usd": 0.7922,
       "mid_price_usd": 0.785,
-      "current_price_usd": 0.785,
+      "current_price_usd": 0.9995,
       "slippage_pct": 0.91,
       "shares": 22.1,
       "cost_usd": 17.51,
@@ -128,33 +128,7 @@
       "category": "over_under",
       "opened_at": "2026-04-06T01:17:53+02:00",
       "end_date": "2026-04-06",
-      "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_034",
-      "market_id": "1550465",
-      "question": "Portsmouth FC vs. Oxford United FC: O/U 3.5",
-      "slug": "elc-por-oxf-2026-04-06-total-3pt5",
-      "side": "YES",
-      "entry_price_usd": 0.2211,
-      "mid_price_usd": 0.22,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 0.5,
-      "shares": 33.81,
-      "cost_usd": 7.47,
-      "cost_nok": 73,
-      "usd_nok_at_entry": 9.766586,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.3,
-      "signals": [
-        "base:0.030",
-        "cat:0.050",
-        "line:0.000"
-      ],
-      "category": "over_under",
-      "opened_at": "2026-04-06T01:17:53+02:00",
-      "end_date": "2026-04-06",
-      "unrealized_pnl_nok": 257
+      "unrealized_pnl_nok": 44
     }
   ],
   "closed_positions": [
@@ -786,6 +760,39 @@
       "profit_nok": 10,
       "fee_nok": 0,
       "closed_at": "2026-04-06T05:27:45+02:00"
+    },
+    {
+      "id": "pos_034",
+      "market_id": "1550465",
+      "question": "Portsmouth FC vs. Oxford United FC: O/U 3.5",
+      "slug": "elc-por-oxf-2026-04-06-total-3pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2211,
+      "mid_price_usd": 0.22,
+      "current_price_usd": 1.0,
+      "slippage_pct": 0.5,
+      "shares": 33.81,
+      "cost_usd": 7.47,
+      "cost_nok": 73,
+      "usd_nok_at_entry": 9.766586,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.3,
+      "signals": [
+        "base:0.030",
+        "cat:0.050",
+        "line:0.000"
+      ],
+      "category": "over_under",
+      "opened_at": "2026-04-06T01:17:53+02:00",
+      "end_date": "2026-04-06",
+      "unrealized_pnl_nok": 257,
+      "closing_price": 1.0,
+      "clv": 0.78,
+      "result": "WIN",
+      "profit_nok": 251.7,
+      "fee_nok": 5,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-06T15:57:08Z"
     }
   ],
   "trade_log": [
@@ -922,9 +929,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 23,
+    "total_wins": 24,
     "total_losses": 7,
-    "total_realized_pnl_nok": 473,
+    "total_realized_pnl_nok": 724.7,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -950,9 +957,10 @@
       0.2895,
       0.25,
       0.235,
-      0.065
+      0.065,
+      0.78
     ],
-    "avg_clv": 0.1328
+    "avg_clv": 0.176
   },
   "next_position_id": 35,
   "learning": {
