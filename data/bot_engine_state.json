@@ -15,10 +15,6 @@
     ],
     "1867103_yes": [
       {
-        "t": 1775463043,
-        "p": 0.365
-      },
-      {
         "t": 1775468524,
         "p": 0.38
       },
@@ -96,15 +92,15 @@
       },
       {
         "t": 1775544824,
+        "p": 0.38
+      },
+      {
+        "t": 1775549511,
         "p": 0.38
       }
     ],
     "1867103_no": [
       {
-        "t": 1775463043,
-        "p": 0.635
-      },
-      {
         "t": 1775468524,
         "p": 0.62
       },
@@ -183,13 +179,13 @@
       {
         "t": 1775544824,
         "p": 0.62
+      },
+      {
+        "t": 1775549511,
+        "p": 0.62
       }
     ],
     "1867107_yes": [
-      {
-        "t": 1775463043,
-        "p": 0.39
-      },
       {
         "t": 1775468524,
         "p": 0.405
@@ -217,10 +213,6 @@
     ],
     "1867107_no": [
       {
-        "t": 1775463043,
-        "p": 0.61
-      },
-      {
         "t": 1775468524,
         "p": 0.595
       },
@@ -246,10 +238,6 @@
       }
     ],
     "1743216_yes": [
-      {
-        "t": 1775463042,
-        "p": 0.65
-      },
       {
         "t": 1775468524,
         "p": 0.65
@@ -321,10 +309,6 @@
     ],
     "1743216_no": [
       {
-        "t": 1775463042,
-        "p": 0.35
-      },
-      {
         "t": 1775468524,
         "p": 0.35
       },
@@ -393,42 +377,6 @@
         "p": 0.325
       }
     ],
-    "1744912_yes": [
-      {
-        "t": 1775463041,
-        "p": 0.375
-      }
-    ],
-    "1744912_no": [
-      {
-        "t": 1775463041,
-        "p": 0.625
-      }
-    ],
-    "1854769_yes": [
-      {
-        "t": 1775463041,
-        "p": 0.225
-      }
-    ],
-    "1854769_no": [
-      {
-        "t": 1775463041,
-        "p": 0.775
-      }
-    ],
-    "1885464_yes": [
-      {
-        "t": 1775463042,
-        "p": 0.49
-      }
-    ],
-    "1885464_no": [
-      {
-        "t": 1775463042,
-        "p": 0.51
-      }
-    ],
     "1886760_yes": [
       {
         "t": 1775510735,
@@ -439,18 +387,6 @@
       {
         "t": 1775510735,
         "p": 0.535
-      }
-    ],
-    "1880461_yes": [
-      {
-        "t": 1775463041,
-        "p": 0.47
-      }
-    ],
-    "1880461_no": [
-      {
-        "t": 1775463041,
-        "p": 0.53
       }
     ],
     "1886102_yes": [
@@ -591,41 +527,17 @@
     ],
     "1542019_yes": [
       {
-        "t": 1775463044,
-        "p": 0.555
-      },
-      {
         "t": 1775468526,
         "p": 0.555
       }
     ],
     "1542019_no": [
       {
-        "t": 1775463044,
-        "p": 0.445
-      },
-      {
         "t": 1775468526,
         "p": 0.445
       }
     ],
-    "1884217_yes": [
-      {
-        "t": 1775463041,
-        "p": 0.675
-      }
-    ],
-    "1884217_no": [
-      {
-        "t": 1775463041,
-        "p": 0.325
-      }
-    ],
     "1867110_yes": [
-      {
-        "t": 1775463042,
-        "p": 0.455
-      },
       {
         "t": 1775468523,
         "p": 0.455
@@ -677,10 +589,6 @@
     ],
     "1867110_no": [
       {
-        "t": 1775463042,
-        "p": 0.545
-      },
-      {
         "t": 1775468523,
         "p": 0.545
       },
@@ -729,93 +637,13 @@
         "p": 0.545
       }
     ],
-    "1827096_yes": [
-      {
-        "t": 1775463042,
-        "p": 0.35
-      }
-    ],
-    "1827096_no": [
-      {
-        "t": 1775463042,
-        "p": 0.65
-      }
-    ],
-    "1873574_yes": [
-      {
-        "t": 1775463042,
-        "p": 0.495
-      }
-    ],
-    "1873574_no": [
-      {
-        "t": 1775463042,
-        "p": 0.505
-      }
-    ],
-    "1759432_yes": [
-      {
-        "t": 1775463042,
-        "p": 0.445
-      }
-    ],
-    "1759432_no": [
-      {
-        "t": 1775463042,
-        "p": 0.555
-      }
-    ],
-    "1882380_yes": [
-      {
-        "t": 1775463043,
-        "p": 0.33
-      }
-    ],
-    "1882380_no": [
-      {
-        "t": 1775463043,
-        "p": 0.67
-      }
-    ],
-    "1875813_yes": [
-      {
-        "t": 1775463043,
-        "p": 0.525
-      }
-    ],
-    "1875813_no": [
-      {
-        "t": 1775463043,
-        "p": 0.475
-      }
-    ],
-    "1708676_yes": [
-      {
-        "t": 1775463044,
-        "p": 0.265
-      }
-    ],
-    "1708676_no": [
-      {
-        "t": 1775463044,
-        "p": 0.735
-      }
-    ],
     "1737337_yes": [
-      {
-        "t": 1775463044,
-        "p": 0.725
-      },
       {
         "t": 1775468525,
         "p": 0.705
       }
     ],
     "1737337_no": [
-      {
-        "t": 1775463044,
-        "p": 0.275
-      },
       {
         "t": 1775468525,
         "p": 0.295
@@ -2633,6 +2461,10 @@
       {
         "t": 1775544824,
         "p": 0.315
+      },
+      {
+        "t": 1775549511,
+        "p": 0.315
       }
     ],
     "1743907_no": [
@@ -2650,6 +2482,10 @@
       },
       {
         "t": 1775544824,
+        "p": 0.685
+      },
+      {
+        "t": 1775549511,
         "p": 0.685
       }
     ],
@@ -2689,6 +2525,10 @@
       {
         "t": 1775544822,
         "p": 0.285
+      },
+      {
+        "t": 1775549510,
+        "p": 0.305
       }
     ],
     "1831385_no": [
@@ -2707,6 +2547,10 @@
       {
         "t": 1775544822,
         "p": 0.715
+      },
+      {
+        "t": 1775549510,
+        "p": 0.695
       }
     ],
     "1854579_yes": [
@@ -2825,6 +2669,10 @@
       {
         "t": 1775544822,
         "p": 0.615
+      },
+      {
+        "t": 1775549510,
+        "p": 0.615
       }
     ],
     "1743215_no": [
@@ -2838,6 +2686,10 @@
       },
       {
         "t": 1775544822,
+        "p": 0.385
+      },
+      {
+        "t": 1775549510,
         "p": 0.385
       }
     ],
@@ -2965,6 +2817,10 @@
       {
         "t": 1775544824,
         "p": 0.375
+      },
+      {
+        "t": 1775549511,
+        "p": 0.38
       }
     ],
     "1817341_no": [
@@ -2975,6 +2831,10 @@
       {
         "t": 1775544824,
         "p": 0.625
+      },
+      {
+        "t": 1775549511,
+        "p": 0.62
       }
     ],
     "1854854_yes": [
@@ -3037,11 +2897,19 @@
       {
         "t": 1775544824,
         "p": 0.5
+      },
+      {
+        "t": 1775549511,
+        "p": 0.5
       }
     ],
     "1559350_no": [
       {
         "t": 1775544824,
+        "p": 0.5
+      },
+      {
+        "t": 1775549511,
         "p": 0.5
       }
     ],
@@ -3061,11 +2929,19 @@
       {
         "t": 1775544824,
         "p": 0.44
+      },
+      {
+        "t": 1775549512,
+        "p": 0.44
       }
     ],
     "1554176_no": [
       {
         "t": 1775544824,
+        "p": 0.56
+      },
+      {
+        "t": 1775549512,
         "p": 0.56
       }
     ],
@@ -3104,6 +2980,90 @@
         "t": 1775544825,
         "p": 0.605
       }
+    ],
+    "1871864_yes": [
+      {
+        "t": 1775549510,
+        "p": 0.22
+      }
+    ],
+    "1871864_no": [
+      {
+        "t": 1775549510,
+        "p": 0.78
+      }
+    ],
+    "1854639_yes": [
+      {
+        "t": 1775549511,
+        "p": 0.315
+      }
+    ],
+    "1854639_no": [
+      {
+        "t": 1775549511,
+        "p": 0.685
+      }
+    ],
+    "1894996_yes": [
+      {
+        "t": 1775549512,
+        "p": 0.425
+      }
+    ],
+    "1894996_no": [
+      {
+        "t": 1775549512,
+        "p": 0.575
+      }
+    ],
+    "1854526_yes": [
+      {
+        "t": 1775549512,
+        "p": 0.32
+      }
+    ],
+    "1854526_no": [
+      {
+        "t": 1775549512,
+        "p": 0.68
+      }
+    ],
+    "1854724_yes": [
+      {
+        "t": 1775549512,
+        "p": 0.275
+      }
+    ],
+    "1854724_no": [
+      {
+        "t": 1775549512,
+        "p": 0.725
+      }
+    ],
+    "1888167_yes": [
+      {
+        "t": 1775549512,
+        "p": 0.24
+      }
+    ],
+    "1888167_no": [
+      {
+        "t": 1775549512,
+        "p": 0.76
+      }
+    ],
+    "1828332_yes": [
+      {
+        "t": 1775549512,
+        "p": 0.545
+      }
+    ],
+    "1828332_no": [
+      {
+        "t": 1775549512,
+        "p": 0.455
+      }
     ]
   },
   "category_stats": {},
@@ -3112,9 +3072,9 @@
     "west ham vs wolverhampton wanderers": {
       "home": "West Ham United",
       "away": "Wolverhampton Wanderers",
-      "home_prob": 0.5249,
-      "away_prob": 0.2214,
-      "draw_prob": 0.2537,
+      "home_prob": 0.5251,
+      "away_prob": 0.2226,
+      "draw_prob": 0.2523,
       "commence": "2026-04-10T19:00:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 24
@@ -3122,9 +3082,9 @@
     "arsenal vs bournemouth": {
       "home": "Arsenal",
       "away": "Bournemouth",
-      "home_prob": 0.6743,
-      "away_prob": 0.1252,
-      "draw_prob": 0.2005,
+      "home_prob": 0.676,
+      "away_prob": 0.1245,
+      "draw_prob": 0.1996,
       "commence": "2026-04-11T11:30:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 24
@@ -3132,9 +3092,9 @@
     "brentford vs everton": {
       "home": "Brentford",
       "away": "Everton",
-      "home_prob": 0.4292,
-      "away_prob": 0.2855,
-      "draw_prob": 0.2853,
+      "home_prob": 0.4291,
+      "away_prob": 0.2856,
+      "draw_prob": 0.2854,
       "commence": "2026-04-11T14:00:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 24
@@ -3142,9 +3102,9 @@
     "burnley vs brighton and hove albion": {
       "home": "Burnley",
       "away": "Brighton and Hove Albion",
-      "home_prob": 0.2095,
-      "away_prob": 0.5519,
-      "draw_prob": 0.2386,
+      "home_prob": 0.2096,
+      "away_prob": 0.5521,
+      "draw_prob": 0.2382,
       "commence": "2026-04-11T14:00:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 24
@@ -3152,9 +3112,9 @@
     "liverpool vs fulham": {
       "home": "Liverpool",
       "away": "Fulham",
-      "home_prob": 0.6024,
-      "away_prob": 0.1828,
-      "draw_prob": 0.2148,
+      "home_prob": 0.6027,
+      "away_prob": 0.1825,
+      "draw_prob": 0.2147,
       "commence": "2026-04-11T16:30:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 24
@@ -3162,9 +3122,9 @@
     "nottingham forest vs aston villa": {
       "home": "Nottingham Forest",
       "away": "Aston Villa",
-      "home_prob": 0.3607,
-      "away_prob": 0.3544,
-      "draw_prob": 0.285,
+      "home_prob": 0.3601,
+      "away_prob": 0.3546,
+      "draw_prob": 0.2853,
       "commence": "2026-04-12T13:00:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 24
@@ -3172,8 +3132,8 @@
     "crystal palace vs newcastle": {
       "home": "Crystal Palace",
       "away": "Newcastle United",
-      "home_prob": 0.3389,
-      "away_prob": 0.3915,
+      "home_prob": 0.3341,
+      "away_prob": 0.3963,
       "draw_prob": 0.2696,
       "commence": "2026-04-12T13:00:00Z",
       "sport": "soccer_epl",
@@ -3182,8 +3142,8 @@
     "sunderland vs tottenham hotspur": {
       "home": "Sunderland",
       "away": "Tottenham Hotspur",
-      "home_prob": 0.3576,
-      "away_prob": 0.3631,
+      "home_prob": 0.3614,
+      "away_prob": 0.3593,
       "draw_prob": 0.2793,
       "commence": "2026-04-12T13:00:00Z",
       "sport": "soccer_epl",
@@ -3203,8 +3163,8 @@
       "home": "Manchester United",
       "away": "Leeds United",
       "home_prob": 0.5975,
-      "away_prob": 0.1779,
-      "draw_prob": 0.2247,
+      "away_prob": 0.1778,
+      "draw_prob": 0.2248,
       "commence": "2026-04-13T19:00:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 23
@@ -3282,9 +3242,9 @@
     "manchester vs arsenal": {
       "home": "Manchester City",
       "away": "Arsenal",
-      "home_prob": 0.4629,
-      "away_prob": 0.274,
-      "draw_prob": 0.2631,
+      "home_prob": 0.4639,
+      "away_prob": 0.2739,
+      "draw_prob": 0.2622,
       "commence": "2026-04-19T15:30:00Z",
       "sport": "soccer_epl",
       "bookmaker_count": 19
@@ -3302,9 +3262,9 @@
     "madrid vs girona": {
       "home": "Real Madrid",
       "away": "Girona",
-      "home_prob": 0.7605,
-      "away_prob": 0.0948,
-      "draw_prob": 0.1447,
+      "home_prob": 0.7592,
+      "away_prob": 0.095,
+      "draw_prob": 0.1457,
       "commence": "2026-04-10T19:00:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 21
@@ -3312,9 +3272,9 @@
     "sociedad vs alav\u00e9s": {
       "home": "Real Sociedad",
       "away": "Alav\u00e9s",
-      "home_prob": 0.5373,
-      "away_prob": 0.1981,
-      "draw_prob": 0.2647,
+      "home_prob": 0.5374,
+      "away_prob": 0.1983,
+      "draw_prob": 0.2643,
       "commence": "2026-04-11T12:00:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 21
@@ -3322,9 +3282,9 @@
     "elche vs valencia": {
       "home": "Elche CF",
       "away": "Valencia",
-      "home_prob": 0.3969,
+      "home_prob": 0.3968,
       "away_prob": 0.3112,
-      "draw_prob": 0.2919,
+      "draw_prob": 0.292,
       "commence": "2026-04-11T14:15:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 21
@@ -3333,8 +3293,8 @@
       "home": "Barcelona",
       "away": "Espanyol",
       "home_prob": 0.7849,
-      "away_prob": 0.0868,
-      "draw_prob": 0.1283,
+      "away_prob": 0.0862,
+      "draw_prob": 0.1289,
       "commence": "2026-04-11T16:30:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 21
@@ -3342,9 +3302,9 @@
     "sevilla vs atl\u00e9tico madrid": {
       "home": "Sevilla",
       "away": "Atl\u00e9tico Madrid",
-      "home_prob": 0.2693,
-      "away_prob": 0.4249,
-      "draw_prob": 0.3059,
+      "home_prob": 0.267,
+      "away_prob": 0.4252,
+      "draw_prob": 0.3078,
       "commence": "2026-04-11T19:00:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 20
@@ -3352,9 +3312,9 @@
     "osasuna vs betis": {
       "home": "CA Osasuna",
       "away": "Real Betis",
-      "home_prob": 0.4191,
-      "away_prob": 0.3056,
-      "draw_prob": 0.2752,
+      "home_prob": 0.4194,
+      "away_prob": 0.3055,
+      "draw_prob": 0.2751,
       "commence": "2026-04-12T12:00:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 20
@@ -3362,9 +3322,9 @@
     "mallorca vs rayo vallecano": {
       "home": "Mallorca",
       "away": "Rayo Vallecano",
-      "home_prob": 0.375,
-      "away_prob": 0.3332,
-      "draw_prob": 0.2918,
+      "home_prob": 0.3753,
+      "away_prob": 0.333,
+      "draw_prob": 0.2917,
       "commence": "2026-04-12T14:15:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 21
@@ -3372,9 +3332,9 @@
     "celta vigo vs oviedo": {
       "home": "Celta Vigo",
       "away": "Oviedo",
-      "home_prob": 0.5803,
-      "away_prob": 0.1957,
-      "draw_prob": 0.224,
+      "home_prob": 0.58,
+      "away_prob": 0.1958,
+      "draw_prob": 0.2241,
       "commence": "2026-04-12T16:30:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 21
@@ -3382,8 +3342,8 @@
     "bilbao vs villarreal": {
       "home": "Athletic Bilbao",
       "away": "Villarreal",
-      "home_prob": 0.4181,
-      "away_prob": 0.3136,
+      "home_prob": 0.4183,
+      "away_prob": 0.3134,
       "draw_prob": 0.2683,
       "commence": "2026-04-12T19:00:00Z",
       "sport": "soccer_spain_la_liga",
@@ -3392,9 +3352,9 @@
     "levante vs getafe": {
       "home": "Levante",
       "away": "Getafe",
-      "home_prob": 0.344,
-      "away_prob": 0.3404,
-      "draw_prob": 0.3156,
+      "home_prob": 0.3452,
+      "away_prob": 0.3403,
+      "draw_prob": 0.3146,
       "commence": "2026-04-13T19:00:00Z",
       "sport": "soccer_spain_la_liga",
       "bookmaker_count": 21
@@ -3402,109 +3362,109 @@
     "bilbao vs osasuna": {
       "home": "Athletic Bilbao",
       "away": "CA Osasuna",
-      "home_prob": 0.5111,
-      "away_prob": 0.2186,
-      "draw_prob": 0.2703,
+      "home_prob": 0.5114,
+      "away_prob": 0.2189,
+      "draw_prob": 0.2698,
       "commence": "2026-04-21T17:00:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 11
+      "bookmaker_count": 10
     },
     "mallorca vs valencia": {
       "home": "Mallorca",
       "away": "Valencia",
-      "home_prob": 0.382,
+      "home_prob": 0.3822,
       "away_prob": 0.3178,
-      "draw_prob": 0.3002,
+      "draw_prob": 0.3,
       "commence": "2026-04-21T17:00:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 9
+      "bookmaker_count": 8
     },
     "madrid vs alav\u00e9s": {
       "home": "Real Madrid",
       "away": "Alav\u00e9s",
-      "home_prob": 0.7371,
-      "away_prob": 0.1007,
-      "draw_prob": 0.1622,
+      "home_prob": 0.7362,
+      "away_prob": 0.1013,
+      "draw_prob": 0.1625,
       "commence": "2026-04-21T19:30:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 11
+      "bookmaker_count": 10
     },
     "girona vs betis": {
       "home": "Girona",
       "away": "Real Betis",
-      "home_prob": 0.3757,
-      "away_prob": 0.347,
-      "draw_prob": 0.2773,
+      "home_prob": 0.3761,
+      "away_prob": 0.3463,
+      "draw_prob": 0.2775,
       "commence": "2026-04-21T19:30:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 8
+      "bookmaker_count": 7
     },
     "elche vs atl\u00e9tico madrid": {
       "home": "Elche CF",
       "away": "Atl\u00e9tico Madrid",
-      "home_prob": 0.2499,
-      "away_prob": 0.4865,
+      "home_prob": 0.2495,
+      "away_prob": 0.4869,
       "draw_prob": 0.2636,
       "commence": "2026-04-22T17:00:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 10
+      "bookmaker_count": 9
     },
     "sociedad vs getafe": {
       "home": "Real Sociedad",
       "away": "Getafe",
-      "home_prob": 0.5116,
-      "away_prob": 0.2026,
-      "draw_prob": 0.2858,
+      "home_prob": 0.512,
+      "away_prob": 0.203,
+      "draw_prob": 0.285,
       "commence": "2026-04-22T18:00:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 11
+      "bookmaker_count": 10
     },
     "barcelona vs celta vigo": {
       "home": "Barcelona",
       "away": "Celta Vigo",
-      "home_prob": 0.7456,
-      "away_prob": 0.107,
-      "draw_prob": 0.1474,
+      "home_prob": 0.7454,
+      "away_prob": 0.1074,
+      "draw_prob": 0.1473,
       "commence": "2026-04-22T19:30:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 11
+      "bookmaker_count": 10
     },
     "levante vs sevilla": {
       "home": "Levante",
       "away": "Sevilla",
-      "home_prob": 0.3172,
-      "away_prob": 0.414,
-      "draw_prob": 0.2687,
+      "home_prob": 0.3175,
+      "away_prob": 0.4145,
+      "draw_prob": 0.268,
       "commence": "2026-04-23T17:00:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 9
+      "bookmaker_count": 8
     },
     "rayo vallecano vs espanyol": {
       "home": "Rayo Vallecano",
       "away": "Espanyol",
-      "home_prob": 0.5161,
-      "away_prob": 0.2243,
-      "draw_prob": 0.2596,
+      "home_prob": 0.5169,
+      "away_prob": 0.2246,
+      "draw_prob": 0.2585,
       "commence": "2026-04-23T18:00:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 9
+      "bookmaker_count": 8
     },
     "oviedo vs villarreal": {
       "home": "Oviedo",
       "away": "Villarreal",
-      "home_prob": 0.2345,
-      "away_prob": 0.5132,
-      "draw_prob": 0.2523,
+      "home_prob": 0.2341,
+      "away_prob": 0.5141,
+      "draw_prob": 0.2517,
       "commence": "2026-04-23T19:30:00Z",
       "sport": "soccer_spain_la_liga",
-      "bookmaker_count": 9
+      "bookmaker_count": 8
     },
     "as roma vs pisa": {
       "home": "AS Roma",
       "away": "Pisa",
       "home_prob": 0.7079,
-      "away_prob": 0.1008,
-      "draw_prob": 0.1914,
+      "away_prob": 0.1012,
+      "draw_prob": 0.1908,
       "commence": "2026-04-10T18:45:00Z",
       "sport": "soccer_italy_serie_a",
       "bookmaker_count": 24
@@ -3512,9 +3472,9 @@
     "cagliari vs cremonese": {
       "home": "Cagliari",
       "away": "Cremonese",
-      "home_prob": 0.437,
-      "away_prob": 0.2596,
-      "draw_prob": 0.3035,
+      "home_prob": 0.4371,
+      "away_prob": 0.2578,
+      "draw_prob": 0.3051,
       "commence": "2026-04-11T13:00:00Z",
       "sport": "soccer_italy_serie_a",
       "bookmaker_count": 24
@@ -3524,7 +3484,7 @@
       "away": "Hellas Verona",
       "home_prob": 0.5013,
       "away_prob": 0.2145,
-      "draw_prob": 0.2841,
+      "draw_prob": 0.2842,
       "commence": "2026-04-11T13:00:00Z",
       "sport": "soccer_italy_serie_a",
       "bookmaker_count": 24
@@ -3533,178 +3493,178 @@
       "home": "AC Milan",
       "away": "Udinese",
       "home_prob": 0.6752,
-      "away_prob": 0.1229,
-      "draw_prob": 0.2019,
+      "away_prob": 0.1231,
+      "draw_prob": 0.2017,
       "commence": "2026-04-11T16:00:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 23
+      "bookmaker_count": 24
     },
     "atalanta vs juventus": {
       "home": "Atalanta BC",
       "away": "Juventus",
-      "home_prob": 0.3064,
-      "away_prob": 0.4163,
-      "draw_prob": 0.2773,
+      "home_prob": 0.3053,
+      "away_prob": 0.4166,
+      "draw_prob": 0.2781,
       "commence": "2026-04-11T18:45:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 23
+      "bookmaker_count": 24
     },
     "genoa vs sassuolo": {
       "home": "Genoa",
       "away": "Sassuolo",
-      "home_prob": 0.4395,
-      "away_prob": 0.2726,
-      "draw_prob": 0.2879,
+      "home_prob": 0.4398,
+      "away_prob": 0.2724,
+      "draw_prob": 0.2878,
       "commence": "2026-04-12T10:30:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 23
+      "bookmaker_count": 24
     },
     "parma vs napoli": {
       "home": "Parma",
       "away": "Napoli",
       "home_prob": 0.1664,
-      "away_prob": 0.5796,
-      "draw_prob": 0.254,
+      "away_prob": 0.5806,
+      "draw_prob": 0.253,
       "commence": "2026-04-12T13:00:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 23
+      "bookmaker_count": 24
     },
     "bologna vs lecce": {
       "home": "Bologna",
       "away": "Lecce",
-      "home_prob": 0.5288,
-      "away_prob": 0.1937,
-      "draw_prob": 0.2776,
+      "home_prob": 0.5291,
+      "away_prob": 0.1926,
+      "draw_prob": 0.2783,
       "commence": "2026-04-12T16:00:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 23
+      "bookmaker_count": 24
     },
     "como vs inter milan": {
       "home": "Como",
       "away": "Inter Milan",
-      "home_prob": 0.3035,
-      "away_prob": 0.4204,
-      "draw_prob": 0.2761,
+      "home_prob": 0.3032,
+      "away_prob": 0.4205,
+      "draw_prob": 0.2764,
       "commence": "2026-04-12T18:45:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 23
+      "bookmaker_count": 24
     },
     "fiorentina vs lazio": {
       "home": "Fiorentina",
       "away": "Lazio",
-      "home_prob": 0.4171,
-      "away_prob": 0.2724,
-      "draw_prob": 0.3104,
+      "home_prob": 0.4166,
+      "away_prob": 0.2737,
+      "draw_prob": 0.3097,
       "commence": "2026-04-13T18:45:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 23
+      "bookmaker_count": 24
     },
     "sassuolo vs como": {
       "home": "Sassuolo",
       "away": "Como",
-      "home_prob": 0.1976,
-      "away_prob": 0.5668,
-      "draw_prob": 0.2357,
+      "home_prob": 0.1975,
+      "away_prob": 0.567,
+      "draw_prob": 0.2355,
       "commence": "2026-04-17T16:30:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "inter milan vs cagliari": {
       "home": "Inter Milan",
       "away": "Cagliari",
-      "home_prob": 0.7832,
+      "home_prob": 0.7833,
       "away_prob": 0.0734,
       "draw_prob": 0.1434,
       "commence": "2026-04-17T18:45:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "udinese vs parma": {
       "home": "Udinese",
       "away": "Parma",
-      "home_prob": 0.4189,
-      "away_prob": 0.2503,
-      "draw_prob": 0.3308,
+      "home_prob": 0.4184,
+      "away_prob": 0.2496,
+      "draw_prob": 0.332,
       "commence": "2026-04-18T13:00:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "napoli vs lazio": {
       "home": "Napoli",
       "away": "Lazio",
       "home_prob": 0.5686,
-      "away_prob": 0.1709,
+      "away_prob": 0.171,
       "draw_prob": 0.2605,
       "commence": "2026-04-18T16:00:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "as roma vs atalanta": {
       "home": "AS Roma",
       "away": "Atalanta BC",
-      "home_prob": 0.4408,
-      "away_prob": 0.2791,
+      "home_prob": 0.4409,
+      "away_prob": 0.279,
       "draw_prob": 0.2801,
       "commence": "2026-04-18T18:45:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "cremonese vs torino": {
       "home": "Cremonese",
       "away": "Torino",
-      "home_prob": 0.3357,
-      "away_prob": 0.3656,
-      "draw_prob": 0.2987,
+      "home_prob": 0.3352,
+      "away_prob": 0.3655,
+      "draw_prob": 0.2993,
       "commence": "2026-04-19T10:30:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "hellas verona vs ac milan": {
       "home": "Hellas Verona",
       "away": "AC Milan",
-      "home_prob": 0.165,
-      "away_prob": 0.5819,
+      "home_prob": 0.1647,
+      "away_prob": 0.5823,
       "draw_prob": 0.253,
       "commence": "2026-04-19T13:00:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "pisa vs genoa": {
       "home": "Pisa",
       "away": "Genoa",
-      "home_prob": 0.2807,
-      "away_prob": 0.426,
-      "draw_prob": 0.2932,
+      "home_prob": 0.2805,
+      "away_prob": 0.4262,
+      "draw_prob": 0.2933,
       "commence": "2026-04-19T16:00:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "juventus vs bologna": {
       "home": "Juventus",
       "away": "Bologna",
       "home_prob": 0.635,
-      "away_prob": 0.1515,
-      "draw_prob": 0.2135,
+      "away_prob": 0.1514,
+      "draw_prob": 0.2137,
       "commence": "2026-04-19T18:45:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "lecce vs fiorentina": {
       "home": "Lecce",
       "away": "Fiorentina",
       "home_prob": 0.2639,
-      "away_prob": 0.4582,
-      "draw_prob": 0.2779,
+      "away_prob": 0.4585,
+      "draw_prob": 0.2776,
       "commence": "2026-04-20T18:45:00Z",
       "sport": "soccer_italy_serie_a",
-      "bookmaker_count": 18
+      "bookmaker_count": 17
     },
     "augsburg vs tsg hoffenheim": {
       "home": "Augsburg",
       "away": "TSG Hoffenheim",
       "home_prob": 0.2921,
-      "away_prob": 0.454,
-      "draw_prob": 0.2539,
+      "away_prob": 0.4541,
+      "draw_prob": 0.2538,
       "commence": "2026-04-10T18:30:00Z",
       "sport": "soccer_germany_bundesliga",
       "bookmaker_count": 24
@@ -3712,9 +3672,9 @@
     "heidenheim vs union berlin": {
       "home": "1. FC Heidenheim",
       "away": "Union Berlin",
-      "home_prob": 0.2962,
-      "away_prob": 0.4326,
-      "draw_prob": 0.2712,
+      "home_prob": 0.2958,
+      "away_prob": 0.4327,
+      "draw_prob": 0.2715,
       "commence": "2026-04-11T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
       "bookmaker_count": 24
@@ -3722,9 +3682,9 @@
     "borussia dortmund vs bayer leverkusen": {
       "home": "Borussia Dortmund",
       "away": "Bayer Leverkusen",
-      "home_prob": 0.4857,
-      "away_prob": 0.2693,
-      "draw_prob": 0.245,
+      "home_prob": 0.4867,
+      "away_prob": 0.2689,
+      "draw_prob": 0.2445,
       "commence": "2026-04-11T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
       "bookmaker_count": 24
@@ -3732,9 +3692,9 @@
     "rb leipzig vs borussia monchengladbach": {
       "home": "RB Leipzig",
       "away": "Borussia Monchengladbach",
-      "home_prob": 0.6296,
+      "home_prob": 0.6291,
       "away_prob": 0.1692,
-      "draw_prob": 0.2011,
+      "draw_prob": 0.2017,
       "commence": "2026-04-11T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
       "bookmaker_count": 24
@@ -3742,8 +3702,8 @@
     "vfl wolfsburg vs eintracht frankfurt": {
       "home": "VfL Wolfsburg",
       "away": "Eintracht Frankfurt",
-      "home_prob": 0.3776,
-      "away_prob": 0.36,
+      "home_prob": 0.3778,
+      "away_prob": 0.3598,
       "draw_prob": 0.2625,
       "commence": "2026-04-11T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
@@ -3752,9 +3712,9 @@
     "st pauli vs bayern munich": {
       "home": "FC St. Pauli",
       "away": "Bayern Munich",
-      "home_prob": 0.1154,
-      "away_prob": 0.7066,
-      "draw_prob": 0.178,
+      "home_prob": 0.1163,
+      "away_prob": 0.7049,
+      "draw_prob": 0.1789,
       "commence": "2026-04-11T16:30:00Z",
       "sport": "soccer_germany_bundesliga",
       "bookmaker_count": 24
@@ -3762,9 +3722,9 @@
     "k\u00f6ln vs werder bremen": {
       "home": "1. FC K\u00f6ln",
       "away": "Werder Bremen",
-      "home_prob": 0.4281,
-      "away_prob": 0.3,
-      "draw_prob": 0.272,
+      "home_prob": 0.4285,
+      "away_prob": 0.2999,
+      "draw_prob": 0.2716,
       "commence": "2026-04-12T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
       "bookmaker_count": 24
@@ -3772,8 +3732,8 @@
     "vfb stuttgart vs hamburger sv": {
       "home": "VfB Stuttgart",
       "away": "Hamburger SV",
-      "home_prob": 0.653,
-      "away_prob": 0.1475,
+      "home_prob": 0.6535,
+      "away_prob": 0.147,
       "draw_prob": 0.1995,
       "commence": "2026-04-12T15:30:00Z",
       "sport": "soccer_germany_bundesliga",
@@ -3782,9 +3742,9 @@
     "fsv mainz vs freiburg": {
       "home": "FSV Mainz 05",
       "away": "SC Freiburg",
-      "home_prob": 0.4323,
-      "away_prob": 0.2635,
-      "draw_prob": 0.3042,
+      "home_prob": 0.432,
+      "away_prob": 0.2637,
+      "draw_prob": 0.3043,
       "commence": "2026-04-12T17:30:00Z",
       "sport": "soccer_germany_bundesliga",
       "bookmaker_count": 24
@@ -3792,92 +3752,92 @@
     "st pauli vs k\u00f6ln": {
       "home": "FC St. Pauli",
       "away": "1. FC K\u00f6ln",
-      "home_prob": 0.4022,
-      "away_prob": 0.306,
-      "draw_prob": 0.2918,
+      "home_prob": 0.4024,
+      "away_prob": 0.3059,
+      "draw_prob": 0.2917,
       "commence": "2026-04-17T18:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 18
+      "bookmaker_count": 17
     },
     "bayer leverkusen vs augsburg": {
       "home": "Bayer Leverkusen",
       "away": "Augsburg",
-      "home_prob": 0.6341,
-      "away_prob": 0.1587,
-      "draw_prob": 0.2073,
+      "home_prob": 0.633,
+      "away_prob": 0.1594,
+      "draw_prob": 0.2076,
       "commence": "2026-04-18T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "tsg hoffenheim vs borussia dortmund": {
       "home": "TSG Hoffenheim",
       "away": "Borussia Dortmund",
-      "home_prob": 0.3505,
-      "away_prob": 0.4049,
-      "draw_prob": 0.2446,
+      "home_prob": 0.3504,
+      "away_prob": 0.4051,
+      "draw_prob": 0.2444,
       "commence": "2026-04-18T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "werder bremen vs hamburger sv": {
       "home": "Werder Bremen",
       "away": "Hamburger SV",
-      "home_prob": 0.4654,
-      "away_prob": 0.2739,
-      "draw_prob": 0.2606,
+      "home_prob": 0.466,
+      "away_prob": 0.2736,
+      "draw_prob": 0.2604,
       "commence": "2026-04-18T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "union berlin vs vfl wolfsburg": {
       "home": "Union Berlin",
       "away": "VfL Wolfsburg",
-      "home_prob": 0.4347,
-      "away_prob": 0.2983,
-      "draw_prob": 0.267,
+      "home_prob": 0.435,
+      "away_prob": 0.298,
+      "draw_prob": 0.2669,
       "commence": "2026-04-18T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "eintracht frankfurt vs rb leipzig": {
       "home": "Eintracht Frankfurt",
       "away": "RB Leipzig",
       "home_prob": 0.297,
-      "away_prob": 0.4601,
-      "draw_prob": 0.2429,
+      "away_prob": 0.4602,
+      "draw_prob": 0.2428,
       "commence": "2026-04-18T16:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "freiburg vs heidenheim": {
       "home": "SC Freiburg",
       "away": "1. FC Heidenheim",
-      "home_prob": 0.5864,
-      "away_prob": 0.1853,
-      "draw_prob": 0.2283,
+      "home_prob": 0.5872,
+      "away_prob": 0.1854,
+      "draw_prob": 0.2274,
       "commence": "2026-04-19T13:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "bayern munich vs vfb stuttgart": {
       "home": "Bayern Munich",
       "away": "VfB Stuttgart",
-      "home_prob": 0.6974,
-      "away_prob": 0.1283,
-      "draw_prob": 0.1743,
+      "home_prob": 0.6978,
+      "away_prob": 0.1271,
+      "draw_prob": 0.175,
       "commence": "2026-04-19T15:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "borussia monchengladbach vs fsv mainz": {
       "home": "Borussia Monchengladbach",
       "away": "FSV Mainz 05",
       "home_prob": 0.3891,
-      "away_prob": 0.338,
-      "draw_prob": 0.2729,
+      "away_prob": 0.3379,
+      "draw_prob": 0.273,
       "commence": "2026-04-19T17:30:00Z",
       "sport": "soccer_germany_bundesliga",
-      "bookmaker_count": 16
+      "bookmaker_count": 15
     },
     "paris vs as monaco": {
       "home": "Paris FC",
@@ -3892,9 +3852,9 @@
     "marseille vs metz": {
       "home": "Marseille",
       "away": "Metz",
-      "home_prob": 0.7599,
-      "away_prob": 0.0857,
-      "draw_prob": 0.1544,
+      "home_prob": 0.7606,
+      "away_prob": 0.0858,
+      "draw_prob": 0.1536,
       "commence": "2026-04-10T19:05:00Z",
       "sport": "soccer_france_ligue_one",
       "bookmaker_count": 24
@@ -3912,9 +3872,9 @@
     "rennes vs angers": {
       "home": "Rennes",
       "away": "Angers",
-      "home_prob": 0.6854,
-      "away_prob": 0.1186,
-      "draw_prob": 0.196,
+      "home_prob": 0.6846,
+      "away_prob": 0.1192,
+      "draw_prob": 0.1961,
       "commence": "2026-04-11T19:05:00Z",
       "sport": "soccer_france_ligue_one",
       "bookmaker_count": 24
@@ -3932,9 +3892,9 @@
     "nice vs le havre": {
       "home": "Nice",
       "away": "Le Havre",
-      "home_prob": 0.4897,
-      "away_prob": 0.2174,
-      "draw_prob": 0.2929,
+      "home_prob": 0.4889,
+      "away_prob": 0.218,
+      "draw_prob": 0.2931,
       "commence": "2026-04-12T15:15:00Z",
       "sport": "soccer_france_ligue_one",
       "bookmaker_count": 24
@@ -3942,9 +3902,9 @@
     "toulouse vs lille": {
       "home": "Toulouse",
       "away": "Lille",
-      "home_prob": 0.3074,
-      "away_prob": 0.3986,
-      "draw_prob": 0.2941,
+      "home_prob": 0.307,
+      "away_prob": 0.3984,
+      "draw_prob": 0.2946,
       "commence": "2026-04-12T15:15:00Z",
       "sport": "soccer_france_ligue_one",
       "bookmaker_count": 24
@@ -3952,9 +3912,9 @@
     "lyon vs lorient": {
       "home": "Lyon",
       "away": "Lorient",
-      "home_prob": 0.5541,
+      "home_prob": 0.5543,
       "away_prob": 0.1966,
-      "draw_prob": 0.2494,
+      "draw_prob": 0.2491,
       "commence": "2026-04-12T18:45:00Z",
       "sport": "soccer_france_ligue_one",
       "bookmaker_count": 24
@@ -3962,92 +3922,92 @@
     "rc lens vs toulouse": {
       "home": "RC Lens",
       "away": "Toulouse",
-      "home_prob": 0.584,
-      "away_prob": 0.1819,
-      "draw_prob": 0.234,
+      "home_prob": 0.5851,
+      "away_prob": 0.1814,
+      "draw_prob": 0.2335,
       "commence": "2026-04-17T18:45:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "lorient vs marseille": {
       "home": "Lorient",
       "away": "Marseille",
-      "home_prob": 0.244,
-      "away_prob": 0.5026,
+      "home_prob": 0.2436,
+      "away_prob": 0.5031,
       "draw_prob": 0.2534,
       "commence": "2026-04-18T15:00:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 18
+      "bookmaker_count": 17
     },
     "angers vs le havre": {
       "home": "Angers",
       "away": "Le Havre",
-      "home_prob": 0.3306,
-      "away_prob": 0.3563,
-      "draw_prob": 0.3131,
+      "home_prob": 0.3305,
+      "away_prob": 0.3554,
+      "draw_prob": 0.3141,
       "commence": "2026-04-18T17:00:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 18
+      "bookmaker_count": 17
     },
     "lille vs nice": {
       "home": "Lille",
       "away": "Nice",
-      "home_prob": 0.5907,
-      "away_prob": 0.1726,
-      "draw_prob": 0.2368,
+      "home_prob": 0.5906,
+      "away_prob": 0.1728,
+      "draw_prob": 0.2367,
       "commence": "2026-04-18T19:05:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "as monaco vs auxerre": {
       "home": "AS Monaco",
       "away": "Auxerre",
-      "home_prob": 0.6048,
-      "away_prob": 0.1731,
-      "draw_prob": 0.2221,
+      "home_prob": 0.6051,
+      "away_prob": 0.173,
+      "draw_prob": 0.2219,
       "commence": "2026-04-19T13:00:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "nantes vs brest": {
       "home": "Nantes",
       "away": "Brest",
-      "home_prob": 0.3991,
-      "away_prob": 0.3116,
-      "draw_prob": 0.2894,
+      "home_prob": 0.3993,
+      "away_prob": 0.3112,
+      "draw_prob": 0.2895,
       "commence": "2026-04-19T15:15:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "metz vs paris": {
       "home": "Metz",
       "away": "Paris FC",
-      "home_prob": 0.2845,
-      "away_prob": 0.4354,
-      "draw_prob": 0.2801,
+      "home_prob": 0.2838,
+      "away_prob": 0.4357,
+      "draw_prob": 0.2805,
       "commence": "2026-04-19T15:15:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "strasbourg vs rennes": {
       "home": "Strasbourg",
       "away": "Rennes",
-      "home_prob": 0.381,
-      "away_prob": 0.364,
-      "draw_prob": 0.255,
+      "home_prob": 0.3822,
+      "away_prob": 0.3632,
+      "draw_prob": 0.2546,
       "commence": "2026-04-19T15:15:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "paris saint germain vs lyon": {
       "home": "Paris Saint Germain",
       "away": "Lyon",
       "home_prob": 0.7235,
-      "away_prob": 0.1094,
-      "draw_prob": 0.1671,
+      "away_prob": 0.1092,
+      "draw_prob": 0.1673,
       "commence": "2026-04-19T18:45:00Z",
       "sport": "soccer_france_ligue_one",
-      "bookmaker_count": 17
+      "bookmaker_count": 16
     },
     "paris saint germain vs nantes": {
       "home": "Paris Saint Germain",
@@ -4112,9 +4072,9 @@
     "braga vs arouca": {
       "home": "Braga",
       "away": "Arouca",
-      "home_prob": 0.6654,
-      "away_prob": 0.132,
-      "draw_prob": 0.2025,
+      "home_prob": 0.6689,
+      "away_prob": 0.1299,
+      "draw_prob": 0.2012,
       "commence": "2026-04-12T17:00:00Z",
       "sport": "soccer_portugal_primeira_liga",
       "bookmaker_count": 20
@@ -4122,9 +4082,9 @@
     "benfica vs nacional": {
       "home": "Benfica",
       "away": "Nacional",
-      "home_prob": 0.8186,
+      "home_prob": 0.8188,
       "away_prob": 0.0627,
-      "draw_prob": 0.1187,
+      "draw_prob": 0.1185,
       "commence": "2026-04-12T17:00:00Z",
       "sport": "soccer_portugal_primeira_liga",
       "bookmaker_count": 19
@@ -4132,9 +4092,9 @@
     "estoril vs porto": {
       "home": "Estoril",
       "away": "FC Porto",
-      "home_prob": 0.1443,
-      "away_prob": 0.6461,
-      "draw_prob": 0.2096,
+      "home_prob": 0.1428,
+      "away_prob": 0.649,
+      "draw_prob": 0.2082,
       "commence": "2026-04-12T19:30:00Z",
       "sport": "soccer_portugal_primeira_liga",
       "bookmaker_count": 19
@@ -4142,13 +4102,13 @@
     "tondela vs gil vicente": {
       "home": "Tondela",
       "away": "Gil Vicente",
-      "home_prob": 0.2439,
-      "away_prob": 0.4688,
-      "draw_prob": 0.2873,
+      "home_prob": 0.2444,
+      "away_prob": 0.4681,
+      "draw_prob": 0.2875,
       "commence": "2026-04-13T19:15:00Z",
       "sport": "soccer_portugal_primeira_liga",
       "bookmaker_count": 18
     }
   },
-  "odds_last_fetched": 1775544815
+  "odds_last_fetched": 1775549504
 }
