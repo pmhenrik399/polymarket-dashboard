@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-09T01:08:58Z",
+    "last_updated": "2026-04-09T04:03:49Z",
     "currency": "NOK",
     "usd_nok_rate": 9.564627
   },
@@ -46,39 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 842.1000000000001,
+    "realized_pnl_nok": 670.8000000000002,
     "trades_this_month": 34,
     "wins_this_month": 26,
-    "losses_this_month": 7
+    "losses_this_month": 8
   },
-  "positions": [
-    {
-      "id": "pos_031",
-      "market_id": "1553980",
-      "question": "Will Al Fayha Saudi Club vs. Al Ahli Saudi Club end in a draw?",
-      "slug": "spl-fay-ahl-2026-04-07-draw",
-      "side": "NO",
-      "entry_price_usd": 0.8004,
-      "mid_price_usd": 0.795,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 0.68,
-      "shares": 21.87,
-      "cost_usd": 17.51,
-      "cost_nok": 171,
-      "usd_nok_at_entry": 9.766586,
-      "edge_at_entry": 0.09,
-      "our_probability": 0.885,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-04-06T01:17:52+02:00",
-      "end_date": "2026-04-07",
-      "unrealized_pnl_nok": -167
-    }
-  ],
+  "positions": [],
   "closed_positions": [
     {
       "id": "pos_001",
@@ -807,6 +780,38 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-04-06T19:57:08Z"
+    },
+    {
+      "id": "pos_031",
+      "market_id": "1553980",
+      "question": "Will Al Fayha Saudi Club vs. Al Ahli Saudi Club end in a draw?",
+      "slug": "spl-fay-ahl-2026-04-07-draw",
+      "side": "NO",
+      "entry_price_usd": 0.8004,
+      "mid_price_usd": 0.795,
+      "current_price_usd": 0.0,
+      "slippage_pct": 0.68,
+      "shares": 21.87,
+      "cost_usd": 17.51,
+      "cost_nok": 171,
+      "usd_nok_at_entry": 9.766586,
+      "edge_at_entry": 0.09,
+      "our_probability": 0.885,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-04-06T01:17:52+02:00",
+      "end_date": "2026-04-07",
+      "unrealized_pnl_nok": -167,
+      "closing_price": 0.0,
+      "clv": -0.795,
+      "result": "LOSS",
+      "profit_nok": -171.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-09T04:03:48Z"
     }
   ],
   "trade_log": [
@@ -944,8 +949,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 26,
-    "total_losses": 7,
-    "total_realized_pnl_nok": 842.1000000000001,
+    "total_losses": 8,
+    "total_realized_pnl_nok": 670.8000000000002,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -974,9 +979,10 @@
       0.065,
       0.78,
       0.305,
-      0.215
+      0.215,
+      -0.795
     ],
-    "avg_clv": 0.1859
+    "avg_clv": 0.1314
   },
   "next_position_id": 35,
   "learning": {
@@ -986,10 +992,10 @@
       "moneyline": 0.045,
       "other": 0,
       "social_media": 0,
-      "no_draw": 0.05,
+      "no_draw": 0.008,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "over_under:+5.0% | no_draw:+5.0% | moneyline:+4.5%"
+    "summary": "over_under:+5.0% | moneyline:+4.5% | no_draw:+0.8%"
   }
 }
