@@ -2,9 +2,9 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-08T23:50:28Z",
+    "last_updated": "2026-04-09T01:08:58Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.642721
+    "usd_nok_rate": 9.564627
   },
   "account": {
     "starting_capital": 1000,
@@ -76,7 +76,7 @@
       "category": "no_draw",
       "opened_at": "2026-04-06T01:17:52+02:00",
       "end_date": "2026-04-07",
-      "unrealized_pnl_nok": -168
+      "unrealized_pnl_nok": -167
     }
   ],
   "closed_positions": [
