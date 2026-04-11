@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-11T23:02:45Z",
+    "last_updated": "2026-04-11T23:48:29Z",
     "currency": "NOK",
     "usd_nok_rate": 9.510231
   },
@@ -992,10 +992,10 @@
       "moneyline": 0,
       "other": 0,
       "social_media": 0,
-      "no_draw": 0.008,
+      "no_draw": 0,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "over_under:+5.0% | no_draw:+0.8%"
+    "summary": "over_under:+5.0%"
   }
 }
