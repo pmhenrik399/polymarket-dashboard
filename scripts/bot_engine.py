@@ -626,23 +626,50 @@ def crypto_signal_for_market(question, slug, crypto_momentum):
 
 # ===== [NEWS FILTER] SKIP RISKY MARKETS =====
 
-RISK_KEYWORDS = [
+STATUS_KEYWORDS = [
     'postponed', 'cancelled', 'canceled', 'suspended', 'delayed',
+    'walkover', 'forfeit', 'abandoned', 'weather delay'
+]
+PLAYER_KEYWORDS = [
     'injured', 'injury', 'out for', 'ruled out', 'doubtful',
-    'walkover', 'forfeit', 'abandoned', 'weather delay',
     'red card', 'sent off', 'disqualified'
+]
+DESC_STATUS_PATTERNS = [
+    'is postponed', 'has been postponed', 'match postponed', 'game postponed', 'event postponed',
+    'is cancelled', 'has been cancelled', 'is canceled', 'has been canceled',
+    'is suspended', 'has been suspended', 'match suspended',
+    'has been delayed', 'is delayed indefinitely',
+    'has been abandoned', 'match abandoned', 'game abandoned',
 ]
 
 def check_market_risk(market):
     """Check market description and details for risk signals.
-    Returns (is_risky, reason) tuple."""
+    Returns (is_risky, reason) tuple.
+
+    Status keywords (postponed, cancelled, etc.) are checked against question/slug
+    only — these are short and specific. Description often contains these as
+    hypothetical resolution rules ("If postponed, market resolves NO"), so we
+    require a contextual phrase like "is postponed" / "has been cancelled"
+    before treating description as a real status signal.
+    """
     desc = (market.get('description', '') or '').lower()
     question = (market.get('question', '') or '').lower()
     slug = (market.get('slug', '') or '').lower()
 
-    # Check Gamma API description for risk keywords
+    # Status keywords: check question + slug only (avoid false positives from rules text)
+    qs = f"{question} {slug}"
+    for keyword in STATUS_KEYWORDS:
+        if keyword in qs:
+            return True, keyword
+
+    # Description: only flag if status word appears in a real status phrase
+    for pattern in DESC_STATUS_PATTERNS:
+        if pattern in desc:
+            return True, pattern.split()[-1]
+
+    # Player keywords: safe to check everywhere — rare in rules text
     combined = f"{desc} {question} {slug}"
-    for keyword in RISK_KEYWORDS:
+    for keyword in PLAYER_KEYWORDS:
         if keyword in combined:
             return True, keyword
 
