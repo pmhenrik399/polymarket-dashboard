@@ -662,13 +662,15 @@ def check_market_risk(market):
         if keyword in combined:
             return True, keyword
 
-    # Check if market has abnormally low volume relative to liquidity
-    # (sign of uncertainty — smart money staying away)
+    # Check if market has abnormally low volume relative to liquidity.
+    # Threshold previously 10% which was excluding most spread / sport markets
+    # where a lot of liquidity is parked AMM-style with little turnover.
+    # 3% still catches truly dead markets without killing real candidates.
     volume = float(market.get('volume', 0) or 0)
     liquidity = float(market.get('liquidity', 0) or 0)
     if liquidity > 0 and volume > 0:
         vol_liq_ratio = volume / liquidity
-        if vol_liq_ratio < 0.1:  # very low activity relative to liquidity
+        if vol_liq_ratio < 0.03:
             return True, 'low_activity'
 
     return False, ''
