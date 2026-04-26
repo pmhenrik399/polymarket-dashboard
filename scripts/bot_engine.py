@@ -695,7 +695,7 @@ def should_wait_for_better_entry(market, side):
         imbalance = ob['imbalance']
 
         # Don't buy if spread is too wide (>4c) — wait for tighter market
-        if spread > 0.04:
+        if spread > 0.08:
             return True
 
         # Don't buy if strong sell pressure (imbalance < -0.4)
