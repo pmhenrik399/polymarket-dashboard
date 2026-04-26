@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-26T16:07:41Z",
+    "last_updated": "2026-04-26T17:01:18Z",
     "currency": "NOK",
     "usd_nok_rate": 9.328606
   },
@@ -46,37 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 670.8000000000002,
+    "realized_pnl_nok": 604.5000000000002,
     "trades_this_month": 37,
     "wins_this_month": 26,
-    "losses_this_month": 8
+    "losses_this_month": 9
   },
   "positions": [
-    {
-      "id": "pos_035",
-      "market_id": "1966508",
-      "question": "Will Rayo Vallecano de Madrid vs. Real Sociedad de Fútbol end in a draw?",
-      "slug": "lal-ray-rso-2026-04-26-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7312,
-      "mid_price_usd": 0.715,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.26,
-      "shares": 9.68,
-      "cost_usd": 7.08,
-      "cost_nok": 66,
-      "usd_nok_at_entry": 9.328606,
-      "edge_at_entry": 0.116,
-      "our_probability": 0.841,
-      "signals": [
-        "bookie:draw=16%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-04-26T11:21:50Z",
-      "end_date": "2026-04-26",
-      "unrealized_pnl_nok": -65
-    },
     {
       "id": "pos_036",
       "market_id": "1966845",
@@ -85,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2792,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.275,
+      "current_price_usd": 0.265,
       "slippage_pct": 1.51,
       "shares": 25.34,
       "cost_usd": 7.08,
@@ -100,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-04-26T11:21:50Z",
       "end_date": "2026-04-26",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_037",
@@ -110,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.3691,
       "mid_price_usd": 0.36,
-      "current_price_usd": 0.355,
+      "current_price_usd": 0.26,
       "slippage_pct": 2.52,
       "shares": 19.17,
       "cost_usd": 7.08,
@@ -125,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-04-26T11:46:16Z",
       "end_date": "2026-04-26",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -19
     }
   ],
   "closed_positions": [
@@ -888,6 +863,37 @@
       "profit_nok": -171.3,
       "gas_nok": 0.3,
       "closed_at": "2026-04-09T04:03:48Z"
+    },
+    {
+      "id": "pos_035",
+      "market_id": "1966508",
+      "question": "Will Rayo Vallecano de Madrid vs. Real Sociedad de Fútbol end in a draw?",
+      "slug": "lal-ray-rso-2026-04-26-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7312,
+      "mid_price_usd": 0.715,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.26,
+      "shares": 9.68,
+      "cost_usd": 7.08,
+      "cost_nok": 66,
+      "usd_nok_at_entry": 9.328606,
+      "edge_at_entry": 0.116,
+      "our_probability": 0.841,
+      "signals": [
+        "bookie:draw=16%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-04-26T11:21:50Z",
+      "end_date": "2026-04-26",
+      "unrealized_pnl_nok": -65,
+      "closing_price": 0.0,
+      "clv": -0.715,
+      "result": "LOSS",
+      "profit_nok": -66.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-26T17:01:17Z"
     }
   ],
   "trade_log": [
@@ -1025,8 +1031,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 26,
-    "total_losses": 8,
-    "total_realized_pnl_nok": 670.8000000000002,
+    "total_losses": 9,
+    "total_realized_pnl_nok": 604.5000000000002,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -1056,9 +1062,10 @@
       0.78,
       0.305,
       0.215,
-      -0.795
+      -0.795,
+      -0.715
     ],
-    "avg_clv": 0.1314
+    "avg_clv": 0.0868
   },
   "next_position_id": 38,
   "learning": {
