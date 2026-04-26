@@ -679,32 +679,11 @@ def check_market_risk(market):
 # ===== [SMART ENTRIES] ORDERBOOK TIMING =====
 
 def should_wait_for_better_entry(market, side):
-    """Check orderbook for entry timing. Returns True if we should wait."""
-    try:
-        tokens = json.loads(market.get('clobTokenIds', '[]'))
-        if not tokens:
-            return False
-        token_idx = 0 if side == 'YES' else 1
-        if token_idx >= len(tokens):
-            return False
-        ob = fetch_orderbook(tokens[token_idx])
-        if not ob:
-            return False
-
-        spread = ob['spread']
-        imbalance = ob['imbalance']
-
-        # Don't buy if spread is too wide (>4c) — wait for tighter market
-        if spread > 0.08:
-            return True
-
-        # Don't buy if strong sell pressure (imbalance < -0.4)
-        if imbalance < -0.4:
-            return True
-
-        return False
-    except:
-        return False
+    """Disabled. Was telling the bot to wait for a tighter spread or better
+    orderbook imbalance, but the bot only looks at markets that resolve in
+    1-3 days. They almost never tighten before resolution, so the bot would
+    just sit out every trade. Slippage is already accounted for in calc_slippage."""
+    return False
 
 
 # ===== [4] EDGE ESTIMATION (SMART VERSION) =====
