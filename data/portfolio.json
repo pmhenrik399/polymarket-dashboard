@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-26T11:07:44Z",
+    "last_updated": "2026-04-26T11:21:44Z",
     "currency": "NOK",
     "usd_nok_rate": 9.328606
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1671.1000000000001,
+    "balance_nok": 1538.5000000000002,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,11 +47,62 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 670.8000000000002,
-    "trades_this_month": 34,
+    "trades_this_month": 36,
     "wins_this_month": 26,
     "losses_this_month": 8
   },
-  "positions": [],
+  "positions": [
+    {
+      "id": "pos_035",
+      "market_id": "1966508",
+      "question": "Will Rayo Vallecano de Madrid vs. Real Sociedad de Fútbol end in a draw?",
+      "slug": "lal-ray-rso-2026-04-26-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7312,
+      "mid_price_usd": 0.715,
+      "current_price_usd": 0.7312,
+      "slippage_pct": 2.26,
+      "shares": 9.68,
+      "cost_usd": 7.08,
+      "cost_nok": 66,
+      "usd_nok_at_entry": 9.328606,
+      "edge_at_entry": 0.116,
+      "our_probability": 0.841,
+      "signals": [
+        "bookie:draw=16%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-04-26T11:21:50Z",
+      "end_date": "2026-04-26",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_036",
+      "market_id": "1966845",
+      "question": "Spread: Villarreal CF (-1.5)",
+      "slug": "lal-vil-cel-2026-04-26-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2792,
+      "mid_price_usd": 0.275,
+      "current_price_usd": 0.2792,
+      "slippage_pct": 1.51,
+      "shares": 25.34,
+      "cost_usd": 7.08,
+      "cost_nok": 66,
+      "usd_nok_at_entry": 9.328606,
+      "edge_at_entry": 0.066,
+      "our_probability": 0.351,
+      "signals": [
+        "bookie:35%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-26T11:21:50Z",
+      "end_date": "2026-04-26",
+      "unrealized_pnl_nok": 0
+    }
+  ],
   "closed_positions": [
     {
       "id": "pos_001",
@@ -984,7 +1035,7 @@
     ],
     "avg_clv": 0.1314
   },
-  "next_position_id": 35,
+  "next_position_id": 37,
   "learning": {
     "category_weights": {
       "esport": 0,
