@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-26T11:21:44Z",
+    "last_updated": "2026-04-26T11:46:10Z",
     "currency": "NOK",
     "usd_nok_rate": 9.328606
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1538.5000000000002,
+    "balance_nok": 1472.2000000000003,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 670.8000000000002,
-    "trades_this_month": 36,
+    "trades_this_month": 37,
     "wins_this_month": 26,
     "losses_this_month": 8
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.7312,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.7312,
+      "current_price_usd": 0.715,
       "slippage_pct": 2.26,
       "shares": 9.68,
       "cost_usd": 7.08,
@@ -75,7 +75,7 @@
       "category": "no_draw",
       "opened_at": "2026-04-26T11:21:50Z",
       "end_date": "2026-04-26",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_036",
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.2792,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.2792,
+      "current_price_usd": 0.275,
       "slippage_pct": 1.51,
       "shares": 25.34,
       "cost_usd": 7.08,
@@ -99,6 +99,31 @@
       ],
       "category": "other",
       "opened_at": "2026-04-26T11:21:50Z",
+      "end_date": "2026-04-26",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_037",
+      "market_id": "1966666",
+      "question": "CA Osasuna leading at halftime?",
+      "slug": "lal-osa-sev-2026-04-26-halftime-result-home",
+      "side": "YES",
+      "entry_price_usd": 0.3691,
+      "mid_price_usd": 0.36,
+      "current_price_usd": 0.3691,
+      "slippage_pct": 2.52,
+      "shares": 19.17,
+      "cost_usd": 7.08,
+      "cost_nok": 66,
+      "usd_nok_at_entry": 9.328606,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.43,
+      "signals": [
+        "bookie:43%vs36%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-26T11:46:16Z",
       "end_date": "2026-04-26",
       "unrealized_pnl_nok": 0
     }
@@ -1035,7 +1060,7 @@
     ],
     "avg_clv": 0.1314
   },
-  "next_position_id": 37,
+  "next_position_id": 38,
   "learning": {
     "category_weights": {
       "esport": 0,
