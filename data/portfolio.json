@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-26T23:56:42Z",
+    "last_updated": "2026-04-27T03:40:30Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.328606
+    "usd_nok_rate": 9.32879
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1346.6000000000004,
+    "balance_nok": 1230.0000000000005,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 471.90000000000026,
-    "trades_this_month": 39,
+    "trades_this_month": 41,
     "wins_this_month": 26,
     "losses_this_month": 11
   },
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.3834,
       "mid_price_usd": 0.375,
-      "current_price_usd": 0.365,
+      "current_price_usd": 0.395,
       "slippage_pct": 2.24,
       "shares": 17.89,
       "cost_usd": 6.86,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-04-26T18:50:46Z",
       "end_date": "2026-04-27",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_039",
@@ -101,6 +101,56 @@
       "opened_at": "2026-04-26T21:02:19Z",
       "end_date": "2026-04-27",
       "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_040",
+      "market_id": "1977345",
+      "question": "Brentford FC leading at halftime?",
+      "slug": "epl-mun-bre-2026-04-27-halftime-result-away",
+      "side": "YES",
+      "entry_price_usd": 0.2347,
+      "mid_price_usd": 0.23,
+      "current_price_usd": 0.2347,
+      "slippage_pct": 2.04,
+      "shares": 26.49,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.32879,
+      "edge_at_entry": 0.205,
+      "our_probability": 0.445,
+      "signals": [
+        "bookie:44%vs23%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-27T03:40:35Z",
+      "end_date": "2026-04-27",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_041",
+      "market_id": "2000961",
+      "question": "Club Atlético de Madrid vs. Arsenal FC: Both Teams to Score",
+      "slug": "ucl-atm1-ars-2026-04-29-btts",
+      "side": "YES",
+      "entry_price_usd": 0.5191,
+      "mid_price_usd": 0.51,
+      "current_price_usd": 0.5191,
+      "slippage_pct": 1.78,
+      "shares": 11.98,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.32879,
+      "edge_at_entry": 0.148,
+      "our_probability": 0.668,
+      "signals": [
+        "bookie:67%vs51%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-27T03:40:36Z",
+      "end_date": "2026-04-29",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -1131,7 +1181,7 @@
     ],
     "avg_clv": 0.0483
   },
-  "next_position_id": 40,
+  "next_position_id": 42,
   "learning": {
     "category_weights": {
       "esport": 0,
