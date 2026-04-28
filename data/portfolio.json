@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-28T00:08:14Z",
+    "last_updated": "2026-04-28T04:04:48Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.32879
+    "usd_nok_rate": 9.279046
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1055.1000000000006,
+    "balance_nok": 1218.8000000000006,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,62 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 413.60000000000025,
+    "realized_pnl_nok": 393.70000000000016,
     "trades_this_month": 44,
-    "wins_this_month": 26,
-    "losses_this_month": 12
+    "wins_this_month": 27,
+    "losses_this_month": 14
   },
   "positions": [
-    {
-      "id": "pos_038",
-      "market_id": "2074510",
-      "question": "Will the highest temperature in Madrid be 27°C on April 27?",
-      "slug": "highest-temperature-in-madrid-on-april-27-2026-27c",
-      "side": "YES",
-      "entry_price_usd": 0.3834,
-      "mid_price_usd": 0.375,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.24,
-      "shares": 17.89,
-      "cost_usd": 6.86,
-      "cost_nok": 64,
-      "usd_nok_at_entry": 9.328606,
-      "edge_at_entry": 0.35,
-      "our_probability": 0.735,
-      "signals": [
-        "bookie:73%vs38%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-04-26T18:50:46Z",
-      "end_date": "2026-04-27",
-      "unrealized_pnl_nok": 102
-    },
-    {
-      "id": "pos_039",
-      "market_id": "1976978",
-      "question": "Will Brentford FC win on 2026-04-27?",
-      "slug": "epl-mun-bre-2026-04-27-bre",
-      "side": "YES",
-      "entry_price_usd": 0.2508,
-      "mid_price_usd": 0.245,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.37,
-      "shares": 26.07,
-      "cost_usd": 6.54,
-      "cost_nok": 61,
-      "usd_nok_at_entry": 9.328606,
-      "edge_at_entry": 0.19,
-      "our_probability": 0.445,
-      "signals": [
-        "bookie:44%vs24%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-04-26T21:02:19Z",
-      "end_date": "2026-04-27",
-      "unrealized_pnl_nok": -60
-    },
     {
       "id": "pos_041",
       "market_id": "2000961",
@@ -135,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.4385,
       "mid_price_usd": 0.43,
-      "current_price_usd": 0.405,
+      "current_price_usd": 0.485,
       "slippage_pct": 1.98,
       "shares": 14.18,
       "cost_usd": 6.22,
@@ -150,32 +100,7 @@
       "category": "other",
       "opened_at": "2026-04-27T06:17:49Z",
       "end_date": "2026-04-28",
-      "unrealized_pnl_nok": -4
-    },
-    {
-      "id": "pos_043",
-      "market_id": "1976957",
-      "question": "Will Manchester United FC win on 2026-04-27?",
-      "slug": "epl-mun-bre-2026-04-27-mun",
-      "side": "NO",
-      "entry_price_usd": 0.5152,
-      "mid_price_usd": 0.505,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.03,
-      "shares": 12.07,
-      "cost_usd": 6.22,
-      "cost_nok": 58,
-      "usd_nok_at_entry": 9.32879,
-      "edge_at_entry": 0.189,
-      "our_probability": 0.704,
-      "signals": [
-        "bookie:30%vs50%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-04-27T10:49:17Z",
-      "end_date": "2026-04-27",
-      "unrealized_pnl_nok": -57
+      "unrealized_pnl_nok": 6
     },
     {
       "id": "pos_044",
@@ -185,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.48,
+      "current_price_usd": 0.4815,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -200,7 +125,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-27T12:13:06Z",
       "end_date": "2026-04-29",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -2
     }
   ],
   "closed_positions": [
@@ -1087,6 +1012,100 @@
       "profit_nok": -58.3,
       "gas_nok": 0.3,
       "closed_at": "2026-04-28T00:08:12Z"
+    },
+    {
+      "id": "pos_038",
+      "market_id": "2074510",
+      "question": "Will the highest temperature in Madrid be 27°C on April 27?",
+      "slug": "highest-temperature-in-madrid-on-april-27-2026-27c",
+      "side": "YES",
+      "entry_price_usd": 0.3834,
+      "mid_price_usd": 0.375,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.24,
+      "shares": 17.89,
+      "cost_usd": 6.86,
+      "cost_nok": 64,
+      "usd_nok_at_entry": 9.328606,
+      "edge_at_entry": 0.35,
+      "our_probability": 0.735,
+      "signals": [
+        "bookie:73%vs38%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-26T18:50:46Z",
+      "end_date": "2026-04-27",
+      "unrealized_pnl_nok": 102,
+      "closing_price": 1.0,
+      "clv": 0.625,
+      "result": "WIN",
+      "profit_nok": 99.69999999999999,
+      "fee_nok": 2,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-28T04:04:45Z"
+    },
+    {
+      "id": "pos_039",
+      "market_id": "1976978",
+      "question": "Will Brentford FC win on 2026-04-27?",
+      "slug": "epl-mun-bre-2026-04-27-bre",
+      "side": "YES",
+      "entry_price_usd": 0.2508,
+      "mid_price_usd": 0.245,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.37,
+      "shares": 26.07,
+      "cost_usd": 6.54,
+      "cost_nok": 61,
+      "usd_nok_at_entry": 9.328606,
+      "edge_at_entry": 0.19,
+      "our_probability": 0.445,
+      "signals": [
+        "bookie:44%vs24%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-04-26T21:02:19Z",
+      "end_date": "2026-04-27",
+      "unrealized_pnl_nok": -60,
+      "closing_price": 0.0,
+      "clv": -0.245,
+      "result": "LOSS",
+      "profit_nok": -61.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-28T04:04:46Z"
+    },
+    {
+      "id": "pos_043",
+      "market_id": "1976957",
+      "question": "Will Manchester United FC win on 2026-04-27?",
+      "slug": "epl-mun-bre-2026-04-27-mun",
+      "side": "NO",
+      "entry_price_usd": 0.5152,
+      "mid_price_usd": 0.505,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.03,
+      "shares": 12.07,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.32879,
+      "edge_at_entry": 0.189,
+      "our_probability": 0.704,
+      "signals": [
+        "bookie:30%vs50%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-04-27T10:49:17Z",
+      "end_date": "2026-04-27",
+      "unrealized_pnl_nok": -57,
+      "closing_price": 0.0,
+      "clv": -0.505,
+      "result": "LOSS",
+      "profit_nok": -58.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-28T04:04:47Z"
     }
   ],
   "trade_log": [
@@ -1223,9 +1242,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 26,
-    "total_losses": 12,
-    "total_realized_pnl_nok": 413.60000000000025,
+    "total_wins": 27,
+    "total_losses": 14,
+    "total_realized_pnl_nok": 393.70000000000016,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -1259,22 +1278,25 @@
       -0.715,
       -0.36,
       -0.275,
-      -0.23
+      -0.23,
+      0.625,
+      -0.245,
+      -0.505
     ],
-    "avg_clv": 0.0357
+    "avg_clv": 0.0264
   },
   "next_position_id": 45,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
-      "moneyline": 0,
-      "other": -0.05,
+      "moneyline": -0.05,
+      "other": -0.042,
       "social_media": 0,
       "no_draw": 0,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "other:-5.0%"
+    "summary": "other:-4.2% | moneyline:-5.0%"
   }
 }
