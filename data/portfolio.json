@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-27T23:11:35Z",
+    "last_updated": "2026-04-28T00:08:14Z",
     "currency": "NOK",
     "usd_nok_rate": 9.32879
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 471.90000000000026,
+    "realized_pnl_nok": 413.60000000000025,
     "trades_this_month": 44,
     "wins_this_month": 26,
-    "losses_this_month": 11
+    "losses_this_month": 12
   },
   "positions": [
     {
@@ -101,31 +101,6 @@
       "opened_at": "2026-04-26T21:02:19Z",
       "end_date": "2026-04-27",
       "unrealized_pnl_nok": -60
-    },
-    {
-      "id": "pos_040",
-      "market_id": "1977345",
-      "question": "Brentford FC leading at halftime?",
-      "slug": "epl-mun-bre-2026-04-27-halftime-result-away",
-      "side": "YES",
-      "entry_price_usd": 0.2347,
-      "mid_price_usd": 0.23,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.04,
-      "shares": 26.49,
-      "cost_usd": 6.22,
-      "cost_nok": 58,
-      "usd_nok_at_entry": 9.32879,
-      "edge_at_entry": 0.205,
-      "our_probability": 0.445,
-      "signals": [
-        "bookie:44%vs23%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-04-27T03:40:35Z",
-      "end_date": "2026-04-27",
-      "unrealized_pnl_nok": -57
     },
     {
       "id": "pos_041",
@@ -210,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.473,
+      "current_price_usd": 0.48,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -1081,6 +1056,37 @@
       "profit_nok": -66.3,
       "gas_nok": 0.3,
       "closed_at": "2026-04-26T23:56:41Z"
+    },
+    {
+      "id": "pos_040",
+      "market_id": "1977345",
+      "question": "Brentford FC leading at halftime?",
+      "slug": "epl-mun-bre-2026-04-27-halftime-result-away",
+      "side": "YES",
+      "entry_price_usd": 0.2347,
+      "mid_price_usd": 0.23,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.04,
+      "shares": 26.49,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.32879,
+      "edge_at_entry": 0.205,
+      "our_probability": 0.445,
+      "signals": [
+        "bookie:44%vs23%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-27T03:40:35Z",
+      "end_date": "2026-04-27",
+      "unrealized_pnl_nok": -57,
+      "closing_price": 0.0,
+      "clv": -0.23,
+      "result": "LOSS",
+      "profit_nok": -58.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-28T00:08:12Z"
     }
   ],
   "trade_log": [
@@ -1218,8 +1224,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 26,
-    "total_losses": 11,
-    "total_realized_pnl_nok": 471.90000000000026,
+    "total_losses": 12,
+    "total_realized_pnl_nok": 413.60000000000025,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -1252,9 +1258,10 @@
       -0.795,
       -0.715,
       -0.36,
-      -0.275
+      -0.275,
+      -0.23
     ],
-    "avg_clv": 0.0483
+    "avg_clv": 0.0357
   },
   "next_position_id": 45,
   "learning": {
