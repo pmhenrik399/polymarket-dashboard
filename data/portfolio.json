@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-29T21:13:38Z",
+    "last_updated": "2026-04-29T22:12:34Z",
     "currency": "NOK",
     "usd_nok_rate": 9.318284
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1235.9000000000008,
+    "balance_nok": 1177.6000000000008,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 466.40000000000015,
-    "trades_this_month": 46,
+    "trades_this_month": 47,
     "wins_this_month": 28,
     "losses_this_month": 14
   },
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.494,
+      "current_price_usd": 0.5145,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -100,7 +100,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-27T12:13:06Z",
       "end_date": "2026-04-29",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_045",
@@ -135,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.3591,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.3591,
+      "current_price_usd": 0.39,
       "slippage_pct": 2.6,
       "shares": 17.33,
       "cost_usd": 6.22,
@@ -149,6 +149,31 @@
       ],
       "category": "moneyline",
       "opened_at": "2026-04-29T21:13:43Z",
+      "end_date": "2026-04-30",
+      "unrealized_pnl_nok": 4
+    },
+    {
+      "id": "pos_047",
+      "market_id": "2007811",
+      "question": "Will Aston Villa FC win on 2026-04-30?",
+      "slug": "uel-not-ast4-2026-04-30-ast4",
+      "side": "YES",
+      "entry_price_usd": 0.3409,
+      "mid_price_usd": 0.335,
+      "current_price_usd": 0.3409,
+      "slippage_pct": 1.77,
+      "shares": 18.26,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.318284,
+      "edge_at_entry": 0.232,
+      "our_probability": 0.577,
+      "signals": [
+        "bookie:58%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-04-29T22:12:41Z",
       "end_date": "2026-04-30",
       "unrealized_pnl_nok": 0
     }
@@ -1343,7 +1368,7 @@
     ],
     "avg_clv": 0.0473
   },
-  "next_position_id": 47,
+  "next_position_id": 48,
   "learning": {
     "category_weights": {
       "esport": 0,
