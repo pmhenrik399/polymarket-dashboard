@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-30T20:15:32Z",
+    "last_updated": "2026-04-30T21:17:49Z",
     "currency": "NOK",
     "usd_nok_rate": 9.316155
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 949.5000000000011,
+    "balance_nok": 893.2000000000012,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 404.5000000000001,
-    "trades_this_month": 53,
+    "trades_this_month": 54,
     "wins_this_month": 29,
     "losses_this_month": 16
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.511,
+      "current_price_usd": 0.5115,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.3409,
       "mid_price_usd": 0.335,
-      "current_price_usd": 0.275,
+      "current_price_usd": 0.0005,
       "slippage_pct": 1.77,
       "shares": 18.26,
       "cost_usd": 6.22,
@@ -100,7 +100,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-29T22:12:41Z",
       "end_date": "2026-04-30",
-      "unrealized_pnl_nok": -11
+      "unrealized_pnl_nok": -57
     },
     {
       "id": "pos_048",
@@ -160,7 +160,7 @@
       "side": "NO",
       "entry_price_usd": 0.6533,
       "mid_price_usd": 0.64,
-      "current_price_usd": 0.64,
+      "current_price_usd": 0.645,
       "slippage_pct": 2.08,
       "shares": 9.2,
       "cost_usd": 6.01,
@@ -175,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-04-30T14:30:28Z",
       "end_date": "2026-05-01",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_051",
@@ -235,7 +235,7 @@
       "side": "NO",
       "entry_price_usd": 0.6448,
       "mid_price_usd": 0.63,
-      "current_price_usd": 0.625,
+      "current_price_usd": 0.63,
       "slippage_pct": 2.35,
       "shares": 9.32,
       "cost_usd": 6.01,
@@ -251,6 +251,31 @@
       "opened_at": "2026-04-30T17:42:50Z",
       "end_date": "2026-05-02",
       "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_054",
+      "market_id": "2011801",
+      "question": "Leeds United FC vs. Burnley FC: Both Teams to Score",
+      "slug": "epl-lee-bur-2026-05-01-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5247,
+      "mid_price_usd": 0.515,
+      "current_price_usd": 0.5247,
+      "slippage_pct": 1.87,
+      "shares": 11.46,
+      "cost_usd": 6.01,
+      "cost_nok": 56,
+      "usd_nok_at_entry": 9.316155,
+      "edge_at_entry": 0.265,
+      "our_probability": 0.79,
+      "signals": [
+        "bookie:21%vs52%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-30T21:17:56Z",
+      "end_date": "2026-05-01",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -1540,7 +1565,7 @@
     ],
     "avg_clv": 0.0379
   },
-  "next_position_id": 54,
+  "next_position_id": 55,
   "learning": {
     "category_weights": {
       "esport": 0,
