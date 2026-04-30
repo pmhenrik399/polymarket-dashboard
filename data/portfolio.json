@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-30T18:59:03Z",
+    "last_updated": "2026-04-30T20:15:32Z",
     "currency": "NOK",
     "usd_nok_rate": 9.316155
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.5025,
+      "current_price_usd": 0.511,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.3409,
       "mid_price_usd": 0.335,
-      "current_price_usd": 0.385,
+      "current_price_usd": 0.275,
       "slippage_pct": 1.77,
       "shares": 18.26,
       "cost_usd": 6.22,
@@ -100,7 +100,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-29T22:12:41Z",
       "end_date": "2026-04-30",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_048",
@@ -135,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.5606,
       "mid_price_usd": 0.55,
-      "current_price_usd": 0.52,
+      "current_price_usd": 0.525,
       "slippage_pct": 1.93,
       "shares": 10.72,
       "cost_usd": 6.01,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-04-30T09:02:06Z",
       "end_date": "2026-05-01",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_050",
@@ -210,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.3491,
       "mid_price_usd": 0.34,
-      "current_price_usd": 0.37,
+      "current_price_usd": 0.365,
       "slippage_pct": 2.67,
       "shares": 17.22,
       "cost_usd": 6.01,
@@ -225,7 +225,7 @@
       "category": "other",
       "opened_at": "2026-04-30T16:06:09Z",
       "end_date": "2026-05-01",
-      "unrealized_pnl_nok": 3
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_053",
@@ -235,7 +235,7 @@
       "side": "NO",
       "entry_price_usd": 0.6448,
       "mid_price_usd": 0.63,
-      "current_price_usd": 0.63,
+      "current_price_usd": 0.625,
       "slippage_pct": 2.35,
       "shares": 9.32,
       "cost_usd": 6.01,
