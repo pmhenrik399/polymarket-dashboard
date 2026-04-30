@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-29T23:12:20Z",
+    "last_updated": "2026-04-30T00:08:57Z",
     "currency": "NOK",
     "usd_nok_rate": 9.318284
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1177.6000000000008,
+    "balance_nok": 1287.3000000000009,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,37 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 466.40000000000015,
+    "realized_pnl_nok": 462.8000000000001,
     "trades_this_month": 47,
-    "wins_this_month": 28,
-    "losses_this_month": 14
+    "wins_this_month": 29,
+    "losses_this_month": 15
   },
   "positions": [
-    {
-      "id": "pos_041",
-      "market_id": "2000961",
-      "question": "Club Atlético de Madrid vs. Arsenal FC: Both Teams to Score",
-      "slug": "ucl-atm1-ars-2026-04-29-btts",
-      "side": "YES",
-      "entry_price_usd": 0.5191,
-      "mid_price_usd": 0.51,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.78,
-      "shares": 11.98,
-      "cost_usd": 6.22,
-      "cost_nok": 58,
-      "usd_nok_at_entry": 9.32879,
-      "edge_at_entry": 0.148,
-      "our_probability": 0.668,
-      "signals": [
-        "bookie:67%vs51%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-04-27T03:40:36Z",
-      "end_date": "2026-04-29",
-      "unrealized_pnl_nok": 53
-    },
     {
       "id": "pos_044",
       "market_id": "951183",
@@ -85,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.5435,
+      "current_price_usd": 0.5485,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -103,31 +78,6 @@
       "unrealized_pnl_nok": 4
     },
     {
-      "id": "pos_045",
-      "market_id": "2001023",
-      "question": "Club Atlético de Madrid leading at halftime?",
-      "slug": "ucl-atm1-ars-2026-04-29-halftime-result-home",
-      "side": "YES",
-      "entry_price_usd": 0.2758,
-      "mid_price_usd": 0.27,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.16,
-      "shares": 21.49,
-      "cost_usd": 5.93,
-      "cost_nok": 55,
-      "usd_nok_at_entry": 9.279046,
-      "edge_at_entry": 0.455,
-      "our_probability": 0.735,
-      "signals": [
-        "bookie:73%vs27%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-04-28T11:17:52Z",
-      "end_date": "2026-04-29",
-      "unrealized_pnl_nok": -55
-    },
-    {
       "id": "pos_046",
       "market_id": "1829421",
       "question": "Will NJ/NY Gotham FC win on 2026-04-29?",
@@ -135,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.3591,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.33,
+      "current_price_usd": 0.245,
       "slippage_pct": 2.6,
       "shares": 17.33,
       "cost_usd": 6.22,
@@ -150,7 +100,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-29T21:13:43Z",
       "end_date": "2026-04-30",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": -18
     },
     {
       "id": "pos_047",
@@ -160,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.3409,
       "mid_price_usd": 0.335,
-      "current_price_usd": 0.335,
+      "current_price_usd": 0.345,
       "slippage_pct": 1.77,
       "shares": 18.26,
       "cost_usd": 6.22,
@@ -175,7 +125,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-29T22:12:41Z",
       "end_date": "2026-04-30",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -1188,6 +1138,69 @@
       "fee_nok": 1,
       "gas_nok": 0.3,
       "closed_at": "2026-04-29T01:22:15Z"
+    },
+    {
+      "id": "pos_041",
+      "market_id": "2000961",
+      "question": "Club Atlético de Madrid vs. Arsenal FC: Both Teams to Score",
+      "slug": "ucl-atm1-ars-2026-04-29-btts",
+      "side": "YES",
+      "entry_price_usd": 0.5191,
+      "mid_price_usd": 0.51,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.78,
+      "shares": 11.98,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.32879,
+      "edge_at_entry": 0.148,
+      "our_probability": 0.668,
+      "signals": [
+        "bookie:67%vs51%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-27T03:40:36Z",
+      "end_date": "2026-04-29",
+      "unrealized_pnl_nok": 53,
+      "closing_price": 1.0,
+      "clv": 0.49,
+      "result": "WIN",
+      "profit_nok": 51.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-30T00:08:55Z"
+    },
+    {
+      "id": "pos_045",
+      "market_id": "2001023",
+      "question": "Club Atlético de Madrid leading at halftime?",
+      "slug": "ucl-atm1-ars-2026-04-29-halftime-result-home",
+      "side": "YES",
+      "entry_price_usd": 0.2758,
+      "mid_price_usd": 0.27,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.16,
+      "shares": 21.49,
+      "cost_usd": 5.93,
+      "cost_nok": 55,
+      "usd_nok_at_entry": 9.279046,
+      "edge_at_entry": 0.455,
+      "our_probability": 0.735,
+      "signals": [
+        "bookie:73%vs27%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-04-28T11:17:52Z",
+      "end_date": "2026-04-29",
+      "unrealized_pnl_nok": -55,
+      "closing_price": 0.0,
+      "clv": -0.27,
+      "result": "LOSS",
+      "profit_nok": -55.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-30T00:08:56Z"
     }
   ],
   "trade_log": [
@@ -1324,9 +1337,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 28,
-    "total_losses": 14,
-    "total_realized_pnl_nok": 466.40000000000015,
+    "total_wins": 29,
+    "total_losses": 15,
+    "total_realized_pnl_nok": 462.8000000000001,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -1364,9 +1377,11 @@
       0.625,
       -0.245,
       -0.505,
-      0.57
+      0.57,
+      0.49,
+      -0.27
     ],
-    "avg_clv": 0.0473
+    "avg_clv": 0.0518
   },
   "next_position_id": 48,
   "learning": {
@@ -1374,12 +1389,12 @@
       "esport": 0,
       "over_under": 0,
       "moneyline": 0,
-      "other": -0.005,
+      "other": -0.003,
       "social_media": 0,
       "no_draw": 0,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "other:-0.5%"
+    "summary": "other:-0.3%"
   }
 }
