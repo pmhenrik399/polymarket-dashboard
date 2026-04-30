@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-30T04:03:39Z",
+    "last_updated": "2026-04-30T06:38:07Z",
     "currency": "NOK",
     "usd_nok_rate": 9.316155
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 1287.3000000000009,
+    "balance_nok": 1231.000000000001,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 462.8000000000001,
-    "trades_this_month": 47,
+    "realized_pnl_nok": 404.5000000000001,
+    "trades_this_month": 48,
     "wins_this_month": 29,
-    "losses_this_month": 15
+    "losses_this_month": 16
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.5225,
+      "current_price_usd": 0.513,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -75,32 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-27T12:13:06Z",
       "end_date": "2026-04-29",
-      "unrealized_pnl_nok": 1
-    },
-    {
-      "id": "pos_046",
-      "market_id": "1829421",
-      "question": "Will NJ/NY Gotham FC win on 2026-04-29?",
-      "slug": "nwsl-chi-got-2026-04-29-got",
-      "side": "NO",
-      "entry_price_usd": 0.3591,
-      "mid_price_usd": 0.35,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.6,
-      "shares": 17.33,
-      "cost_usd": 6.22,
-      "cost_nok": 58,
-      "usd_nok_at_entry": 9.318284,
-      "edge_at_entry": 0.12,
-      "our_probability": 0.48,
-      "signals": [
-        "bookie:52%vs35%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-04-29T21:13:43Z",
-      "end_date": "2026-04-30",
-      "unrealized_pnl_nok": -57
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_047",
@@ -126,6 +101,31 @@
       "opened_at": "2026-04-29T22:12:41Z",
       "end_date": "2026-04-30",
       "unrealized_pnl_nok": 2
+    },
+    {
+      "id": "pos_048",
+      "market_id": "2019010",
+      "question": "Will Wolverhampton Wanderers FC win on 2026-05-02?",
+      "slug": "epl-wol-sun-2026-05-02-wol",
+      "side": "YES",
+      "entry_price_usd": 0.3109,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.3109,
+      "slippage_pct": 1.93,
+      "shares": 19.33,
+      "cost_usd": 6.01,
+      "cost_nok": 56,
+      "usd_nok_at_entry": 9.316155,
+      "edge_at_entry": 0.205,
+      "our_probability": 0.52,
+      "signals": [
+        "bookie:52%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-04-30T06:38:14Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -1201,6 +1201,37 @@
       "profit_nok": -55.3,
       "gas_nok": 0.3,
       "closed_at": "2026-04-30T00:08:56Z"
+    },
+    {
+      "id": "pos_046",
+      "market_id": "1829421",
+      "question": "Will NJ/NY Gotham FC win on 2026-04-29?",
+      "slug": "nwsl-chi-got-2026-04-29-got",
+      "side": "NO",
+      "entry_price_usd": 0.3591,
+      "mid_price_usd": 0.35,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.6,
+      "shares": 17.33,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.318284,
+      "edge_at_entry": 0.12,
+      "our_probability": 0.48,
+      "signals": [
+        "bookie:52%vs35%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-04-29T21:13:43Z",
+      "end_date": "2026-04-30",
+      "unrealized_pnl_nok": -57,
+      "closing_price": 0.0,
+      "clv": -0.35,
+      "result": "LOSS",
+      "profit_nok": -58.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-04-30T06:38:06Z"
     }
   ],
   "trade_log": [
@@ -1338,8 +1369,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 29,
-    "total_losses": 15,
-    "total_realized_pnl_nok": 462.8000000000001,
+    "total_losses": 16,
+    "total_realized_pnl_nok": 404.5000000000001,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -1379,22 +1410,23 @@
       -0.505,
       0.57,
       0.49,
-      -0.27
+      -0.27,
+      -0.35
     ],
-    "avg_clv": 0.0518
+    "avg_clv": 0.0379
   },
-  "next_position_id": 48,
+  "next_position_id": 49,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
-      "moneyline": 0,
+      "moneyline": -0.05,
       "other": -0.003,
       "social_media": 0,
       "no_draw": 0,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "other:-0.3%"
+    "summary": "other:-0.3% | moneyline:-5.0%"
   }
 }
