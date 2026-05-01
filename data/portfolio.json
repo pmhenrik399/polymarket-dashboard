@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-01T00:08:46Z",
+    "last_updated": "2026-05-01T04:16:44Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.316155
+    "usd_nok_rate": 9.291767
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 839.9000000000012,
+    "balance_nok": 520.1000000000015,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 346.2000000000001,
-    "trades_this_month": 55,
+    "trades_this_month": 61,
     "wins_this_month": 29,
     "losses_this_month": 17
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.5105,
+      "current_price_usd": 0.5295,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -75,7 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-27T12:13:06Z",
       "end_date": "2026-04-29",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_048",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.5606,
       "mid_price_usd": 0.55,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.525,
       "slippage_pct": 1.93,
       "shares": 10.72,
       "cost_usd": 6.01,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-04-30T09:02:06Z",
       "end_date": "2026-05-01",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_050",
@@ -185,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.3491,
       "mid_price_usd": 0.34,
-      "current_price_usd": 0.34,
+      "current_price_usd": 0.3,
       "slippage_pct": 2.67,
       "shares": 17.22,
       "cost_usd": 6.01,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-04-30T16:06:09Z",
       "end_date": "2026-05-01",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -7
     },
     {
       "id": "pos_053",
@@ -260,7 +260,7 @@
       "side": "NO",
       "entry_price_usd": 0.5996,
       "mid_price_usd": 0.585,
-      "current_price_usd": 0.5996,
+      "current_price_usd": 0.585,
       "slippage_pct": 2.49,
       "shares": 9.49,
       "cost_usd": 5.69,
@@ -275,6 +275,156 @@
       "category": "moneyline",
       "opened_at": "2026-05-01T00:08:56Z",
       "end_date": "2026-05-01",
+      "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_056",
+      "market_id": "2125754",
+      "question": "Will Trump say \"Joe\" or \"Biden\" 20+ times at The Villages on May 1?",
+      "slug": "will-trump-say-joe-or-biden-20-times-at-the-villages-on-may-1-571",
+      "side": "YES",
+      "entry_price_usd": 0.2448,
+      "mid_price_usd": 0.24,
+      "current_price_usd": 0.2448,
+      "slippage_pct": 2.0,
+      "shares": 23.3,
+      "cost_usd": 5.7,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.197,
+      "our_probability": 0.447,
+      "signals": [
+        "bookie:45%vs24%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-01T04:16:58Z",
+      "end_date": "2026-05-01",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_057",
+      "market_id": "2129681",
+      "question": "Will the lowest temperature in Paris be 14°C on May 3?",
+      "slug": "lowest-temperature-in-paris-on-may-3-2026-14c",
+      "side": "NO",
+      "entry_price_usd": 0.7554,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 0.7554,
+      "slippage_pct": 2.77,
+      "shares": 7.55,
+      "cost_usd": 5.7,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.063,
+      "our_probability": 0.808,
+      "signals": [
+        "bookie:19%vs74%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-01T04:16:59Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_058",
+      "market_id": "2129682",
+      "question": "Will the lowest temperature in Paris be 15°C on May 3?",
+      "slug": "lowest-temperature-in-paris-on-may-3-2026-15c",
+      "side": "NO",
+      "entry_price_usd": 0.7527,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 0.7527,
+      "slippage_pct": 2.41,
+      "shares": 7.58,
+      "cost_usd": 5.7,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.063,
+      "our_probability": 0.808,
+      "signals": [
+        "bookie:19%vs74%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-01T04:16:59Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_059",
+      "market_id": "2129680",
+      "question": "Will the lowest temperature in Paris be 13°C on May 3?",
+      "slug": "lowest-temperature-in-paris-on-may-3-2026-13c",
+      "side": "NO",
+      "entry_price_usd": 0.7586,
+      "mid_price_usd": 0.74,
+      "current_price_usd": 0.7586,
+      "slippage_pct": 2.51,
+      "shares": 7.52,
+      "cost_usd": 5.7,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.058,
+      "our_probability": 0.808,
+      "signals": [
+        "bookie:19%vs74%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-01T04:16:59Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_060",
+      "market_id": "2129684",
+      "question": "Will the lowest temperature in Paris be 17°C on May 3?",
+      "slug": "lowest-temperature-in-paris-on-may-3-2026-17c",
+      "side": "NO",
+      "entry_price_usd": 0.7635,
+      "mid_price_usd": 0.745,
+      "current_price_usd": 0.7635,
+      "slippage_pct": 2.48,
+      "shares": 7.47,
+      "cost_usd": 5.7,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.053,
+      "our_probability": 0.808,
+      "signals": [
+        "bookie:19%vs74%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-01T04:17:00Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_061",
+      "market_id": "2129683",
+      "question": "Will the lowest temperature in Paris be 16°C on May 3?",
+      "slug": "lowest-temperature-in-paris-on-may-3-2026-16c",
+      "side": "NO",
+      "entry_price_usd": 0.7641,
+      "mid_price_usd": 0.745,
+      "current_price_usd": 0.7641,
+      "slippage_pct": 2.57,
+      "shares": 7.46,
+      "cost_usd": 5.7,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.053,
+      "our_probability": 0.808,
+      "signals": [
+        "bookie:19%vs74%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-01T04:17:00Z",
+      "end_date": "2026-05-03",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -1597,7 +1747,7 @@
     ],
     "avg_clv": 0.0255
   },
-  "next_position_id": 56,
+  "next_position_id": 62,
   "learning": {
     "category_weights": {
       "esport": 0,
