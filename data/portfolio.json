@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-04-30T23:13:27Z",
+    "last_updated": "2026-05-01T00:08:46Z",
     "currency": "NOK",
     "usd_nok_rate": 9.316155
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 893.2000000000012,
+    "balance_nok": 839.9000000000012,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 404.5000000000001,
-    "trades_this_month": 54,
+    "realized_pnl_nok": 346.2000000000001,
+    "trades_this_month": 55,
     "wins_this_month": 29,
-    "losses_this_month": 16
+    "losses_this_month": 17
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.511,
+      "current_price_usd": 0.5105,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -76,31 +76,6 @@
       "opened_at": "2026-04-27T12:13:06Z",
       "end_date": "2026-04-29",
       "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_047",
-      "market_id": "2007811",
-      "question": "Will Aston Villa FC win on 2026-04-30?",
-      "slug": "uel-not-ast4-2026-04-30-ast4",
-      "side": "YES",
-      "entry_price_usd": 0.3409,
-      "mid_price_usd": 0.335,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.77,
-      "shares": 18.26,
-      "cost_usd": 6.22,
-      "cost_nok": 58,
-      "usd_nok_at_entry": 9.318284,
-      "edge_at_entry": 0.232,
-      "our_probability": 0.577,
-      "signals": [
-        "bookie:58%vs34%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-04-29T22:12:41Z",
-      "end_date": "2026-04-30",
-      "unrealized_pnl_nok": -57
     },
     {
       "id": "pos_048",
@@ -135,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.5606,
       "mid_price_usd": 0.55,
-      "current_price_usd": 0.525,
+      "current_price_usd": 0.515,
       "slippage_pct": 1.93,
       "shares": 10.72,
       "cost_usd": 6.01,
@@ -150,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-04-30T09:02:06Z",
       "end_date": "2026-05-01",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_050",
@@ -210,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.3491,
       "mid_price_usd": 0.34,
-      "current_price_usd": 0.36,
+      "current_price_usd": 0.34,
       "slippage_pct": 2.67,
       "shares": 17.22,
       "cost_usd": 6.01,
@@ -225,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-04-30T16:06:09Z",
       "end_date": "2026-05-01",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_053",
@@ -235,7 +210,7 @@
       "side": "NO",
       "entry_price_usd": 0.6448,
       "mid_price_usd": 0.63,
-      "current_price_usd": 0.63,
+      "current_price_usd": 0.625,
       "slippage_pct": 2.35,
       "shares": 9.32,
       "cost_usd": 6.01,
@@ -276,6 +251,31 @@
       "opened_at": "2026-04-30T21:17:56Z",
       "end_date": "2026-05-01",
       "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_055",
+      "market_id": "2009665",
+      "question": "Will US Lecce win on 2026-05-01?",
+      "slug": "sea-pis-lec-2026-05-01-lec",
+      "side": "NO",
+      "entry_price_usd": 0.5996,
+      "mid_price_usd": 0.585,
+      "current_price_usd": 0.5996,
+      "slippage_pct": 2.49,
+      "shares": 9.49,
+      "cost_usd": 5.69,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.316155,
+      "edge_at_entry": 0.254,
+      "our_probability": 0.849,
+      "signals": [
+        "bookie:15%vs58%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-01T00:08:56Z",
+      "end_date": "2026-05-01",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -1382,6 +1382,37 @@
       "profit_nok": -58.3,
       "gas_nok": 0.3,
       "closed_at": "2026-04-30T06:38:06Z"
+    },
+    {
+      "id": "pos_047",
+      "market_id": "2007811",
+      "question": "Will Aston Villa FC win on 2026-04-30?",
+      "slug": "uel-not-ast4-2026-04-30-ast4",
+      "side": "YES",
+      "entry_price_usd": 0.3409,
+      "mid_price_usd": 0.335,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.77,
+      "shares": 18.26,
+      "cost_usd": 6.22,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.318284,
+      "edge_at_entry": 0.232,
+      "our_probability": 0.577,
+      "signals": [
+        "bookie:58%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-04-29T22:12:41Z",
+      "end_date": "2026-04-30",
+      "unrealized_pnl_nok": -57,
+      "closing_price": 0.0,
+      "clv": -0.335,
+      "result": "LOSS",
+      "profit_nok": -58.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-01T00:08:43Z"
     }
   ],
   "trade_log": [
@@ -1519,8 +1550,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 29,
-    "total_losses": 16,
-    "total_realized_pnl_nok": 404.5000000000001,
+    "total_losses": 17,
+    "total_realized_pnl_nok": 346.2000000000001,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -1561,11 +1592,12 @@
       0.57,
       0.49,
       -0.27,
-      -0.35
+      -0.35,
+      -0.335
     ],
-    "avg_clv": 0.0379
+    "avg_clv": 0.0255
   },
-  "next_position_id": 55,
+  "next_position_id": 56,
   "learning": {
     "category_weights": {
       "esport": 0,
