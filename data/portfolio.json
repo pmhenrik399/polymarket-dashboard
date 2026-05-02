@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-02T20:02:18Z",
+    "last_updated": "2026-05-02T20:55:55Z",
     "currency": "NOK",
     "usd_nok_rate": 9.292889
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 528.2000000000021,
+    "balance_nok": 631.7000000000023,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 314.2,
-    "trades_this_month": 70,
-    "wins_this_month": 33,
+    "realized_pnl_nok": 477.59999999999997,
+    "trades_this_month": 73,
+    "wins_this_month": 35,
     "losses_this_month": 23
   },
   "positions": [
@@ -78,31 +78,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_053",
-      "market_id": "2019739",
-      "question": "Arsenal FC vs. Fulham FC: Draw at halftime?",
-      "slug": "epl-ars-ful-2026-05-02-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6448,
-      "mid_price_usd": 0.63,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.35,
-      "shares": 9.32,
-      "cost_usd": 6.01,
-      "cost_nok": 56,
-      "usd_nok_at_entry": 9.316155,
-      "edge_at_entry": 0.105,
-      "our_probability": 0.745,
-      "signals": [
-        "bookie:draw=26%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-04-30T17:42:50Z",
-      "end_date": "2026-05-02",
-      "unrealized_pnl_nok": 30
-    },
-    {
       "id": "pos_057",
       "market_id": "2129681",
       "question": "Will the lowest temperature in Paris be 14°C on May 3?",
@@ -110,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.7554,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.635,
+      "current_price_usd": 0.705,
       "slippage_pct": 2.77,
       "shares": 7.55,
       "cost_usd": 5.7,
@@ -125,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -8
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_058",
@@ -135,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.7527,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.73,
+      "current_price_usd": 0.745,
       "slippage_pct": 2.41,
       "shares": 7.58,
       "cost_usd": 5.7,
@@ -150,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_059",
@@ -160,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.7586,
       "mid_price_usd": 0.74,
-      "current_price_usd": 0.73,
+      "current_price_usd": 0.74,
       "slippage_pct": 2.51,
       "shares": 7.52,
       "cost_usd": 5.7,
@@ -285,7 +260,7 @@
       "side": "YES",
       "entry_price_usd": 0.2139,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.485,
+      "current_price_usd": 0.455,
       "slippage_pct": 1.87,
       "shares": 29.68,
       "cost_usd": 6.35,
@@ -300,7 +275,7 @@
       "category": "other",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 74
+      "unrealized_pnl_nok": 66
     },
     {
       "id": "pos_067",
@@ -310,7 +285,7 @@
       "side": "NO",
       "entry_price_usd": 0.6326,
       "mid_price_usd": 0.62,
-      "current_price_usd": 0.625,
+      "current_price_usd": 0.62,
       "slippage_pct": 2.03,
       "shares": 10.04,
       "cost_usd": 6.35,
@@ -325,32 +300,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-04",
-      "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_068",
-      "market_id": "2018950",
-      "question": "Will Paris Saint-Germain FC win on 2026-05-02?",
-      "slug": "fl1-psg-lor-2026-05-02-psg",
-      "side": "NO",
-      "entry_price_usd": 0.3017,
-      "mid_price_usd": 0.295,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.28,
-      "shares": 21.04,
-      "cost_usd": 6.35,
-      "cost_nok": 59,
-      "usd_nok_at_entry": 9.292889,
-      "edge_at_entry": 0.227,
-      "our_probability": 0.532,
-      "signals": [
-        "bookie:47%vs30%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-02T04:29:53Z",
-      "end_date": "2026-05-02",
-      "unrealized_pnl_nok": 136
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_069",
@@ -385,7 +335,7 @@
       "side": "NO",
       "entry_price_usd": 0.4213,
       "mid_price_usd": 0.415,
-      "current_price_usd": 0.4213,
+      "current_price_usd": 0.415,
       "slippage_pct": 1.51,
       "shares": 13.28,
       "cost_usd": 5.6,
@@ -400,6 +350,83 @@
       "category": "moneyline",
       "opened_at": "2026-05-02T20:02:25Z",
       "end_date": "2026-05-04",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_071",
+      "market_id": "2031158",
+      "question": "RCD Espanyol de Barcelona vs. Real Madrid CF: Both Teams to Score",
+      "slug": "lal-esp-rea-2026-05-03-btts",
+      "side": "YES",
+      "entry_price_usd": 0.6165,
+      "mid_price_usd": 0.605,
+      "current_price_usd": 0.6165,
+      "slippage_pct": 1.9,
+      "shares": 10.12,
+      "cost_usd": 6.24,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.319,
+      "our_probability": 0.933,
+      "signals": [
+        "bookie:93%vs60%",
+        "ob:-0.010"
+      ],
+      "category": "social_media",
+      "opened_at": "2026-05-02T20:56:04Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_072",
+      "market_id": "1906306",
+      "question": "SC Internacional vs. Fluminense FC: Both Teams to Score",
+      "slug": "bra-int-flu-2026-05-03-btts",
+      "side": "YES",
+      "entry_price_usd": 0.5071,
+      "mid_price_usd": 0.495,
+      "current_price_usd": 0.5071,
+      "slippage_pct": 2.45,
+      "shares": 12.31,
+      "cost_usd": 6.24,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.281,
+      "our_probability": 0.786,
+      "signals": [
+        "bookie:79%vs50%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-02T20:56:04Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_073",
+      "market_id": "1881447",
+      "question": "Will CS Cienciano vs. CD Comerciantes Unidos end in a draw?",
+      "slug": "per1-cs1-ccu-2026-05-02-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7788,
+      "mid_price_usd": 0.765,
+      "current_price_usd": 0.7788,
+      "slippage_pct": 1.81,
+      "shares": 8.01,
+      "cost_usd": 6.24,
+      "cost_nok": 58,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.845,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-02T20:56:05Z",
+      "end_date": "2026-05-02",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -1852,6 +1879,70 @@
       "profit_nok": -59.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-02T19:18:18Z"
+    },
+    {
+      "id": "pos_053",
+      "market_id": "2019739",
+      "question": "Arsenal FC vs. Fulham FC: Draw at halftime?",
+      "slug": "epl-ars-ful-2026-05-02-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6448,
+      "mid_price_usd": 0.63,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.35,
+      "shares": 9.32,
+      "cost_usd": 6.01,
+      "cost_nok": 56,
+      "usd_nok_at_entry": 9.316155,
+      "edge_at_entry": 0.105,
+      "our_probability": 0.745,
+      "signals": [
+        "bookie:draw=26%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-04-30T17:42:50Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": 30,
+      "closing_price": 1.0,
+      "clv": 0.37,
+      "result": "WIN",
+      "profit_nok": 29.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-02T20:55:49Z"
+    },
+    {
+      "id": "pos_068",
+      "market_id": "2018950",
+      "question": "Will Paris Saint-Germain FC win on 2026-05-02?",
+      "slug": "fl1-psg-lor-2026-05-02-psg",
+      "side": "NO",
+      "entry_price_usd": 0.3017,
+      "mid_price_usd": 0.295,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.28,
+      "shares": 21.04,
+      "cost_usd": 6.35,
+      "cost_nok": 59,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.227,
+      "our_probability": 0.532,
+      "signals": [
+        "bookie:47%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-02T04:29:53Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": 136,
+      "closing_price": 1.0,
+      "clv": 0.705,
+      "result": "WIN",
+      "profit_nok": 133.7,
+      "fee_nok": 2,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-02T20:55:53Z"
     }
   ],
   "trade_log": [
@@ -1988,9 +2079,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 33,
+    "total_wins": 35,
     "total_losses": 23,
-    "total_realized_pnl_nok": 314.2,
+    "total_realized_pnl_nok": 477.59999999999997,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2042,11 +2133,13 @@
       0.76,
       -0.375,
       -0.305,
-      -0.575
+      -0.575,
+      0.37,
+      0.705
     ],
-    "avg_clv": -0.0021
+    "avg_clv": 0.0236
   },
-  "next_position_id": 71,
+  "next_position_id": 74,
   "learning": {
     "category_weights": {
       "esport": 0,
@@ -2054,10 +2147,10 @@
       "moneyline": -0.05,
       "other": -0.003,
       "social_media": 0,
-      "no_draw": 0,
+      "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "other:-0.3% | moneyline:-5.0%"
+    "summary": "no_draw:+5.0% | other:-0.3% | moneyline:-5.0%"
   }
 }
