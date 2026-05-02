@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-02T20:55:55Z",
+    "last_updated": "2026-05-02T21:47:06Z",
     "currency": "NOK",
     "usd_nok_rate": 9.292889
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 477.59999999999997,
+    "realized_pnl_nok": 420.29999999999995,
     "trades_this_month": 73,
     "wins_this_month": 35,
-    "losses_this_month": 23
+    "losses_this_month": 24
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.5025,
+      "current_price_usd": 0.515,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.7527,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.785,
       "slippage_pct": 2.41,
       "shares": 7.58,
       "cost_usd": 5.7,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_059",
@@ -203,31 +203,6 @@
       "unrealized_pnl_nok": 15
     },
     {
-      "id": "pos_062",
-      "market_id": "2019044",
-      "question": "Will RB Leipzig win on 2026-05-02?",
-      "slug": "bun-b04-lei-2026-05-02-lei",
-      "side": "YES",
-      "entry_price_usd": 0.332,
-      "mid_price_usd": 0.325,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.16,
-      "shares": 18.48,
-      "cost_usd": 6.13,
-      "cost_nok": 57,
-      "usd_nok_at_entry": 9.291767,
-      "edge_at_entry": 0.332,
-      "our_probability": 0.667,
-      "signals": [
-        "bookie:67%vs32%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-01T23:32:05Z",
-      "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -56
-    },
-    {
       "id": "pos_063",
       "market_id": "2030758",
       "question": "Will Real Betis Balompié win on 2026-05-03?",
@@ -260,7 +235,7 @@
       "side": "YES",
       "entry_price_usd": 0.2139,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.455,
+      "current_price_usd": 0.45,
       "slippage_pct": 1.87,
       "shares": 29.68,
       "cost_usd": 6.35,
@@ -275,7 +250,7 @@
       "category": "other",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 66
+      "unrealized_pnl_nok": 65
     },
     {
       "id": "pos_067",
@@ -285,7 +260,7 @@
       "side": "NO",
       "entry_price_usd": 0.6326,
       "mid_price_usd": 0.62,
-      "current_price_usd": 0.62,
+      "current_price_usd": 0.625,
       "slippage_pct": 2.03,
       "shares": 10.04,
       "cost_usd": 6.35,
@@ -300,7 +275,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-04",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_069",
@@ -360,7 +335,7 @@
       "side": "YES",
       "entry_price_usd": 0.6165,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.6165,
+      "current_price_usd": 0.605,
       "slippage_pct": 1.9,
       "shares": 10.12,
       "cost_usd": 6.24,
@@ -375,7 +350,7 @@
       "category": "social_media",
       "opened_at": "2026-05-02T20:56:04Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_072",
@@ -385,7 +360,7 @@
       "side": "YES",
       "entry_price_usd": 0.5071,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.5071,
+      "current_price_usd": 0.495,
       "slippage_pct": 2.45,
       "shares": 12.31,
       "cost_usd": 6.24,
@@ -400,7 +375,7 @@
       "category": "other",
       "opened_at": "2026-05-02T20:56:04Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_073",
@@ -410,7 +385,7 @@
       "side": "NO",
       "entry_price_usd": 0.7788,
       "mid_price_usd": 0.765,
-      "current_price_usd": 0.7788,
+      "current_price_usd": 0.765,
       "slippage_pct": 1.81,
       "shares": 8.01,
       "cost_usd": 6.24,
@@ -427,7 +402,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-02T20:56:05Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     }
   ],
   "closed_positions": [
@@ -1943,6 +1918,37 @@
       "fee_nok": 2,
       "gas_nok": 0.3,
       "closed_at": "2026-05-02T20:55:53Z"
+    },
+    {
+      "id": "pos_062",
+      "market_id": "2019044",
+      "question": "Will RB Leipzig win on 2026-05-02?",
+      "slug": "bun-b04-lei-2026-05-02-lei",
+      "side": "YES",
+      "entry_price_usd": 0.332,
+      "mid_price_usd": 0.325,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.16,
+      "shares": 18.48,
+      "cost_usd": 6.13,
+      "cost_nok": 57,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.332,
+      "our_probability": 0.667,
+      "signals": [
+        "bookie:67%vs32%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-01T23:32:05Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": -56,
+      "closing_price": 0.0,
+      "clv": -0.325,
+      "result": "LOSS",
+      "profit_nok": -57.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-02T21:47:03Z"
     }
   ],
   "trade_log": [
@@ -2080,8 +2086,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 35,
-    "total_losses": 23,
-    "total_realized_pnl_nok": 477.59999999999997,
+    "total_losses": 24,
+    "total_realized_pnl_nok": 420.29999999999995,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2135,9 +2141,10 @@
       -0.305,
       -0.575,
       0.37,
-      0.705
+      0.705,
+      -0.325
     ],
-    "avg_clv": 0.0236
+    "avg_clv": 0.0155
   },
   "next_position_id": 74,
   "learning": {
