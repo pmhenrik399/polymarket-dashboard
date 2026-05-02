@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-02T18:10:52Z",
+    "last_updated": "2026-05-02T19:18:20Z",
     "currency": "NOK",
     "usd_nok_rate": 9.292889
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 429.8,
+    "realized_pnl_nok": 314.2,
     "trades_this_month": 69,
     "wins_this_month": 33,
-    "losses_this_month": 21
+    "losses_this_month": 23
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.519,
+      "current_price_usd": 0.464,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -75,32 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-27T12:13:06Z",
       "end_date": "2026-04-29",
-      "unrealized_pnl_nok": 1
-    },
-    {
-      "id": "pos_048",
-      "market_id": "2019010",
-      "question": "Will Wolverhampton Wanderers FC win on 2026-05-02?",
-      "slug": "epl-wol-sun-2026-05-02-wol",
-      "side": "YES",
-      "entry_price_usd": 0.3109,
-      "mid_price_usd": 0.305,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.93,
-      "shares": 19.33,
-      "cost_usd": 6.01,
-      "cost_nok": 56,
-      "usd_nok_at_entry": 9.316155,
-      "edge_at_entry": 0.205,
-      "our_probability": 0.52,
-      "signals": [
-        "bookie:52%vs30%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-04-30T06:38:14Z",
-      "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -55
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_053",
@@ -160,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.7527,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.765,
       "slippage_pct": 2.41,
       "shares": 7.58,
       "cost_usd": 5.7,
@@ -175,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_059",
@@ -185,7 +160,7 @@
       "side": "NO",
       "entry_price_usd": 0.7586,
       "mid_price_usd": 0.74,
-      "current_price_usd": 0.675,
+      "current_price_usd": 0.73,
       "slippage_pct": 2.51,
       "shares": 7.52,
       "cost_usd": 5.7,
@@ -200,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -5
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_060",
@@ -260,7 +235,7 @@
       "side": "YES",
       "entry_price_usd": 0.332,
       "mid_price_usd": 0.325,
-      "current_price_usd": 0.0065,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.16,
       "shares": 18.48,
       "cost_usd": 6.13,
@@ -275,7 +250,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-01T23:32:05Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -55
+      "unrealized_pnl_nok": -56
     },
     {
       "id": "pos_063",
@@ -310,7 +285,7 @@
       "side": "YES",
       "entry_price_usd": 0.2139,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.37,
+      "current_price_usd": 0.395,
       "slippage_pct": 1.87,
       "shares": 29.68,
       "cost_usd": 6.35,
@@ -325,32 +300,7 @@
       "category": "other",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 43
-    },
-    {
-      "id": "pos_066",
-      "market_id": "2021585",
-      "question": "Will Colchester United FC win on 2026-05-02?",
-      "slug": "el2-che-col-2026-05-02-col",
-      "side": "NO",
-      "entry_price_usd": 0.5888,
-      "mid_price_usd": 0.575,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.4,
-      "shares": 10.78,
-      "cost_usd": 6.35,
-      "cost_nok": 59,
-      "usd_nok_at_entry": 9.292889,
-      "edge_at_entry": 0.2,
-      "our_probability": 0.785,
-      "signals": [
-        "bookie:22%vs57%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-02T01:15:19Z",
-      "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -58
+      "unrealized_pnl_nok": 49
     },
     {
       "id": "pos_067",
@@ -1815,6 +1765,68 @@
       "profit_nok": -59.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-02T16:27:43Z"
+    },
+    {
+      "id": "pos_048",
+      "market_id": "2019010",
+      "question": "Will Wolverhampton Wanderers FC win on 2026-05-02?",
+      "slug": "epl-wol-sun-2026-05-02-wol",
+      "side": "YES",
+      "entry_price_usd": 0.3109,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.93,
+      "shares": 19.33,
+      "cost_usd": 6.01,
+      "cost_nok": 56,
+      "usd_nok_at_entry": 9.316155,
+      "edge_at_entry": 0.205,
+      "our_probability": 0.52,
+      "signals": [
+        "bookie:52%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-04-30T06:38:14Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": -55,
+      "closing_price": 0.0,
+      "clv": -0.305,
+      "result": "LOSS",
+      "profit_nok": -56.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-02T19:18:14Z"
+    },
+    {
+      "id": "pos_066",
+      "market_id": "2021585",
+      "question": "Will Colchester United FC win on 2026-05-02?",
+      "slug": "el2-che-col-2026-05-02-col",
+      "side": "NO",
+      "entry_price_usd": 0.5888,
+      "mid_price_usd": 0.575,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.4,
+      "shares": 10.78,
+      "cost_usd": 6.35,
+      "cost_nok": 59,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.2,
+      "our_probability": 0.785,
+      "signals": [
+        "bookie:22%vs57%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-02T01:15:19Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": -58,
+      "closing_price": 0.0,
+      "clv": -0.575,
+      "result": "LOSS",
+      "profit_nok": -59.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-02T19:18:18Z"
     }
   ],
   "trade_log": [
@@ -1952,8 +1964,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 33,
-    "total_losses": 21,
-    "total_realized_pnl_nok": 429.8,
+    "total_losses": 23,
+    "total_realized_pnl_nok": 314.2,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2003,9 +2015,11 @@
       -0.515,
       -0.585,
       0.76,
-      -0.375
+      -0.375,
+      -0.305,
+      -0.575
     ],
-    "avg_clv": 0.0209
+    "avg_clv": -0.0021
   },
   "next_position_id": 70,
   "learning": {
