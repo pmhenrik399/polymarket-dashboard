@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-02T21:47:06Z",
+    "last_updated": "2026-05-02T22:25:17Z",
     "currency": "NOK",
     "usd_nok_rate": 9.292889
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 631.7000000000023,
+    "balance_nok": 575.4000000000024,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 420.29999999999995,
-    "trades_this_month": 73,
+    "trades_this_month": 74,
     "wins_this_month": 35,
     "losses_this_month": 24
   },
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.7554,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.705,
+      "current_price_usd": 0.695,
       "slippage_pct": 2.77,
       "shares": 7.55,
       "cost_usd": 5.7,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_058",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.7527,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.785,
+      "current_price_usd": 0.79,
       "slippage_pct": 2.41,
       "shares": 7.58,
       "cost_usd": 5.7,
@@ -135,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.7586,
       "mid_price_usd": 0.74,
-      "current_price_usd": 0.74,
+      "current_price_usd": 0.73,
       "slippage_pct": 2.51,
       "shares": 7.52,
       "cost_usd": 5.7,
@@ -210,7 +210,7 @@
       "side": "NO",
       "entry_price_usd": 0.3913,
       "mid_price_usd": 0.385,
-      "current_price_usd": 0.375,
+      "current_price_usd": 0.385,
       "slippage_pct": 1.64,
       "shares": 16.23,
       "cost_usd": 6.35,
@@ -225,7 +225,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-02T01:15:18Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_065",
@@ -235,7 +235,7 @@
       "side": "YES",
       "entry_price_usd": 0.2139,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.45,
+      "current_price_usd": 0.455,
       "slippage_pct": 1.87,
       "shares": 29.68,
       "cost_usd": 6.35,
@@ -250,7 +250,7 @@
       "category": "other",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 65
+      "unrealized_pnl_nok": 66
     },
     {
       "id": "pos_067",
@@ -335,7 +335,7 @@
       "side": "YES",
       "entry_price_usd": 0.6165,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.605,
+      "current_price_usd": 0.61,
       "slippage_pct": 1.9,
       "shares": 10.12,
       "cost_usd": 6.24,
@@ -350,7 +350,7 @@
       "category": "social_media",
       "opened_at": "2026-05-02T20:56:04Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_072",
@@ -385,7 +385,7 @@
       "side": "NO",
       "entry_price_usd": 0.7788,
       "mid_price_usd": 0.765,
-      "current_price_usd": 0.765,
+      "current_price_usd": 0.775,
       "slippage_pct": 1.81,
       "shares": 8.01,
       "cost_usd": 6.24,
@@ -402,7 +402,32 @@
       "category": "no_draw",
       "opened_at": "2026-05-02T20:56:05Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_074",
+      "market_id": "1944367",
+      "question": "Spread: FC Barcelona (-1.5)",
+      "slug": "uwcl-fcb-bm-2026-05-03-spread-home-1pt5",
+      "side": "NO",
+      "entry_price_usd": 0.3168,
+      "mid_price_usd": 0.31,
+      "current_price_usd": 0.3168,
+      "slippage_pct": 2.18,
+      "shares": 19.02,
+      "cost_usd": 6.03,
+      "cost_nok": 56,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.159,
+      "our_probability": 0.479,
+      "signals": [
+        "bookie:52%vs31%",
+        "ob:-0.010"
+      ],
+      "category": "social_media",
+      "opened_at": "2026-05-02T22:25:26Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -2146,7 +2171,7 @@
     ],
     "avg_clv": 0.0155
   },
-  "next_position_id": 74,
+  "next_position_id": 75,
   "learning": {
     "category_weights": {
       "esport": 0,
