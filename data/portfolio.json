@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-02T15:31:55Z",
+    "last_updated": "2026-05-02T16:27:45Z",
     "currency": "NOK",
     "usd_nok_rate": 9.292889
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 636.800000000002,
+    "balance_nok": 580.500000000002,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 489.1,
-    "trades_this_month": 68,
+    "realized_pnl_nok": 429.8,
+    "trades_this_month": 69,
     "wins_this_month": 33,
-    "losses_this_month": 20
+    "losses_this_month": 21
   },
   "positions": [
     {
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.3109,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.395,
+      "current_price_usd": 0.0005,
       "slippage_pct": 1.93,
       "shares": 19.33,
       "cost_usd": 6.01,
@@ -100,7 +100,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-30T06:38:14Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": 15
+      "unrealized_pnl_nok": -55
     },
     {
       "id": "pos_053",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.6448,
       "mid_price_usd": 0.63,
-      "current_price_usd": 0.605,
+      "current_price_usd": 0.63,
       "slippage_pct": 2.35,
       "shares": 9.32,
       "cost_usd": 6.01,
@@ -125,7 +125,7 @@
       "category": "no_draw",
       "opened_at": "2026-04-30T17:42:50Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_057",
@@ -160,7 +160,7 @@
       "side": "NO",
       "entry_price_usd": 0.7527,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.915,
+      "current_price_usd": 0.775,
       "slippage_pct": 2.41,
       "shares": 7.58,
       "cost_usd": 5.7,
@@ -175,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_059",
@@ -185,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.7586,
       "mid_price_usd": 0.74,
-      "current_price_usd": 0.79,
+      "current_price_usd": 0.725,
       "slippage_pct": 2.51,
       "shares": 7.52,
       "cost_usd": 5.7,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_060",
@@ -235,7 +235,7 @@
       "side": "NO",
       "entry_price_usd": 0.7641,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.9895,
+      "current_price_usd": 0.9925,
       "slippage_pct": 2.57,
       "shares": 7.46,
       "cost_usd": 5.7,
@@ -260,7 +260,7 @@
       "side": "YES",
       "entry_price_usd": 0.332,
       "mid_price_usd": 0.325,
-      "current_price_usd": 0.325,
+      "current_price_usd": 0.305,
       "slippage_pct": 2.16,
       "shares": 18.48,
       "cost_usd": 6.13,
@@ -275,7 +275,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-01T23:32:05Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_063",
@@ -301,31 +301,6 @@
       "opened_at": "2026-05-02T01:15:18Z",
       "end_date": "2026-05-03",
       "unrealized_pnl_nok": -2
-    },
-    {
-      "id": "pos_064",
-      "market_id": "2022898",
-      "question": "DSC Arminia Bielefeld vs. VfL Bochum: Both Teams to Score",
-      "slug": "bl2-bie-boc-2026-05-02-btts",
-      "side": "NO",
-      "entry_price_usd": 0.383,
-      "mid_price_usd": 0.375,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.13,
-      "shares": 16.58,
-      "cost_usd": 6.35,
-      "cost_nok": 59,
-      "usd_nok_at_entry": 9.292889,
-      "edge_at_entry": 0.264,
-      "our_probability": 0.649,
-      "signals": [
-        "bookie:35%vs38%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-02T01:15:18Z",
-      "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -58
     },
     {
       "id": "pos_065",
@@ -360,7 +335,7 @@
       "side": "NO",
       "entry_price_usd": 0.5888,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.09,
+      "current_price_usd": 0.0045,
       "slippage_pct": 2.4,
       "shares": 10.78,
       "cost_usd": 6.35,
@@ -375,7 +350,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -49
+      "unrealized_pnl_nok": -58
     },
     {
       "id": "pos_067",
@@ -385,7 +360,7 @@
       "side": "NO",
       "entry_price_usd": 0.6326,
       "mid_price_usd": 0.62,
-      "current_price_usd": 0.625,
+      "current_price_usd": 0.62,
       "slippage_pct": 2.03,
       "shares": 10.04,
       "cost_usd": 6.35,
@@ -400,7 +375,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-04",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_068",
@@ -410,7 +385,7 @@
       "side": "NO",
       "entry_price_usd": 0.3017,
       "mid_price_usd": 0.295,
-      "current_price_usd": 0.355,
+      "current_price_usd": 0.125,
       "slippage_pct": 2.28,
       "shares": 21.04,
       "cost_usd": 6.35,
@@ -425,7 +400,32 @@
       "category": "moneyline",
       "opened_at": "2026-05-02T04:29:53Z",
       "end_date": "2026-05-02",
-      "unrealized_pnl_nok": 10
+      "unrealized_pnl_nok": -34
+    },
+    {
+      "id": "pos_069",
+      "market_id": "1880233",
+      "question": "Spread: Inter Miami CF (-2.5)",
+      "slug": "mls-mia-orl-2026-05-02-spread-home-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3515,
+      "mid_price_usd": 0.345,
+      "current_price_usd": 0.3515,
+      "slippage_pct": 1.89,
+      "shares": 17.14,
+      "cost_usd": 6.03,
+      "cost_nok": 56,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.43,
+      "our_probability": 0.785,
+      "signals": [
+        "bookie:79%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-02T16:27:53Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -1784,6 +1784,37 @@
       "fee_nok": 3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-02T01:15:05Z"
+    },
+    {
+      "id": "pos_064",
+      "market_id": "2022898",
+      "question": "DSC Arminia Bielefeld vs. VfL Bochum: Both Teams to Score",
+      "slug": "bl2-bie-boc-2026-05-02-btts",
+      "side": "NO",
+      "entry_price_usd": 0.383,
+      "mid_price_usd": 0.375,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.13,
+      "shares": 16.58,
+      "cost_usd": 6.35,
+      "cost_nok": 59,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.264,
+      "our_probability": 0.649,
+      "signals": [
+        "bookie:35%vs38%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-02T01:15:18Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": -58,
+      "closing_price": 0.0,
+      "clv": -0.375,
+      "result": "LOSS",
+      "profit_nok": -59.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-02T16:27:43Z"
     }
   ],
   "trade_log": [
@@ -1921,8 +1952,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 33,
-    "total_losses": 20,
-    "total_realized_pnl_nok": 489.1,
+    "total_losses": 21,
+    "total_realized_pnl_nok": 429.8,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -1971,22 +2002,23 @@
       0.275,
       -0.515,
       -0.585,
-      0.76
+      0.76,
+      -0.375
     ],
-    "avg_clv": 0.0316
+    "avg_clv": 0.0209
   },
-  "next_position_id": 69,
+  "next_position_id": 70,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": 0.011,
+      "other": -0.003,
       "social_media": 0,
       "no_draw": 0,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "other:+1.1% | moneyline:-5.0%"
+    "summary": "other:-0.3% | moneyline:-5.0%"
   }
 }
