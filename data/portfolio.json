@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-03T04:05:37Z",
+    "last_updated": "2026-05-03T06:37:01Z",
     "currency": "NOK",
     "usd_nok_rate": 9.287773
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 591.8000000000025,
+    "balance_nok": 549.9000000000026,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 435.99999999999994,
-    "trades_this_month": 75,
-    "wins_this_month": 36,
-    "losses_this_month": 24
+    "realized_pnl_nok": 395.3999999999999,
+    "trades_this_month": 77,
+    "wins_this_month": 37,
+    "losses_this_month": 25
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5068,
       "mid_price_usd": 0.497,
-      "current_price_usd": 0.4875,
+      "current_price_usd": 0.49,
       "slippage_pct": 1.97,
       "shares": 12.27,
       "cost_usd": 6.22,
@@ -75,7 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-04-27T12:13:06Z",
       "end_date": "2026-04-29",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_057",
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.7554,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.67,
+      "current_price_usd": 0.17,
       "slippage_pct": 2.77,
       "shares": 7.55,
       "cost_usd": 5.7,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -5
+      "unrealized_pnl_nok": -41
     },
     {
       "id": "pos_058",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.7527,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.485,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.41,
       "shares": 7.58,
       "cost_usd": 5.7,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -18
+      "unrealized_pnl_nok": 17
     },
     {
       "id": "pos_059",
@@ -135,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.7586,
       "mid_price_usd": 0.74,
-      "current_price_usd": 0.945,
+      "current_price_usd": 0.8725,
       "slippage_pct": 2.51,
       "shares": 7.52,
       "cost_usd": 5.7,
@@ -150,32 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:16:59Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 13
-    },
-    {
-      "id": "pos_060",
-      "market_id": "2129684",
-      "question": "Will the lowest temperature in Paris be 17°C on May 3?",
-      "slug": "lowest-temperature-in-paris-on-may-3-2026-17c",
-      "side": "NO",
-      "entry_price_usd": 0.7635,
-      "mid_price_usd": 0.745,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.48,
-      "shares": 7.47,
-      "cost_usd": 5.7,
-      "cost_nok": 53,
-      "usd_nok_at_entry": 9.291767,
-      "edge_at_entry": 0.053,
-      "our_probability": 0.808,
-      "signals": [
-        "bookie:19%vs74%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-01T04:17:00Z",
-      "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 16
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_061",
@@ -185,7 +160,7 @@
       "side": "NO",
       "entry_price_usd": 0.7641,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.8215,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.57,
       "shares": 7.46,
       "cost_usd": 5.7,
@@ -200,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-01T04:17:00Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 3
+      "unrealized_pnl_nok": 16
     },
     {
       "id": "pos_063",
@@ -235,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.2139,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.45,
+      "current_price_usd": 0.5,
       "slippage_pct": 1.87,
       "shares": 29.68,
       "cost_usd": 6.35,
@@ -250,7 +225,7 @@
       "category": "other",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": 65
+      "unrealized_pnl_nok": 78
     },
     {
       "id": "pos_067",
@@ -260,7 +235,7 @@
       "side": "NO",
       "entry_price_usd": 0.6326,
       "mid_price_usd": 0.62,
-      "current_price_usd": 0.62,
+      "current_price_usd": 0.625,
       "slippage_pct": 2.03,
       "shares": 10.04,
       "cost_usd": 6.35,
@@ -275,32 +250,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-02T01:15:19Z",
       "end_date": "2026-05-04",
-      "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_069",
-      "market_id": "1880233",
-      "question": "Spread: Inter Miami CF (-2.5)",
-      "slug": "mls-mia-orl-2026-05-02-spread-home-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.3515,
-      "mid_price_usd": 0.345,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.89,
-      "shares": 17.14,
-      "cost_usd": 6.03,
-      "cost_nok": 56,
-      "usd_nok_at_entry": 9.292889,
-      "edge_at_entry": 0.43,
-      "our_probability": 0.785,
-      "signals": [
-        "bookie:79%vs34%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-02T16:27:53Z",
-      "end_date": "2026-05-02",
-      "unrealized_pnl_nok": -55
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_070",
@@ -360,7 +310,7 @@
       "side": "YES",
       "entry_price_usd": 0.5071,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.49,
+      "current_price_usd": 0.5,
       "slippage_pct": 2.45,
       "shares": 12.31,
       "cost_usd": 6.24,
@@ -375,7 +325,7 @@
       "category": "other",
       "opened_at": "2026-05-02T20:56:04Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_074",
@@ -385,7 +335,7 @@
       "side": "NO",
       "entry_price_usd": 0.3168,
       "mid_price_usd": 0.31,
-      "current_price_usd": 0.225,
+      "current_price_usd": 0.25,
       "slippage_pct": 2.18,
       "shares": 19.02,
       "cost_usd": 6.03,
@@ -400,7 +350,7 @@
       "category": "social_media",
       "opened_at": "2026-05-02T22:25:26Z",
       "end_date": "2026-05-03",
-      "unrealized_pnl_nok": -16
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_075",
@@ -410,7 +360,7 @@
       "side": "NO",
       "entry_price_usd": 0.4448,
       "mid_price_usd": 0.435,
-      "current_price_usd": 0.4448,
+      "current_price_usd": 0.425,
       "slippage_pct": 2.26,
       "shares": 13.8,
       "cost_usd": 6.14,
@@ -424,6 +374,56 @@
       ],
       "category": "moneyline",
       "opened_at": "2026-05-03T04:05:45Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": -2
+    },
+    {
+      "id": "pos_076",
+      "market_id": "2031198",
+      "question": "Spread: RC Celta de Vigo (-1.5)",
+      "slug": "lal-cel-elc-2026-05-03-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3216,
+      "mid_price_usd": 0.315,
+      "current_price_usd": 0.3216,
+      "slippage_pct": 2.09,
+      "shares": 18.41,
+      "cost_usd": 5.92,
+      "cost_nok": 55,
+      "usd_nok_at_entry": 9.287773,
+      "edge_at_entry": 0.227,
+      "our_probability": 0.552,
+      "signals": [
+        "bookie:55%vs32%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-03T06:37:09Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_077",
+      "market_id": "2030574",
+      "question": "RC Strasbourg Alsace vs. Toulouse FC: Both Teams to Score",
+      "slug": "fl1-str-tou-2026-05-03-btts",
+      "side": "NO",
+      "entry_price_usd": 0.4237,
+      "mid_price_usd": 0.415,
+      "current_price_usd": 0.4237,
+      "slippage_pct": 2.1,
+      "shares": 13.98,
+      "cost_usd": 5.92,
+      "cost_nok": 55,
+      "usd_nok_at_entry": 9.287773,
+      "edge_at_entry": 0.117,
+      "our_probability": 0.542,
+      "signals": [
+        "bookie:46%vs42%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-03T06:37:09Z",
       "end_date": "2026-05-03",
       "unrealized_pnl_nok": 0
     }
@@ -2006,6 +2006,69 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-03T04:05:37Z"
+    },
+    {
+      "id": "pos_060",
+      "market_id": "2129684",
+      "question": "Will the lowest temperature in Paris be 17°C on May 3?",
+      "slug": "lowest-temperature-in-paris-on-may-3-2026-17c",
+      "side": "NO",
+      "entry_price_usd": 0.7635,
+      "mid_price_usd": 0.745,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.48,
+      "shares": 7.47,
+      "cost_usd": 5.7,
+      "cost_nok": 53,
+      "usd_nok_at_entry": 9.291767,
+      "edge_at_entry": 0.053,
+      "our_probability": 0.808,
+      "signals": [
+        "bookie:19%vs74%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-01T04:17:00Z",
+      "end_date": "2026-05-03",
+      "unrealized_pnl_nok": 16,
+      "closing_price": 1.0,
+      "clv": 0.255,
+      "result": "WIN",
+      "profit_nok": 15.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-03T06:36:57Z"
+    },
+    {
+      "id": "pos_069",
+      "market_id": "1880233",
+      "question": "Spread: Inter Miami CF (-2.5)",
+      "slug": "mls-mia-orl-2026-05-02-spread-home-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3515,
+      "mid_price_usd": 0.345,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.89,
+      "shares": 17.14,
+      "cost_usd": 6.03,
+      "cost_nok": 56,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.43,
+      "our_probability": 0.785,
+      "signals": [
+        "bookie:79%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-02T16:27:53Z",
+      "end_date": "2026-05-02",
+      "unrealized_pnl_nok": -55,
+      "closing_price": 0.0,
+      "clv": -0.345,
+      "result": "LOSS",
+      "profit_nok": -56.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-03T06:36:59Z"
     }
   ],
   "trade_log": [
@@ -2142,9 +2205,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 36,
-    "total_losses": 24,
-    "total_realized_pnl_nok": 435.99999999999994,
+    "total_wins": 37,
+    "total_losses": 25,
+    "total_realized_pnl_nok": 395.3999999999999,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2200,22 +2263,24 @@
       0.37,
       0.705,
       -0.325,
-      0.235
+      0.235,
+      0.255,
+      -0.345
     ],
-    "avg_clv": 0.0205
+    "avg_clv": 0.0176
   },
-  "next_position_id": 76,
+  "next_position_id": 78,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.003,
+      "other": 0.01,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-0.3% | moneyline:-5.0%"
+    "summary": "no_draw:+5.0% | other:+1.0% | moneyline:-5.0%"
   }
 }
