@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-04T19:46:15Z",
+    "last_updated": "2026-05-04T20:53:26Z",
     "currency": "NOK",
     "usd_nok_rate": 9.283751
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 443.600000000003,
+    "balance_nok": 484.70000000000306,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,37 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -13.000000000000213,
-    "trades_this_month": 92,
-    "wins_this_month": 43,
-    "losses_this_month": 37
+    "realized_pnl_nok": 16.399999999999793,
+    "trades_this_month": 94,
+    "wins_this_month": 44,
+    "losses_this_month": 38
   },
   "positions": [
-    {
-      "id": "pos_070",
-      "market_id": "2040017",
-      "question": "Will Chelsea FC win on 2026-05-04?",
-      "slug": "epl-che-not-2026-05-04-che",
-      "side": "NO",
-      "entry_price_usd": 0.4213,
-      "mid_price_usd": 0.415,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.51,
-      "shares": 13.28,
-      "cost_usd": 5.6,
-      "cost_nok": 52,
-      "usd_nok_at_entry": 9.292889,
-      "edge_at_entry": 0.316,
-      "our_probability": 0.741,
-      "signals": [
-        "bookie:26%vs42%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-02T20:02:25Z",
-      "end_date": "2026-05-04",
-      "unrealized_pnl_nok": 71
-    },
     {
       "id": "pos_078",
       "market_id": "2144432",
@@ -85,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.7679,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.93,
+      "current_price_usd": 0.95,
       "slippage_pct": 2.39,
       "shares": 7.85,
       "cost_usd": 6.03,
@@ -100,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-03T08:24:28Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": 13
     },
     {
       "id": "pos_079",
@@ -135,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.5126,
       "mid_price_usd": 0.5,
-      "current_price_usd": 0.255,
+      "current_price_usd": 0.705,
       "slippage_pct": 2.52,
       "shares": 10.92,
       "cost_usd": 5.6,
@@ -150,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-03T21:55:54Z",
       "end_date": "2026-05-04",
-      "unrealized_pnl_nok": -26
+      "unrealized_pnl_nok": 19
     },
     {
       "id": "pos_085",
@@ -160,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.2101,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.145,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.5,
       "shares": 20.51,
       "cost_usd": 4.31,
@@ -175,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-04",
-      "unrealized_pnl_nok": -12
+      "unrealized_pnl_nok": -39
     },
     {
       "id": "pos_086",
@@ -185,7 +160,7 @@
       "side": "NO",
       "entry_price_usd": 0.6259,
       "mid_price_usd": 0.615,
-      "current_price_usd": 0.845,
+      "current_price_usd": 0.825,
       "slippage_pct": 1.78,
       "shares": 6.88,
       "cost_usd": 4.31,
@@ -200,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 13
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_087",
@@ -226,31 +201,6 @@
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-05",
       "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_088",
-      "market_id": "2040928",
-      "question": "Spread: Chelsea FC (-1.5)",
-      "slug": "epl-che-not-2026-05-04-spread-home-1pt5",
-      "side": "YES",
-      "entry_price_usd": 0.3312,
-      "mid_price_usd": 0.325,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.89,
-      "shares": 13.01,
-      "cost_usd": 4.31,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.283751,
-      "edge_at_entry": 0.231,
-      "our_probability": 0.566,
-      "signals": [
-        "bookie:57%vs32%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-04T12:02:49Z",
-      "end_date": "2026-05-04",
-      "unrealized_pnl_nok": -39
     },
     {
       "id": "pos_089",
@@ -285,7 +235,7 @@
       "side": "NO",
       "entry_price_usd": 0.5492,
       "mid_price_usd": 0.54,
-      "current_price_usd": 0.54,
+      "current_price_usd": 0.545,
       "slippage_pct": 1.7,
       "shares": 7.85,
       "cost_usd": 4.31,
@@ -335,7 +285,7 @@
       "side": "NO",
       "entry_price_usd": 0.6672,
       "mid_price_usd": 0.655,
-      "current_price_usd": 0.6672,
+      "current_price_usd": 0.655,
       "slippage_pct": 1.86,
       "shares": 6.3,
       "cost_usd": 4.2,
@@ -351,6 +301,58 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-04T19:46:24Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_093",
+      "market_id": "1910534",
+      "question": "Will FC Universitario win on 2026-05-04?",
+      "slug": "bol1-uvi-blo-2026-05-04-uvi",
+      "side": "NO",
+      "entry_price_usd": 0.4946,
+      "mid_price_usd": 0.485,
+      "current_price_usd": 0.4946,
+      "slippage_pct": 1.97,
+      "shares": 8.71,
+      "cost_usd": 4.31,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.414,
+      "our_probability": 0.909,
+      "signals": [
+        "bookie:9%vs48%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-04T20:53:33Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_094",
+      "market_id": "2142162",
+      "question": "Will El Ahly SC vs. ENPPI end in a draw?",
+      "slug": "egy1-eas-enp-2026-05-05-draw",
+      "side": "NO",
+      "entry_price_usd": 0.8122,
+      "mid_price_usd": 0.8,
+      "current_price_usd": 0.8122,
+      "slippage_pct": 1.52,
+      "shares": 5.3,
+      "cost_usd": 4.31,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.88,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-04T20:53:33Z",
       "end_date": "2026-05-05",
       "unrealized_pnl_nok": 0
     }
@@ -2560,6 +2562,69 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-04T19:46:10Z"
+    },
+    {
+      "id": "pos_070",
+      "market_id": "2040017",
+      "question": "Will Chelsea FC win on 2026-05-04?",
+      "slug": "epl-che-not-2026-05-04-che",
+      "side": "NO",
+      "entry_price_usd": 0.4213,
+      "mid_price_usd": 0.415,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.51,
+      "shares": 13.28,
+      "cost_usd": 5.6,
+      "cost_nok": 52,
+      "usd_nok_at_entry": 9.292889,
+      "edge_at_entry": 0.316,
+      "our_probability": 0.741,
+      "signals": [
+        "bookie:26%vs42%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-02T20:02:25Z",
+      "end_date": "2026-05-04",
+      "unrealized_pnl_nok": 71,
+      "closing_price": 1.0,
+      "clv": 0.585,
+      "result": "WIN",
+      "profit_nok": 69.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-04T20:53:21Z"
+    },
+    {
+      "id": "pos_088",
+      "market_id": "2040928",
+      "question": "Spread: Chelsea FC (-1.5)",
+      "slug": "epl-che-not-2026-05-04-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3312,
+      "mid_price_usd": 0.325,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.89,
+      "shares": 13.01,
+      "cost_usd": 4.31,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.231,
+      "our_probability": 0.566,
+      "signals": [
+        "bookie:57%vs32%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-04T12:02:49Z",
+      "end_date": "2026-05-04",
+      "unrealized_pnl_nok": -39,
+      "closing_price": 0.0,
+      "clv": -0.325,
+      "result": "LOSS",
+      "profit_nok": -40.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-04T20:53:24Z"
     }
   ],
   "trade_log": [
@@ -2696,9 +2761,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 43,
-    "total_losses": 37,
-    "total_realized_pnl_nok": -13.000000000000213,
+    "total_wins": 44,
+    "total_losses": 38,
+    "total_realized_pnl_nok": 16.399999999999793,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2774,22 +2839,24 @@
       -0.4395,
       -0.495,
       -0.4965,
-      0.38
+      0.38,
+      0.585,
+      -0.325
     ],
-    "avg_clv": -0.0389
+    "avg_clv": -0.0338
   },
-  "next_position_id": 93,
+  "next_position_id": 95,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.003,
+      "other": -0.01,
       "social_media": -0.05,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-0.3% | moneyline:-5.0% | social_media:-5.0%"
+    "summary": "no_draw:+5.0% | other:-1.0% | moneyline:-5.0% | social_media:-5.0%"
   }
 }
