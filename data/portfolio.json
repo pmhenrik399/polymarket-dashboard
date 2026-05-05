@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-05T19:54:57Z",
+    "last_updated": "2026-05-05T21:04:25Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268178
   },
@@ -110,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.505,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.465,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.02,
       "shares": 8.53,
       "cost_usd": 4.31,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -39
     },
     {
       "id": "pos_089",
@@ -185,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.3525,
       "mid_price_usd": 0.345,
-      "current_price_usd": 0.405,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.17,
       "shares": 12.22,
       "cost_usd": 4.31,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-04T16:18:54Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 5
+      "unrealized_pnl_nok": -39
     },
     {
       "id": "pos_092",
@@ -264,7 +264,7 @@
       "side": "YES",
       "entry_price_usd": 0.281,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.29,
       "slippage_pct": 2.18,
       "shares": 14.59,
       "cost_usd": 4.1,
@@ -279,7 +279,7 @@
       "category": "other",
       "opened_at": "2026-05-05T08:27:02Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_098",
@@ -289,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.241,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.105,
+      "current_price_usd": 0.135,
       "slippage_pct": 2.55,
       "shares": 17.46,
       "cost_usd": 4.21,
@@ -304,7 +304,7 @@
       "category": "other",
       "opened_at": "2026-05-05T11:45:13Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -22
+      "unrealized_pnl_nok": -17
     },
     {
       "id": "pos_099",
@@ -314,7 +314,7 @@
       "side": "YES",
       "entry_price_usd": 0.403,
       "mid_price_usd": 0.395,
-      "current_price_usd": 0.44,
+      "current_price_usd": 0.485,
       "slippage_pct": 2.02,
       "shares": 10.44,
       "cost_usd": 4.21,
@@ -329,7 +329,7 @@
       "category": "other",
       "opened_at": "2026-05-05T12:59:40Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 3
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_100",
