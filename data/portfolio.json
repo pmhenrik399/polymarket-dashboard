@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-05T21:04:25Z",
+    "last_updated": "2026-05-05T22:10:50Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268178
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 458.0000000000032,
+    "balance_nok": 468.40000000000316,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -44.40000000000019,
-    "trades_this_month": 100,
-    "wins_this_month": 47,
+    "realized_pnl_nok": -35.70000000000019,
+    "trades_this_month": 101,
+    "wins_this_month": 48,
     "losses_this_month": 41
   },
   "positions": [
@@ -210,7 +210,7 @@
       "side": "NO",
       "entry_price_usd": 0.6672,
       "mid_price_usd": 0.655,
-      "current_price_usd": 0.655,
+      "current_price_usd": 0.635,
       "slippage_pct": 1.86,
       "shares": 6.3,
       "cost_usd": 4.2,
@@ -227,34 +227,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-04T19:46:24Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_094",
-      "market_id": "2142162",
-      "question": "Will El Ahly SC vs. ENPPI end in a draw?",
-      "slug": "egy1-eas-enp-2026-05-05-draw",
-      "side": "NO",
-      "entry_price_usd": 0.8122,
-      "mid_price_usd": 0.8,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.52,
-      "shares": 5.3,
-      "cost_usd": 4.31,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.283751,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.88,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-04T20:53:33Z",
-      "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_097",
@@ -289,7 +262,7 @@
       "side": "YES",
       "entry_price_usd": 0.241,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.135,
+      "current_price_usd": 0.095,
       "slippage_pct": 2.55,
       "shares": 17.46,
       "cost_usd": 4.21,
@@ -304,7 +277,7 @@
       "category": "other",
       "opened_at": "2026-05-05T11:45:13Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -17
+      "unrealized_pnl_nok": -23
     },
     {
       "id": "pos_099",
@@ -314,7 +287,7 @@
       "side": "YES",
       "entry_price_usd": 0.403,
       "mid_price_usd": 0.395,
-      "current_price_usd": 0.485,
+      "current_price_usd": 0.51,
       "slippage_pct": 2.02,
       "shares": 10.44,
       "cost_usd": 4.21,
@@ -329,7 +302,7 @@
       "category": "other",
       "opened_at": "2026-05-05T12:59:40Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_100",
@@ -354,6 +327,31 @@
       "category": "other",
       "opened_at": "2026-05-05T16:58:28Z",
       "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_101",
+      "market_id": "1927335",
+      "question": "CA Rosario Central vs. Club Libertad: Both Teams to Score",
+      "slug": "lib-ros-lib-2026-05-05-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5996,
+      "mid_price_usd": 0.59,
+      "current_price_usd": 0.5996,
+      "slippage_pct": 1.63,
+      "shares": 6.84,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.268178,
+      "edge_at_entry": 0.309,
+      "our_probability": 0.909,
+      "signals": [
+        "bookie:9%vs59%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-05T22:10:57Z",
+      "end_date": "2026-05-05",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -2816,6 +2814,40 @@
       "profit_nok": -39.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-05T16:58:19Z"
+    },
+    {
+      "id": "pos_094",
+      "market_id": "2142162",
+      "question": "Will El Ahly SC vs. ENPPI end in a draw?",
+      "slug": "egy1-eas-enp-2026-05-05-draw",
+      "side": "NO",
+      "entry_price_usd": 0.8122,
+      "mid_price_usd": 0.8,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.52,
+      "shares": 5.3,
+      "cost_usd": 4.31,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.88,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-04T20:53:33Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": 9,
+      "closing_price": 1.0,
+      "clv": 0.2,
+      "result": "WIN",
+      "profit_nok": 8.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-05T22:10:48Z"
     }
   ],
   "trade_log": [
@@ -2952,9 +2984,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 47,
+    "total_wins": 48,
     "total_losses": 41,
-    "total_realized_pnl_nok": -44.40000000000019,
+    "total_realized_pnl_nok": -35.70000000000019,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -3038,11 +3070,12 @@
       -0.5,
       0.515,
       0.325,
-      -0.38
+      -0.38,
+      0.2
     ],
-    "avg_clv": -0.0311
+    "avg_clv": -0.028
   },
-  "next_position_id": 101,
+  "next_position_id": 102,
   "learning": {
     "category_weights": {
       "esport": 0,
