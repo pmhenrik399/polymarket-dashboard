@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-05T08:26:53Z",
+    "last_updated": "2026-05-05T10:20:00Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268178
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 518.2000000000031,
+    "balance_nok": 573.9000000000032,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -21.800000000000196,
+    "realized_pnl_nok": -5.100000000000193,
     "trades_this_month": 97,
-    "wins_this_month": 46,
+    "wins_this_month": 47,
     "losses_this_month": 40
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.7679,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.994,
+      "current_price_usd": 0.996,
       "slippage_pct": 2.39,
       "shares": 7.85,
       "cost_usd": 6.03,
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6259,
       "mid_price_usd": 0.615,
-      "current_price_usd": 0.81,
+      "current_price_usd": 0.815,
       "slippage_pct": 1.78,
       "shares": 6.88,
       "cost_usd": 4.31,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_087",
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.3975,
       "mid_price_usd": 0.39,
-      "current_price_usd": 0.325,
+      "current_price_usd": 0.245,
       "slippage_pct": 1.91,
       "shares": 10.84,
       "cost_usd": 4.31,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-04T12:02:49Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": -15
     },
     {
       "id": "pos_090",
@@ -282,33 +282,6 @@
       "unrealized_pnl_nok": 4
     },
     {
-      "id": "pos_096",
-      "market_id": "1912132",
-      "question": "Will Bucheon FC 1995 vs. Jeju SK FC end in a draw?",
-      "slug": "kor-bch-jej-2026-05-05-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6896,
-      "mid_price_usd": 0.675,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.16,
-      "shares": 6.09,
-      "cost_usd": 4.2,
-      "cost_nok": 39,
-      "usd_nok_at_entry": 9.283751,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.755,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-05T00:03:30Z",
-      "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 17
-    },
-    {
       "id": "pos_097",
       "market_id": "2070466",
       "question": "Spread: SC Freiburg (-1.5)",
@@ -316,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.281,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.281,
+      "current_price_usd": 0.275,
       "slippage_pct": 2.18,
       "shares": 14.59,
       "cost_usd": 4.1,
@@ -2728,6 +2701,40 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-05T06:06:42Z"
+    },
+    {
+      "id": "pos_096",
+      "market_id": "1912132",
+      "question": "Will Bucheon FC 1995 vs. Jeju SK FC end in a draw?",
+      "slug": "kor-bch-jej-2026-05-05-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6896,
+      "mid_price_usd": 0.675,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.16,
+      "shares": 6.09,
+      "cost_usd": 4.2,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.755,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-05T00:03:30Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": 17,
+      "closing_price": 1.0,
+      "clv": 0.325,
+      "result": "WIN",
+      "profit_nok": 16.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-05T10:19:59Z"
     }
   ],
   "trade_log": [
@@ -2864,9 +2871,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 46,
+    "total_wins": 47,
     "total_losses": 40,
-    "total_realized_pnl_nok": -21.800000000000196,
+    "total_realized_pnl_nok": -5.100000000000193,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2948,9 +2955,10 @@
       0.235,
       -0.205,
       -0.5,
-      0.515
+      0.515,
+      0.325
     ],
-    "avg_clv": -0.0312
+    "avg_clv": -0.0262
   },
   "next_position_id": 98,
   "learning": {
