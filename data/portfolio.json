@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-05T11:45:03Z",
+    "last_updated": "2026-05-05T12:59:32Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268178
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 534.6000000000032,
+    "balance_nok": 495.3000000000032,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -5.100000000000193,
-    "trades_this_month": 98,
+    "trades_this_month": 99,
     "wins_this_month": 47,
     "losses_this_month": 40
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.7679,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.996,
+      "current_price_usd": 0.997,
       "slippage_pct": 2.39,
       "shares": 7.85,
       "cost_usd": 6.03,
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6259,
       "mid_price_usd": 0.615,
-      "current_price_usd": 0.905,
+      "current_price_usd": 0.98,
       "slippage_pct": 1.78,
       "shares": 6.88,
       "cost_usd": 4.31,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 17
+      "unrealized_pnl_nok": 22
     },
     {
       "id": "pos_087",
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.3975,
       "mid_price_usd": 0.39,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.2,
       "slippage_pct": 1.91,
       "shares": 10.84,
       "cost_usd": 4.31,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-04T12:02:49Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": -8
+      "unrealized_pnl_nok": -19
     },
     {
       "id": "pos_090",
@@ -237,7 +237,7 @@
       "side": "NO",
       "entry_price_usd": 0.8122,
       "mid_price_usd": 0.8,
-      "current_price_usd": 0.8,
+      "current_price_usd": 0.805,
       "slippage_pct": 1.52,
       "shares": 5.3,
       "cost_usd": 4.31,
@@ -264,7 +264,7 @@
       "side": "NO",
       "entry_price_usd": 0.3865,
       "mid_price_usd": 0.38,
-      "current_price_usd": 0.21,
+      "current_price_usd": 0.0005,
       "slippage_pct": 1.71,
       "shares": 10.87,
       "cost_usd": 4.2,
@@ -279,7 +279,7 @@
       "category": "esport",
       "opened_at": "2026-05-05T00:03:30Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": -17
+      "unrealized_pnl_nok": -38
     },
     {
       "id": "pos_097",
@@ -289,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.281,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.275,
       "slippage_pct": 2.18,
       "shares": 14.59,
       "cost_usd": 4.1,
@@ -314,7 +314,7 @@
       "side": "YES",
       "entry_price_usd": 0.241,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.241,
+      "current_price_usd": 0.235,
       "slippage_pct": 2.55,
       "shares": 17.46,
       "cost_usd": 4.21,
@@ -328,6 +328,31 @@
       ],
       "category": "other",
       "opened_at": "2026-05-05T11:45:13Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_099",
+      "market_id": "2157004",
+      "question": "Will the highest temperature in Milan be 17°C on May 6?",
+      "slug": "highest-temperature-in-milan-on-may-6-2026-17c",
+      "side": "YES",
+      "entry_price_usd": 0.403,
+      "mid_price_usd": 0.395,
+      "current_price_usd": 0.403,
+      "slippage_pct": 2.02,
+      "shares": 10.44,
+      "cost_usd": 4.21,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.268178,
+      "edge_at_entry": 0.127,
+      "our_probability": 0.532,
+      "signals": [
+        "bookie:53%vs40%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-05T12:59:40Z",
       "end_date": "2026-05-06",
       "unrealized_pnl_nok": 0
     }
@@ -2985,7 +3010,7 @@
     ],
     "avg_clv": -0.0262
   },
-  "next_position_id": 99,
+  "next_position_id": 100,
   "learning": {
     "category_weights": {
       "esport": 0,
