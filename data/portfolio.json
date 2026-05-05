@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-05T03:46:00Z",
+    "last_updated": "2026-05-05T06:06:43Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268178
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 476.8000000000031,
+    "balance_nok": 556.5000000000031,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -61.5000000000002,
+    "realized_pnl_nok": -21.800000000000196,
     "trades_this_month": 96,
-    "wins_this_month": 45,
+    "wins_this_month": 46,
     "losses_this_month": 40
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.7679,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.9885,
+      "current_price_usd": 0.9935,
       "slippage_pct": 2.39,
       "shares": 7.85,
       "cost_usd": 6.03,
@@ -185,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.3525,
       "mid_price_usd": 0.345,
-      "current_price_usd": 0.355,
+      "current_price_usd": 0.365,
       "slippage_pct": 2.17,
       "shares": 12.22,
       "cost_usd": 4.31,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-04T16:18:54Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_092",
@@ -228,31 +228,6 @@
       "opened_at": "2026-05-04T19:46:24Z",
       "end_date": "2026-05-05",
       "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_093",
-      "market_id": "1910534",
-      "question": "Will FC Universitario win on 2026-05-04?",
-      "slug": "bol1-uvi-blo-2026-05-04-uvi",
-      "side": "NO",
-      "entry_price_usd": 0.4946,
-      "mid_price_usd": 0.485,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.97,
-      "shares": 8.71,
-      "cost_usd": 4.31,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.283751,
-      "edge_at_entry": 0.414,
-      "our_probability": 0.909,
-      "signals": [
-        "bookie:9%vs48%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-04T20:53:33Z",
-      "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 40
     },
     {
       "id": "pos_094",
@@ -289,7 +264,7 @@
       "side": "NO",
       "entry_price_usd": 0.3865,
       "mid_price_usd": 0.38,
-      "current_price_usd": 0.405,
+      "current_price_usd": 0.435,
       "slippage_pct": 1.71,
       "shares": 10.87,
       "cost_usd": 4.2,
@@ -304,7 +279,7 @@
       "category": "esport",
       "opened_at": "2026-05-05T00:03:30Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 4
     },
     {
       "id": "pos_096",
@@ -314,7 +289,7 @@
       "side": "NO",
       "entry_price_usd": 0.6896,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.67,
+      "current_price_usd": 0.555,
       "slippage_pct": 2.16,
       "shares": 6.09,
       "cost_usd": 4.2,
@@ -331,7 +306,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-05T00:03:30Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -7
     }
   ],
   "closed_positions": [
@@ -2696,6 +2671,38 @@
       "profit_nok": -52.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-05T03:45:55Z"
+    },
+    {
+      "id": "pos_093",
+      "market_id": "1910534",
+      "question": "Will FC Universitario win on 2026-05-04?",
+      "slug": "bol1-uvi-blo-2026-05-04-uvi",
+      "side": "NO",
+      "entry_price_usd": 0.4946,
+      "mid_price_usd": 0.485,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.97,
+      "shares": 8.71,
+      "cost_usd": 4.31,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.414,
+      "our_probability": 0.909,
+      "signals": [
+        "bookie:9%vs48%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-04T20:53:33Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": 40,
+      "closing_price": 1.0,
+      "clv": 0.515,
+      "result": "WIN",
+      "profit_nok": 39.7,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-05T06:06:42Z"
     }
   ],
   "trade_log": [
@@ -2832,9 +2839,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 45,
+    "total_wins": 46,
     "total_losses": 40,
-    "total_realized_pnl_nok": -61.5000000000002,
+    "total_realized_pnl_nok": -21.800000000000196,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2915,22 +2922,23 @@
       -0.325,
       0.235,
       -0.205,
-      -0.5
+      -0.5,
+      0.515
     ],
-    "avg_clv": -0.0391
+    "avg_clv": -0.0312
   },
   "next_position_id": 97,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
-      "moneyline": -0.05,
+      "moneyline": -0.048,
       "other": -0.014,
       "social_media": -0.05,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-1.4% | moneyline:-5.0% | social_media:-5.0%"
+    "summary": "no_draw:+5.0% | other:-1.4% | moneyline:-4.8% | social_media:-5.0%"
   }
 }
