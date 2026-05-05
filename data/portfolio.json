@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-05T12:59:32Z",
+    "last_updated": "2026-05-05T16:58:21Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268178
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 495.3000000000032,
+    "balance_nok": 458.0000000000032,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -5.100000000000193,
-    "trades_this_month": 99,
+    "realized_pnl_nok": -44.40000000000019,
+    "trades_this_month": 100,
     "wins_this_month": 47,
-    "losses_this_month": 40
+    "losses_this_month": 41
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.7679,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.997,
+      "current_price_usd": 0.9955,
       "slippage_pct": 2.39,
       "shares": 7.85,
       "cost_usd": 6.03,
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6259,
       "mid_price_usd": 0.615,
-      "current_price_usd": 0.98,
+      "current_price_usd": 0.9965,
       "slippage_pct": 1.78,
       "shares": 6.88,
       "cost_usd": 4.31,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 22
+      "unrealized_pnl_nok": 23
     },
     {
       "id": "pos_087",
@@ -110,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.505,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.495,
+      "current_price_usd": 0.505,
       "slippage_pct": 2.02,
       "shares": 8.53,
       "cost_usd": 4.31,
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.3975,
       "mid_price_usd": 0.39,
-      "current_price_usd": 0.2,
+      "current_price_usd": 0.99,
       "slippage_pct": 1.91,
       "shares": 10.84,
       "cost_usd": 4.31,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-04T12:02:49Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": -19
+      "unrealized_pnl_nok": 59
     },
     {
       "id": "pos_090",
@@ -160,7 +160,7 @@
       "side": "NO",
       "entry_price_usd": 0.5492,
       "mid_price_usd": 0.54,
-      "current_price_usd": 0.54,
+      "current_price_usd": 0.525,
       "slippage_pct": 1.7,
       "shares": 7.85,
       "cost_usd": 4.31,
@@ -175,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-04T14:26:22Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_091",
@@ -185,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.3525,
       "mid_price_usd": 0.345,
-      "current_price_usd": 0.375,
+      "current_price_usd": 0.355,
       "slippage_pct": 2.17,
       "shares": 12.22,
       "cost_usd": 4.31,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-04T16:18:54Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_092",
@@ -237,7 +237,7 @@
       "side": "NO",
       "entry_price_usd": 0.8122,
       "mid_price_usd": 0.8,
-      "current_price_usd": 0.805,
+      "current_price_usd": 0.815,
       "slippage_pct": 1.52,
       "shares": 5.3,
       "cost_usd": 4.31,
@@ -257,31 +257,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_095",
-      "market_id": "2138703",
-      "question": "LoL: HANJIN BRION Challengers vs Gen.G Global Academy (BO3) - LCK Challengers League Rounds 1-2",
-      "slug": "lol-bro1-genga-2026-05-05",
-      "side": "NO",
-      "entry_price_usd": 0.3865,
-      "mid_price_usd": 0.38,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.71,
-      "shares": 10.87,
-      "cost_usd": 4.2,
-      "cost_nok": 39,
-      "usd_nok_at_entry": 9.283751,
-      "edge_at_entry": 0.52,
-      "our_probability": 0.91,
-      "signals": [
-        "bookie:9%vs38%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-05T00:03:30Z",
-      "end_date": "2026-05-05",
-      "unrealized_pnl_nok": -38
-    },
-    {
       "id": "pos_097",
       "market_id": "2070466",
       "question": "Spread: SC Freiburg (-1.5)",
@@ -289,7 +264,7 @@
       "side": "YES",
       "entry_price_usd": 0.281,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.275,
+      "current_price_usd": 0.28,
       "slippage_pct": 2.18,
       "shares": 14.59,
       "cost_usd": 4.1,
@@ -314,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.241,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.235,
+      "current_price_usd": 0.155,
       "slippage_pct": 2.55,
       "shares": 17.46,
       "cost_usd": 4.21,
@@ -329,7 +304,7 @@
       "category": "other",
       "opened_at": "2026-05-05T11:45:13Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -13
     },
     {
       "id": "pos_099",
@@ -339,7 +314,7 @@
       "side": "YES",
       "entry_price_usd": 0.403,
       "mid_price_usd": 0.395,
-      "current_price_usd": 0.403,
+      "current_price_usd": 0.48,
       "slippage_pct": 2.02,
       "shares": 10.44,
       "cost_usd": 4.21,
@@ -353,6 +328,31 @@
       ],
       "category": "other",
       "opened_at": "2026-05-05T12:59:40Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 7
+    },
+    {
+      "id": "pos_100",
+      "market_id": "2148523",
+      "question": "AHL: Ontario Reign vs. Coachella Valley Firebirds",
+      "slug": "ahl-ont-coa-2026-05-06",
+      "side": "NO",
+      "entry_price_usd": 0.4598,
+      "mid_price_usd": 0.45,
+      "current_price_usd": 0.4598,
+      "slippage_pct": 2.18,
+      "shares": 8.68,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.268178,
+      "edge_at_entry": 0.446,
+      "our_probability": 0.906,
+      "signals": [
+        "bookie:9%vs45%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-05T16:58:28Z",
       "end_date": "2026-05-06",
       "unrealized_pnl_nok": 0
     }
@@ -2785,6 +2785,37 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-05T10:19:59Z"
+    },
+    {
+      "id": "pos_095",
+      "market_id": "2138703",
+      "question": "LoL: HANJIN BRION Challengers vs Gen.G Global Academy (BO3) - LCK Challengers League Rounds 1-2",
+      "slug": "lol-bro1-genga-2026-05-05",
+      "side": "NO",
+      "entry_price_usd": 0.3865,
+      "mid_price_usd": 0.38,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.71,
+      "shares": 10.87,
+      "cost_usd": 4.2,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.52,
+      "our_probability": 0.91,
+      "signals": [
+        "bookie:9%vs38%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-05T00:03:30Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": -38,
+      "closing_price": 0.0,
+      "clv": -0.38,
+      "result": "LOSS",
+      "profit_nok": -39.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-05T16:58:19Z"
     }
   ],
   "trade_log": [
@@ -2922,8 +2953,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 47,
-    "total_losses": 40,
-    "total_realized_pnl_nok": -5.100000000000193,
+    "total_losses": 41,
+    "total_realized_pnl_nok": -44.40000000000019,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -3006,11 +3037,12 @@
       -0.205,
       -0.5,
       0.515,
-      0.325
+      0.325,
+      -0.38
     ],
-    "avg_clv": -0.0262
+    "avg_clv": -0.0311
   },
-  "next_position_id": 100,
+  "next_position_id": 101,
   "learning": {
     "category_weights": {
       "esport": 0,
