@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-04T23:01:28Z",
+    "last_updated": "2026-05-05T00:03:21Z",
     "currency": "NOK",
     "usd_nok_rate": 9.283751
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 555.400000000003,
+    "balance_nok": 476.8000000000031,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 31.099999999999795,
-    "trades_this_month": 94,
+    "realized_pnl_nok": -9.200000000000202,
+    "trades_this_month": 96,
     "wins_this_month": 45,
-    "losses_this_month": 38
+    "losses_this_month": 39
   },
   "positions": [
     {
@@ -103,31 +103,6 @@
       "unrealized_pnl_nok": -51
     },
     {
-      "id": "pos_085",
-      "market_id": "2040915",
-      "question": "Spread: Manchester City FC (-2.5)",
-      "slug": "epl-eve-mac-2026-05-04-spread-away-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.2101,
-      "mid_price_usd": 0.205,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.5,
-      "shares": 20.51,
-      "cost_usd": 4.31,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.283751,
-      "edge_at_entry": 0.432,
-      "our_probability": 0.647,
-      "signals": [
-        "bookie:65%vs20%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-04T04:52:06Z",
-      "end_date": "2026-05-04",
-      "unrealized_pnl_nok": -39
-    },
-    {
       "id": "pos_086",
       "market_id": "2144688",
       "question": "Will the highest temperature in Paris be 16°C on May 5?",
@@ -135,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.6259,
       "mid_price_usd": 0.615,
-      "current_price_usd": 0.655,
+      "current_price_usd": 0.625,
       "slippage_pct": 1.78,
       "shares": 6.88,
       "cost_usd": 4.31,
@@ -150,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-04T04:52:06Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_087",
@@ -185,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.3975,
       "mid_price_usd": 0.39,
-      "current_price_usd": 0.425,
+      "current_price_usd": 0.33,
       "slippage_pct": 1.91,
       "shares": 10.84,
       "cost_usd": 4.31,
@@ -200,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-04T12:02:49Z",
       "end_date": "2026-05-05",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_090",
@@ -287,7 +262,7 @@
       "side": "NO",
       "entry_price_usd": 0.4946,
       "mid_price_usd": 0.485,
-      "current_price_usd": 0.485,
+      "current_price_usd": 0.505,
       "slippage_pct": 1.97,
       "shares": 8.71,
       "cost_usd": 4.31,
@@ -328,6 +303,58 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-04T20:53:33Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_095",
+      "market_id": "2138703",
+      "question": "LoL: HANJIN BRION Challengers vs Gen.G Global Academy (BO3) - LCK Challengers League Rounds 1-2",
+      "slug": "lol-bro1-genga-2026-05-05",
+      "side": "NO",
+      "entry_price_usd": 0.3865,
+      "mid_price_usd": 0.38,
+      "current_price_usd": 0.3865,
+      "slippage_pct": 1.71,
+      "shares": 10.87,
+      "cost_usd": 4.2,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.52,
+      "our_probability": 0.91,
+      "signals": [
+        "bookie:9%vs38%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-05T00:03:30Z",
+      "end_date": "2026-05-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_096",
+      "market_id": "1912132",
+      "question": "Will Bucheon FC 1995 vs. Jeju SK FC end in a draw?",
+      "slug": "kor-bch-jej-2026-05-05-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6896,
+      "mid_price_usd": 0.675,
+      "current_price_usd": 0.6896,
+      "slippage_pct": 2.16,
+      "shares": 6.09,
+      "cost_usd": 4.2,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.755,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-05T00:03:30Z",
       "end_date": "2026-05-05",
       "unrealized_pnl_nok": 0
     }
@@ -2632,6 +2659,37 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-04T21:57:11Z"
+    },
+    {
+      "id": "pos_085",
+      "market_id": "2040915",
+      "question": "Spread: Manchester City FC (-2.5)",
+      "slug": "epl-eve-mac-2026-05-04-spread-away-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2101,
+      "mid_price_usd": 0.205,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.5,
+      "shares": 20.51,
+      "cost_usd": 4.31,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.283751,
+      "edge_at_entry": 0.432,
+      "our_probability": 0.647,
+      "signals": [
+        "bookie:65%vs20%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-04T04:52:06Z",
+      "end_date": "2026-05-04",
+      "unrealized_pnl_nok": -39,
+      "closing_price": 0.0,
+      "clv": -0.205,
+      "result": "LOSS",
+      "profit_nok": -40.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-05T00:03:17Z"
     }
   ],
   "trade_log": [
@@ -2769,8 +2827,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 45,
-    "total_losses": 38,
-    "total_realized_pnl_nok": 31.099999999999795,
+    "total_losses": 39,
+    "total_realized_pnl_nok": -9.200000000000202,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -2849,22 +2907,23 @@
       0.38,
       0.585,
       -0.325,
-      0.235
+      0.235,
+      -0.205
     ],
-    "avg_clv": -0.0298
+    "avg_clv": -0.0324
   },
-  "next_position_id": 95,
+  "next_position_id": 97,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.003,
+      "other": -0.009,
       "social_media": -0.05,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-0.3% | moneyline:-5.0% | social_media:-5.0%"
+    "summary": "no_draw:+5.0% | other:-0.9% | moneyline:-5.0% | social_media:-5.0%"
   }
 }
