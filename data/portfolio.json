@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-06T11:20:09Z",
+    "last_updated": "2026-05-06T13:09:17Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249454
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 649.3000000000035,
+    "balance_nok": 566.7000000000036,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 39.999999999999844,
-    "trades_this_month": 110,
+    "trades_this_month": 112,
     "wins_this_month": 56,
     "losses_this_month": 44
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5492,
       "mid_price_usd": 0.54,
-      "current_price_usd": 0.525,
+      "current_price_usd": 0.515,
       "slippage_pct": 1.7,
       "shares": 7.85,
       "cost_usd": 4.31,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-04T14:26:22Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_097",
@@ -110,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.241,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.12,
+      "current_price_usd": 0.065,
       "slippage_pct": 2.55,
       "shares": 17.46,
       "cost_usd": 4.21,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-05T11:45:13Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -19
+      "unrealized_pnl_nok": -28
     },
     {
       "id": "pos_099",
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.403,
       "mid_price_usd": 0.395,
-      "current_price_usd": 0.335,
+      "current_price_usd": 0.715,
       "slippage_pct": 2.02,
       "shares": 10.44,
       "cost_usd": 4.21,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-05T12:59:40Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -6
+      "unrealized_pnl_nok": 30
     },
     {
       "id": "pos_104",
@@ -160,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.3317,
       "mid_price_usd": 0.325,
-      "current_price_usd": 0.39,
+      "current_price_usd": 0.405,
       "slippage_pct": 2.06,
       "shares": 11.06,
       "cost_usd": 3.67,
@@ -175,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-06T00:05:51Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": 5
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_105",
@@ -185,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.7062,
       "mid_price_usd": 0.69,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.545,
       "slippage_pct": 2.35,
       "shares": 5.19,
       "cost_usd": 3.67,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-06T00:05:52Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -18
+      "unrealized_pnl_nok": -7
     },
     {
       "id": "pos_106",
@@ -285,7 +285,7 @@
       "side": "YES",
       "entry_price_usd": 0.3131,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.3131,
+      "current_price_usd": 0.305,
       "slippage_pct": 2.64,
       "shares": 14.16,
       "cost_usd": 4.43,
@@ -299,6 +299,58 @@
       ],
       "category": "other",
       "opened_at": "2026-05-06T11:20:16Z",
+      "end_date": "2026-05-08",
+      "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_111",
+      "market_id": "2061884",
+      "question": "Will Paris Saint-Germain FC win on 2026-05-06?",
+      "slug": "ucl-bay-psg-2026-05-06-psg",
+      "side": "YES",
+      "entry_price_usd": 0.2298,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.2298,
+      "slippage_pct": 2.15,
+      "shares": 19.29,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.584,
+      "our_probability": 0.819,
+      "signals": [
+        "bookie:82%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-06T13:09:24Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_112",
+      "market_id": "1939510",
+      "question": "Will Modern SC vs. El Ittihad SC El Iskandary end in a draw?",
+      "slug": "egy1-mos-eis-2026-05-08-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6621,
+      "mid_price_usd": 0.645,
+      "current_price_usd": 0.6621,
+      "slippage_pct": 2.64,
+      "shares": 6.69,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.725,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-06T13:09:25Z",
       "end_date": "2026-05-08",
       "unrealized_pnl_nok": 0
     }
@@ -3389,7 +3441,7 @@
     ],
     "avg_clv": -0.0039
   },
-  "next_position_id": 111,
+  "next_position_id": 113,
   "learning": {
     "category_weights": {
       "esport": 0,
