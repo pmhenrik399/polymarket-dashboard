@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-06T22:35:03Z",
+    "last_updated": "2026-05-06T23:32:47Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249454
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 514.5000000000036,
+    "balance_nok": 526.6000000000038,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 71.69999999999985,
-    "trades_this_month": 115,
-    "wins_this_month": 57,
-    "losses_this_month": 44
+    "realized_pnl_nok": 44.799999999999855,
+    "trades_this_month": 117,
+    "wins_this_month": 58,
+    "losses_this_month": 46
   },
   "positions": [
     {
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.3317,
       "mid_price_usd": 0.325,
-      "current_price_usd": 0.24,
+      "current_price_usd": 0.23,
       "slippage_pct": 2.06,
       "shares": 11.06,
       "cost_usd": 3.67,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-06T00:05:51Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": -9
+      "unrealized_pnl_nok": -10
     },
     {
       "id": "pos_105",
@@ -203,56 +203,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_107",
-      "market_id": "2061942",
-      "question": "Spread: FC Bayern München (-2.5)",
-      "slug": "ucl-bay-psg-2026-05-06-spread-home-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.2293,
-      "mid_price_usd": 0.225,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.93,
-      "shares": 19.33,
-      "cost_usd": 4.43,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.249454,
-      "edge_at_entry": 0.088,
-      "our_probability": 0.323,
-      "signals": [
-        "bookie:32%vs22%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-06T06:40:57Z",
-      "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -40
-    },
-    {
-      "id": "pos_109",
-      "market_id": "2061882",
-      "question": "Will FC Bayern München win on 2026-05-06?",
-      "slug": "ucl-bay-psg-2026-05-06-bay",
-      "side": "NO",
-      "entry_price_usd": 0.4028,
-      "mid_price_usd": 0.395,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.98,
-      "shares": 10.47,
-      "cost_usd": 4.22,
-      "cost_nok": 39,
-      "usd_nok_at_entry": 9.249454,
-      "edge_at_entry": 0.271,
-      "our_probability": 0.676,
-      "signals": [
-        "bookie:32%vs40%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-06T09:10:39Z",
-      "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 57
-    },
-    {
       "id": "pos_110",
       "market_id": "2171283",
       "question": "Will the highest temperature in Munich be 19°C on May 8?",
@@ -260,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.3131,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.275,
+      "current_price_usd": 0.265,
       "slippage_pct": 2.64,
       "shares": 14.16,
       "cost_usd": 4.43,
@@ -275,32 +225,7 @@
       "category": "other",
       "opened_at": "2026-05-06T11:20:16Z",
       "end_date": "2026-05-08",
-      "unrealized_pnl_nok": -4
-    },
-    {
-      "id": "pos_111",
-      "market_id": "2061884",
-      "question": "Will Paris Saint-Germain FC win on 2026-05-06?",
-      "slug": "ucl-bay-psg-2026-05-06-psg",
-      "side": "YES",
-      "entry_price_usd": 0.2298,
-      "mid_price_usd": 0.225,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.15,
-      "shares": 19.29,
-      "cost_usd": 4.43,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.249454,
-      "edge_at_entry": 0.584,
-      "our_probability": 0.819,
-      "signals": [
-        "bookie:82%vs22%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-06T13:09:24Z",
-      "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -40
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_112",
@@ -337,7 +262,7 @@
       "side": "YES",
       "entry_price_usd": 0.2756,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.205,
+      "current_price_usd": 0.18,
       "slippage_pct": 2.06,
       "shares": 16.08,
       "cost_usd": 4.43,
@@ -352,7 +277,7 @@
       "category": "other",
       "opened_at": "2026-05-06T15:34:46Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": -10
+      "unrealized_pnl_nok": -14
     },
     {
       "id": "pos_114",
@@ -362,7 +287,7 @@
       "side": "YES",
       "entry_price_usd": 0.3593,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.23,
+      "current_price_usd": 0.2,
       "slippage_pct": 2.65,
       "shares": 12.34,
       "cost_usd": 4.43,
@@ -377,7 +302,7 @@
       "category": "other",
       "opened_at": "2026-05-06T15:34:46Z",
       "end_date": "2026-05-08",
-      "unrealized_pnl_nok": -14
+      "unrealized_pnl_nok": -18
     },
     {
       "id": "pos_115",
@@ -387,7 +312,7 @@
       "side": "NO",
       "entry_price_usd": 0.6658,
       "mid_price_usd": 0.65,
-      "current_price_usd": 0.645,
+      "current_price_usd": 0.655,
       "slippage_pct": 2.44,
       "shares": 6.66,
       "cost_usd": 4.43,
@@ -402,7 +327,59 @@
       "category": "moneyline",
       "opened_at": "2026-05-06T15:34:47Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_116",
+      "market_id": "1928212",
+      "question": "Will Cusco FC vs. Estudiantes de La Plata end in a draw?",
+      "slug": "lib-gar-est-2026-05-06-draw",
+      "side": "NO",
+      "entry_price_usd": 0.4427,
+      "mid_price_usd": 0.435,
+      "current_price_usd": 0.4427,
+      "slippage_pct": 1.77,
+      "shares": 10.01,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.515,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-06T23:33:09Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_117",
+      "market_id": "2062284",
+      "question": "Will Crystal Palace FC vs. FK Shakhtar Donetsk end in a draw?",
+      "slug": "col-cry-shd-2026-05-07-draw",
+      "side": "YES",
+      "entry_price_usd": 0.2296,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.2296,
+      "slippage_pct": 2.03,
+      "shares": 19.31,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.056,
+      "our_probability": 0.291,
+      "signals": [
+        "bookie:draw=29%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-06T23:33:09Z",
+      "end_date": "2026-05-07",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -3285,6 +3262,100 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-06T22:34:57Z"
+    },
+    {
+      "id": "pos_107",
+      "market_id": "2061942",
+      "question": "Spread: FC Bayern München (-2.5)",
+      "slug": "ucl-bay-psg-2026-05-06-spread-home-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2293,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.93,
+      "shares": 19.33,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.088,
+      "our_probability": 0.323,
+      "signals": [
+        "bookie:32%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-06T06:40:57Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": -40,
+      "closing_price": 0.0,
+      "clv": -0.225,
+      "result": "LOSS",
+      "profit_nok": -41.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-06T23:32:43Z"
+    },
+    {
+      "id": "pos_109",
+      "market_id": "2061882",
+      "question": "Will FC Bayern München win on 2026-05-06?",
+      "slug": "ucl-bay-psg-2026-05-06-bay",
+      "side": "NO",
+      "entry_price_usd": 0.4028,
+      "mid_price_usd": 0.395,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.98,
+      "shares": 10.47,
+      "cost_usd": 4.22,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.271,
+      "our_probability": 0.676,
+      "signals": [
+        "bookie:32%vs40%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-06T09:10:39Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 57,
+      "closing_price": 1.0,
+      "clv": 0.605,
+      "result": "WIN",
+      "profit_nok": 55.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-06T23:32:44Z"
+    },
+    {
+      "id": "pos_111",
+      "market_id": "2061884",
+      "question": "Will Paris Saint-Germain FC win on 2026-05-06?",
+      "slug": "ucl-bay-psg-2026-05-06-psg",
+      "side": "YES",
+      "entry_price_usd": 0.2298,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.15,
+      "shares": 19.29,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.584,
+      "our_probability": 0.819,
+      "signals": [
+        "bookie:82%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-06T13:09:24Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": -40,
+      "closing_price": 0.0,
+      "clv": -0.225,
+      "result": "LOSS",
+      "profit_nok": -41.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-06T23:32:45Z"
     }
   ],
   "trade_log": [
@@ -3421,9 +3492,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 57,
-    "total_losses": 44,
-    "total_realized_pnl_nok": 71.69999999999985,
+    "total_wins": 58,
+    "total_losses": 46,
+    "total_realized_pnl_nok": 44.799999999999855,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -3520,22 +3591,25 @@
       -0.45,
       0.285,
       0.345,
-      0.46
+      0.46,
+      -0.225,
+      0.605,
+      -0.225
     ],
-    "avg_clv": 0.0016
+    "avg_clv": 0.0033
   },
-  "next_position_id": 116,
+  "next_position_id": 118,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
-      "moneyline": -0.031,
-      "other": 0.001,
+      "moneyline": -0.024,
+      "other": -0.004,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:+0.1% | moneyline:-3.1%"
+    "summary": "no_draw:+5.0% | other:-0.4% | moneyline:-2.4%"
   }
 }
