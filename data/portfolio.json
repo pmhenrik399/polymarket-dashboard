@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-06T09:10:32Z",
+    "last_updated": "2026-05-06T11:20:09Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249454
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 579.2000000000033,
+    "balance_nok": 649.3000000000035,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 7.599999999999838,
-    "trades_this_month": 109,
-    "wins_this_month": 54,
+    "realized_pnl_nok": 39.999999999999844,
+    "trades_this_month": 110,
+    "wins_this_month": 56,
     "losses_this_month": 44
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5492,
       "mid_price_usd": 0.54,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.525,
       "slippage_pct": 1.7,
       "shares": 7.85,
       "cost_usd": 4.31,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-04T14:26:22Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_097",
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.281,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.29,
       "slippage_pct": 2.18,
       "shares": 14.59,
       "cost_usd": 4.1,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-05T08:27:02Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_098",
@@ -110,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.241,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.115,
+      "current_price_usd": 0.12,
       "slippage_pct": 2.55,
       "shares": 17.46,
       "cost_usd": 4.21,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-05T11:45:13Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -20
+      "unrealized_pnl_nok": -19
     },
     {
       "id": "pos_099",
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.403,
       "mid_price_usd": 0.395,
-      "current_price_usd": 0.5,
+      "current_price_usd": 0.335,
       "slippage_pct": 2.02,
       "shares": 10.44,
       "cost_usd": 4.21,
@@ -150,34 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-05T12:59:40Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 9
-    },
-    {
-      "id": "pos_103",
-      "market_id": "1922122",
-      "question": "Will FC Imabari vs. Kōchi United SC end in a draw?",
-      "slug": "j2100-imb-koc-2026-05-06-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7329,
-      "mid_price_usd": 0.715,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.51,
-      "shares": 5.59,
-      "cost_usd": 4.1,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.268178,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.795,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-05T23:12:09Z",
-      "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 13
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_104",
@@ -187,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.3317,
       "mid_price_usd": 0.325,
-      "current_price_usd": 0.375,
+      "current_price_usd": 0.39,
       "slippage_pct": 2.06,
       "shares": 11.06,
       "cost_usd": 3.67,
@@ -202,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-06T00:05:51Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": 4
+      "unrealized_pnl_nok": 5
     },
     {
       "id": "pos_105",
@@ -212,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.7062,
       "mid_price_usd": 0.69,
-      "current_price_usd": 0.445,
+      "current_price_usd": 0.315,
       "slippage_pct": 2.35,
       "shares": 5.19,
       "cost_usd": 3.67,
@@ -227,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-06T00:05:52Z",
       "end_date": "2026-05-06",
-      "unrealized_pnl_nok": -12
+      "unrealized_pnl_nok": -18
     },
     {
       "id": "pos_106",
@@ -280,33 +253,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_108",
-      "market_id": "1922146",
-      "question": "Will Zweigen Kanazawa vs. Ehime FC end in a draw?",
-      "slug": "j2100-zwe-ehi-2026-05-06-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6686,
-      "mid_price_usd": 0.655,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.08,
-      "shares": 6.63,
-      "cost_usd": 4.43,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.249454,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.735,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-06T06:40:57Z",
-      "end_date": "2026-05-06",
-      "unrealized_pnl_nok": 20
-    },
-    {
       "id": "pos_109",
       "market_id": "2061882",
       "question": "Will FC Bayern München win on 2026-05-06?",
@@ -314,7 +260,7 @@
       "side": "NO",
       "entry_price_usd": 0.4028,
       "mid_price_usd": 0.395,
-      "current_price_usd": 0.4028,
+      "current_price_usd": 0.395,
       "slippage_pct": 1.98,
       "shares": 10.47,
       "cost_usd": 4.22,
@@ -329,6 +275,31 @@
       "category": "moneyline",
       "opened_at": "2026-05-06T09:10:39Z",
       "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_110",
+      "market_id": "2171283",
+      "question": "Will the highest temperature in Munich be 19°C on May 8?",
+      "slug": "highest-temperature-in-munich-on-may-8-2026-19c",
+      "side": "YES",
+      "entry_price_usd": 0.3131,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.3131,
+      "slippage_pct": 2.64,
+      "shares": 14.16,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.246,
+      "our_probability": 0.561,
+      "signals": [
+        "bookie:56%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-06T11:20:16Z",
+      "end_date": "2026-05-08",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -3112,6 +3083,74 @@
       "profit_nok": -37.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-06T09:10:29Z"
+    },
+    {
+      "id": "pos_103",
+      "market_id": "1922122",
+      "question": "Will FC Imabari vs. Kōchi United SC end in a draw?",
+      "slug": "j2100-imb-koc-2026-05-06-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7329,
+      "mid_price_usd": 0.715,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.51,
+      "shares": 5.59,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.268178,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.795,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-05T23:12:09Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 13,
+      "closing_price": 1.0,
+      "clv": 0.285,
+      "result": "WIN",
+      "profit_nok": 12.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-06T11:20:06Z"
+    },
+    {
+      "id": "pos_108",
+      "market_id": "1922146",
+      "question": "Will Zweigen Kanazawa vs. Ehime FC end in a draw?",
+      "slug": "j2100-zwe-ehi-2026-05-06-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6686,
+      "mid_price_usd": 0.655,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.08,
+      "shares": 6.63,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.735,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-06T06:40:57Z",
+      "end_date": "2026-05-06",
+      "unrealized_pnl_nok": 20,
+      "closing_price": 1.0,
+      "clv": 0.345,
+      "result": "WIN",
+      "profit_nok": 19.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-06T11:20:09Z"
     }
   ],
   "trade_log": [
@@ -3248,9 +3287,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 54,
+    "total_wins": 56,
     "total_losses": 44,
-    "total_realized_pnl_nok": 7.599999999999838,
+    "total_realized_pnl_nok": 39.999999999999844,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -3344,11 +3383,13 @@
       0.345,
       0.41,
       0.375,
-      -0.45
+      -0.45,
+      0.285,
+      0.345
     ],
-    "avg_clv": -0.0117
+    "avg_clv": -0.0039
   },
-  "next_position_id": 110,
+  "next_position_id": 111,
   "learning": {
     "category_weights": {
       "esport": 0,
