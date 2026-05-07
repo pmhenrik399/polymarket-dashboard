@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-07T04:48:55Z",
+    "last_updated": "2026-05-07T07:34:59Z",
     "currency": "NOK",
     "usd_nok_rate": 9.285716
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 548.100000000004,
+    "balance_nok": 601.800000000004,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -7.700000000000131,
+    "realized_pnl_nok": 3.999999999999872,
     "trades_this_month": 120,
-    "wins_this_month": 60,
+    "wins_this_month": 61,
     "losses_this_month": 49
   },
   "positions": [
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.3317,
       "mid_price_usd": 0.325,
-      "current_price_usd": 0.145,
+      "current_price_usd": 0.09,
       "slippage_pct": 2.06,
       "shares": 11.06,
       "cost_usd": 3.67,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-06T00:05:51Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": -19
+      "unrealized_pnl_nok": -24
     },
     {
       "id": "pos_106",
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.3131,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.33,
+      "current_price_usd": 0.38,
       "slippage_pct": 2.64,
       "shares": 14.16,
       "cost_usd": 4.43,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-05-06T11:20:16Z",
       "end_date": "2026-05-08",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_112",
@@ -160,7 +160,7 @@
       "side": "NO",
       "entry_price_usd": 0.6621,
       "mid_price_usd": 0.645,
-      "current_price_usd": 0.645,
+      "current_price_usd": 0.64,
       "slippage_pct": 2.64,
       "shares": 6.69,
       "cost_usd": 4.43,
@@ -187,7 +187,7 @@
       "side": "YES",
       "entry_price_usd": 0.2756,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.185,
+      "current_price_usd": 0.4,
       "slippage_pct": 2.06,
       "shares": 16.08,
       "cost_usd": 4.43,
@@ -202,7 +202,7 @@
       "category": "other",
       "opened_at": "2026-05-06T15:34:46Z",
       "end_date": "2026-05-07",
-      "unrealized_pnl_nok": -13
+      "unrealized_pnl_nok": 18
     },
     {
       "id": "pos_114",
@@ -212,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.3593,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.225,
+      "current_price_usd": 0.25,
       "slippage_pct": 2.65,
       "shares": 12.34,
       "cost_usd": 4.43,
@@ -227,7 +227,7 @@
       "category": "other",
       "opened_at": "2026-05-06T15:34:46Z",
       "end_date": "2026-05-08",
-      "unrealized_pnl_nok": -15
+      "unrealized_pnl_nok": -12
     },
     {
       "id": "pos_117",
@@ -255,31 +255,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_118",
-      "market_id": "1936833",
-      "question": "Spread: SC Corinthians Paulista (-2.5)",
-      "slug": "lib-san1-cor-2026-05-06-spread-away-2pt5",
-      "side": "NO",
-      "entry_price_usd": 0.7685,
-      "mid_price_usd": 0.7545,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.85,
-      "shares": 5.89,
-      "cost_usd": 4.52,
-      "cost_nok": 42,
-      "usd_nok_at_entry": 9.285716,
-      "edge_at_entry": 0.131,
-      "our_probability": 0.895,
-      "signals": [
-        "bookie:10%vs75%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-07T01:20:43Z",
-      "end_date": "2026-05-07",
-      "unrealized_pnl_nok": 12
-    },
-    {
       "id": "pos_119",
       "market_id": "2156198",
       "question": "Will Rickie Fowler finish in the Top 10 at the 2026 Truist Championship?",
@@ -287,7 +262,7 @@
       "side": "NO",
       "entry_price_usd": 0.6934,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.6934,
+      "current_price_usd": 0.675,
       "slippage_pct": 2.73,
       "shares": 6.06,
       "cost_usd": 4.2,
@@ -302,7 +277,7 @@
       "category": "other",
       "opened_at": "2026-05-07T04:49:03Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_120",
@@ -312,7 +287,7 @@
       "side": "NO",
       "entry_price_usd": 0.7626,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.7626,
+      "current_price_usd": 0.745,
       "slippage_pct": 2.37,
       "shares": 5.51,
       "cost_usd": 4.2,
@@ -3463,6 +3438,38 @@
       "profit_nok": -41.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-07T04:48:54Z"
+    },
+    {
+      "id": "pos_118",
+      "market_id": "1936833",
+      "question": "Spread: SC Corinthians Paulista (-2.5)",
+      "slug": "lib-san1-cor-2026-05-06-spread-away-2pt5",
+      "side": "NO",
+      "entry_price_usd": 0.7685,
+      "mid_price_usd": 0.7545,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.85,
+      "shares": 5.89,
+      "cost_usd": 4.52,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.285716,
+      "edge_at_entry": 0.131,
+      "our_probability": 0.895,
+      "signals": [
+        "bookie:10%vs75%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-07T01:20:43Z",
+      "end_date": "2026-05-07",
+      "unrealized_pnl_nok": 12,
+      "closing_price": 1.0,
+      "clv": 0.2455,
+      "result": "WIN",
+      "profit_nok": 11.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-07T07:34:58Z"
     }
   ],
   "trade_log": [
@@ -3599,9 +3606,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 60,
+    "total_wins": 61,
     "total_losses": 49,
-    "total_realized_pnl_nok": -7.700000000000131,
+    "total_realized_pnl_nok": 3.999999999999872,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -3706,9 +3713,10 @@
       0.605,
       0.31,
       -0.65,
-      -0.435
+      -0.435,
+      0.2455
     ],
-    "avg_clv": -0.0012
+    "avg_clv": 0.0014
   },
   "next_position_id": 121,
   "learning": {
@@ -3716,12 +3724,12 @@
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.032,
-      "other": 0.001,
+      "other": 0.006,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:+0.1% | moneyline:-3.2%"
+    "summary": "no_draw:+5.0% | other:+0.6% | moneyline:-3.2%"
   }
 }
