@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-07T23:13:41Z",
+    "last_updated": "2026-05-08T00:09:33Z",
     "currency": "NOK",
     "usd_nok_rate": 9.285716
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 363.10000000000406,
+    "balance_nok": 381.900000000004,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,62 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -46.90000000000012,
-    "trades_this_month": 128,
-    "wins_this_month": 62,
-    "losses_this_month": 51
+    "realized_pnl_nok": -26.800000000000125,
+    "trades_this_month": 131,
+    "wins_this_month": 63,
+    "losses_this_month": 53
   },
   "positions": [
-    {
-      "id": "pos_097",
-      "market_id": "2070466",
-      "question": "Spread: SC Freiburg (-1.5)",
-      "slug": "uel-scf-scb-2026-05-07-spread-home-1pt5",
-      "side": "YES",
-      "entry_price_usd": 0.281,
-      "mid_price_usd": 0.275,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.18,
-      "shares": 14.59,
-      "cost_usd": 4.1,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.268178,
-      "edge_at_entry": 0.109,
-      "our_probability": 0.394,
-      "signals": [
-        "bookie:39%vs28%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-05T08:27:02Z",
-      "end_date": "2026-05-07",
-      "unrealized_pnl_nok": 97
-    },
-    {
-      "id": "pos_104",
-      "market_id": "2161975",
-      "question": "Will the highest temperature in Munich be 16°C on May 7?",
-      "slug": "highest-temperature-in-munich-on-may-7-2026-16c",
-      "side": "YES",
-      "entry_price_usd": 0.3317,
-      "mid_price_usd": 0.325,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.06,
-      "shares": 11.06,
-      "cost_usd": 3.67,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.268178,
-      "edge_at_entry": 0.227,
-      "our_probability": 0.562,
-      "signals": [
-        "bookie:56%vs32%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-06T00:05:51Z",
-      "end_date": "2026-05-07",
-      "unrealized_pnl_nok": -34
-    },
     {
       "id": "pos_106",
       "market_id": "2075279",
@@ -135,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.3131,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.53,
+      "current_price_usd": 0.565,
       "slippage_pct": 2.64,
       "shares": 14.16,
       "cost_usd": 4.43,
@@ -150,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-06T11:20:16Z",
       "end_date": "2026-05-08",
-      "unrealized_pnl_nok": 28
+      "unrealized_pnl_nok": 33
     },
     {
       "id": "pos_112",
@@ -187,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.3593,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.245,
+      "current_price_usd": 0.305,
       "slippage_pct": 2.65,
       "shares": 12.34,
       "cost_usd": 4.43,
@@ -202,32 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-06T15:34:46Z",
       "end_date": "2026-05-08",
-      "unrealized_pnl_nok": -13
-    },
-    {
-      "id": "pos_117",
-      "market_id": "2062284",
-      "question": "Will Crystal Palace FC vs. FK Shakhtar Donetsk end in a draw?",
-      "slug": "col-cry-shd-2026-05-07-draw",
-      "side": "YES",
-      "entry_price_usd": 0.2296,
-      "mid_price_usd": 0.225,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.03,
-      "shares": 19.31,
-      "cost_usd": 4.43,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.249454,
-      "edge_at_entry": 0.056,
-      "our_probability": 0.291,
-      "signals": [
-        "bookie:draw=29%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-06T23:33:09Z",
-      "end_date": "2026-05-07",
-      "unrealized_pnl_nok": -41
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_119",
@@ -262,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.7626,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.725,
       "slippage_pct": 2.37,
       "shares": 5.51,
       "cost_usd": 4.2,
@@ -287,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.3881,
       "mid_price_usd": 0.38,
-      "current_price_usd": 0.47,
+      "current_price_usd": 0.46,
       "slippage_pct": 2.13,
       "shares": 10.82,
       "cost_usd": 4.2,
@@ -302,7 +227,7 @@
       "category": "other",
       "opened_at": "2026-05-07T10:06:27Z",
       "end_date": "2026-05-09",
-      "unrealized_pnl_nok": 8
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_123",
@@ -337,7 +262,7 @@
       "side": "YES",
       "entry_price_usd": 0.2413,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.32,
+      "current_price_usd": 0.285,
       "slippage_pct": 2.68,
       "shares": 17.41,
       "cost_usd": 4.2,
@@ -352,7 +277,7 @@
       "category": "other",
       "opened_at": "2026-05-07T14:46:18Z",
       "end_date": "2026-05-08",
-      "unrealized_pnl_nok": 12
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_126",
@@ -412,7 +337,7 @@
       "side": "YES",
       "entry_price_usd": 0.5257,
       "mid_price_usd": 0.515,
-      "current_price_usd": 0.5257,
+      "current_price_usd": 0.515,
       "slippage_pct": 2.07,
       "shares": 7.58,
       "cost_usd": 3.98,
@@ -427,6 +352,83 @@
       "category": "other",
       "opened_at": "2026-05-07T23:13:49Z",
       "end_date": "2026-05-09",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_129",
+      "market_id": "1979975",
+      "question": "Santos FC vs. Red Bull Bragantino: Both Teams to Score",
+      "slug": "bra-san-bra-2026-05-10-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5009,
+      "mid_price_usd": 0.49,
+      "current_price_usd": 0.5009,
+      "slippage_pct": 2.23,
+      "shares": 8.17,
+      "cost_usd": 4.09,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.285716,
+      "edge_at_entry": 0.364,
+      "our_probability": 0.864,
+      "signals": [
+        "bookie:14%vs49%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-08T00:09:41Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_130",
+      "market_id": "1979946",
+      "question": "SC Corinthians Paulista vs. São Paulo FC: Both Teams to Score",
+      "slug": "bra-cor1-sao-2026-05-10-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5679,
+      "mid_price_usd": 0.555,
+      "current_price_usd": 0.5679,
+      "slippage_pct": 2.33,
+      "shares": 7.21,
+      "cost_usd": 4.09,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.285716,
+      "edge_at_entry": 0.331,
+      "our_probability": 0.896,
+      "signals": [
+        "bookie:10%vs56%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-08T00:09:42Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_131",
+      "market_id": "2164443",
+      "question": "Will Comunicaciones FC vs. CSD Xelajú MC end in a draw?",
+      "slug": "gtm-com-xel-2026-05-07-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7069,
+      "mid_price_usd": 0.695,
+      "current_price_usd": 0.7069,
+      "slippage_pct": 1.72,
+      "shares": 5.79,
+      "cost_usd": 4.09,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.285716,
+      "edge_at_entry": 0.053,
+      "our_probability": 0.748,
+      "signals": [
+        "base:0.040",
+        "cat:0.023",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-08T00:09:42Z",
+      "end_date": "2026-05-08",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -3691,6 +3693,100 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-07T23:13:40Z"
+    },
+    {
+      "id": "pos_097",
+      "market_id": "2070466",
+      "question": "Spread: SC Freiburg (-1.5)",
+      "slug": "uel-scf-scb-2026-05-07-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.281,
+      "mid_price_usd": 0.275,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.18,
+      "shares": 14.59,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.268178,
+      "edge_at_entry": 0.109,
+      "our_probability": 0.394,
+      "signals": [
+        "bookie:39%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-05T08:27:02Z",
+      "end_date": "2026-05-07",
+      "unrealized_pnl_nok": 97,
+      "closing_price": 1.0,
+      "clv": 0.725,
+      "result": "WIN",
+      "profit_nok": 95.69999999999999,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-08T00:09:27Z"
+    },
+    {
+      "id": "pos_104",
+      "market_id": "2161975",
+      "question": "Will the highest temperature in Munich be 16°C on May 7?",
+      "slug": "highest-temperature-in-munich-on-may-7-2026-16c",
+      "side": "YES",
+      "entry_price_usd": 0.3317,
+      "mid_price_usd": 0.325,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.06,
+      "shares": 11.06,
+      "cost_usd": 3.67,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.268178,
+      "edge_at_entry": 0.227,
+      "our_probability": 0.562,
+      "signals": [
+        "bookie:56%vs32%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-06T00:05:51Z",
+      "end_date": "2026-05-07",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.325,
+      "result": "LOSS",
+      "profit_nok": -34.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-08T00:09:28Z"
+    },
+    {
+      "id": "pos_117",
+      "market_id": "2062284",
+      "question": "Will Crystal Palace FC vs. FK Shakhtar Donetsk end in a draw?",
+      "slug": "col-cry-shd-2026-05-07-draw",
+      "side": "YES",
+      "entry_price_usd": 0.2296,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.03,
+      "shares": 19.31,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249454,
+      "edge_at_entry": 0.056,
+      "our_probability": 0.291,
+      "signals": [
+        "bookie:draw=29%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-06T23:33:09Z",
+      "end_date": "2026-05-07",
+      "unrealized_pnl_nok": -41,
+      "closing_price": 0.0,
+      "clv": -0.225,
+      "result": "LOSS",
+      "profit_nok": -41.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-08T00:09:30Z"
     }
   ],
   "trade_log": [
@@ -3827,9 +3923,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 62,
-    "total_losses": 51,
-    "total_realized_pnl_nok": -46.90000000000012,
+    "total_wins": 63,
+    "total_losses": 53,
+    "total_realized_pnl_nok": -26.800000000000125,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -3938,11 +4034,14 @@
       0.2455,
       -0.27,
       -0.735,
-      0.445
+      0.445,
+      0.725,
+      -0.325,
+      -0.225
     ],
-    "avg_clv": -0.0044
+    "avg_clv": -0.0026
   },
-  "next_position_id": 129,
+  "next_position_id": 132,
   "learning": {
     "category_weights": {
       "esport": 0,
@@ -3950,10 +4049,10 @@
       "moneyline": -0.018,
       "other": 0.001,
       "social_media": 0,
-      "no_draw": 0.042,
+      "no_draw": 0.023,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.2% | other:+0.1% | moneyline:-1.8%"
+    "summary": "no_draw:+2.3% | other:+0.1% | moneyline:-1.8%"
   }
 }
