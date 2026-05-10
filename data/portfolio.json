@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-10T05:06:29Z",
+    "last_updated": "2026-05-10T07:33:31Z",
     "currency": "NOK",
     "usd_nok_rate": 9.214349
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 668.8000000000039,
+    "balance_nok": 439.0000000000041,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -27.900000000000105,
-    "trades_this_month": 141,
+    "trades_this_month": 147,
     "wins_this_month": 70,
     "losses_this_month": 63
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.6934,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.59,
+      "current_price_usd": 0.585,
       "slippage_pct": 2.73,
       "shares": 6.06,
       "cost_usd": 4.2,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-07T04:49:03Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": -5
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_129",
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.5009,
       "mid_price_usd": 0.49,
-      "current_price_usd": 0.475,
+      "current_price_usd": 0.48,
       "slippage_pct": 2.23,
       "shares": 8.17,
       "cost_usd": 4.09,
@@ -135,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.6014,
       "mid_price_usd": 0.59,
-      "current_price_usd": 0.58,
+      "current_price_usd": 0.59,
       "slippage_pct": 1.94,
       "shares": 6.09,
       "cost_usd": 3.66,
@@ -150,7 +150,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-09T00:04:39Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_136",
@@ -160,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.3581,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.455,
+      "current_price_usd": 0.52,
       "slippage_pct": 2.31,
       "shares": 10.91,
       "cost_usd": 3.91,
@@ -175,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-05-09T06:11:28Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": 16
     },
     {
       "id": "pos_137",
@@ -185,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.2145,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.23,
+      "current_price_usd": 0.265,
       "slippage_pct": 2.17,
       "shares": 18.22,
       "cost_usd": 3.91,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-09T08:12:26Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_140",
@@ -250,6 +250,156 @@
       "category": "no_draw",
       "opened_at": "2026-05-09T23:45:08Z",
       "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_142",
+      "market_id": "2092468",
+      "question": "Nottingham Forest FC vs. Newcastle United FC: Both Teams to Score",
+      "slug": "epl-not-new-2026-05-10-btts",
+      "side": "NO",
+      "entry_price_usd": 0.4041,
+      "mid_price_usd": 0.395,
+      "current_price_usd": 0.4041,
+      "slippage_pct": 2.3,
+      "shares": 10.21,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.425,
+      "our_probability": 0.83,
+      "signals": [
+        "bookie:17%vs40%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-10T07:33:40Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_143",
+      "market_id": "2206066",
+      "question": "Will the highest temperature in Munich be 17°C on May 11?",
+      "slug": "highest-temperature-in-munich-on-may-11-2026-17c",
+      "side": "YES",
+      "entry_price_usd": 0.348,
+      "mid_price_usd": 0.34,
+      "current_price_usd": 0.348,
+      "slippage_pct": 2.35,
+      "shares": 11.85,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.406,
+      "our_probability": 0.756,
+      "signals": [
+        "bookie:76%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-10T07:33:40Z",
+      "end_date": "2026-05-11",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_144",
+      "market_id": "2092327",
+      "question": "Spread: 1. FSV Mainz 05 (-1.5)",
+      "slug": "bun-mai-uni-2026-05-10-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3506,
+      "mid_price_usd": 0.345,
+      "current_price_usd": 0.3506,
+      "slippage_pct": 1.61,
+      "shares": 11.76,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.213,
+      "our_probability": 0.568,
+      "signals": [
+        "bookie:57%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-10T07:33:40Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_145",
+      "market_id": "2092505",
+      "question": "Toulouse FC vs. Olympique Lyonnais: Both Teams to Score",
+      "slug": "fl1-tou-lyo-2026-05-10-btts",
+      "side": "NO",
+      "entry_price_usd": 0.445,
+      "mid_price_usd": 0.435,
+      "current_price_usd": 0.445,
+      "slippage_pct": 2.29,
+      "shares": 9.27,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.19,
+      "our_probability": 0.635,
+      "signals": [
+        "bookie:36%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-10T07:33:41Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_146",
+      "market_id": "2091300",
+      "question": "Will West Ham United FC vs. Arsenal FC end in a draw?",
+      "slug": "epl-wes-ars-2026-05-10-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7914,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 0.7914,
+      "slippage_pct": 2.12,
+      "shares": 5.21,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.121,
+      "our_probability": 0.906,
+      "signals": [
+        "bookie:draw=9%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-10T07:33:41Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_147",
+      "market_id": "2219878",
+      "question": "Will the highest temperature in Madrid be 17°C on May 12?",
+      "slug": "highest-temperature-in-madrid-on-may-12-2026-17c",
+      "side": "YES",
+      "entry_price_usd": 0.2098,
+      "mid_price_usd": 0.205,
+      "current_price_usd": 0.2098,
+      "slippage_pct": 2.33,
+      "shares": 19.66,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.133,
+      "our_probability": 0.348,
+      "signals": [
+        "bookie:35%vs20%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-10T07:33:41Z",
+      "end_date": "2026-05-12",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -4417,7 +4567,7 @@
     ],
     "avg_clv": -0.0065
   },
-  "next_position_id": 142,
+  "next_position_id": 148,
   "learning": {
     "category_weights": {
       "esport": 0,
