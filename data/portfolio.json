@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-10T21:13:07Z",
+    "last_updated": "2026-05-10T22:06:14Z",
     "currency": "NOK",
     "usd_nok_rate": 9.214349
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 351.50000000000404,
+    "balance_nok": 328.600000000004,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -117.1000000000001,
-    "trades_this_month": 151,
-    "wins_this_month": 71,
+    "realized_pnl_nok": -107.40000000000009,
+    "trades_this_month": 153,
+    "wins_this_month": 72,
     "losses_this_month": 66
   },
   "positions": [
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.5009,
       "mid_price_usd": 0.49,
-      "current_price_usd": 0.465,
+      "current_price_usd": 0.605,
       "slippage_pct": 2.23,
       "shares": 8.17,
       "cost_usd": 4.09,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-08T00:09:41Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_130",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.5679,
       "mid_price_usd": 0.555,
-      "current_price_usd": 0.545,
+      "current_price_usd": 0.43,
       "slippage_pct": 2.33,
       "shares": 7.21,
       "cost_usd": 4.09,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-08T00:09:42Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -9
     },
     {
       "id": "pos_136",
@@ -160,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.2145,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.996,
+      "current_price_usd": 0.9965,
       "slippage_pct": 2.17,
       "shares": 18.22,
       "cost_usd": 3.91,
@@ -185,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.2289,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.225,
+      "current_price_usd": 0.215,
       "slippage_pct": 1.74,
       "shares": 15.65,
       "cost_usd": 3.58,
@@ -200,7 +200,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-09T21:01:33Z",
       "end_date": "2026-05-11",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_143",
@@ -278,31 +278,6 @@
       "unrealized_pnl_nok": -37
     },
     {
-      "id": "pos_146",
-      "market_id": "2091300",
-      "question": "Will West Ham United FC vs. Arsenal FC end in a draw?",
-      "slug": "epl-wes-ars-2026-05-10-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7914,
-      "mid_price_usd": 0.775,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.12,
-      "shares": 5.21,
-      "cost_usd": 4.12,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.214349,
-      "edge_at_entry": 0.121,
-      "our_probability": 0.906,
-      "signals": [
-        "bookie:draw=9%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-10T07:33:41Z",
-      "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 9
-    },
-    {
       "id": "pos_147",
       "market_id": "2219878",
       "question": "Will the highest temperature in Madrid be 17°C on May 12?",
@@ -310,7 +285,7 @@
       "side": "YES",
       "entry_price_usd": 0.2098,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.275,
       "slippage_pct": 2.33,
       "shares": 19.66,
       "cost_usd": 4.12,
@@ -325,7 +300,7 @@
       "category": "other",
       "opened_at": "2026-05-10T07:33:41Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 12
+      "unrealized_pnl_nok": 11
     },
     {
       "id": "pos_149",
@@ -360,7 +335,7 @@
       "side": "NO",
       "entry_price_usd": 0.6807,
       "mid_price_usd": 0.6685,
-      "current_price_usd": 0.6855,
+      "current_price_usd": 0.955,
       "slippage_pct": 1.83,
       "shares": 5.58,
       "cost_usd": 3.8,
@@ -375,7 +350,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-10T18:08:09Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 14
     },
     {
       "id": "pos_151",
@@ -385,7 +360,7 @@
       "side": "NO",
       "entry_price_usd": 0.5399,
       "mid_price_usd": 0.5265,
-      "current_price_usd": 0.5399,
+      "current_price_usd": 0.995,
       "slippage_pct": 2.54,
       "shares": 6.83,
       "cost_usd": 3.69,
@@ -399,6 +374,56 @@
       ],
       "category": "other",
       "opened_at": "2026-05-10T21:13:16Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 28
+    },
+    {
+      "id": "pos_152",
+      "market_id": "1972913",
+      "question": "Will Mirassol FC win on 2026-05-10?",
+      "slug": "bra-mir-cha-2026-05-10-mir",
+      "side": "NO",
+      "entry_price_usd": 0.4526,
+      "mid_price_usd": 0.445,
+      "current_price_usd": 0.4526,
+      "slippage_pct": 1.71,
+      "shares": 8.39,
+      "cost_usd": 3.8,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.269,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-10T22:06:22Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_153",
+      "market_id": "2156187",
+      "question": "Will Ricky Castillo finish in the Top 10 at the 2026 Truist Championship?",
+      "slug": "2026-truist-championship-top10-ricky-castillo",
+      "side": "NO",
+      "entry_price_usd": 0.5185,
+      "mid_price_usd": 0.5055,
+      "current_price_usd": 0.5185,
+      "slippage_pct": 2.57,
+      "shares": 7.33,
+      "cost_usd": 3.8,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.208,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs51%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-10T22:06:22Z",
       "end_date": "2026-05-10",
       "unrealized_pnl_nok": 0
     }
@@ -4421,6 +4446,38 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-10T21:13:02Z"
+    },
+    {
+      "id": "pos_146",
+      "market_id": "2091300",
+      "question": "Will West Ham United FC vs. Arsenal FC end in a draw?",
+      "slug": "epl-wes-ars-2026-05-10-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7914,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.12,
+      "shares": 5.21,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.121,
+      "our_probability": 0.906,
+      "signals": [
+        "bookie:draw=9%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-10T07:33:41Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 9,
+      "closing_price": 1.0,
+      "clv": 0.225,
+      "result": "WIN",
+      "profit_nok": 9.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-10T22:06:13Z"
     }
   ],
   "trade_log": [
@@ -4557,9 +4614,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 71,
+    "total_wins": 72,
     "total_losses": 66,
-    "total_realized_pnl_nok": -117.1000000000001,
+    "total_realized_pnl_nok": -107.40000000000009,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -4692,11 +4749,12 @@
       -0.715,
       -0.395,
       -0.385,
-      0.41
+      0.41,
+      0.225
     ],
-    "avg_clv": -0.0153
+    "avg_clv": -0.0133
   },
-  "next_position_id": 152,
+  "next_position_id": 154,
   "learning": {
     "category_weights": {
       "esport": 0,
@@ -4704,10 +4762,10 @@
       "moneyline": -0.037,
       "other": -0.009,
       "social_media": 0,
-      "no_draw": 0.013,
+      "no_draw": 0.022,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+1.3% | other:-0.9% | moneyline:-3.7%"
+    "summary": "no_draw:+2.2% | other:-0.9% | moneyline:-3.7%"
   }
 }
