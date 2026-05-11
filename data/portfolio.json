@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-10T23:06:18Z",
+    "last_updated": "2026-05-11T00:06:21Z",
     "currency": "NOK",
     "usd_nok_rate": 9.214349
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 328.600000000004,
+    "balance_nok": 453.000000000004,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -107.40000000000009,
-    "trades_this_month": 153,
-    "wins_this_month": 72,
+    "realized_pnl_nok": 21.299999999999898,
+    "trades_this_month": 154,
+    "wins_this_month": 73,
     "losses_this_month": 66
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.6934,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.0045,
+      "current_price_usd": 0.3685,
       "slippage_pct": 2.73,
       "shares": 6.06,
       "cost_usd": 4.2,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-07T04:49:03Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": -38
+      "unrealized_pnl_nok": -18
     },
     {
       "id": "pos_129",
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.5009,
       "mid_price_usd": 0.49,
-      "current_price_usd": 0.695,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.23,
       "shares": 8.17,
       "cost_usd": 4.09,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-08T00:09:41Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 14
+      "unrealized_pnl_nok": 37
     },
     {
       "id": "pos_130",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.5679,
       "mid_price_usd": 0.555,
-      "current_price_usd": 0.0025,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.33,
       "shares": 7.21,
       "cost_usd": 4.09,
@@ -153,31 +153,6 @@
       "unrealized_pnl_nok": -35
     },
     {
-      "id": "pos_137",
-      "market_id": "2186817",
-      "question": "Will the highest temperature in Milan be 16°C on May 10?",
-      "slug": "highest-temperature-in-milan-on-may-10-2026-16c",
-      "side": "YES",
-      "entry_price_usd": 0.2145,
-      "mid_price_usd": 0.21,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.17,
-      "shares": 18.22,
-      "cost_usd": 3.91,
-      "cost_nok": 36,
-      "usd_nok_at_entry": 9.21189,
-      "edge_at_entry": 0.286,
-      "our_probability": 0.506,
-      "signals": [
-        "bookie:51%vs21%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-09T08:12:26Z",
-      "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 131
-    },
-    {
       "id": "pos_140",
       "market_id": "2167406",
       "question": "Will Sporting CP win on 2026-05-11?",
@@ -210,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.348,
       "mid_price_usd": 0.34,
-      "current_price_usd": 0.415,
+      "current_price_usd": 0.355,
       "slippage_pct": 2.35,
       "shares": 11.85,
       "cost_usd": 4.12,
@@ -225,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-05-10T07:33:40Z",
       "end_date": "2026-05-11",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_144",
@@ -285,7 +260,7 @@
       "side": "YES",
       "entry_price_usd": 0.2098,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.275,
+      "current_price_usd": 0.27,
       "slippage_pct": 2.33,
       "shares": 19.66,
       "cost_usd": 4.12,
@@ -300,7 +275,7 @@
       "category": "other",
       "opened_at": "2026-05-10T07:33:41Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_149",
@@ -385,7 +360,7 @@
       "side": "NO",
       "entry_price_usd": 0.4526,
       "mid_price_usd": 0.445,
-      "current_price_usd": 0.605,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.71,
       "shares": 8.39,
       "cost_usd": 3.8,
@@ -400,7 +375,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-10T22:06:22Z",
       "end_date": "2026-05-10",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": 42
     },
     {
       "id": "pos_153",
@@ -426,6 +401,31 @@
       "opened_at": "2026-05-10T22:06:22Z",
       "end_date": "2026-05-10",
       "unrealized_pnl_nok": 32
+    },
+    {
+      "id": "pos_154",
+      "market_id": "2123451",
+      "question": "Spread: FC Barcelona (-1.5)",
+      "slug": "lal-ala-bar-2026-05-13-spread-away-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2611,
+      "mid_price_usd": 0.255,
+      "current_price_usd": 0.2611,
+      "slippage_pct": 2.41,
+      "shares": 16.63,
+      "cost_usd": 4.34,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.184,
+      "our_probability": 0.449,
+      "signals": [
+        "bookie:45%vs26%",
+        "ob:-0.010"
+      ],
+      "category": "social_media",
+      "opened_at": "2026-05-11T00:06:27Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -4478,6 +4478,38 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-10T22:06:13Z"
+    },
+    {
+      "id": "pos_137",
+      "market_id": "2186817",
+      "question": "Will the highest temperature in Milan be 16°C on May 10?",
+      "slug": "highest-temperature-in-milan-on-may-10-2026-16c",
+      "side": "YES",
+      "entry_price_usd": 0.2145,
+      "mid_price_usd": 0.21,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.17,
+      "shares": 18.22,
+      "cost_usd": 3.91,
+      "cost_nok": 36,
+      "usd_nok_at_entry": 9.21189,
+      "edge_at_entry": 0.286,
+      "our_probability": 0.506,
+      "signals": [
+        "bookie:51%vs21%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-09T08:12:26Z",
+      "end_date": "2026-05-10",
+      "unrealized_pnl_nok": 131,
+      "closing_price": 1.0,
+      "clv": 0.79,
+      "result": "WIN",
+      "profit_nok": 128.7,
+      "fee_nok": 2,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-11T00:06:17Z"
     }
   ],
   "trade_log": [
@@ -4614,9 +4646,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 72,
+    "total_wins": 73,
     "total_losses": 66,
-    "total_realized_pnl_nok": -107.40000000000009,
+    "total_realized_pnl_nok": 21.299999999999898,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -4750,22 +4782,23 @@
       -0.395,
       -0.385,
       0.41,
-      0.225
+      0.225,
+      0.79
     ],
-    "avg_clv": -0.0133
+    "avg_clv": -0.0068
   },
-  "next_position_id": 154,
+  "next_position_id": 155,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.037,
-      "other": -0.009,
+      "other": -0.004,
       "social_media": 0,
       "no_draw": 0.022,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+2.2% | other:-0.9% | moneyline:-3.7%"
+    "summary": "no_draw:+2.2% | other:-0.4% | moneyline:-3.7%"
   }
 }
