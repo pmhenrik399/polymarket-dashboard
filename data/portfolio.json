@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-11T22:41:50Z",
+    "last_updated": "2026-05-11T23:41:12Z",
     "currency": "NOK",
     "usd_nok_rate": 9.213711
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 544.2000000000045,
+    "balance_nok": 606.3000000000046,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,37 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -29.600000000000065,
-    "trades_this_month": 163,
-    "wins_this_month": 80,
-    "losses_this_month": 72
+    "realized_pnl_nok": -37.50000000000006,
+    "trades_this_month": 164,
+    "wins_this_month": 82,
+    "losses_this_month": 73
   },
   "positions": [
-    {
-      "id": "pos_140",
-      "market_id": "2167406",
-      "question": "Will Sporting CP win on 2026-05-11?",
-      "slug": "por-rio-spo-2026-05-11-spo",
-      "side": "NO",
-      "entry_price_usd": 0.2289,
-      "mid_price_usd": 0.225,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.74,
-      "shares": 15.65,
-      "cost_usd": 3.58,
-      "cost_nok": 33,
-      "usd_nok_at_entry": 9.21189,
-      "edge_at_entry": 0.672,
-      "our_probability": 0.907,
-      "signals": [
-        "bookie:9%vs22%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-09T21:01:33Z",
-      "end_date": "2026-05-11",
-      "unrealized_pnl_nok": -32
-    },
     {
       "id": "pos_147",
       "market_id": "2219878",
@@ -85,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2098,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.41,
+      "current_price_usd": 0.405,
       "slippage_pct": 2.33,
       "shares": 19.66,
       "cost_usd": 4.12,
@@ -100,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-10T07:33:41Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 36
+      "unrealized_pnl_nok": 35
     },
     {
       "id": "pos_149",
@@ -205,33 +180,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_158",
-      "market_id": "2167411",
-      "question": "Will Gil Vicente FC vs. FC Arouca end in a draw?",
-      "slug": "por-gil-aro-2026-05-11-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7685,
-      "mid_price_usd": 0.755,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.79,
-      "shares": 5.23,
-      "cost_usd": 4.02,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.213711,
-      "edge_at_entry": 0.052,
-      "our_probability": 0.807,
-      "signals": [
-        "base:0.040",
-        "cat:0.022",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-11T11:33:31Z",
-      "end_date": "2026-05-11",
-      "unrealized_pnl_nok": 11
-    },
-    {
       "id": "pos_159",
       "market_id": "2036476",
       "question": "Will Al Taawoun Saudi Club vs. Al Ahli Saudi Club end in a draw?",
@@ -311,31 +259,29 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_163",
-      "market_id": "2167402",
-      "question": "Will CD Santa Clara vs. CD Nacional end in a draw?",
-      "slug": "por-cds-nac-2026-05-11-draw",
+      "id": "pos_164",
+      "market_id": "2113533",
+      "question": "RC Celta de Vigo vs. Levante UD: Both Teams to Score",
+      "slug": "lal-cel-lev-2026-05-12-btts",
       "side": "NO",
-      "entry_price_usd": 0.7107,
-      "mid_price_usd": 0.695,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.27,
-      "shares": 5.65,
+      "entry_price_usd": 0.4639,
+      "mid_price_usd": 0.455,
+      "current_price_usd": 0.4639,
+      "slippage_pct": 1.95,
+      "shares": 8.66,
       "cost_usd": 4.02,
       "cost_nok": 37,
       "usd_nok_at_entry": 9.213711,
-      "edge_at_entry": 0.052,
-      "our_probability": 0.747,
+      "edge_at_entry": 0.309,
+      "our_probability": 0.774,
       "signals": [
-        "base:0.040",
-        "cat:0.022",
-        "line:0.000",
+        "bookie:23%vs46%",
         "ob:-0.010"
       ],
-      "category": "no_draw",
-      "opened_at": "2026-05-11T14:05:03Z",
-      "end_date": "2026-05-11",
-      "unrealized_pnl_nok": 15
+      "category": "other",
+      "opened_at": "2026-05-11T23:41:17Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -4834,6 +4780,105 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-11T22:41:48Z"
+    },
+    {
+      "id": "pos_140",
+      "market_id": "2167406",
+      "question": "Will Sporting CP win on 2026-05-11?",
+      "slug": "por-rio-spo-2026-05-11-spo",
+      "side": "NO",
+      "entry_price_usd": 0.2289,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.74,
+      "shares": 15.65,
+      "cost_usd": 3.58,
+      "cost_nok": 33,
+      "usd_nok_at_entry": 9.21189,
+      "edge_at_entry": 0.672,
+      "our_probability": 0.907,
+      "signals": [
+        "bookie:9%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-09T21:01:33Z",
+      "end_date": "2026-05-11",
+      "unrealized_pnl_nok": -32,
+      "closing_price": 0.0,
+      "clv": -0.225,
+      "result": "LOSS",
+      "profit_nok": -33.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-11T23:41:07Z"
+    },
+    {
+      "id": "pos_158",
+      "market_id": "2167411",
+      "question": "Will Gil Vicente FC vs. FC Arouca end in a draw?",
+      "slug": "por-gil-aro-2026-05-11-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7685,
+      "mid_price_usd": 0.755,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.79,
+      "shares": 5.23,
+      "cost_usd": 4.02,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.052,
+      "our_probability": 0.807,
+      "signals": [
+        "base:0.040",
+        "cat:0.022",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-11T11:33:31Z",
+      "end_date": "2026-05-11",
+      "unrealized_pnl_nok": 11,
+      "closing_price": 1.0,
+      "clv": 0.245,
+      "result": "WIN",
+      "profit_nok": 10.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-11T23:41:10Z"
+    },
+    {
+      "id": "pos_163",
+      "market_id": "2167402",
+      "question": "Will CD Santa Clara vs. CD Nacional end in a draw?",
+      "slug": "por-cds-nac-2026-05-11-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7107,
+      "mid_price_usd": 0.695,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.27,
+      "shares": 5.65,
+      "cost_usd": 4.02,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.052,
+      "our_probability": 0.747,
+      "signals": [
+        "base:0.040",
+        "cat:0.022",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-11T14:05:03Z",
+      "end_date": "2026-05-11",
+      "unrealized_pnl_nok": 15,
+      "closing_price": 1.0,
+      "clv": 0.305,
+      "result": "WIN",
+      "profit_nok": 14.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-11T23:41:12Z"
     }
   ],
   "trade_log": [
@@ -4970,9 +5015,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 80,
-    "total_losses": 72,
-    "total_realized_pnl_nok": -29.600000000000065,
+    "total_wins": 82,
+    "total_losses": 73,
+    "total_realized_pnl_nok": -37.50000000000006,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5120,22 +5165,25 @@
       0.4945,
       -0.34,
       0.295,
-      0.255
+      0.255,
+      -0.225,
+      0.245,
+      0.305
     ],
-    "avg_clv": -0.0045
+    "avg_clv": -0.0021
   },
-  "next_position_id": 164,
+  "next_position_id": 165,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
-      "moneyline": -0.002,
+      "moneyline": -0.015,
       "other": -0.013,
       "social_media": 0,
-      "no_draw": 0.038,
+      "no_draw": 0.049,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.8% | moneyline:-0.2% | other:-1.3%"
+    "summary": "no_draw:+4.9% | other:-1.3% | moneyline:-1.5%"
   }
 }
