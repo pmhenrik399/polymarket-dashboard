@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-11T04:33:45Z",
+    "last_updated": "2026-05-11T08:02:40Z",
     "currency": "NOK",
     "usd_nok_rate": 9.213711
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 783.5000000000042,
+    "balance_nok": 668.6000000000043,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -15.700000000000074,
-    "trades_this_month": 154,
+    "trades_this_month": 157,
     "wins_this_month": 78,
     "losses_this_month": 71
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.2289,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.215,
+      "current_price_usd": 0.205,
       "slippage_pct": 1.74,
       "shares": 15.65,
       "cost_usd": 3.58,
@@ -75,7 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-09T21:01:33Z",
       "end_date": "2026-05-11",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_143",
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.348,
       "mid_price_usd": 0.34,
-      "current_price_usd": 0.37,
+      "current_price_usd": 0.365,
       "slippage_pct": 2.35,
       "shares": 11.85,
       "cost_usd": 4.12,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-10T07:33:40Z",
       "end_date": "2026-05-11",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_147",
@@ -110,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.2098,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.295,
       "slippage_pct": 2.33,
       "shares": 19.66,
       "cost_usd": 4.12,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-05-10T07:33:41Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 19
+      "unrealized_pnl_nok": 15
     },
     {
       "id": "pos_149",
@@ -160,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.2611,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.25,
+      "current_price_usd": 0.27,
       "slippage_pct": 2.41,
       "shares": 16.63,
       "cost_usd": 4.34,
@@ -175,7 +175,86 @@
       "category": "social_media",
       "opened_at": "2026-05-11T00:06:27Z",
       "end_date": "2026-05-13",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 1
+    },
+    {
+      "id": "pos_155",
+      "market_id": "2123239",
+      "question": "Will Getafe CF win on 2026-05-13?",
+      "slug": "lal-get-mal-2026-05-13-get",
+      "side": "NO",
+      "entry_price_usd": 0.5633,
+      "mid_price_usd": 0.555,
+      "current_price_usd": 0.5633,
+      "slippage_pct": 1.5,
+      "shares": 7.32,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.163,
+      "our_probability": 0.728,
+      "signals": [
+        "bookie:27%vs56%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-11T08:02:47Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_156",
+      "market_id": "1972208",
+      "question": "Will FK Akron Tolyatti vs. FK Rostov end in a draw?",
+      "slug": "rus-akr-ros-2026-05-11-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7216,
+      "mid_price_usd": 0.705,
+      "current_price_usd": 0.7216,
+      "slippage_pct": 2.35,
+      "shares": 5.72,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.052,
+      "our_probability": 0.757,
+      "signals": [
+        "base:0.040",
+        "cat:0.022",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-11T08:02:48Z",
+      "end_date": "2026-05-11",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_157",
+      "market_id": "1985347",
+      "question": "Will Incheon United FC vs. Pohang Steelers FC end in a draw?",
+      "slug": "kor-inc-poh-2026-05-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7054,
+      "mid_price_usd": 0.69,
+      "current_price_usd": 0.7054,
+      "slippage_pct": 2.24,
+      "shares": 5.85,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.052,
+      "our_probability": 0.742,
+      "signals": [
+        "base:0.040",
+        "cat:0.022",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-11T08:02:48Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -4862,7 +4941,7 @@
     ],
     "avg_clv": -0.0062
   },
-  "next_position_id": 155,
+  "next_position_id": 158,
   "learning": {
     "category_weights": {
       "esport": 0,
