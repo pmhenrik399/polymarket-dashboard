@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-12T20:54:54Z",
+    "last_updated": "2026-05-12T22:12:18Z",
     "currency": "NOK",
     "usd_nok_rate": 9.188785
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -36.700000000000045,
+    "realized_pnl_nok": -74.00000000000004,
     "trades_this_month": 171,
     "wins_this_month": 85,
-    "losses_this_month": 74
+    "losses_this_month": 75
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.8061,
       "mid_price_usd": 0.785,
-      "current_price_usd": 0.11,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.69,
       "shares": 4.71,
       "cost_usd": 3.8,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-10T18:08:09Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": -30
+      "unrealized_pnl_nok": -34
     },
     {
       "id": "pos_154",
@@ -153,31 +153,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_164",
-      "market_id": "2113533",
-      "question": "RC Celta de Vigo vs. Levante UD: Both Teams to Score",
-      "slug": "lal-cel-lev-2026-05-12-btts",
-      "side": "NO",
-      "entry_price_usd": 0.4639,
-      "mid_price_usd": 0.455,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.95,
-      "shares": 8.66,
-      "cost_usd": 4.02,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.213711,
-      "edge_at_entry": 0.309,
-      "our_probability": 0.774,
-      "signals": [
-        "bookie:23%vs46%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-11T23:41:17Z",
-      "end_date": "2026-05-12",
-      "unrealized_pnl_nok": -36
-    },
-    {
       "id": "pos_165",
       "market_id": "2113270",
       "question": "Will Real Betis Balompié vs. Elche CF end in a draw?",
@@ -210,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.7509,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.16,
       "shares": 5.51,
       "cost_usd": 4.14,
@@ -225,7 +200,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-12T05:02:28Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_167",
@@ -289,7 +264,7 @@
       "side": "YES",
       "entry_price_usd": 0.3933,
       "mid_price_usd": 0.385,
-      "current_price_usd": 0.12,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.15,
       "shares": 10.79,
       "cost_usd": 4.24,
@@ -304,7 +279,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-12T17:30:10Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": -27
+      "unrealized_pnl_nok": -38
     },
     {
       "id": "pos_170",
@@ -314,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.5909,
       "mid_price_usd": 0.58,
-      "current_price_usd": 0.545,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.89,
       "shares": 6.81,
       "cost_usd": 4.03,
@@ -329,7 +304,7 @@
       "category": "other",
       "opened_at": "2026-05-12T19:19:49Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": 25
     },
     {
       "id": "pos_171",
@@ -5087,6 +5062,37 @@
       "profit_nok": -38.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-12T19:19:39Z"
+    },
+    {
+      "id": "pos_164",
+      "market_id": "2113533",
+      "question": "RC Celta de Vigo vs. Levante UD: Both Teams to Score",
+      "slug": "lal-cel-lev-2026-05-12-btts",
+      "side": "NO",
+      "entry_price_usd": 0.4639,
+      "mid_price_usd": 0.455,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.95,
+      "shares": 8.66,
+      "cost_usd": 4.02,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.309,
+      "our_probability": 0.774,
+      "signals": [
+        "bookie:23%vs46%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-11T23:41:17Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": -36,
+      "closing_price": 0.0,
+      "clv": -0.455,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-12T22:12:15Z"
     }
   ],
   "trade_log": [
@@ -5224,8 +5230,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 85,
-    "total_losses": 74,
-    "total_realized_pnl_nok": -36.700000000000045,
+    "total_losses": 75,
+    "total_realized_pnl_nok": -74.00000000000004,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5380,9 +5386,10 @@
       0.245,
       0.3,
       0.31,
-      -0.205
+      -0.205,
+      -0.455
     ],
-    "avg_clv": 0.0025
+    "avg_clv": -0.0007
   },
   "next_position_id": 172,
   "learning": {
@@ -5390,12 +5397,12 @@
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.015,
-      "other": -0.017,
+      "other": -0.021,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | moneyline:-1.5% | other:-1.7%"
+    "summary": "no_draw:+5.0% | moneyline:-1.5% | other:-2.1%"
   }
 }
