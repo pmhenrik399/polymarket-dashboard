@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-12T01:25:06Z",
+    "last_updated": "2026-05-12T05:02:22Z",
     "currency": "NOK",
     "usd_nok_rate": 9.188785
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 666.4000000000048,
+    "balance_nok": 589.8000000000048,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -13.100000000000051,
-    "trades_this_month": 165,
+    "trades_this_month": 167,
     "wins_this_month": 84,
     "losses_this_month": 73
   },
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2098,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.365,
+      "current_price_usd": 0.315,
       "slippage_pct": 2.33,
       "shares": 19.66,
       "cost_usd": 4.12,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-10T07:33:41Z",
       "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 28
+      "unrealized_pnl_nok": 19
     },
     {
       "id": "pos_149",
@@ -187,7 +187,7 @@
       "side": "YES",
       "entry_price_usd": 0.2922,
       "mid_price_usd": 0.285,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.295,
       "slippage_pct": 2.52,
       "shares": 13.74,
       "cost_usd": 4.02,
@@ -212,7 +212,7 @@
       "side": "NO",
       "entry_price_usd": 0.4639,
       "mid_price_usd": 0.455,
-      "current_price_usd": 0.45,
+      "current_price_usd": 0.445,
       "slippage_pct": 1.95,
       "shares": 8.66,
       "cost_usd": 4.02,
@@ -237,7 +237,7 @@
       "side": "NO",
       "entry_price_usd": 0.791,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.791,
+      "current_price_usd": 0.775,
       "slippage_pct": 2.07,
       "shares": 5.23,
       "cost_usd": 4.14,
@@ -251,6 +251,58 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-12T01:25:12Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_166",
+      "market_id": "2113276",
+      "question": "Will CA Osasuna vs. Club Atlético de Madrid end in a draw?",
+      "slug": "lal-osa-mad-2026-05-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7509,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 0.7509,
+      "slippage_pct": 2.16,
+      "shares": 5.51,
+      "cost_usd": 4.14,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.116,
+      "our_probability": 0.861,
+      "signals": [
+        "bookie:draw=14%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-12T05:02:28Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_167",
+      "market_id": "2036482",
+      "question": "Will Al Nassr Saudi Club vs. Al Hilal Saudi Club end in a draw?",
+      "slug": "spl-nsr-hil-2026-05-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7591,
+      "mid_price_usd": 0.745,
+      "current_price_usd": 0.7591,
+      "slippage_pct": 1.9,
+      "shares": 5.45,
+      "cost_usd": 4.14,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.825,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-12T05:02:29Z",
       "end_date": "2026-05-12",
       "unrealized_pnl_nok": 0
     }
@@ -5213,7 +5265,7 @@
     ],
     "avg_clv": 0.0018
   },
-  "next_position_id": 166,
+  "next_position_id": 168,
   "learning": {
     "category_weights": {
       "esport": 0,
