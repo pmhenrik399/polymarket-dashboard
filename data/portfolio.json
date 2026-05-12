@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-12T22:12:18Z",
+    "last_updated": "2026-05-12T23:19:14Z",
     "currency": "NOK",
     "usd_nok_rate": 9.188785
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 489.300000000005,
+    "balance_nok": 537.000000000005,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,37 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -74.00000000000004,
+    "realized_pnl_nok": -137.90000000000003,
     "trades_this_month": 171,
-    "wins_this_month": 85,
-    "losses_this_month": 75
+    "wins_this_month": 86,
+    "losses_this_month": 77
   },
   "positions": [
-    {
-      "id": "pos_149",
-      "market_id": "2217381",
-      "question": "Spread: US Catanzaro 1929 (-1.5)",
-      "slug": "itsb-cat-ave-2026-05-12-spread-home-1pt5",
-      "side": "NO",
-      "entry_price_usd": 0.8061,
-      "mid_price_usd": 0.785,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.69,
-      "shares": 4.71,
-      "cost_usd": 3.8,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.214349,
-      "edge_at_entry": 0.111,
-      "our_probability": 0.906,
-      "signals": [
-        "bookie:9%vs78%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-10T18:08:09Z",
-      "end_date": "2026-05-12",
-      "unrealized_pnl_nok": -34
-    },
     {
       "id": "pos_154",
       "market_id": "2123451",
@@ -153,31 +128,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_165",
-      "market_id": "2113270",
-      "question": "Will Real Betis Balompié vs. Elche CF end in a draw?",
-      "slug": "lal-bet-elc-2026-05-12-draw",
-      "side": "NO",
-      "entry_price_usd": 0.791,
-      "mid_price_usd": 0.775,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.07,
-      "shares": 5.23,
-      "cost_usd": 4.14,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.188785,
-      "edge_at_entry": 0.05,
-      "our_probability": 0.835,
-      "signals": [
-        "bookie:draw=17%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-12T01:25:12Z",
-      "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 10
-    },
-    {
       "id": "pos_166",
       "market_id": "2113276",
       "question": "Will CA Osasuna vs. Club Atlético de Madrid end in a draw?",
@@ -201,33 +151,6 @@
       "opened_at": "2026-05-12T05:02:28Z",
       "end_date": "2026-05-12",
       "unrealized_pnl_nok": 12
-    },
-    {
-      "id": "pos_167",
-      "market_id": "2036482",
-      "question": "Will Al Nassr Saudi Club vs. Al Hilal Saudi Club end in a draw?",
-      "slug": "spl-nsr-hil-2026-05-12-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7591,
-      "mid_price_usd": 0.745,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.9,
-      "shares": 5.45,
-      "cost_usd": 4.14,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.188785,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.825,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-12T05:02:29Z",
-      "end_date": "2026-05-12",
-      "unrealized_pnl_nok": -37
     },
     {
       "id": "pos_168",
@@ -5093,6 +5016,102 @@
       "profit_nok": -37.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-12T22:12:15Z"
+    },
+    {
+      "id": "pos_149",
+      "market_id": "2217381",
+      "question": "Spread: US Catanzaro 1929 (-1.5)",
+      "slug": "itsb-cat-ave-2026-05-12-spread-home-1pt5",
+      "side": "NO",
+      "entry_price_usd": 0.8061,
+      "mid_price_usd": 0.785,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.69,
+      "shares": 4.71,
+      "cost_usd": 3.8,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.111,
+      "our_probability": 0.906,
+      "signals": [
+        "bookie:9%vs78%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-10T18:08:09Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.785,
+      "result": "LOSS",
+      "profit_nok": -35.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-12T23:19:09Z"
+    },
+    {
+      "id": "pos_165",
+      "market_id": "2113270",
+      "question": "Will Real Betis Balompié vs. Elche CF end in a draw?",
+      "slug": "lal-bet-elc-2026-05-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.791,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.07,
+      "shares": 5.23,
+      "cost_usd": 4.14,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.05,
+      "our_probability": 0.835,
+      "signals": [
+        "bookie:draw=17%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-12T01:25:12Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": 10,
+      "closing_price": 1.0,
+      "clv": 0.225,
+      "result": "WIN",
+      "profit_nok": 9.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-12T23:19:11Z"
+    },
+    {
+      "id": "pos_167",
+      "market_id": "2036482",
+      "question": "Will Al Nassr Saudi Club vs. Al Hilal Saudi Club end in a draw?",
+      "slug": "spl-nsr-hil-2026-05-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7591,
+      "mid_price_usd": 0.745,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.9,
+      "shares": 5.45,
+      "cost_usd": 4.14,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.825,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-12T05:02:29Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": -37,
+      "closing_price": 0.0,
+      "clv": -0.745,
+      "result": "LOSS",
+      "profit_nok": -38.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-12T23:19:12Z"
     }
   ],
   "trade_log": [
@@ -5229,9 +5248,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 85,
-    "total_losses": 75,
-    "total_realized_pnl_nok": -74.00000000000004,
+    "total_wins": 86,
+    "total_losses": 77,
+    "total_realized_pnl_nok": -137.90000000000003,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5387,9 +5406,12 @@
       0.3,
       0.31,
       -0.205,
-      -0.455
+      -0.455,
+      -0.785,
+      0.225,
+      -0.745
     ],
-    "avg_clv": -0.0007
+    "avg_clv": -0.0095
   },
   "next_position_id": 172,
   "learning": {
@@ -5397,12 +5419,12 @@
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.015,
-      "other": -0.021,
+      "other": -0.025,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | moneyline:-1.5% | other:-2.1%"
+    "summary": "no_draw:+5.0% | moneyline:-1.5% | other:-2.5%"
   }
 }
