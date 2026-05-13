@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-13T12:33:56Z",
+    "last_updated": "2026-05-13T15:33:18Z",
     "currency": "NOK",
     "usd_nok_rate": 9.183347
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 665.8000000000052,
+    "balance_nok": 597.2000000000053,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -127.10000000000001,
-    "trades_this_month": 172,
+    "trades_this_month": 174,
     "wins_this_month": 89,
     "losses_this_month": 78
   },
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2611,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.255,
+      "current_price_usd": 0.25,
       "slippage_pct": 2.41,
       "shares": 16.63,
       "cost_usd": 4.34,
@@ -75,7 +75,7 @@
       "category": "social_media",
       "opened_at": "2026-05-11T00:06:27Z",
       "end_date": "2026-05-13",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_155",
@@ -135,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.8189,
       "mid_price_usd": 0.8,
-      "current_price_usd": 0.81,
+      "current_price_usd": 0.815,
       "slippage_pct": 2.37,
       "shares": 5.18,
       "cost_usd": 4.24,
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2394,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.275,
+      "current_price_usd": 0.225,
       "slippage_pct": 1.86,
       "shares": 15.01,
       "cost_usd": 3.59,
@@ -177,7 +177,59 @@
       "category": "other",
       "opened_at": "2026-05-13T05:02:00Z",
       "end_date": "2026-05-14",
-      "unrealized_pnl_nok": 4
+      "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_173",
+      "market_id": "2088232",
+      "question": "Will FC Hradec Králové vs. FC Slovan Liberec end in a draw?",
+      "slug": "cze1-fhk-fsl-2026-05-13-draw",
+      "side": "NO",
+      "entry_price_usd": 0.722,
+      "mid_price_usd": 0.705,
+      "current_price_usd": 0.722,
+      "slippage_pct": 2.41,
+      "shares": 5.13,
+      "cost_usd": 3.7,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.183347,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.785,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-13T15:33:24Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_174",
+      "market_id": "2152082",
+      "question": "Villarreal CF leading at halftime?",
+      "slug": "lal-vil-sev-2026-05-13-halftime-result-home",
+      "side": "NO",
+      "entry_price_usd": 0.6354,
+      "mid_price_usd": 0.625,
+      "current_price_usd": 0.6354,
+      "slippage_pct": 1.67,
+      "shares": 5.83,
+      "cost_usd": 3.7,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.183347,
+      "edge_at_entry": 0.048,
+      "our_probability": 0.683,
+      "signals": [
+        "bookie:32%vs62%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-13T15:33:25Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -5469,7 +5521,7 @@
     ],
     "avg_clv": -0.0053
   },
-  "next_position_id": 173,
+  "next_position_id": 175,
   "learning": {
     "category_weights": {
       "esport": 0,
