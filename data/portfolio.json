@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-13T22:36:43Z",
+    "last_updated": "2026-05-13T23:41:03Z",
     "currency": "NOK",
     "usd_nok_rate": 9.183347
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 558.4000000000055,
+    "balance_nok": 610.5000000000057,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -95.7,
-    "trades_this_month": 178,
-    "wins_this_month": 91,
+    "realized_pnl_nok": -75.3,
+    "trades_this_month": 179,
+    "wins_this_month": 93,
     "losses_this_month": 78
   },
   "positions": [
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2394,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.185,
+      "current_price_usd": 0.135,
       "slippage_pct": 1.86,
       "shares": 15.01,
       "cost_usd": 3.59,
@@ -177,61 +177,7 @@
       "category": "other",
       "opened_at": "2026-05-13T05:02:00Z",
       "end_date": "2026-05-14",
-      "unrealized_pnl_nok": -7
-    },
-    {
-      "id": "pos_175",
-      "market_id": "2059965",
-      "question": "Will SS Lazio vs. FC Internazionale Milano end in a draw?",
-      "slug": "itc-laz-int-2026-05-13-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7586,
-      "mid_price_usd": 0.745,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.83,
-      "shares": 4.88,
-      "cost_usd": 3.7,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.183347,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.825,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-13T17:37:07Z",
-      "end_date": "2026-05-13",
-      "unrealized_pnl_nok": 10
-    },
-    {
-      "id": "pos_176",
-      "market_id": "2123955",
-      "question": "Will Rangers FC vs. Hibernian FC end in a draw?",
-      "slug": "scop-ran-hib-2026-05-13-draw",
-      "side": "NO",
-      "entry_price_usd": 0.751,
-      "mid_price_usd": 0.735,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.17,
-      "shares": 4.93,
-      "cost_usd": 3.7,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.183347,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.815,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-13T19:23:47Z",
-      "end_date": "2026-05-13",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": -14
     },
     {
       "id": "pos_177",
@@ -268,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.7503,
       "mid_price_usd": 0.73,
-      "current_price_usd": 0.7503,
+      "current_price_usd": 0.735,
       "slippage_pct": 2.79,
       "shares": 5.08,
       "cost_usd": 3.81,
@@ -285,6 +231,33 @@
       "category": "no_draw",
       "opened_at": "2026-05-13T22:36:49Z",
       "end_date": "2026-05-15",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_179",
+      "market_id": "2000018",
+      "question": "Will FC Cincinnati vs. Inter Miami CF end in a draw?",
+      "slug": "mls-fcc-mia-2026-05-13-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7936,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 0.7936,
+      "slippage_pct": 2.4,
+      "shares": 4.94,
+      "cost_usd": 3.92,
+      "cost_nok": 36,
+      "usd_nok_at_entry": 9.183347,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.855,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-13T23:41:11Z",
+      "end_date": "2026-05-13",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -5338,6 +5311,74 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-13T22:36:42Z"
+    },
+    {
+      "id": "pos_175",
+      "market_id": "2059965",
+      "question": "Will SS Lazio vs. FC Internazionale Milano end in a draw?",
+      "slug": "itc-laz-int-2026-05-13-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7586,
+      "mid_price_usd": 0.745,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.83,
+      "shares": 4.88,
+      "cost_usd": 3.7,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.183347,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.825,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-13T17:37:07Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 10,
+      "closing_price": 1.0,
+      "clv": 0.255,
+      "result": "WIN",
+      "profit_nok": 9.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-13T23:41:01Z"
+    },
+    {
+      "id": "pos_176",
+      "market_id": "2123955",
+      "question": "Will Rangers FC vs. Hibernian FC end in a draw?",
+      "slug": "scop-ran-hib-2026-05-13-draw",
+      "side": "NO",
+      "entry_price_usd": 0.751,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.17,
+      "shares": 4.93,
+      "cost_usd": 3.7,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.183347,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.815,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-13T19:23:47Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 11,
+      "closing_price": 1.0,
+      "clv": 0.265,
+      "result": "WIN",
+      "profit_nok": 10.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-13T23:41:02Z"
     }
   ],
   "trade_log": [
@@ -5474,9 +5515,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 91,
+    "total_wins": 93,
     "total_losses": 78,
-    "total_realized_pnl_nok": -95.7,
+    "total_realized_pnl_nok": -75.3,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5641,11 +5682,13 @@
       0.42,
       0.305,
       0.295,
-      0.375
+      0.375,
+      0.255,
+      0.265
     ],
-    "avg_clv": -0.0008
+    "avg_clv": 0.0025
   },
-  "next_position_id": 179,
+  "next_position_id": 180,
   "learning": {
     "category_weights": {
       "esport": 0,
