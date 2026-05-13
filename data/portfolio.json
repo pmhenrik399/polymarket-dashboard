@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-12T23:19:14Z",
+    "last_updated": "2026-05-13T01:20:55Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.188785
+    "usd_nok_rate": 9.183347
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 537.000000000005,
+    "balance_nok": 648.4000000000051,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -137.90000000000003,
+    "realized_pnl_nok": -140.8,
     "trades_this_month": 171,
-    "wins_this_month": 86,
-    "losses_this_month": 77
+    "wins_this_month": 88,
+    "losses_this_month": 78
   },
   "positions": [
     {
@@ -128,31 +128,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_166",
-      "market_id": "2113276",
-      "question": "Will CA Osasuna vs. Club Atlético de Madrid end in a draw?",
-      "slug": "lal-osa-mad-2026-05-12-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7509,
-      "mid_price_usd": 0.735,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.16,
-      "shares": 5.51,
-      "cost_usd": 4.14,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.188785,
-      "edge_at_entry": 0.116,
-      "our_probability": 0.861,
-      "signals": [
-        "bookie:draw=14%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-12T05:02:28Z",
-      "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 12
-    },
-    {
       "id": "pos_168",
       "market_id": "2088235",
       "question": "Will SK Slavia Praha vs. FK Jablonec end in a draw?",
@@ -178,56 +153,6 @@
       "opened_at": "2026-05-12T15:21:22Z",
       "end_date": "2026-05-13",
       "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_169",
-      "market_id": "2113274",
-      "question": "Will CA Osasuna win on 2026-05-12?",
-      "slug": "lal-osa-mad-2026-05-12-osa",
-      "side": "YES",
-      "entry_price_usd": 0.3933,
-      "mid_price_usd": 0.385,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.15,
-      "shares": 10.79,
-      "cost_usd": 4.24,
-      "cost_nok": 39,
-      "usd_nok_at_entry": 9.188785,
-      "edge_at_entry": 0.068,
-      "our_probability": 0.463,
-      "signals": [
-        "bookie:46%vs38%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-12T17:30:10Z",
-      "end_date": "2026-05-12",
-      "unrealized_pnl_nok": -38
-    },
-    {
-      "id": "pos_170",
-      "market_id": "2113514",
-      "question": "CA Osasuna vs. Club Atlético de Madrid: Both Teams to Score",
-      "slug": "lal-osa-mad-2026-05-12-btts",
-      "side": "YES",
-      "entry_price_usd": 0.5909,
-      "mid_price_usd": 0.58,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.89,
-      "shares": 6.81,
-      "cost_usd": 4.03,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.188785,
-      "edge_at_entry": 0.187,
-      "our_probability": 0.777,
-      "signals": [
-        "bookie:78%vs58%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-12T19:19:49Z",
-      "end_date": "2026-05-12",
-      "unrealized_pnl_nok": 25
     },
     {
       "id": "pos_171",
@@ -5112,6 +5037,101 @@
       "profit_nok": -38.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-12T23:19:12Z"
+    },
+    {
+      "id": "pos_166",
+      "market_id": "2113276",
+      "question": "Will CA Osasuna vs. Club Atlético de Madrid end in a draw?",
+      "slug": "lal-osa-mad-2026-05-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7509,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.16,
+      "shares": 5.51,
+      "cost_usd": 4.14,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.116,
+      "our_probability": 0.861,
+      "signals": [
+        "bookie:draw=14%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-12T05:02:28Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": 12,
+      "closing_price": 1.0,
+      "clv": 0.265,
+      "result": "WIN",
+      "profit_nok": 11.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-13T01:20:52Z"
+    },
+    {
+      "id": "pos_169",
+      "market_id": "2113274",
+      "question": "Will CA Osasuna win on 2026-05-12?",
+      "slug": "lal-osa-mad-2026-05-12-osa",
+      "side": "YES",
+      "entry_price_usd": 0.3933,
+      "mid_price_usd": 0.385,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.15,
+      "shares": 10.79,
+      "cost_usd": 4.24,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.068,
+      "our_probability": 0.463,
+      "signals": [
+        "bookie:46%vs38%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-12T17:30:10Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": -38,
+      "closing_price": 0.0,
+      "clv": -0.385,
+      "result": "LOSS",
+      "profit_nok": -39.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-13T01:20:53Z"
+    },
+    {
+      "id": "pos_170",
+      "market_id": "2113514",
+      "question": "CA Osasuna vs. Club Atlético de Madrid: Both Teams to Score",
+      "slug": "lal-osa-mad-2026-05-12-btts",
+      "side": "YES",
+      "entry_price_usd": 0.5909,
+      "mid_price_usd": 0.58,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.89,
+      "shares": 6.81,
+      "cost_usd": 4.03,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.187,
+      "our_probability": 0.777,
+      "signals": [
+        "bookie:78%vs58%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-12T19:19:49Z",
+      "end_date": "2026-05-12",
+      "unrealized_pnl_nok": 25,
+      "closing_price": 1.0,
+      "clv": 0.42,
+      "result": "WIN",
+      "profit_nok": 24.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-13T01:20:54Z"
     }
   ],
   "trade_log": [
@@ -5248,9 +5268,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 86,
-    "total_losses": 77,
-    "total_realized_pnl_nok": -137.90000000000003,
+    "total_wins": 88,
+    "total_losses": 78,
+    "total_realized_pnl_nok": -140.8,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5409,22 +5429,25 @@
       -0.455,
       -0.785,
       0.225,
-      -0.745
+      -0.745,
+      0.265,
+      -0.385,
+      0.42
     ],
-    "avg_clv": -0.0095
+    "avg_clv": -0.0073
   },
   "next_position_id": 172,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
-      "moneyline": -0.015,
-      "other": -0.025,
+      "moneyline": -0.027,
+      "other": -0.019,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | moneyline:-1.5% | other:-2.5%"
+    "summary": "no_draw:+5.0% | other:-1.9% | moneyline:-2.7%"
   }
 }
