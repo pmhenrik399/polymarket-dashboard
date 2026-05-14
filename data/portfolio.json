@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-14T05:30:20Z",
+    "last_updated": "2026-05-14T08:12:03Z",
     "currency": "NOK",
     "usd_nok_rate": 9.168044
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 715.700000000006,
+    "balance_nok": 694.8000000000061,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -50.79999999999997,
-    "trades_this_month": 182,
-    "wins_this_month": 96,
+    "realized_pnl_nok": -37.099999999999966,
+    "trades_this_month": 184,
+    "wins_this_month": 97,
     "losses_this_month": 80
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2394,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.14,
+      "current_price_usd": 0.155,
       "slippage_pct": 1.86,
       "shares": 15.01,
       "cost_usd": 3.59,
@@ -75,34 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-13T05:02:00Z",
       "end_date": "2026-05-14",
-      "unrealized_pnl_nok": -13
-    },
-    {
-      "id": "pos_177",
-      "market_id": "1999038",
-      "question": "Will Ceará SC vs. CA Mineiro end in a draw?",
-      "slug": "brco-csc-cam-2026-05-13-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6983,
-      "mid_price_usd": 0.685,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.94,
-      "shares": 5.3,
-      "cost_usd": 3.7,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.183347,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.765,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-13T21:07:10Z",
-      "end_date": "2026-05-14",
-      "unrealized_pnl_nok": 14
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_178",
@@ -139,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.4318,
       "mid_price_usd": 0.42,
-      "current_price_usd": 0.755,
+      "current_price_usd": 0.76,
       "slippage_pct": 2.8,
       "shares": 9.09,
       "cost_usd": 3.93,
@@ -154,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-14T01:33:02Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 26
+      "unrealized_pnl_nok": 27
     },
     {
       "id": "pos_181",
@@ -189,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.5745,
+      "current_price_usd": 0.505,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -204,6 +177,58 @@
       "category": "other",
       "opened_at": "2026-05-14T05:30:26Z",
       "end_date": "2026-05-17",
+      "unrealized_pnl_nok": -4
+    },
+    {
+      "id": "pos_183",
+      "market_id": "2016529",
+      "question": "Will Yunnan Yukun FC vs. Shanghai Shenhua FC end in a draw?",
+      "slug": "chi-yun-sgr-2026-05-16-draw",
+      "side": "NO",
+      "entry_price_usd": 0.794,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 0.794,
+      "slippage_pct": 2.45,
+      "shares": 5.08,
+      "cost_usd": 4.04,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.168044,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.855,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-14T08:12:10Z",
+      "end_date": "2026-05-16",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_184",
+      "market_id": "2247828",
+      "question": "Will the lowest temperature in Paris be 5°C on May 16?",
+      "slug": "lowest-temperature-in-paris-on-may-16-2026-5c",
+      "side": "YES",
+      "entry_price_usd": 0.2309,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.2309,
+      "slippage_pct": 2.62,
+      "shares": 14.64,
+      "cost_usd": 3.38,
+      "cost_nok": 31,
+      "usd_nok_at_entry": 9.168044,
+      "edge_at_entry": 0.041,
+      "our_probability": 0.276,
+      "signals": [
+        "bookie:28%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-14T08:12:10Z",
+      "end_date": "2026-05-16",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -5487,6 +5512,40 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-14T05:30:18Z"
+    },
+    {
+      "id": "pos_177",
+      "market_id": "1999038",
+      "question": "Will Ceará SC vs. CA Mineiro end in a draw?",
+      "slug": "brco-csc-cam-2026-05-13-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6983,
+      "mid_price_usd": 0.685,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.94,
+      "shares": 5.3,
+      "cost_usd": 3.7,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.183347,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.765,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-13T21:07:10Z",
+      "end_date": "2026-05-14",
+      "unrealized_pnl_nok": 14,
+      "closing_price": 1.0,
+      "clv": 0.315,
+      "result": "WIN",
+      "profit_nok": 13.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-14T08:12:01Z"
     }
   ],
   "trade_log": [
@@ -5623,9 +5682,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 96,
+    "total_wins": 97,
     "total_losses": 80,
-    "total_realized_pnl_nok": -50.79999999999997,
+    "total_realized_pnl_nok": -37.099999999999966,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5797,22 +5856,23 @@
       -0.555,
       0.715,
       0.2,
-      0.225
+      0.225,
+      0.315
     ],
-    "avg_clv": 0.0045
+    "avg_clv": 0.0065
   },
-  "next_position_id": 183,
+  "next_position_id": 185,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.02,
       "other": -0.013,
-      "social_media": -0.05,
+      "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-1.3% | moneyline:-2.0% | social_media:-5.0%"
+    "summary": "no_draw:+5.0% | other:-1.3% | moneyline:-2.0%"
   }
 }
