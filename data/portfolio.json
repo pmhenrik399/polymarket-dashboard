@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-14T20:25:15Z",
+    "last_updated": "2026-05-14T21:44:45Z",
     "currency": "NOK",
     "usd_nok_rate": 9.168044
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -37.099999999999966,
+    "realized_pnl_nok": -73.39999999999996,
     "trades_this_month": 186,
     "wins_this_month": 97,
-    "losses_this_month": 80
+    "losses_this_month": 81
   },
   "positions": [
     {
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.4318,
       "mid_price_usd": 0.42,
-      "current_price_usd": 0.825,
+      "current_price_usd": 0.81,
       "slippage_pct": 2.8,
       "shares": 9.09,
       "cost_usd": 3.93,
@@ -127,32 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-14T01:33:02Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 32
-    },
-    {
-      "id": "pos_181",
-      "market_id": "2152026",
-      "question": "Valencia CF vs. Rayo Vallecano de Madrid: Draw at halftime?",
-      "slug": "lal-val-ray-2026-05-14-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.5766,
-      "mid_price_usd": 0.565,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.06,
-      "shares": 6.81,
-      "cost_usd": 3.93,
-      "cost_nok": 36,
-      "usd_nok_at_entry": 9.168044,
-      "edge_at_entry": 0.136,
-      "our_probability": 0.711,
-      "signals": [
-        "bookie:draw=29%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-14T01:33:02Z",
-      "end_date": "2026-05-14",
-      "unrealized_pnl_nok": -35
+      "unrealized_pnl_nok": 31
     },
     {
       "id": "pos_182",
@@ -162,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.885,
+      "current_price_usd": 0.87,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -214,7 +189,7 @@
       "side": "YES",
       "entry_price_usd": 0.2309,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.335,
       "slippage_pct": 2.62,
       "shares": 14.64,
       "cost_usd": 3.38,
@@ -229,7 +204,7 @@
       "category": "other",
       "opened_at": "2026-05-14T08:12:10Z",
       "end_date": "2026-05-16",
-      "unrealized_pnl_nok": 6
+      "unrealized_pnl_nok": 13
     },
     {
       "id": "pos_185",
@@ -239,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.835,
+      "current_price_usd": 0.84,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -5596,6 +5571,37 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-14T08:12:01Z"
+    },
+    {
+      "id": "pos_181",
+      "market_id": "2152026",
+      "question": "Valencia CF vs. Rayo Vallecano de Madrid: Draw at halftime?",
+      "slug": "lal-val-ray-2026-05-14-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.5766,
+      "mid_price_usd": 0.565,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.06,
+      "shares": 6.81,
+      "cost_usd": 3.93,
+      "cost_nok": 36,
+      "usd_nok_at_entry": 9.168044,
+      "edge_at_entry": 0.136,
+      "our_probability": 0.711,
+      "signals": [
+        "bookie:draw=29%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-14T01:33:02Z",
+      "end_date": "2026-05-14",
+      "unrealized_pnl_nok": -35,
+      "closing_price": 0.0,
+      "clv": -0.565,
+      "result": "LOSS",
+      "profit_nok": -36.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-14T21:44:43Z"
     }
   ],
   "trade_log": [
@@ -5733,8 +5739,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 97,
-    "total_losses": 80,
-    "total_realized_pnl_nok": -37.099999999999966,
+    "total_losses": 81,
+    "total_realized_pnl_nok": -73.39999999999996,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5907,9 +5913,10 @@
       0.715,
       0.2,
       0.225,
-      0.315
+      0.315,
+      -0.565
     ],
-    "avg_clv": 0.0065
+    "avg_clv": 0.0029
   },
   "next_position_id": 187,
   "learning": {
