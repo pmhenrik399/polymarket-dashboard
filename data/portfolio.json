@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-13T23:41:03Z",
+    "last_updated": "2026-05-14T01:32:55Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.183347
+    "usd_nok_rate": 9.168044
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 610.5000000000057,
+    "balance_nok": 708.3000000000059,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,114 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -75.3,
-    "trades_this_month": 179,
-    "wins_this_month": 93,
-    "losses_this_month": 78
+    "realized_pnl_nok": -59.49999999999997,
+    "trades_this_month": 181,
+    "wins_this_month": 95,
+    "losses_this_month": 80
   },
   "positions": [
-    {
-      "id": "pos_154",
-      "market_id": "2123451",
-      "question": "Spread: FC Barcelona (-1.5)",
-      "slug": "lal-ala-bar-2026-05-13-spread-away-1pt5",
-      "side": "YES",
-      "entry_price_usd": 0.2611,
-      "mid_price_usd": 0.255,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.41,
-      "shares": 16.63,
-      "cost_usd": 4.34,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.214349,
-      "edge_at_entry": 0.184,
-      "our_probability": 0.449,
-      "signals": [
-        "bookie:45%vs26%",
-        "ob:-0.010"
-      ],
-      "category": "social_media",
-      "opened_at": "2026-05-11T00:06:27Z",
-      "end_date": "2026-05-13",
-      "unrealized_pnl_nok": -39
-    },
-    {
-      "id": "pos_155",
-      "market_id": "2123239",
-      "question": "Will Getafe CF win on 2026-05-13?",
-      "slug": "lal-get-mal-2026-05-13-get",
-      "side": "NO",
-      "entry_price_usd": 0.5633,
-      "mid_price_usd": 0.555,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.5,
-      "shares": 7.32,
-      "cost_usd": 4.12,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.213711,
-      "edge_at_entry": 0.163,
-      "our_probability": 0.728,
-      "signals": [
-        "bookie:27%vs56%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-11T08:02:47Z",
-      "end_date": "2026-05-13",
-      "unrealized_pnl_nok": -37
-    },
-    {
-      "id": "pos_162",
-      "market_id": "2123235",
-      "question": "Will Deportivo Alavés win on 2026-05-13?",
-      "slug": "lal-ala-bar-2026-05-13-ala",
-      "side": "YES",
-      "entry_price_usd": 0.2922,
-      "mid_price_usd": 0.285,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.52,
-      "shares": 13.74,
-      "cost_usd": 4.02,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.213711,
-      "edge_at_entry": 0.135,
-      "our_probability": 0.43,
-      "signals": [
-        "bookie:43%vs28%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-05-11T14:05:03Z",
-      "end_date": "2026-05-13",
-      "unrealized_pnl_nok": 89
-    },
-    {
-      "id": "pos_168",
-      "market_id": "2088235",
-      "question": "Will SK Slavia Praha vs. FK Jablonec end in a draw?",
-      "slug": "cze1-ssp-fkj-2026-05-13-draw",
-      "side": "NO",
-      "entry_price_usd": 0.8189,
-      "mid_price_usd": 0.8,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.37,
-      "shares": 5.18,
-      "cost_usd": 4.24,
-      "cost_nok": 39,
-      "usd_nok_at_entry": 9.188785,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.88,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-12T15:21:22Z",
-      "end_date": "2026-05-13",
-      "unrealized_pnl_nok": 8
-    },
     {
       "id": "pos_172",
       "market_id": "2237553",
@@ -162,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2394,
       "mid_price_usd": 0.235,
-      "current_price_usd": 0.135,
+      "current_price_usd": 0.17,
       "slippage_pct": 1.86,
       "shares": 15.01,
       "cost_usd": 3.59,
@@ -177,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-13T05:02:00Z",
       "end_date": "2026-05-14",
-      "unrealized_pnl_nok": -14
+      "unrealized_pnl_nok": -9
     },
     {
       "id": "pos_177",
@@ -187,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6983,
       "mid_price_usd": 0.685,
-      "current_price_usd": 0.69,
+      "current_price_usd": 0.5,
       "slippage_pct": 1.94,
       "shares": 5.3,
       "cost_usd": 3.7,
@@ -204,7 +102,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-13T21:07:10Z",
       "end_date": "2026-05-14",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -9
     },
     {
       "id": "pos_178",
@@ -241,7 +139,7 @@
       "side": "NO",
       "entry_price_usd": 0.7936,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.7936,
+      "current_price_usd": 0.46,
       "slippage_pct": 2.4,
       "shares": 4.94,
       "cost_usd": 3.92,
@@ -258,6 +156,56 @@
       "category": "no_draw",
       "opened_at": "2026-05-13T23:41:11Z",
       "end_date": "2026-05-13",
+      "unrealized_pnl_nok": -15
+    },
+    {
+      "id": "pos_180",
+      "market_id": "2231951",
+      "question": "Will Tommy Fleetwood finish in the Top 10 at the 2026 PGA Championship?",
+      "slug": "2026-pga-championship-top10-tommy-fleetwood",
+      "side": "NO",
+      "entry_price_usd": 0.4318,
+      "mid_price_usd": 0.42,
+      "current_price_usd": 0.4318,
+      "slippage_pct": 2.8,
+      "shares": 9.09,
+      "cost_usd": 3.93,
+      "cost_nok": 36,
+      "usd_nok_at_entry": 9.168044,
+      "edge_at_entry": 0.294,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs42%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-14T01:33:02Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_181",
+      "market_id": "2152026",
+      "question": "Valencia CF vs. Rayo Vallecano de Madrid: Draw at halftime?",
+      "slug": "lal-val-ray-2026-05-14-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.5766,
+      "mid_price_usd": 0.565,
+      "current_price_usd": 0.5766,
+      "slippage_pct": 2.06,
+      "shares": 6.81,
+      "cost_usd": 3.93,
+      "cost_nok": 36,
+      "usd_nok_at_entry": 9.168044,
+      "edge_at_entry": 0.136,
+      "our_probability": 0.711,
+      "signals": [
+        "bookie:draw=29%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-14T01:33:02Z",
+      "end_date": "2026-05-14",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -5379,6 +5327,134 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-13T23:41:02Z"
+    },
+    {
+      "id": "pos_154",
+      "market_id": "2123451",
+      "question": "Spread: FC Barcelona (-1.5)",
+      "slug": "lal-ala-bar-2026-05-13-spread-away-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2611,
+      "mid_price_usd": 0.255,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.41,
+      "shares": 16.63,
+      "cost_usd": 4.34,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.214349,
+      "edge_at_entry": 0.184,
+      "our_probability": 0.449,
+      "signals": [
+        "bookie:45%vs26%",
+        "ob:-0.010"
+      ],
+      "category": "social_media",
+      "opened_at": "2026-05-11T00:06:27Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": -39,
+      "closing_price": 0.0,
+      "clv": -0.255,
+      "result": "LOSS",
+      "profit_nok": -40.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-14T01:32:50Z"
+    },
+    {
+      "id": "pos_155",
+      "market_id": "2123239",
+      "question": "Will Getafe CF win on 2026-05-13?",
+      "slug": "lal-get-mal-2026-05-13-get",
+      "side": "NO",
+      "entry_price_usd": 0.5633,
+      "mid_price_usd": 0.555,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.5,
+      "shares": 7.32,
+      "cost_usd": 4.12,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.163,
+      "our_probability": 0.728,
+      "signals": [
+        "bookie:27%vs56%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-11T08:02:47Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": -37,
+      "closing_price": 0.0,
+      "clv": -0.555,
+      "result": "LOSS",
+      "profit_nok": -38.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-14T01:32:51Z"
+    },
+    {
+      "id": "pos_162",
+      "market_id": "2123235",
+      "question": "Will Deportivo Alavés win on 2026-05-13?",
+      "slug": "lal-ala-bar-2026-05-13-ala",
+      "side": "YES",
+      "entry_price_usd": 0.2922,
+      "mid_price_usd": 0.285,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.52,
+      "shares": 13.74,
+      "cost_usd": 4.02,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.213711,
+      "edge_at_entry": 0.135,
+      "our_probability": 0.43,
+      "signals": [
+        "bookie:43%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-11T14:05:03Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 89,
+      "closing_price": 1.0,
+      "clv": 0.715,
+      "result": "WIN",
+      "profit_nok": 86.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-14T01:32:52Z"
+    },
+    {
+      "id": "pos_168",
+      "market_id": "2088235",
+      "question": "Will SK Slavia Praha vs. FK Jablonec end in a draw?",
+      "slug": "cze1-ssp-fkj-2026-05-13-draw",
+      "side": "NO",
+      "entry_price_usd": 0.8189,
+      "mid_price_usd": 0.8,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.37,
+      "shares": 5.18,
+      "cost_usd": 4.24,
+      "cost_nok": 39,
+      "usd_nok_at_entry": 9.188785,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.88,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-12T15:21:22Z",
+      "end_date": "2026-05-13",
+      "unrealized_pnl_nok": 8,
+      "closing_price": 1.0,
+      "clv": 0.2,
+      "result": "WIN",
+      "profit_nok": 7.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-14T01:32:52Z"
     }
   ],
   "trade_log": [
@@ -5515,9 +5591,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 93,
-    "total_losses": 78,
-    "total_realized_pnl_nok": -75.3,
+    "total_wins": 95,
+    "total_losses": 80,
+    "total_realized_pnl_nok": -59.49999999999997,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -5684,22 +5760,26 @@
       0.295,
       0.375,
       0.255,
-      0.265
+      0.265,
+      -0.255,
+      -0.555,
+      0.715,
+      0.2
     ],
-    "avg_clv": 0.0025
+    "avg_clv": 0.0031
   },
-  "next_position_id": 180,
+  "next_position_id": 182,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
-      "moneyline": -0.027,
+      "moneyline": -0.02,
       "other": -0.013,
-      "social_media": 0,
+      "social_media": -0.05,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-1.3% | moneyline:-2.7%"
+    "summary": "no_draw:+5.0% | other:-1.3% | moneyline:-2.0% | social_media:-5.0%"
   }
 }
