@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-15T18:54:32Z",
+    "last_updated": "2026-05-15T20:16:36Z",
     "currency": "NOK",
     "usd_nok_rate": 9.240875
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 669.2000000000066,
+    "balance_nok": 627.9000000000067,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 72.40000000000003,
-    "trades_this_month": 192,
+    "trades_this_month": 193,
     "wins_this_month": 101,
     "losses_this_month": 81
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.4318,
       "mid_price_usd": 0.42,
-      "current_price_usd": 0.9505,
+      "current_price_usd": 0.986,
       "slippage_pct": 2.8,
       "shares": 9.09,
       "cost_usd": 3.93,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-14T01:33:02Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 43
+      "unrealized_pnl_nok": 46
     },
     {
       "id": "pos_182",
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.943,
+      "current_price_usd": 0.9395,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.794,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.765,
+      "current_price_usd": 0.775,
       "slippage_pct": 2.45,
       "shares": 5.08,
       "cost_usd": 4.04,
@@ -127,7 +127,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-14T08:12:10Z",
       "end_date": "2026-05-16",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_184",
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.2309,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.29,
       "slippage_pct": 2.62,
       "shares": 14.64,
       "cost_usd": 3.38,
@@ -162,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.815,
+      "current_price_usd": 0.79,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -177,7 +177,7 @@
       "category": "other",
       "opened_at": "2026-05-14T10:35:53Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 6
+      "unrealized_pnl_nok": 5
     },
     {
       "id": "pos_187",
@@ -241,7 +241,7 @@
       "side": "NO",
       "entry_price_usd": 0.7944,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.78,
       "slippage_pct": 2.5,
       "shares": 5.59,
       "cost_usd": 4.44,
@@ -258,7 +258,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-15T05:37:15Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_191",
@@ -293,7 +293,7 @@
       "side": "NO",
       "entry_price_usd": 0.6085,
       "mid_price_usd": 0.595,
-      "current_price_usd": 0.815,
+      "current_price_usd": 0.73,
       "slippage_pct": 2.27,
       "shares": 7.29,
       "cost_usd": 4.44,
@@ -308,7 +308,32 @@
       "category": "other",
       "opened_at": "2026-05-15T15:26:12Z",
       "end_date": "2026-05-15",
-      "unrealized_pnl_nok": 13
+      "unrealized_pnl_nok": 8
+    },
+    {
+      "id": "pos_193",
+      "market_id": "2232016",
+      "question": "Will Ludvig Aberg finish in the Top 20 at the 2026 PGA Championship?",
+      "slug": "2026-pga-championship-top20-ludvig-aberg",
+      "side": "NO",
+      "entry_price_usd": 0.588,
+      "mid_price_usd": 0.575,
+      "current_price_usd": 0.588,
+      "slippage_pct": 2.26,
+      "shares": 7.55,
+      "cost_usd": 4.44,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.240875,
+      "edge_at_entry": 0.139,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs57%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-15T20:16:42Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -6108,7 +6133,7 @@
     ],
     "avg_clv": 0.0129
   },
-  "next_position_id": 193,
+  "next_position_id": 194,
   "learning": {
     "category_weights": {
       "esport": 0,
