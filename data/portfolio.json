@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-15T01:31:14Z",
+    "last_updated": "2026-05-15T05:37:07Z",
     "currency": "NOK",
     "usd_nok_rate": 9.240875
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 736.0000000000064,
+    "balance_nok": 653.4000000000065,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 50.00000000000003,
-    "trades_this_month": 188,
+    "trades_this_month": 190,
     "wins_this_month": 99,
     "losses_this_month": 81
   },
@@ -87,7 +87,7 @@
       "side": "NO",
       "entry_price_usd": 0.4318,
       "mid_price_usd": 0.42,
-      "current_price_usd": 0.84,
+      "current_price_usd": 0.845,
       "slippage_pct": 2.8,
       "shares": 9.09,
       "cost_usd": 3.93,
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.89,
+      "current_price_usd": 0.895,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -189,7 +189,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.83,
+      "current_price_usd": 0.845,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -204,7 +204,7 @@
       "category": "other",
       "opened_at": "2026-05-14T10:35:53Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_187",
@@ -241,7 +241,7 @@
       "side": "NO",
       "entry_price_usd": 0.7604,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.7604,
+      "current_price_usd": 0.75,
       "slippage_pct": 2.07,
       "shares": 5.83,
       "cost_usd": 4.44,
@@ -257,6 +257,60 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-15T01:31:21Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_189",
+      "market_id": "2008391",
+      "question": "Will Tianjin Jinmen Hu FC vs. Chengdu Rongcheng FC end in a draw?",
+      "slug": "chi-jin-ron-2026-05-15-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7732,
+      "mid_price_usd": 0.755,
+      "current_price_usd": 0.7732,
+      "slippage_pct": 2.42,
+      "shares": 5.74,
+      "cost_usd": 4.44,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.240875,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.835,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-15T05:37:15Z",
+      "end_date": "2026-05-15",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_190",
+      "market_id": "2254369",
+      "question": "Will Hammarby IF vs. Malmo FF end in a draw?",
+      "slug": "swe-hif-mal-2026-05-17-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7944,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 0.7944,
+      "slippage_pct": 2.5,
+      "shares": 5.59,
+      "cost_usd": 4.44,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.240875,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.855,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-15T05:37:15Z",
       "end_date": "2026-05-17",
       "unrealized_pnl_nok": 0
     }
@@ -5988,7 +6042,7 @@
     ],
     "avg_clv": 0.0099
   },
-  "next_position_id": 189,
+  "next_position_id": 191,
   "learning": {
     "category_weights": {
       "esport": 0,
