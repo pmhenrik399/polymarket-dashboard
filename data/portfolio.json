@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-15T15:26:07Z",
+    "last_updated": "2026-05-15T17:10:19Z",
     "currency": "NOK",
     "usd_nok_rate": 9.240875
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 570.8000000000065,
+    "balance_nok": 623.5000000000066,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 50.00000000000003,
+    "realized_pnl_nok": 61.70000000000003,
     "trades_this_month": 192,
-    "wins_this_month": 99,
+    "wins_this_month": 100,
     "losses_this_month": 81
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.7503,
       "mid_price_usd": 0.73,
-      "current_price_usd": 0.9945,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.79,
       "shares": 5.08,
       "cost_usd": 3.81,
@@ -87,7 +87,7 @@
       "side": "NO",
       "entry_price_usd": 0.4318,
       "mid_price_usd": 0.42,
-      "current_price_usd": 0.9475,
+      "current_price_usd": 0.946,
       "slippage_pct": 2.8,
       "shares": 9.09,
       "cost_usd": 3.93,
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.87,
+      "current_price_usd": 0.9385,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-14T05:30:26Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 19
+      "unrealized_pnl_nok": 23
     },
     {
       "id": "pos_183",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.794,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.755,
+      "current_price_usd": 0.77,
       "slippage_pct": 2.45,
       "shares": 5.08,
       "cost_usd": 4.04,
@@ -164,7 +164,7 @@
       "side": "YES",
       "entry_price_usd": 0.2309,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.29,
+      "current_price_usd": 0.275,
       "slippage_pct": 2.62,
       "shares": 14.64,
       "cost_usd": 3.38,
@@ -179,7 +179,7 @@
       "category": "other",
       "opened_at": "2026-05-14T08:12:10Z",
       "end_date": "2026-05-16",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 5
     },
     {
       "id": "pos_185",
@@ -189,7 +189,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.825,
+      "current_price_usd": 0.835,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -261,33 +261,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_189",
-      "market_id": "2008391",
-      "question": "Will Tianjin Jinmen Hu FC vs. Chengdu Rongcheng FC end in a draw?",
-      "slug": "chi-jin-ron-2026-05-15-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7732,
-      "mid_price_usd": 0.755,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.42,
-      "shares": 5.74,
-      "cost_usd": 4.44,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.240875,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.835,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-15T05:37:15Z",
-      "end_date": "2026-05-15",
-      "unrealized_pnl_nok": 12
-    },
-    {
       "id": "pos_190",
       "market_id": "2254369",
       "question": "Will Hammarby IF vs. Malmo FF end in a draw?",
@@ -322,7 +295,7 @@
       "side": "YES",
       "entry_price_usd": 0.3598,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.175,
+      "current_price_usd": 0.1,
       "slippage_pct": 2.79,
       "shares": 12.33,
       "cost_usd": 4.44,
@@ -337,7 +310,7 @@
       "category": "other",
       "opened_at": "2026-05-15T13:01:50Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -21
+      "unrealized_pnl_nok": -29
     },
     {
       "id": "pos_192",
@@ -347,7 +320,7 @@
       "side": "NO",
       "entry_price_usd": 0.6085,
       "mid_price_usd": 0.595,
-      "current_price_usd": 0.6085,
+      "current_price_usd": 0.585,
       "slippage_pct": 2.27,
       "shares": 7.29,
       "cost_usd": 4.44,
@@ -362,7 +335,7 @@
       "category": "other",
       "opened_at": "2026-05-15T15:26:12Z",
       "end_date": "2026-05-15",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     }
   ],
   "closed_positions": [
@@ -5774,6 +5747,40 @@
       "fee_nok": 2,
       "gas_nok": 0.3,
       "closed_at": "2026-05-15T01:31:11Z"
+    },
+    {
+      "id": "pos_189",
+      "market_id": "2008391",
+      "question": "Will Tianjin Jinmen Hu FC vs. Chengdu Rongcheng FC end in a draw?",
+      "slug": "chi-jin-ron-2026-05-15-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7732,
+      "mid_price_usd": 0.755,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.42,
+      "shares": 5.74,
+      "cost_usd": 4.44,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.240875,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.835,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-15T05:37:15Z",
+      "end_date": "2026-05-15",
+      "unrealized_pnl_nok": 12,
+      "closing_price": 1.0,
+      "clv": 0.245,
+      "result": "WIN",
+      "profit_nok": 11.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-15T17:10:18Z"
     }
   ],
   "trade_log": [
@@ -5910,9 +5917,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 99,
+    "total_wins": 100,
     "total_losses": 81,
-    "total_realized_pnl_nok": 50.00000000000003,
+    "total_realized_pnl_nok": 61.70000000000003,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -6088,9 +6095,10 @@
       0.315,
       -0.565,
       0.385,
-      0.765
+      0.765,
+      0.245
     ],
-    "avg_clv": 0.0099
+    "avg_clv": 0.0113
   },
   "next_position_id": 193,
   "learning": {
