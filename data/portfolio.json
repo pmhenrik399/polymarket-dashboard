@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-16T14:10:17Z",
+    "last_updated": "2026-05-16T15:16:36Z",
     "currency": "NOK",
     "usd_nok_rate": 9.312155
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 499.1000000000069,
+    "balance_nok": 456.8000000000069,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 120.10000000000004,
-    "trades_this_month": 198,
+    "realized_pnl_nok": 76.80000000000004,
+    "trades_this_month": 199,
     "wins_this_month": 102,
-    "losses_this_month": 81
+    "losses_this_month": 82
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.9375,
+      "current_price_usd": 0.9345,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.48,
+      "current_price_usd": 0.47,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-14T10:35:53Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -11
+      "unrealized_pnl_nok": -12
     },
     {
       "id": "pos_187",
@@ -162,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.75,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.715,
+      "current_price_usd": 0.935,
       "slippage_pct": 2.04,
       "shares": 5.24,
       "cost_usd": 3.93,
@@ -179,7 +179,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-14T23:40:20Z",
       "end_date": "2026-05-16",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 9
     },
     {
       "id": "pos_188",
@@ -365,33 +365,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_196",
-      "market_id": "2016201",
-      "question": "Will Urawa Red Diamonds vs. FC Tōkyō end in a draw?",
-      "slug": "j1100-ura-fct-2026-05-16-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7102,
-      "mid_price_usd": 0.695,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.19,
-      "shares": 6.5,
-      "cost_usd": 4.62,
-      "cost_nok": 43,
-      "usd_nok_at_entry": 9.312155,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.775,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-16T04:45:08Z",
-      "end_date": "2026-05-16",
-      "unrealized_pnl_nok": -42
-    },
-    {
       "id": "pos_197",
       "market_id": "2025067",
       "question": "Will CA Mineiro vs. Mirassol FC end in a draw?",
@@ -444,6 +417,31 @@
       "category": "no_draw",
       "opened_at": "2026-05-16T08:59:59Z",
       "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_199",
+      "market_id": "1237892",
+      "question": "Will Manchester City win the 2025-2026 FA Cup?",
+      "slug": "will-manchester-city-win-the-2025-2026-fa-cup-166",
+      "side": "YES",
+      "entry_price_usd": 0.7268,
+      "mid_price_usd": 0.71,
+      "current_price_usd": 0.7268,
+      "slippage_pct": 2.36,
+      "shares": 6.21,
+      "cost_usd": 4.51,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.312155,
+      "edge_at_entry": 0.073,
+      "our_probability": 0.792,
+      "signals": [
+        "bookie:79%vs71%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-16T15:16:42Z",
+      "end_date": "2026-05-16",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -5956,6 +5954,39 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-16T04:44:55Z"
+    },
+    {
+      "id": "pos_196",
+      "market_id": "2016201",
+      "question": "Will Urawa Red Diamonds vs. FC Tōkyō end in a draw?",
+      "slug": "j1100-ura-fct-2026-05-16-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7102,
+      "mid_price_usd": 0.695,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.19,
+      "shares": 6.5,
+      "cost_usd": 4.62,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.312155,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.775,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-16T04:45:08Z",
+      "end_date": "2026-05-16",
+      "unrealized_pnl_nok": -42,
+      "closing_price": 0.0,
+      "clv": -0.695,
+      "result": "LOSS",
+      "profit_nok": -43.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-16T15:16:35Z"
     }
   ],
   "trade_log": [
@@ -6093,8 +6124,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 102,
-    "total_losses": 81,
-    "total_realized_pnl_nok": 120.10000000000004,
+    "total_losses": 82,
+    "total_realized_pnl_nok": 76.80000000000004,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -6273,11 +6304,12 @@
       0.765,
       0.245,
       0.27,
-      0.58
+      0.58,
+      -0.695
     ],
-    "avg_clv": 0.0163
+    "avg_clv": 0.012
   },
-  "next_position_id": 199,
+  "next_position_id": 200,
   "learning": {
     "category_weights": {
       "esport": 0,
