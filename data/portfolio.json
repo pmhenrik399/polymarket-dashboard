@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-16T15:16:36Z",
+    "last_updated": "2026-05-16T16:14:03Z",
     "currency": "NOK",
     "usd_nok_rate": 9.312155
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 456.8000000000069,
+    "balance_nok": 531.900000000007,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 76.80000000000004,
-    "trades_this_month": 199,
-    "wins_this_month": 102,
+    "realized_pnl_nok": 113.20000000000005,
+    "trades_this_month": 200,
+    "wins_this_month": 104,
     "losses_this_month": 82
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.9345,
+      "current_price_usd": 0.9465,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-14T05:30:26Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 23
+      "unrealized_pnl_nok": 24
     },
     {
       "id": "pos_183",
@@ -162,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.75,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.935,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.04,
       "shares": 5.24,
       "cost_usd": 3.93,
@@ -179,7 +179,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-14T23:40:20Z",
       "end_date": "2026-05-16",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_188",
@@ -261,31 +261,6 @@
       "unrealized_pnl_nok": -30
     },
     {
-      "id": "pos_192",
-      "market_id": "2268890",
-      "question": "World Championships: USA vs. Switzerland",
-      "slug": "wch-usa-sui-2026-05-15",
-      "side": "NO",
-      "entry_price_usd": 0.6085,
-      "mid_price_usd": 0.595,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.27,
-      "shares": 7.29,
-      "cost_usd": 4.44,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.240875,
-      "edge_at_entry": 0.119,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs60%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-15T15:26:12Z",
-      "end_date": "2026-05-15",
-      "unrealized_pnl_nok": 26
-    },
-    {
       "id": "pos_193",
       "market_id": "2232016",
       "question": "Will Ludvig Aberg finish in the Top 20 at the 2026 PGA Championship?",
@@ -293,7 +268,7 @@
       "side": "NO",
       "entry_price_usd": 0.588,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.245,
+      "current_price_usd": 0.25,
       "slippage_pct": 2.26,
       "shares": 7.55,
       "cost_usd": 4.44,
@@ -308,34 +283,7 @@
       "category": "other",
       "opened_at": "2026-05-15T20:16:42Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -24
-    },
-    {
-      "id": "pos_194",
-      "market_id": "2016526",
-      "question": "Will Shandong Taishan FC vs. Chongqing Tonglianglong FC end in a draw?",
-      "slug": "chi-sha-ton-2026-05-16-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7874,
-      "mid_price_usd": 0.775,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.6,
-      "shares": 5.63,
-      "cost_usd": 4.44,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.240875,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.855,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-15T22:32:13Z",
-      "end_date": "2026-05-16",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": -23
     },
     {
       "id": "pos_195",
@@ -427,7 +375,7 @@
       "side": "YES",
       "entry_price_usd": 0.7268,
       "mid_price_usd": 0.71,
-      "current_price_usd": 0.7268,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.36,
       "shares": 6.21,
       "cost_usd": 4.51,
@@ -442,6 +390,33 @@
       "category": "moneyline",
       "opened_at": "2026-05-16T15:16:42Z",
       "end_date": "2026-05-16",
+      "unrealized_pnl_nok": 15
+    },
+    {
+      "id": "pos_200",
+      "market_id": "2026355",
+      "question": "Will FC Ōsaka vs. Zweigen Kanazawa end in a draw?",
+      "slug": "j2100-fco-zwe-2026-05-17-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7642,
+      "mid_price_usd": 0.75,
+      "current_price_usd": 0.7642,
+      "slippage_pct": 1.89,
+      "shares": 6.04,
+      "cost_usd": 4.62,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.312155,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.83,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-16T16:14:09Z",
+      "end_date": "2026-05-17",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -5987,6 +5962,72 @@
       "profit_nok": -43.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-16T15:16:35Z"
+    },
+    {
+      "id": "pos_192",
+      "market_id": "2268890",
+      "question": "World Championships: USA vs. Switzerland",
+      "slug": "wch-usa-sui-2026-05-15",
+      "side": "NO",
+      "entry_price_usd": 0.6085,
+      "mid_price_usd": 0.595,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.27,
+      "shares": 7.29,
+      "cost_usd": 4.44,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.240875,
+      "edge_at_entry": 0.119,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs60%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-15T15:26:12Z",
+      "end_date": "2026-05-15",
+      "unrealized_pnl_nok": 26,
+      "closing_price": 1.0,
+      "clv": 0.405,
+      "result": "WIN",
+      "profit_nok": 25.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-16T16:14:00Z"
+    },
+    {
+      "id": "pos_194",
+      "market_id": "2016526",
+      "question": "Will Shandong Taishan FC vs. Chongqing Tonglianglong FC end in a draw?",
+      "slug": "chi-sha-ton-2026-05-16-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7874,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.6,
+      "shares": 5.63,
+      "cost_usd": 4.44,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.240875,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.855,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-15T22:32:13Z",
+      "end_date": "2026-05-16",
+      "unrealized_pnl_nok": 11,
+      "closing_price": 1.0,
+      "clv": 0.225,
+      "result": "WIN",
+      "profit_nok": 10.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-16T16:14:01Z"
     }
   ],
   "trade_log": [
@@ -6123,9 +6164,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 102,
+    "total_wins": 104,
     "total_losses": 82,
-    "total_realized_pnl_nok": 76.80000000000004,
+    "total_realized_pnl_nok": 113.20000000000005,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -6305,22 +6346,24 @@
       0.245,
       0.27,
       0.58,
-      -0.695
+      -0.695,
+      0.405,
+      0.225
     ],
-    "avg_clv": 0.012
+    "avg_clv": 0.0156
   },
-  "next_position_id": 200,
+  "next_position_id": 201,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.02,
-      "other": 0.007,
+      "other": 0.014,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:+0.7% | moneyline:-2.0%"
+    "summary": "no_draw:+5.0% | other:+1.4% | moneyline:-2.0%"
   }
 }
