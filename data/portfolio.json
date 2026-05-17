@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-17T00:06:17Z",
+    "last_updated": "2026-05-17T04:19:17Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.312155
+    "usd_nok_rate": 9.311687
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 507.80000000000706,
+    "balance_nok": 625.2000000000071,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 149.30000000000007,
+    "realized_pnl_nok": 179.70000000000005,
     "trades_this_month": 204,
-    "wins_this_month": 107,
+    "wins_this_month": 109,
     "losses_this_month": 82
   },
   "positions": [
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.17,
+      "current_price_usd": 0.175,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -214,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.588,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.16,
+      "current_price_usd": 0.17,
       "slippage_pct": 2.26,
       "shares": 7.55,
       "cost_usd": 4.44,
@@ -229,7 +229,7 @@
       "category": "other",
       "opened_at": "2026-05-15T20:16:42Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -30
+      "unrealized_pnl_nok": -29
     },
     {
       "id": "pos_195",
@@ -257,34 +257,6 @@
       "opened_at": "2026-05-15T23:32:06Z",
       "end_date": "2026-05-17",
       "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_197",
-      "market_id": "2025067",
-      "question": "Will CA Mineiro vs. Mirassol FC end in a draw?",
-      "slug": "bra-cam-mir-2026-05-16-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7327,
-      "mid_price_usd": 0.715,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.47,
-      "shares": 6.3,
-      "cost_usd": 4.62,
-      "cost_nok": 43,
-      "usd_nok_at_entry": 9.312155,
-      "edge_at_entry": 0.07,
-      "our_probability": 0.785,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "crypto:-0.010",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-16T07:07:23Z",
-      "end_date": "2026-05-16",
-      "unrealized_pnl_nok": 15
     },
     {
       "id": "pos_198",
@@ -321,7 +293,7 @@
       "side": "NO",
       "entry_price_usd": 0.7642,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.705,
       "slippage_pct": 1.89,
       "shares": 6.04,
       "cost_usd": 4.62,
@@ -338,7 +310,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-16T16:14:09Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_201",
@@ -348,7 +320,7 @@
       "side": "YES",
       "entry_price_usd": 0.3737,
       "mid_price_usd": 0.365,
-      "current_price_usd": 0.405,
+      "current_price_usd": 0.385,
       "slippage_pct": 2.37,
       "shares": 12.36,
       "cost_usd": 4.62,
@@ -363,7 +335,7 @@
       "category": "other",
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 3
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_202",
@@ -391,33 +363,6 @@
       "opened_at": "2026-05-16T17:17:55Z",
       "end_date": "2026-05-17",
       "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_203",
-      "market_id": "2025085",
-      "question": "Will SC Internacional vs. CR Vasco da Gama end in a draw?",
-      "slug": "bra-int-vas-2026-05-16-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7269,
-      "mid_price_usd": 0.715,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.66,
-      "shares": 6.5,
-      "cost_usd": 4.73,
-      "cost_nok": 44,
-      "usd_nok_at_entry": 9.312155,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.795,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-16T19:33:53Z",
-      "end_date": "2026-05-16",
-      "unrealized_pnl_nok": 16
     },
     {
       "id": "pos_204",
@@ -6155,6 +6100,75 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-16T22:06:29Z"
+    },
+    {
+      "id": "pos_197",
+      "market_id": "2025067",
+      "question": "Will CA Mineiro vs. Mirassol FC end in a draw?",
+      "slug": "bra-cam-mir-2026-05-16-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7327,
+      "mid_price_usd": 0.715,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.47,
+      "shares": 6.3,
+      "cost_usd": 4.62,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.312155,
+      "edge_at_entry": 0.07,
+      "our_probability": 0.785,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "crypto:-0.010",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-16T07:07:23Z",
+      "end_date": "2026-05-16",
+      "unrealized_pnl_nok": 15,
+      "closing_price": 1.0,
+      "clv": 0.285,
+      "result": "WIN",
+      "profit_nok": 14.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-17T04:19:14Z"
+    },
+    {
+      "id": "pos_203",
+      "market_id": "2025085",
+      "question": "Will SC Internacional vs. CR Vasco da Gama end in a draw?",
+      "slug": "bra-int-vas-2026-05-16-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7269,
+      "mid_price_usd": 0.715,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.66,
+      "shares": 6.5,
+      "cost_usd": 4.73,
+      "cost_nok": 44,
+      "usd_nok_at_entry": 9.312155,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.795,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-16T19:33:53Z",
+      "end_date": "2026-05-16",
+      "unrealized_pnl_nok": 16,
+      "closing_price": 1.0,
+      "clv": 0.285,
+      "result": "WIN",
+      "profit_nok": 15.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-17T04:19:16Z"
     }
   ],
   "trade_log": [
@@ -6291,9 +6305,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 107,
+    "total_wins": 109,
     "total_losses": 82,
-    "total_realized_pnl_nok": 149.30000000000007,
+    "total_realized_pnl_nok": 179.70000000000005,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -6478,9 +6492,11 @@
       0.225,
       0.225,
       0.265,
-      0.2895
+      0.2895,
+      0.285,
+      0.285
     ],
-    "avg_clv": 0.0198
+    "avg_clv": 0.0229
   },
   "next_position_id": 205,
   "learning": {
