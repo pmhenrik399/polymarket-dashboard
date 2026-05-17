@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-17T21:40:10Z",
+    "last_updated": "2026-05-17T22:37:41Z",
     "currency": "NOK",
     "usd_nok_rate": 9.311687
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 539.9000000000073,
+    "balance_nok": 562.3000000000073,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,37 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 62.300000000000054,
-    "trades_this_month": 211,
-    "wins_this_month": 113,
+    "realized_pnl_nok": 90.00000000000006,
+    "trades_this_month": 212,
+    "wins_this_month": 114,
     "losses_this_month": 86
   },
   "positions": [
-    {
-      "id": "pos_182",
-      "market_id": "2231912",
-      "question": "Will Collin Morikawa finish in the Top 5 at the 2026 PGA Championship?",
-      "slug": "2026-pga-championship-top5-collin-morikawa",
-      "side": "NO",
-      "entry_price_usd": 0.5745,
-      "mid_price_usd": 0.56,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.6,
-      "shares": 7.02,
-      "cost_usd": 4.04,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.168044,
-      "edge_at_entry": 0.154,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs56%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-14T05:30:26Z",
-      "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 27
-    },
     {
       "id": "pos_185",
       "market_id": "2231914",
@@ -85,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.24,
+      "current_price_usd": 0.0245,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -100,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-14T10:35:53Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -24
+      "unrealized_pnl_nok": -36
     },
     {
       "id": "pos_188",
@@ -162,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.588,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.505,
+      "current_price_usd": 0.495,
       "slippage_pct": 2.26,
       "shares": 7.55,
       "cost_usd": 4.44,
@@ -177,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-15T20:16:42Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -5
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_201",
@@ -187,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.3737,
       "mid_price_usd": 0.365,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.555,
       "slippage_pct": 2.37,
       "shares": 12.36,
       "cost_usd": 4.62,
@@ -202,7 +177,7 @@
       "category": "other",
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 16
+      "unrealized_pnl_nok": 20
     },
     {
       "id": "pos_205",
@@ -359,6 +334,31 @@
       "opened_at": "2026-05-17T18:42:09Z",
       "end_date": "2026-05-17",
       "unrealized_pnl_nok": -39
+    },
+    {
+      "id": "pos_212",
+      "market_id": "2232099",
+      "question": "Will Hao-Tong Li finish in the Top 20 at the 2026 PGA Championship?",
+      "slug": "2026-pga-championship-top20-hao-tong-li",
+      "side": "NO",
+      "entry_price_usd": 0.5296,
+      "mid_price_usd": 0.5185,
+      "current_price_usd": 0.5296,
+      "slippage_pct": 2.14,
+      "shares": 8.52,
+      "cost_usd": 4.51,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.311687,
+      "edge_at_entry": 0.195,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs52%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-17T22:37:49Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -6404,6 +6404,38 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-17T19:53:04Z"
+    },
+    {
+      "id": "pos_182",
+      "market_id": "2231912",
+      "question": "Will Collin Morikawa finish in the Top 5 at the 2026 PGA Championship?",
+      "slug": "2026-pga-championship-top5-collin-morikawa",
+      "side": "NO",
+      "entry_price_usd": 0.5745,
+      "mid_price_usd": 0.56,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.6,
+      "shares": 7.02,
+      "cost_usd": 4.04,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.168044,
+      "edge_at_entry": 0.154,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs56%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-14T05:30:26Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 27,
+      "closing_price": 1.0,
+      "clv": 0.44,
+      "result": "WIN",
+      "profit_nok": 27.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-17T22:37:37Z"
     }
   ],
   "trade_log": [
@@ -6540,9 +6572,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 113,
+    "total_wins": 114,
     "total_losses": 86,
-    "total_realized_pnl_nok": 62.300000000000054,
+    "total_realized_pnl_nok": 90.00000000000006,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -6737,22 +6769,23 @@
       -0.755,
       -0.705,
       0.255,
-      0.245
+      0.245,
+      0.44
     ],
-    "avg_clv": 0.0138
+    "avg_clv": 0.0162
   },
-  "next_position_id": 212,
+  "next_position_id": 213,
   "learning": {
     "category_weights": {
       "esport": 0,
       "over_under": 0,
       "moneyline": 0.005,
-      "other": 0.004,
+      "other": 0.012,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | moneyline:+0.5% | other:+0.4%"
+    "summary": "no_draw:+5.0% | other:+1.2% | moneyline:+0.5%"
   }
 }
