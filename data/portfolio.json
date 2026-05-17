@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-17T14:14:59Z",
+    "last_updated": "2026-05-17T15:31:12Z",
     "currency": "NOK",
     "usd_nok_rate": 9.311687
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 136.40000000000003,
+    "realized_pnl_nok": 105.10000000000004,
     "trades_this_month": 207,
     "wins_this_month": 109,
-    "losses_this_month": 83
+    "losses_this_month": 84
   },
   "positions": [
     {
@@ -78,31 +78,6 @@
       "unrealized_pnl_nok": 26
     },
     {
-      "id": "pos_184",
-      "market_id": "2247828",
-      "question": "Will the lowest temperature in Paris be 5°C on May 16?",
-      "slug": "lowest-temperature-in-paris-on-may-16-2026-5c",
-      "side": "YES",
-      "entry_price_usd": 0.2309,
-      "mid_price_usd": 0.225,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.62,
-      "shares": 14.64,
-      "cost_usd": 3.38,
-      "cost_nok": 31,
-      "usd_nok_at_entry": 9.168044,
-      "edge_at_entry": 0.041,
-      "our_probability": 0.276,
-      "signals": [
-        "bookie:28%vs22%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-14T08:12:10Z",
-      "end_date": "2026-05-16",
-      "unrealized_pnl_nok": -31
-    },
-    {
       "id": "pos_185",
       "market_id": "2231914",
       "question": "Will Ludvig Aberg finish in the Top 10 at the 2026 PGA Championship?",
@@ -110,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.31,
+      "current_price_usd": 0.29,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -125,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-14T10:35:53Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -20
+      "unrealized_pnl_nok": -21
     },
     {
       "id": "pos_188",
@@ -162,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.7944,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.9955,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.5,
       "shares": 5.59,
       "cost_usd": 4.44,
@@ -189,7 +164,7 @@
       "side": "YES",
       "entry_price_usd": 0.3598,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.095,
+      "current_price_usd": 0.085,
       "slippage_pct": 2.79,
       "shares": 12.33,
       "cost_usd": 4.44,
@@ -204,7 +179,7 @@
       "category": "other",
       "opened_at": "2026-05-15T13:01:50Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -30
+      "unrealized_pnl_nok": -31
     },
     {
       "id": "pos_193",
@@ -239,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.7582,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.715,
+      "current_price_usd": 0.525,
       "slippage_pct": 1.77,
       "shares": 5.85,
       "cost_usd": 4.44,
@@ -256,7 +231,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-15T23:32:06Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -12
     },
     {
       "id": "pos_198",
@@ -266,7 +241,7 @@
       "side": "NO",
       "entry_price_usd": 0.7695,
       "mid_price_usd": 0.755,
-      "current_price_usd": 0.76,
+      "current_price_usd": 0.575,
       "slippage_pct": 1.91,
       "shares": 6.0,
       "cost_usd": 4.62,
@@ -283,7 +258,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-16T08:59:59Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -10
     },
     {
       "id": "pos_201",
@@ -293,7 +268,7 @@
       "side": "YES",
       "entry_price_usd": 0.3737,
       "mid_price_usd": 0.365,
-      "current_price_usd": 0.435,
+      "current_price_usd": 0.45,
       "slippage_pct": 2.37,
       "shares": 12.36,
       "cost_usd": 4.62,
@@ -308,7 +283,7 @@
       "category": "other",
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_202",
@@ -318,7 +293,7 @@
       "side": "NO",
       "entry_price_usd": 0.7723,
       "mid_price_usd": 0.755,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.535,
       "slippage_pct": 2.29,
       "shares": 5.98,
       "cost_usd": 4.62,
@@ -335,7 +310,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-16T17:17:55Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -13
     },
     {
       "id": "pos_204",
@@ -426,7 +401,7 @@
       "side": "YES",
       "entry_price_usd": 0.2186,
       "mid_price_usd": 0.215,
-      "current_price_usd": 0.215,
+      "current_price_usd": 0.195,
       "slippage_pct": 1.66,
       "shares": 21.62,
       "cost_usd": 4.73,
@@ -441,7 +416,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-17T10:43:09Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -4
     }
   ],
   "closed_positions": [
@@ -6254,6 +6229,37 @@
       "profit_nok": -43.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-17T10:43:01Z"
+    },
+    {
+      "id": "pos_184",
+      "market_id": "2247828",
+      "question": "Will the lowest temperature in Paris be 5°C on May 16?",
+      "slug": "lowest-temperature-in-paris-on-may-16-2026-5c",
+      "side": "YES",
+      "entry_price_usd": 0.2309,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.62,
+      "shares": 14.64,
+      "cost_usd": 3.38,
+      "cost_nok": 31,
+      "usd_nok_at_entry": 9.168044,
+      "edge_at_entry": 0.041,
+      "our_probability": 0.276,
+      "signals": [
+        "bookie:28%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-14T08:12:10Z",
+      "end_date": "2026-05-16",
+      "unrealized_pnl_nok": -31,
+      "closing_price": 0.0,
+      "clv": -0.225,
+      "result": "LOSS",
+      "profit_nok": -31.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-17T15:31:06Z"
     }
   ],
   "trade_log": [
@@ -6391,8 +6397,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 109,
-    "total_losses": 83,
-    "total_realized_pnl_nok": 136.40000000000003,
+    "total_losses": 84,
+    "total_realized_pnl_nok": 105.10000000000004,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -6580,9 +6586,10 @@
       0.2895,
       0.285,
       0.285,
-      -0.75
+      -0.75,
+      -0.225
     ],
-    "avg_clv": 0.0185
+    "avg_clv": 0.0171
   },
   "next_position_id": 208,
   "learning": {
@@ -6590,12 +6597,12 @@
       "esport": 0,
       "over_under": 0,
       "moneyline": 0.005,
-      "other": 0.014,
+      "other": 0.004,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:+1.4% | moneyline:+0.5%"
+    "summary": "no_draw:+5.0% | moneyline:+0.5% | other:+0.4%"
   }
 }
