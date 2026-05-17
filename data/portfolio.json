@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-17T17:36:29Z",
+    "last_updated": "2026-05-17T18:42:00Z",
     "currency": "NOK",
     "usd_nok_rate": 9.311687
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 512.1000000000073,
+    "balance_nok": 431.5000000000073,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 37.90000000000005,
-    "trades_this_month": 209,
+    "trades_this_month": 211,
     "wins_this_month": 111,
     "losses_this_month": 86
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.5745,
       "mid_price_usd": 0.56,
-      "current_price_usd": 0.975,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.6,
       "shares": 7.02,
       "cost_usd": 4.04,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-14T05:30:26Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 26
+      "unrealized_pnl_nok": 27
     },
     {
       "id": "pos_185",
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.31,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-14T10:35:53Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -22
+      "unrealized_pnl_nok": -20
     },
     {
       "id": "pos_188",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.7604,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.925,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.07,
       "shares": 5.83,
       "cost_usd": 4.44,
@@ -127,7 +127,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-15T01:31:21Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 8
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_191",
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.3598,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.006,
+      "current_price_usd": 0.005,
       "slippage_pct": 2.79,
       "shares": 12.33,
       "cost_usd": 4.44,
@@ -241,7 +241,7 @@
       "side": "YES",
       "entry_price_usd": 0.3737,
       "mid_price_usd": 0.365,
-      "current_price_usd": 0.495,
+      "current_price_usd": 0.515,
       "slippage_pct": 2.37,
       "shares": 12.36,
       "cost_usd": 4.62,
@@ -256,7 +256,7 @@
       "category": "other",
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 13
+      "unrealized_pnl_nok": 16
     },
     {
       "id": "pos_205",
@@ -266,7 +266,7 @@
       "side": "NO",
       "entry_price_usd": 0.7927,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.825,
       "slippage_pct": 2.29,
       "shares": 6.23,
       "cost_usd": 4.94,
@@ -283,7 +283,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-17T07:18:57Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_207",
@@ -293,7 +293,7 @@
       "side": "YES",
       "entry_price_usd": 0.2186,
       "mid_price_usd": 0.215,
-      "current_price_usd": 0.125,
+      "current_price_usd": 0.0265,
       "slippage_pct": 1.66,
       "shares": 21.62,
       "cost_usd": 4.73,
@@ -308,7 +308,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-17T10:43:09Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -18
+      "unrealized_pnl_nok": -38
     },
     {
       "id": "pos_208",
@@ -345,7 +345,7 @@
       "side": "NO",
       "entry_price_usd": 0.3008,
       "mid_price_usd": 0.295,
-      "current_price_usd": 0.3008,
+      "current_price_usd": 0.0045,
       "slippage_pct": 1.98,
       "shares": 14.28,
       "cost_usd": 4.3,
@@ -359,6 +359,58 @@
       ],
       "category": "social_media",
       "opened_at": "2026-05-17T17:36:40Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": -39
+    },
+    {
+      "id": "pos_210",
+      "market_id": "2223562",
+      "question": "Will Fenerbahçe SK vs. Eyüpspor end in a draw?",
+      "slug": "tur-fen-eyu-2026-05-17-draw",
+      "side": "NO",
+      "entry_price_usd": 0.718,
+      "mid_price_usd": 0.705,
+      "current_price_usd": 0.718,
+      "slippage_pct": 1.85,
+      "shares": 5.98,
+      "cost_usd": 4.3,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.311687,
+      "edge_at_entry": 0.075,
+      "our_probability": 0.78,
+      "signals": [
+        "base:0.040",
+        "cat:0.045",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-17T18:42:08Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_211",
+      "market_id": "2172820",
+      "question": "Spread: Club Atlético de Madrid (-1.5)",
+      "slug": "lal-mad-gir-2026-05-17-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2921,
+      "mid_price_usd": 0.285,
+      "current_price_usd": 0.2921,
+      "slippage_pct": 2.5,
+      "shares": 14.71,
+      "cost_usd": 4.3,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.311687,
+      "edge_at_entry": 0.051,
+      "our_probability": 0.346,
+      "signals": [
+        "bookie:35%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-17T18:42:09Z",
       "end_date": "2026-05-17",
       "unrealized_pnl_nok": 0
     }
@@ -6673,7 +6725,7 @@
     ],
     "avg_clv": 0.0112
   },
-  "next_position_id": 210,
+  "next_position_id": 212,
   "learning": {
     "category_weights": {
       "esport": 0,
