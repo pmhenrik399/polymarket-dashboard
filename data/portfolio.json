@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-17T15:31:12Z",
+    "last_updated": "2026-05-17T16:33:12Z",
     "currency": "NOK",
     "usd_nok_rate": 9.311687
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 488.3000000000072,
+    "balance_nok": 552.4000000000073,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 105.10000000000004,
-    "trades_this_month": 207,
-    "wins_this_month": 109,
+    "realized_pnl_nok": 127.50000000000004,
+    "trades_this_month": 208,
+    "wins_this_month": 111,
     "losses_this_month": 84
   },
   "positions": [
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6931,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.29,
+      "current_price_usd": 0.295,
       "slippage_pct": 1.93,
       "shares": 5.82,
       "cost_usd": 4.04,
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.7604,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.755,
+      "current_price_usd": 0.765,
       "slippage_pct": 2.07,
       "shares": 5.83,
       "cost_usd": 4.44,
@@ -130,33 +130,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_190",
-      "market_id": "2254369",
-      "question": "Will Hammarby IF vs. Malmo FF end in a draw?",
-      "slug": "swe-hif-mal-2026-05-17-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7944,
-      "mid_price_usd": 0.775,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.5,
-      "shares": 5.59,
-      "cost_usd": 4.44,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.240875,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.855,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-15T05:37:15Z",
-      "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 10
-    },
-    {
       "id": "pos_191",
       "market_id": "2172427",
       "question": "Exact Score: Real Sociedad de Fútbol 2 - 1 Valencia CF?",
@@ -164,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.3598,
       "mid_price_usd": 0.35,
-      "current_price_usd": 0.085,
+      "current_price_usd": 0.1,
       "slippage_pct": 2.79,
       "shares": 12.33,
       "cost_usd": 4.44,
@@ -179,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-15T13:01:50Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -31
+      "unrealized_pnl_nok": -29
     },
     {
       "id": "pos_193",
@@ -214,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.7582,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.525,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.77,
       "shares": 5.85,
       "cost_usd": 4.44,
@@ -231,7 +204,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-15T23:32:06Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -12
+      "unrealized_pnl_nok": 13
     },
     {
       "id": "pos_198",
@@ -241,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.7695,
       "mid_price_usd": 0.755,
-      "current_price_usd": 0.575,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.91,
       "shares": 6.0,
       "cost_usd": 4.62,
@@ -258,7 +231,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-16T08:59:59Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -10
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_201",
@@ -268,7 +241,7 @@
       "side": "YES",
       "entry_price_usd": 0.3737,
       "mid_price_usd": 0.365,
-      "current_price_usd": 0.45,
+      "current_price_usd": 0.485,
       "slippage_pct": 2.37,
       "shares": 12.36,
       "cost_usd": 4.62,
@@ -283,7 +256,7 @@
       "category": "other",
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 8
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_202",
@@ -293,7 +266,7 @@
       "side": "NO",
       "entry_price_usd": 0.7723,
       "mid_price_usd": 0.755,
-      "current_price_usd": 0.535,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.29,
       "shares": 5.98,
       "cost_usd": 4.62,
@@ -310,34 +283,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-16T17:17:55Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -13
-    },
-    {
-      "id": "pos_204",
-      "market_id": "2025387",
-      "question": "Will FC Fredericia vs. Silkeborg IF end in a draw?",
-      "slug": "den-fcf-sif-2026-05-17-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7727,
-      "mid_price_usd": 0.76,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.68,
-      "shares": 6.11,
-      "cost_usd": 4.73,
-      "cost_nok": 44,
-      "usd_nok_at_entry": 9.312155,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.84,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-16T22:06:37Z",
-      "end_date": "2026-05-17",
-      "unrealized_pnl_nok": 12
+      "unrealized_pnl_nok": -42
     },
     {
       "id": "pos_205",
@@ -401,7 +347,7 @@
       "side": "YES",
       "entry_price_usd": 0.2186,
       "mid_price_usd": 0.215,
-      "current_price_usd": 0.195,
+      "current_price_usd": 0.215,
       "slippage_pct": 1.66,
       "shares": 21.62,
       "cost_usd": 4.73,
@@ -416,7 +362,34 @@
       "category": "moneyline",
       "opened_at": "2026-05-17T10:43:09Z",
       "end_date": "2026-05-17",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_208",
+      "market_id": "2025145",
+      "question": "Will Botafogo FR vs. SC Corinthians Paulista end in a draw?",
+      "slug": "bra-bot-cor1-2026-05-17-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7104,
+      "mid_price_usd": 0.695,
+      "current_price_usd": 0.7104,
+      "slippage_pct": 2.22,
+      "shares": 6.5,
+      "cost_usd": 4.62,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.311687,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.775,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-17T16:33:17Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -6260,6 +6233,74 @@
       "profit_nok": -31.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-17T15:31:06Z"
+    },
+    {
+      "id": "pos_190",
+      "market_id": "2254369",
+      "question": "Will Hammarby IF vs. Malmo FF end in a draw?",
+      "slug": "swe-hif-mal-2026-05-17-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7944,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.5,
+      "shares": 5.59,
+      "cost_usd": 4.44,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.240875,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.855,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-15T05:37:15Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 10,
+      "closing_price": 1.0,
+      "clv": 0.225,
+      "result": "WIN",
+      "profit_nok": 10.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-17T16:33:08Z"
+    },
+    {
+      "id": "pos_204",
+      "market_id": "2025387",
+      "question": "Will FC Fredericia vs. Silkeborg IF end in a draw?",
+      "slug": "den-fcf-sif-2026-05-17-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7727,
+      "mid_price_usd": 0.76,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.68,
+      "shares": 6.11,
+      "cost_usd": 4.73,
+      "cost_nok": 44,
+      "usd_nok_at_entry": 9.312155,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.84,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-16T22:06:37Z",
+      "end_date": "2026-05-17",
+      "unrealized_pnl_nok": 12,
+      "closing_price": 1.0,
+      "clv": 0.24,
+      "result": "WIN",
+      "profit_nok": 11.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-17T16:33:11Z"
     }
   ],
   "trade_log": [
@@ -6396,9 +6437,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 109,
+    "total_wins": 111,
     "total_losses": 84,
-    "total_realized_pnl_nok": 105.10000000000004,
+    "total_realized_pnl_nok": 127.50000000000004,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -6587,11 +6628,13 @@
       0.285,
       0.285,
       -0.75,
-      -0.225
+      -0.225,
+      0.225,
+      0.24
     ],
-    "avg_clv": 0.0171
+    "avg_clv": 0.0195
   },
-  "next_position_id": 208,
+  "next_position_id": 209,
   "learning": {
     "category_weights": {
       "esport": 0,
