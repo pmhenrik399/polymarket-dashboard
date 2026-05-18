@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-18T21:52:20Z",
+    "last_updated": "2026-05-18T22:54:23Z",
     "currency": "NOK",
     "usd_nok_rate": 9.317203
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 740.4000000000079,
+    "balance_nok": 749.800000000008,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -85.19999999999993,
-    "trades_this_month": 218,
-    "wins_this_month": 121,
+    "realized_pnl_nok": -74.49999999999993,
+    "trades_this_month": 219,
+    "wins_this_month": 122,
     "losses_this_month": 93
   },
   "positions": [
@@ -76,33 +76,6 @@
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
       "unrealized_pnl_nok": 9
-    },
-    {
-      "id": "pos_214",
-      "market_id": "2233473",
-      "question": "Will FC Hermannstadt vs. FCSB end in a draw?",
-      "slug": "rou1-fch-fcs-2026-05-18-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7543,
-      "mid_price_usd": 0.74,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.93,
-      "shares": 4.84,
-      "cost_usd": 3.65,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.317203,
-      "edge_at_entry": 0.076,
-      "our_probability": 0.816,
-      "signals": [
-        "base:0.040",
-        "cat:0.046",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-18T01:50:09Z",
-      "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 11
     },
     {
       "id": "pos_215",
@@ -156,6 +129,31 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-18T19:02:54Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_219",
+      "market_id": "2216585",
+      "question": "SC Freiburg vs. Aston Villa FC: Both Teams to Score",
+      "slug": "uel-scf-ast-2026-05-20-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5353,
+      "mid_price_usd": 0.525,
+      "current_price_usd": 0.5353,
+      "slippage_pct": 1.95,
+      "shares": 7.02,
+      "cost_usd": 3.76,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.148,
+      "our_probability": 0.683,
+      "signals": [
+        "bookie:32%vs52%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-18T22:54:30Z",
       "end_date": "2026-05-20",
       "unrealized_pnl_nok": 0
     }
@@ -6686,6 +6684,40 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-18T21:52:19Z"
+    },
+    {
+      "id": "pos_214",
+      "market_id": "2233473",
+      "question": "Will FC Hermannstadt vs. FCSB end in a draw?",
+      "slug": "rou1-fch-fcs-2026-05-18-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7543,
+      "mid_price_usd": 0.74,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.93,
+      "shares": 4.84,
+      "cost_usd": 3.65,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.076,
+      "our_probability": 0.816,
+      "signals": [
+        "base:0.040",
+        "cat:0.046",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-18T01:50:09Z",
+      "end_date": "2026-05-18",
+      "unrealized_pnl_nok": 11,
+      "closing_price": 1.0,
+      "clv": 0.26,
+      "result": "WIN",
+      "profit_nok": 10.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-18T22:54:22Z"
     }
   ],
   "trade_log": [
@@ -6822,9 +6854,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 121,
+    "total_wins": 122,
     "total_losses": 93,
-    "total_realized_pnl_nok": -85.19999999999993,
+    "total_realized_pnl_nok": -74.49999999999993,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7034,11 +7066,12 @@
       0.4815,
       0.26,
       0.3,
-      0.24
+      0.24,
+      0.26
     ],
-    "avg_clv": 0.0098
+    "avg_clv": 0.011
   },
-  "next_position_id": 219,
+  "next_position_id": 220,
   "learning": {
     "category_weights": {
       "esport": 0,
