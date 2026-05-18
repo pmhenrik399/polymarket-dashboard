@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-18T20:42:35Z",
+    "last_updated": "2026-05-18T21:52:20Z",
     "currency": "NOK",
     "usd_nok_rate": 9.317203
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 606.3000000000078,
+    "balance_nok": 740.4000000000079,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -117.29999999999994,
+    "realized_pnl_nok": -85.19999999999993,
     "trades_this_month": 218,
-    "wins_this_month": 118,
+    "wins_this_month": 121,
     "losses_this_month": 93
   },
   "positions": [
@@ -76,33 +76,6 @@
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
       "unrealized_pnl_nok": 9
-    },
-    {
-      "id": "pos_213",
-      "market_id": "2233520",
-      "question": "Will AFC Unirea Slobozia vs. FC UTA Arad end in a draw?",
-      "slug": "rou1-aus-fua-2026-05-18-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7529,
-      "mid_price_usd": 0.74,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.74,
-      "shares": 4.85,
-      "cost_usd": 3.65,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.317203,
-      "edge_at_entry": 0.076,
-      "our_probability": 0.816,
-      "signals": [
-        "base:0.040",
-        "cat:0.046",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-18T01:50:09Z",
-      "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 11
     },
     {
       "id": "pos_214",
@@ -157,56 +130,6 @@
       "opened_at": "2026-05-18T01:50:09Z",
       "end_date": "2026-05-20",
       "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_216",
-      "market_id": "2162449",
-      "question": "Arsenal FC leading at halftime?",
-      "slug": "epl-ars-bur-2026-05-18-halftime-result-home",
-      "side": "YES",
-      "entry_price_usd": 0.7144,
-      "mid_price_usd": 0.7,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.06,
-      "shares": 5.11,
-      "cost_usd": 3.65,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.317203,
-      "edge_at_entry": 0.159,
-      "our_probability": 0.869,
-      "signals": [
-        "bookie:87%vs70%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-18T06:01:12Z",
-      "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 13
-    },
-    {
-      "id": "pos_217",
-      "market_id": "2162450",
-      "question": "Arsenal FC vs. Burnley FC: Draw at halftime?",
-      "slug": "epl-ars-bur-2026-05-18-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7798,
-      "mid_price_usd": 0.76,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.6,
-      "shares": 4.68,
-      "cost_usd": 3.65,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.317203,
-      "edge_at_entry": 0.141,
-      "our_probability": 0.911,
-      "signals": [
-        "bookie:draw=9%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-18T19:02:54Z",
-      "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 9
     },
     {
       "id": "pos_218",
@@ -6665,6 +6588,104 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-18T06:01:04Z"
+    },
+    {
+      "id": "pos_213",
+      "market_id": "2233520",
+      "question": "Will AFC Unirea Slobozia vs. FC UTA Arad end in a draw?",
+      "slug": "rou1-aus-fua-2026-05-18-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7529,
+      "mid_price_usd": 0.74,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.74,
+      "shares": 4.85,
+      "cost_usd": 3.65,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.076,
+      "our_probability": 0.816,
+      "signals": [
+        "base:0.040",
+        "cat:0.046",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-18T01:50:09Z",
+      "end_date": "2026-05-18",
+      "unrealized_pnl_nok": 11,
+      "closing_price": 1.0,
+      "clv": 0.26,
+      "result": "WIN",
+      "profit_nok": 10.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-18T21:52:16Z"
+    },
+    {
+      "id": "pos_216",
+      "market_id": "2162449",
+      "question": "Arsenal FC leading at halftime?",
+      "slug": "epl-ars-bur-2026-05-18-halftime-result-home",
+      "side": "YES",
+      "entry_price_usd": 0.7144,
+      "mid_price_usd": 0.7,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.06,
+      "shares": 5.11,
+      "cost_usd": 3.65,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.159,
+      "our_probability": 0.869,
+      "signals": [
+        "bookie:87%vs70%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-18T06:01:12Z",
+      "end_date": "2026-05-18",
+      "unrealized_pnl_nok": 13,
+      "closing_price": 1.0,
+      "clv": 0.3,
+      "result": "WIN",
+      "profit_nok": 12.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-18T21:52:18Z"
+    },
+    {
+      "id": "pos_217",
+      "market_id": "2162450",
+      "question": "Arsenal FC vs. Burnley FC: Draw at halftime?",
+      "slug": "epl-ars-bur-2026-05-18-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7798,
+      "mid_price_usd": 0.76,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.6,
+      "shares": 4.68,
+      "cost_usd": 3.65,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.141,
+      "our_probability": 0.911,
+      "signals": [
+        "bookie:draw=9%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-18T19:02:54Z",
+      "end_date": "2026-05-18",
+      "unrealized_pnl_nok": 9,
+      "closing_price": 1.0,
+      "clv": 0.24,
+      "result": "WIN",
+      "profit_nok": 8.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-18T21:52:19Z"
     }
   ],
   "trade_log": [
@@ -6801,9 +6822,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 118,
+    "total_wins": 121,
     "total_losses": 93,
-    "total_realized_pnl_nok": -117.29999999999994,
+    "total_realized_pnl_nok": -85.19999999999993,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7010,9 +7031,12 @@
       -0.575,
       0.225,
       0.305,
-      0.4815
+      0.4815,
+      0.26,
+      0.3,
+      0.24
     ],
-    "avg_clv": 0.0058
+    "avg_clv": 0.0098
   },
   "next_position_id": 219,
   "learning": {
@@ -7020,12 +7044,12 @@
       "esport": 0,
       "over_under": 0,
       "moneyline": -0.017,
-      "other": -0.009,
+      "other": -0.002,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-0.9% | moneyline:-1.7%"
+    "summary": "no_draw:+5.0% | other:-0.2% | moneyline:-1.7%"
   }
 }
