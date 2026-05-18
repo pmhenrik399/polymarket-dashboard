@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-18T17:09:18Z",
+    "last_updated": "2026-05-18T19:02:49Z",
     "currency": "NOK",
     "usd_nok_rate": 9.317203
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 674.9000000000077,
+    "balance_nok": 606.3000000000078,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -117.29999999999994,
-    "trades_this_month": 216,
+    "trades_this_month": 218,
     "wins_this_month": 118,
     "losses_this_month": 93
   },
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.7529,
       "mid_price_usd": 0.74,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.545,
       "slippage_pct": 1.74,
       "shares": 4.85,
       "cost_usd": 3.65,
@@ -102,7 +102,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-18T01:50:09Z",
       "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -9
     },
     {
       "id": "pos_214",
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.7543,
       "mid_price_usd": 0.74,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.8,
       "slippage_pct": 1.93,
       "shares": 4.84,
       "cost_usd": 3.65,
@@ -129,7 +129,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-18T01:50:09Z",
       "end_date": "2026-05-18",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_215",
@@ -166,7 +166,7 @@
       "side": "YES",
       "entry_price_usd": 0.7144,
       "mid_price_usd": 0.7,
-      "current_price_usd": 0.695,
+      "current_price_usd": 0.715,
       "slippage_pct": 2.06,
       "shares": 5.11,
       "cost_usd": 3.65,
@@ -181,6 +181,59 @@
       "category": "other",
       "opened_at": "2026-05-18T06:01:12Z",
       "end_date": "2026-05-18",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_217",
+      "market_id": "2162450",
+      "question": "Arsenal FC vs. Burnley FC: Draw at halftime?",
+      "slug": "epl-ars-bur-2026-05-18-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7798,
+      "mid_price_usd": 0.76,
+      "current_price_usd": 0.7798,
+      "slippage_pct": 2.6,
+      "shares": 4.68,
+      "cost_usd": 3.65,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.141,
+      "our_probability": 0.911,
+      "signals": [
+        "bookie:draw=9%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-18T19:02:54Z",
+      "end_date": "2026-05-18",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_218",
+      "market_id": "2052995",
+      "question": "Will Club Always Ready vs. Mirassol FC end in a draw?",
+      "slug": "lib-alw-mir-2026-05-19-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7797,
+      "mid_price_usd": 0.765,
+      "current_price_usd": 0.7797,
+      "slippage_pct": 1.92,
+      "shares": 4.68,
+      "cost_usd": 3.65,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.07,
+      "our_probability": 0.835,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "crypto:-0.010",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-18T19:02:54Z",
+      "end_date": "2026-05-20",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -6961,7 +7014,7 @@
     ],
     "avg_clv": 0.0058
   },
-  "next_position_id": 217,
+  "next_position_id": 219,
   "learning": {
     "category_weights": {
       "esport": 0,
