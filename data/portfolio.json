@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-20T11:38:32Z",
+    "last_updated": "2026-05-20T14:17:56Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268603
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 362.00000000000847,
+    "balance_nok": 470.70000000000846,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -157.99999999999991,
+    "realized_pnl_nok": -84.29999999999991,
     "trades_this_month": 233,
-    "wins_this_month": 124,
+    "wins_this_month": 125,
     "losses_this_month": 96
   },
   "positions": [
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.8086,
       "mid_price_usd": 0.795,
-      "current_price_usd": 0.805,
+      "current_price_usd": 0.0005,
       "slippage_pct": 1.7,
       "shares": 4.67,
       "cost_usd": 3.78,
@@ -127,7 +127,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-19T11:29:57Z",
       "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -34
     },
     {
       "id": "pos_223",
@@ -207,31 +207,6 @@
       "unrealized_pnl_nok": -2
     },
     {
-      "id": "pos_227",
-      "market_id": "2310151",
-      "question": "Counter-Strike: TheMongolz vs B8 (BO3) - CS Asia Championships Group B",
-      "slug": "cs2-mglz-b8-2026-05-20",
-      "side": "NO",
-      "entry_price_usd": 0.3166,
-      "mid_price_usd": 0.31,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.12,
-      "shares": 11.93,
-      "cost_usd": 3.78,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.268603,
-      "edge_at_entry": 0.404,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs31%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-20T05:50:01Z",
-      "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 75
-    },
-    {
       "id": "pos_228",
       "market_id": "2310194",
       "question": "Counter-Strike: Lynn Vision vs NIP (BO3) - CS Asia Championships Group B",
@@ -239,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.641,
       "mid_price_usd": 0.63,
-      "current_price_usd": 0.68,
+      "current_price_usd": 0.705,
       "slippage_pct": 1.75,
       "shares": 5.89,
       "cost_usd": 3.78,
@@ -254,7 +229,7 @@
       "category": "esport",
       "opened_at": "2026-05-20T05:50:01Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 3
     },
     {
       "id": "pos_229",
@@ -264,7 +239,7 @@
       "side": "YES",
       "entry_price_usd": 0.2255,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.155,
+      "current_price_usd": 0.195,
       "slippage_pct": 2.51,
       "shares": 15.79,
       "cost_usd": 3.56,
@@ -279,7 +254,7 @@
       "category": "other",
       "opened_at": "2026-05-20T08:48:48Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": -10
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_230",
@@ -289,7 +264,7 @@
       "side": "NO",
       "entry_price_usd": 0.5849,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.5849,
+      "current_price_usd": 0.575,
       "slippage_pct": 1.71,
       "shares": 5.9,
       "cost_usd": 3.45,
@@ -314,7 +289,7 @@
       "side": "NO",
       "entry_price_usd": 0.6204,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.6204,
+      "current_price_usd": 0.61,
       "slippage_pct": 2.55,
       "shares": 5.56,
       "cost_usd": 3.45,
@@ -341,7 +316,7 @@
       "side": "NO",
       "entry_price_usd": 0.6566,
       "mid_price_usd": 0.645,
-      "current_price_usd": 0.6566,
+      "current_price_usd": 0.9955,
       "slippage_pct": 1.8,
       "shares": 5.26,
       "cost_usd": 3.45,
@@ -358,7 +333,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-20T11:38:41Z",
       "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 16
     },
     {
       "id": "pos_233",
@@ -368,7 +343,7 @@
       "side": "YES",
       "entry_price_usd": 0.2086,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.2086,
+      "current_price_usd": 0.205,
       "slippage_pct": 1.76,
       "shares": 16.55,
       "cost_usd": 3.45,
@@ -7110,6 +7085,38 @@
       "profit_nok": -35.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-20T11:38:28Z"
+    },
+    {
+      "id": "pos_227",
+      "market_id": "2310151",
+      "question": "Counter-Strike: TheMongolz vs B8 (BO3) - CS Asia Championships Group B",
+      "slug": "cs2-mglz-b8-2026-05-20",
+      "side": "NO",
+      "entry_price_usd": 0.3166,
+      "mid_price_usd": 0.31,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.12,
+      "shares": 11.93,
+      "cost_usd": 3.78,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.268603,
+      "edge_at_entry": 0.404,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs31%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-20T05:50:01Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": 75,
+      "closing_price": 1.0,
+      "clv": 0.69,
+      "result": "WIN",
+      "profit_nok": 73.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-20T14:17:53Z"
     }
   ],
   "trade_log": [
@@ -7246,9 +7253,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 124,
+    "total_wins": 125,
     "total_losses": 96,
-    "total_realized_pnl_nok": -157.99999999999991,
+    "total_realized_pnl_nok": -84.29999999999991,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7464,14 +7471,15 @@
       0.295,
       0.235,
       -0.265,
-      -0.205
+      -0.205,
+      0.69
     ],
-    "avg_clv": 0.0073
+    "avg_clv": 0.0106
   },
   "next_position_id": 234,
   "learning": {
     "category_weights": {
-      "esport": -0.05,
+      "esport": -0.032,
       "over_under": 0,
       "moneyline": -0.017,
       "other": -0.002,
@@ -7480,6 +7488,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-0.2% | moneyline:-1.7% | esport:-5.0%"
+    "summary": "no_draw:+5.0% | other:-0.2% | moneyline:-1.7% | esport:-3.2%"
   }
 }
