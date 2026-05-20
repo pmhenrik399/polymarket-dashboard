@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-19T23:36:49Z",
+    "last_updated": "2026-05-20T01:34:38Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.265632
+    "usd_nok_rate": 9.268603
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 575.3000000000083,
+    "balance_nok": 541.0000000000083,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -109.79999999999993,
-    "trades_this_month": 224,
+    "trades_this_month": 225,
     "wins_this_month": 122,
     "losses_this_month": 94
   },
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.7181,
       "mid_price_usd": 0.705,
-      "current_price_usd": 0.685,
+      "current_price_usd": 0.845,
       "slippage_pct": 1.86,
       "shares": 5.08,
       "cost_usd": 3.65,
@@ -102,7 +102,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-18T01:50:09Z",
       "end_date": "2026-05-20",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 5
     },
     {
       "id": "pos_218",
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.7797,
       "mid_price_usd": 0.765,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.885,
       "slippage_pct": 1.92,
       "shares": 4.68,
       "cost_usd": 3.65,
@@ -130,7 +130,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-18T19:02:54Z",
       "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 4
     },
     {
       "id": "pos_219",
@@ -140,7 +140,7 @@
       "side": "NO",
       "entry_price_usd": 0.5353,
       "mid_price_usd": 0.525,
-      "current_price_usd": 0.525,
+      "current_price_usd": 0.515,
       "slippage_pct": 1.95,
       "shares": 7.02,
       "cost_usd": 3.76,
@@ -155,7 +155,7 @@
       "category": "other",
       "opened_at": "2026-05-18T22:54:30Z",
       "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_220",
@@ -244,7 +244,7 @@
       "side": "YES",
       "entry_price_usd": 0.3794,
       "mid_price_usd": 0.37,
-      "current_price_usd": 0.36,
+      "current_price_usd": 0.395,
       "slippage_pct": 2.55,
       "shares": 9.67,
       "cost_usd": 3.67,
@@ -259,7 +259,32 @@
       "category": "other",
       "opened_at": "2026-05-19T20:56:55Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 1
+    },
+    {
+      "id": "pos_225",
+      "market_id": "2181421",
+      "question": "Counter-Strike: TheMongolz vs Lynn Vision (BO1) - CS Asia Championships Group B",
+      "slug": "cs2-mglz-lvg-2026-05-20",
+      "side": "NO",
+      "entry_price_usd": 0.27,
+      "mid_price_usd": 0.265,
+      "current_price_usd": 0.27,
+      "slippage_pct": 1.89,
+      "shares": 13.59,
+      "cost_usd": 3.67,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.268603,
+      "edge_at_entry": 0.449,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs26%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-20T01:35:00Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -7209,7 +7234,7 @@
     ],
     "avg_clv": 0.0071
   },
-  "next_position_id": 225,
+  "next_position_id": 226,
   "learning": {
     "category_weights": {
       "esport": 0,
