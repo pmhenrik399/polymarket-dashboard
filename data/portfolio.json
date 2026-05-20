@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-20T14:17:56Z",
+    "last_updated": "2026-05-20T17:35:49Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268603
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 470.70000000000846,
+    "balance_nok": 518.4000000000085,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -84.29999999999991,
+    "realized_pnl_nok": -103.8999999999999,
     "trades_this_month": 233,
-    "wins_this_month": 125,
-    "losses_this_month": 96
+    "wins_this_month": 126,
+    "losses_this_month": 97
   },
   "positions": [
     {
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.5353,
       "mid_price_usd": 0.525,
-      "current_price_usd": 0.505,
+      "current_price_usd": 0.495,
       "slippage_pct": 1.95,
       "shares": 7.02,
       "cost_usd": 3.76,
@@ -100,34 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-18T22:54:30Z",
       "end_date": "2026-05-20",
-      "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_222",
-      "market_id": "2054877",
-      "question": "Will Shanghai Shenhua FC vs. Wuhan San Zhen FC end in a draw?",
-      "slug": "chi-sgr-wsz-2026-05-20-draw",
-      "side": "NO",
-      "entry_price_usd": 0.8086,
-      "mid_price_usd": 0.795,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.7,
-      "shares": 4.67,
-      "cost_usd": 3.78,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.265632,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.875,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-19T11:29:57Z",
-      "end_date": "2026-05-20",
-      "unrealized_pnl_nok": -34
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_223",
@@ -164,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.3794,
       "mid_price_usd": 0.37,
-      "current_price_usd": 0.405,
+      "current_price_usd": 0.4,
       "slippage_pct": 2.55,
       "shares": 9.67,
       "cost_usd": 3.67,
@@ -179,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-19T20:56:55Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_226",
@@ -189,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.2341,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.215,
+      "current_price_usd": 0.21,
       "slippage_pct": 1.78,
       "shares": 16.13,
       "cost_usd": 3.78,
@@ -204,7 +177,7 @@
       "category": "other",
       "opened_at": "2026-05-20T05:50:00Z",
       "end_date": "2026-05-20",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_228",
@@ -239,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.2255,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.195,
+      "current_price_usd": 0.19,
       "slippage_pct": 2.51,
       "shares": 15.79,
       "cost_usd": 3.56,
@@ -254,7 +227,7 @@
       "category": "other",
       "opened_at": "2026-05-20T08:48:48Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": -5
     },
     {
       "id": "pos_230",
@@ -289,7 +262,7 @@
       "side": "NO",
       "entry_price_usd": 0.6204,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.61,
+      "current_price_usd": 0.615,
       "slippage_pct": 2.55,
       "shares": 5.56,
       "cost_usd": 3.45,
@@ -309,33 +282,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_232",
-      "market_id": "2200518",
-      "question": "Shanghai Shenhua FC vs. Wuhan San Zhen FC: Draw at halftime?",
-      "slug": "chi-sgr-wsz-2026-05-20-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6566,
-      "mid_price_usd": 0.645,
-      "current_price_usd": 0.9955,
-      "slippage_pct": 1.8,
-      "shares": 5.26,
-      "cost_usd": 3.45,
-      "cost_nok": 32,
-      "usd_nok_at_entry": 9.268603,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.725,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-20T11:38:41Z",
-      "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 16
-    },
-    {
       "id": "pos_233",
       "market_id": "2069872",
       "question": "Will CSyD Macará vs. Club Alianza Atlético end in a draw?",
@@ -343,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.2086,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.205,
+      "current_price_usd": 0.2,
       "slippage_pct": 1.76,
       "shares": 16.55,
       "cost_usd": 3.45,
@@ -358,7 +304,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-20T11:38:41Z",
       "end_date": "2026-05-22",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     }
   ],
   "closed_positions": [
@@ -7117,6 +7063,73 @@
       "fee_nok": 1,
       "gas_nok": 0.3,
       "closed_at": "2026-05-20T14:17:53Z"
+    },
+    {
+      "id": "pos_222",
+      "market_id": "2054877",
+      "question": "Will Shanghai Shenhua FC vs. Wuhan San Zhen FC end in a draw?",
+      "slug": "chi-sgr-wsz-2026-05-20-draw",
+      "side": "NO",
+      "entry_price_usd": 0.8086,
+      "mid_price_usd": 0.795,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.7,
+      "shares": 4.67,
+      "cost_usd": 3.78,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.265632,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.875,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-19T11:29:57Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.795,
+      "result": "LOSS",
+      "profit_nok": -35.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-20T17:35:44Z"
+    },
+    {
+      "id": "pos_232",
+      "market_id": "2200518",
+      "question": "Shanghai Shenhua FC vs. Wuhan San Zhen FC: Draw at halftime?",
+      "slug": "chi-sgr-wsz-2026-05-20-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6566,
+      "mid_price_usd": 0.645,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.8,
+      "shares": 5.26,
+      "cost_usd": 3.45,
+      "cost_nok": 32,
+      "usd_nok_at_entry": 9.268603,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.725,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-20T11:38:41Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": 16,
+      "closing_price": 1.0,
+      "clv": 0.355,
+      "result": "WIN",
+      "profit_nok": 15.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-20T17:35:48Z"
     }
   ],
   "trade_log": [
@@ -7253,9 +7266,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 125,
-    "total_losses": 96,
-    "total_realized_pnl_nok": -84.29999999999991,
+    "total_wins": 126,
+    "total_losses": 97,
+    "total_realized_pnl_nok": -103.8999999999999,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7472,9 +7485,11 @@
       0.235,
       -0.265,
       -0.205,
-      0.69
+      0.69,
+      -0.795,
+      0.355
     ],
-    "avg_clv": 0.0106
+    "avg_clv": 0.0084
   },
   "next_position_id": 234,
   "learning": {
@@ -7484,10 +7499,10 @@
       "moneyline": -0.017,
       "other": -0.002,
       "social_media": 0,
-      "no_draw": 0.05,
+      "no_draw": 0.049,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-0.2% | moneyline:-1.7% | esport:-3.2%"
+    "summary": "no_draw:+4.9% | other:-0.2% | moneyline:-1.7% | esport:-3.2%"
   }
 }
