@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-20T21:49:14Z",
+    "last_updated": "2026-05-20T23:01:16Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268603
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 518.4000000000085,
+    "balance_nok": 569.1000000000085,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -103.8999999999999,
+    "realized_pnl_nok": -85.1999999999999,
     "trades_this_month": 233,
-    "wins_this_month": 126,
+    "wins_this_month": 127,
     "losses_this_month": 97
   },
   "positions": [
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.3794,
       "mid_price_usd": 0.37,
-      "current_price_usd": 0.455,
+      "current_price_usd": 0.52,
       "slippage_pct": 2.55,
       "shares": 9.67,
       "cost_usd": 3.67,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-19T20:56:55Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": 6
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_226",
@@ -212,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.2255,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.22,
+      "current_price_usd": 0.2,
       "slippage_pct": 2.51,
       "shares": 15.79,
       "cost_usd": 3.56,
@@ -227,7 +227,7 @@
       "category": "other",
       "opened_at": "2026-05-20T08:48:48Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_230",
@@ -253,33 +253,6 @@
       "opened_at": "2026-05-20T11:38:41Z",
       "end_date": "2026-05-20",
       "unrealized_pnl_nok": 22
-    },
-    {
-      "id": "pos_231",
-      "market_id": "2248700",
-      "question": "Palermo FC vs. US Catanzaro 1929: Draw at halftime?",
-      "slug": "itsb-pal-cat-2026-05-20-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6204,
-      "mid_price_usd": 0.605,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.55,
-      "shares": 5.56,
-      "cost_usd": 3.45,
-      "cost_nok": 32,
-      "usd_nok_at_entry": 9.268603,
-      "edge_at_entry": 0.08,
-      "our_probability": 0.685,
-      "signals": [
-        "base:0.040",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-20T11:38:41Z",
-      "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 19
     },
     {
       "id": "pos_233",
@@ -7130,6 +7103,40 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-20T17:35:48Z"
+    },
+    {
+      "id": "pos_231",
+      "market_id": "2248700",
+      "question": "Palermo FC vs. US Catanzaro 1929: Draw at halftime?",
+      "slug": "itsb-pal-cat-2026-05-20-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6204,
+      "mid_price_usd": 0.605,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.55,
+      "shares": 5.56,
+      "cost_usd": 3.45,
+      "cost_nok": 32,
+      "usd_nok_at_entry": 9.268603,
+      "edge_at_entry": 0.08,
+      "our_probability": 0.685,
+      "signals": [
+        "base:0.040",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-20T11:38:41Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": 19,
+      "closing_price": 1.0,
+      "clv": 0.395,
+      "result": "WIN",
+      "profit_nok": 18.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-20T23:01:15Z"
     }
   ],
   "trade_log": [
@@ -7266,9 +7273,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 126,
+    "total_wins": 127,
     "total_losses": 97,
-    "total_realized_pnl_nok": -103.8999999999999,
+    "total_realized_pnl_nok": -85.1999999999999,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7487,9 +7494,10 @@
       -0.205,
       0.69,
       -0.795,
-      0.355
+      0.355,
+      0.395
     ],
-    "avg_clv": 0.0084
+    "avg_clv": 0.0103
   },
   "next_position_id": 234,
   "learning": {
@@ -7499,10 +7507,10 @@
       "moneyline": -0.017,
       "other": -0.002,
       "social_media": 0,
-      "no_draw": 0.049,
+      "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.9% | other:-0.2% | moneyline:-1.7% | esport:-3.2%"
+    "summary": "no_draw:+5.0% | other:-0.2% | moneyline:-1.7% | esport:-3.2%"
   }
 }
