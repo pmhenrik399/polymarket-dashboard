@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-21T11:45:26Z",
+    "last_updated": "2026-05-21T14:29:20Z",
     "currency": "NOK",
     "usd_nok_rate": 9.269873
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -69.0999999999999,
+    "realized_pnl_nok": -104.39999999999989,
     "trades_this_month": 233,
     "wins_this_month": 129,
-    "losses_this_month": 98
+    "losses_this_month": 99
   },
   "positions": [
     {
@@ -112,7 +112,7 @@
       "side": "YES",
       "entry_price_usd": 0.3794,
       "mid_price_usd": 0.37,
-      "current_price_usd": 0.585,
+      "current_price_usd": 0.69,
       "slippage_pct": 2.55,
       "shares": 9.67,
       "cost_usd": 3.67,
@@ -127,32 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-19T20:56:55Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": 18
-    },
-    {
-      "id": "pos_228",
-      "market_id": "2310194",
-      "question": "Counter-Strike: Lynn Vision vs NIP (BO3) - CS Asia Championships Group B",
-      "slug": "cs2-lvg-nip-2026-05-21",
-      "side": "NO",
-      "entry_price_usd": 0.641,
-      "mid_price_usd": 0.63,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.75,
-      "shares": 5.89,
-      "cost_usd": 3.78,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.268603,
-      "edge_at_entry": 0.084,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs63%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-20T05:50:01Z",
-      "end_date": "2026-05-21",
-      "unrealized_pnl_nok": -34
+      "unrealized_pnl_nok": 27
     },
     {
       "id": "pos_229",
@@ -162,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.2255,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.29,
+      "current_price_usd": 0.11,
       "slippage_pct": 2.51,
       "shares": 15.79,
       "cost_usd": 3.56,
@@ -177,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-20T08:48:48Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": -16
     },
     {
       "id": "pos_233",
@@ -7157,6 +7132,37 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-21T00:15:22Z"
+    },
+    {
+      "id": "pos_228",
+      "market_id": "2310194",
+      "question": "Counter-Strike: Lynn Vision vs NIP (BO3) - CS Asia Championships Group B",
+      "slug": "cs2-lvg-nip-2026-05-21",
+      "side": "NO",
+      "entry_price_usd": 0.641,
+      "mid_price_usd": 0.63,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.75,
+      "shares": 5.89,
+      "cost_usd": 3.78,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.268603,
+      "edge_at_entry": 0.084,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs63%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-20T05:50:01Z",
+      "end_date": "2026-05-21",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.63,
+      "result": "LOSS",
+      "profit_nok": -35.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-21T14:29:19Z"
     }
   ],
   "trade_log": [
@@ -7294,8 +7300,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 129,
-    "total_losses": 98,
-    "total_realized_pnl_nok": -69.0999999999999,
+    "total_losses": 99,
+    "total_realized_pnl_nok": -104.39999999999989,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7518,14 +7524,15 @@
       0.395,
       0.475,
       -0.23,
-      0.425
+      0.425,
+      -0.63
     ],
-    "avg_clv": 0.0133
+    "avg_clv": 0.0103
   },
   "next_position_id": 234,
   "learning": {
     "category_weights": {
-      "esport": -0.032,
+      "esport": -0.05,
       "over_under": 0,
       "moneyline": -0.017,
       "other": -0.002,
@@ -7534,6 +7541,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | other:-0.2% | moneyline:-1.7% | esport:-3.2%"
+    "summary": "no_draw:+5.0% | other:-0.2% | moneyline:-1.7% | esport:-5.0%"
   }
 }
