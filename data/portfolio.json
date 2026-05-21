@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-21T17:17:24Z",
+    "last_updated": "2026-05-21T19:21:13Z",
     "currency": "NOK",
     "usd_nok_rate": 9.269873
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 687.5000000000086,
+    "balance_nok": 653.2000000000087,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -104.39999999999989,
-    "trades_this_month": 233,
+    "trades_this_month": 234,
     "wins_this_month": 129,
     "losses_this_month": 99
   },
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.6899,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.66,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.21,
       "shares": 5.32,
       "cost_usd": 3.67,
@@ -102,7 +102,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-19T19:21:17Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -33
     },
     {
       "id": "pos_224",
@@ -112,7 +112,7 @@
       "side": "YES",
       "entry_price_usd": 0.3794,
       "mid_price_usd": 0.37,
-      "current_price_usd": 0.995,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.55,
       "shares": 9.67,
       "cost_usd": 3.67,
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.2255,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.002,
+      "current_price_usd": 0.003,
       "slippage_pct": 2.51,
       "shares": 15.79,
       "cost_usd": 3.56,
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2086,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.205,
+      "current_price_usd": 0.215,
       "slippage_pct": 1.76,
       "shares": 16.55,
       "cost_usd": 3.45,
@@ -177,6 +177,31 @@
       "category": "no_draw",
       "opened_at": "2026-05-20T11:38:41Z",
       "end_date": "2026-05-22",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_234",
+      "market_id": "2181609",
+      "question": "Will Mexico win on 2026-05-22?",
+      "slug": "fif-mex-gha-2026-05-22-mex",
+      "side": "NO",
+      "entry_price_usd": 0.3107,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.3107,
+      "slippage_pct": 1.87,
+      "shares": 11.8,
+      "cost_usd": 3.67,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.269873,
+      "edge_at_entry": 0.409,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-21T19:21:18Z",
+      "end_date": "2026-05-23",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -7529,7 +7554,7 @@
     ],
     "avg_clv": 0.0103
   },
-  "next_position_id": 234,
+  "next_position_id": 235,
   "learning": {
     "category_weights": {
       "esport": -0.05,
