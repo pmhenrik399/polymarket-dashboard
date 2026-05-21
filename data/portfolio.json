@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-20T23:01:16Z",
+    "last_updated": "2026-05-21T00:15:22Z",
     "currency": "NOK",
     "usd_nok_rate": 9.268603
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 569.1000000000085,
+    "balance_nok": 687.5000000000086,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -85.1999999999999,
+    "realized_pnl_nok": -69.0999999999999,
     "trades_this_month": 233,
-    "wins_this_month": 127,
-    "losses_this_month": 97
+    "wins_this_month": 129,
+    "losses_this_month": 98
   },
   "positions": [
     {
@@ -76,31 +76,6 @@
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
       "unrealized_pnl_nok": 9
-    },
-    {
-      "id": "pos_219",
-      "market_id": "2216585",
-      "question": "SC Freiburg vs. Aston Villa FC: Both Teams to Score",
-      "slug": "uel-scf-ast-2026-05-20-btts",
-      "side": "NO",
-      "entry_price_usd": 0.5353,
-      "mid_price_usd": 0.525,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.95,
-      "shares": 7.02,
-      "cost_usd": 3.76,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.317203,
-      "edge_at_entry": 0.148,
-      "our_probability": 0.683,
-      "signals": [
-        "bookie:32%vs52%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-18T22:54:30Z",
-      "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 30
     },
     {
       "id": "pos_223",
@@ -155,31 +130,6 @@
       "unrealized_pnl_nok": 12
     },
     {
-      "id": "pos_226",
-      "market_id": "2275165",
-      "question": "World Championships: USA vs. Germany",
-      "slug": "wch-usa-ger-2026-05-20",
-      "side": "NO",
-      "entry_price_usd": 0.2341,
-      "mid_price_usd": 0.23,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.78,
-      "shares": 16.13,
-      "cost_usd": 3.78,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.268603,
-      "edge_at_entry": 0.484,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs23%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-20T05:50:00Z",
-      "end_date": "2026-05-20",
-      "unrealized_pnl_nok": -34
-    },
-    {
       "id": "pos_228",
       "market_id": "2310194",
       "question": "Counter-Strike: Lynn Vision vs NIP (BO3) - CS Asia Championships Group B",
@@ -212,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2255,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.2,
+      "current_price_usd": 0.185,
       "slippage_pct": 2.51,
       "shares": 15.79,
       "cost_usd": 3.56,
@@ -227,32 +177,7 @@
       "category": "other",
       "opened_at": "2026-05-20T08:48:48Z",
       "end_date": "2026-05-21",
-      "unrealized_pnl_nok": -3
-    },
-    {
-      "id": "pos_230",
-      "market_id": "2192108",
-      "question": "SC Freiburg vs. Aston Villa FC: Draw at halftime?",
-      "slug": "uel-scf-ast-2026-05-20-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.5849,
-      "mid_price_usd": 0.575,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.71,
-      "shares": 5.9,
-      "cost_usd": 3.45,
-      "cost_nok": 32,
-      "usd_nok_at_entry": 9.268603,
-      "edge_at_entry": 0.168,
-      "our_probability": 0.753,
-      "signals": [
-        "bookie:draw=25%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-20T11:38:41Z",
-      "end_date": "2026-05-20",
-      "unrealized_pnl_nok": 22
+      "unrealized_pnl_nok": -5
     },
     {
       "id": "pos_233",
@@ -262,7 +187,7 @@
       "side": "YES",
       "entry_price_usd": 0.2086,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.2,
+      "current_price_usd": 0.205,
       "slippage_pct": 1.76,
       "shares": 16.55,
       "cost_usd": 3.45,
@@ -277,7 +202,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-20T11:38:41Z",
       "end_date": "2026-05-22",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -7137,6 +7062,101 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-20T23:01:15Z"
+    },
+    {
+      "id": "pos_219",
+      "market_id": "2216585",
+      "question": "SC Freiburg vs. Aston Villa FC: Both Teams to Score",
+      "slug": "uel-scf-ast-2026-05-20-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5353,
+      "mid_price_usd": 0.525,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.95,
+      "shares": 7.02,
+      "cost_usd": 3.76,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.317203,
+      "edge_at_entry": 0.148,
+      "our_probability": 0.683,
+      "signals": [
+        "bookie:32%vs52%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-18T22:54:30Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": 30,
+      "closing_price": 1.0,
+      "clv": 0.475,
+      "result": "WIN",
+      "profit_nok": 29.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-21T00:15:18Z"
+    },
+    {
+      "id": "pos_226",
+      "market_id": "2275165",
+      "question": "World Championships: USA vs. Germany",
+      "slug": "wch-usa-ger-2026-05-20",
+      "side": "NO",
+      "entry_price_usd": 0.2341,
+      "mid_price_usd": 0.23,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.78,
+      "shares": 16.13,
+      "cost_usd": 3.78,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.268603,
+      "edge_at_entry": 0.484,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs23%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-20T05:50:00Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.23,
+      "result": "LOSS",
+      "profit_nok": -35.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-21T00:15:20Z"
+    },
+    {
+      "id": "pos_230",
+      "market_id": "2192108",
+      "question": "SC Freiburg vs. Aston Villa FC: Draw at halftime?",
+      "slug": "uel-scf-ast-2026-05-20-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.5849,
+      "mid_price_usd": 0.575,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.71,
+      "shares": 5.9,
+      "cost_usd": 3.45,
+      "cost_nok": 32,
+      "usd_nok_at_entry": 9.268603,
+      "edge_at_entry": 0.168,
+      "our_probability": 0.753,
+      "signals": [
+        "bookie:draw=25%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-20T11:38:41Z",
+      "end_date": "2026-05-20",
+      "unrealized_pnl_nok": 22,
+      "closing_price": 1.0,
+      "clv": 0.425,
+      "result": "WIN",
+      "profit_nok": 21.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-21T00:15:22Z"
     }
   ],
   "trade_log": [
@@ -7273,9 +7293,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 127,
-    "total_losses": 97,
-    "total_realized_pnl_nok": -85.1999999999999,
+    "total_wins": 129,
+    "total_losses": 98,
+    "total_realized_pnl_nok": -69.0999999999999,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7495,9 +7515,12 @@
       0.69,
       -0.795,
       0.355,
-      0.395
+      0.395,
+      0.475,
+      -0.23,
+      0.425
     ],
-    "avg_clv": 0.0103
+    "avg_clv": 0.0133
   },
   "next_position_id": 234,
   "learning": {
