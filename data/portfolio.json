@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-22T14:02:58Z",
+    "last_updated": "2026-05-22T16:35:06Z",
     "currency": "NOK",
     "usd_nok_rate": 9.236737
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 745.400000000009,
+    "balance_nok": 707.100000000009,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -0.5999999999998806,
-    "trades_this_month": 238,
+    "trades_this_month": 239,
     "wins_this_month": 131,
     "losses_this_month": 101
   },
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.3107,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.255,
       "slippage_pct": 1.87,
       "shares": 11.8,
       "cost_usd": 3.67,
@@ -100,7 +100,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-21T19:21:18Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_235",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.7822,
       "mid_price_usd": 0.765,
-      "current_price_usd": 0.765,
+      "current_price_usd": 0.725,
       "slippage_pct": 2.25,
       "shares": 4.83,
       "cost_usd": 3.78,
@@ -154,7 +154,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-21T23:41:04Z",
       "end_date": "2026-05-22",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_237",
@@ -164,7 +164,7 @@
       "side": "NO",
       "entry_price_usd": 0.5864,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.615,
+      "current_price_usd": 0.66,
       "slippage_pct": 1.97,
       "shares": 7.02,
       "cost_usd": 4.11,
@@ -179,7 +179,7 @@
       "category": "other",
       "opened_at": "2026-05-22T08:54:12Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 4
     },
     {
       "id": "pos_238",
@@ -189,7 +189,7 @@
       "side": "NO",
       "entry_price_usd": 0.4968,
       "mid_price_usd": 0.485,
-      "current_price_usd": 0.4968,
+      "current_price_usd": 0.495,
       "slippage_pct": 2.42,
       "shares": 8.28,
       "cost_usd": 4.11,
@@ -204,6 +204,31 @@
       "category": "other",
       "opened_at": "2026-05-22T14:03:06Z",
       "end_date": "2026-05-22",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_239",
+      "market_id": "2062373",
+      "question": "Will Middlesbrough achieve promotion from the EFL Championship to the English Premier League for the 2026-27 season?",
+      "slug": "will-middlesbrough-achieve-promotion-from-the-efl-championship-to-the-english-premier-league-for-the-2026-27-season",
+      "side": "NO",
+      "entry_price_usd": 0.3528,
+      "mid_price_usd": 0.3445,
+      "current_price_usd": 0.3528,
+      "slippage_pct": 2.42,
+      "shares": 11.66,
+      "cost_usd": 4.11,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.236737,
+      "edge_at_entry": 0.369,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-22T16:35:12Z",
+      "end_date": "2026-05-25",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -7688,7 +7713,7 @@
     ],
     "avg_clv": 0.0125
   },
-  "next_position_id": 239,
+  "next_position_id": 240,
   "learning": {
     "category_weights": {
       "esport": -0.05,
