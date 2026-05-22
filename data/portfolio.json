@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-22T21:38:13Z",
+    "last_updated": "2026-05-22T22:41:08Z",
     "currency": "NOK",
     "usd_nok_rate": 9.236737
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 669.800000000009,
+    "balance_nok": 632.5000000000091,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -35.89999999999988,
-    "trades_this_month": 240,
+    "trades_this_month": 241,
     "wins_this_month": 131,
     "losses_this_month": 102
   },
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.5864,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.785,
       "slippage_pct": 1.97,
       "shares": 7.02,
       "cost_usd": 4.11,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-22T08:54:12Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 8
+      "unrealized_pnl_nok": 12
     },
     {
       "id": "pos_238",
@@ -212,7 +212,7 @@
       "side": "NO",
       "entry_price_usd": 0.7905,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.7905,
+      "current_price_usd": 0.775,
       "slippage_pct": 1.99,
       "shares": 5.07,
       "cost_usd": 4.01,
@@ -226,6 +226,31 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-22T21:38:19Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_241",
+      "market_id": "2227369",
+      "question": "Will Burnley FC vs. Wolverhampton Wanderers FC end in a draw?",
+      "slug": "epl-bur-wol-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7517,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 0.7517,
+      "slippage_pct": 2.27,
+      "shares": 5.33,
+      "cost_usd": 4.01,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.236737,
+      "edge_at_entry": 0.166,
+      "our_probability": 0.911,
+      "signals": [
+        "bookie:draw=9%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-22T22:41:16Z",
       "end_date": "2026-05-24",
       "unrealized_pnl_nok": 0
     }
@@ -7745,7 +7770,7 @@
     ],
     "avg_clv": 0.0089
   },
-  "next_position_id": 241,
+  "next_position_id": 242,
   "learning": {
     "category_weights": {
       "esport": -0.05,
