@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-22T20:16:19Z",
+    "last_updated": "2026-05-22T21:38:13Z",
     "currency": "NOK",
     "usd_nok_rate": 9.236737
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 707.100000000009,
+    "balance_nok": 669.800000000009,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -0.5999999999998806,
-    "trades_this_month": 239,
+    "realized_pnl_nok": -35.89999999999988,
+    "trades_this_month": 240,
     "wins_this_month": 131,
-    "losses_this_month": 101
+    "losses_this_month": 102
   },
   "positions": [
     {
@@ -130,33 +130,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_236",
-      "market_id": "2304669",
-      "question": "Will FC CFR 1907 Cluj vs. FC Argeș Pitești end in a draw?",
-      "slug": "rou1-fcc-fap-2026-05-22-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7822,
-      "mid_price_usd": 0.765,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.25,
-      "shares": 4.83,
-      "cost_usd": 3.78,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.269873,
-      "edge_at_entry": 0.075,
-      "our_probability": 0.84,
-      "signals": [
-        "base:0.040",
-        "cat:0.045",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-21T23:41:04Z",
-      "end_date": "2026-05-22",
-      "unrealized_pnl_nok": -34
-    },
-    {
       "id": "pos_237",
       "market_id": "2319941",
       "question": "Will the highest temperature in Madrid be 33°C on May 23?",
@@ -164,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.5864,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.72,
+      "current_price_usd": 0.725,
       "slippage_pct": 1.97,
       "shares": 7.02,
       "cost_usd": 4.11,
@@ -229,6 +202,31 @@
       "category": "other",
       "opened_at": "2026-05-22T16:35:12Z",
       "end_date": "2026-05-25",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_240",
+      "market_id": "2227127",
+      "question": "Will Brighton & Hove Albion FC vs. Manchester United FC end in a draw?",
+      "slug": "epl-bri-mun-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7905,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 0.7905,
+      "slippage_pct": 1.99,
+      "shares": 5.07,
+      "cost_usd": 4.01,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.236737,
+      "edge_at_entry": 0.081,
+      "our_probability": 0.866,
+      "signals": [
+        "bookie:draw=13%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-22T21:38:19Z",
+      "end_date": "2026-05-24",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -7343,6 +7341,39 @@
       "fee_nok": 2,
       "gas_nok": 0.3,
       "closed_at": "2026-05-22T08:54:04Z"
+    },
+    {
+      "id": "pos_236",
+      "market_id": "2304669",
+      "question": "Will FC CFR 1907 Cluj vs. FC Argeș Pitești end in a draw?",
+      "slug": "rou1-fcc-fap-2026-05-22-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7822,
+      "mid_price_usd": 0.765,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.25,
+      "shares": 4.83,
+      "cost_usd": 3.78,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.269873,
+      "edge_at_entry": 0.075,
+      "our_probability": 0.84,
+      "signals": [
+        "base:0.040",
+        "cat:0.045",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-21T23:41:04Z",
+      "end_date": "2026-05-22",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.765,
+      "result": "LOSS",
+      "profit_nok": -35.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-22T21:38:12Z"
     }
   ],
   "trade_log": [
@@ -7480,8 +7511,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 131,
-    "total_losses": 101,
-    "total_realized_pnl_nok": -0.5999999999998806,
+    "total_losses": 102,
+    "total_realized_pnl_nok": -35.89999999999988,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7709,11 +7740,12 @@
       -0.675,
       0.63,
       -0.22,
-      0.795
+      0.795,
+      -0.765
     ],
-    "avg_clv": 0.0125
+    "avg_clv": 0.0089
   },
-  "next_position_id": 240,
+  "next_position_id": 241,
   "learning": {
     "category_weights": {
       "esport": -0.05,
@@ -7721,10 +7753,10 @@
       "moneyline": -0.017,
       "other": -0.002,
       "social_media": 0,
-      "no_draw": 0.048,
+      "no_draw": 0.039,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.8% | other:-0.2% | moneyline:-1.7% | esport:-5.0%"
+    "summary": "no_draw:+3.9% | other:-0.2% | moneyline:-1.7% | esport:-5.0%"
   }
 }
