@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-23T21:35:54Z",
+    "last_updated": "2026-05-23T22:34:11Z",
     "currency": "NOK",
     "usd_nok_rate": 9.267237
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 491.6000000000094,
+    "balance_nok": 532.3000000000094,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 13.600000000000136,
+    "realized_pnl_nok": -15.999999999999858,
     "trades_this_month": 251,
-    "wins_this_month": 134,
-    "losses_this_month": 104
+    "wins_this_month": 135,
+    "losses_this_month": 105
   },
   "positions": [
     {
@@ -76,33 +76,6 @@
       "opened_at": "2026-05-16T17:17:54Z",
       "end_date": "2026-05-18",
       "unrealized_pnl_nok": 9
-    },
-    {
-      "id": "pos_235",
-      "market_id": "2086798",
-      "question": "Will St. Louis City SC vs. Austin FC end in a draw?",
-      "slug": "mls-stl-aus-2026-05-23-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7891,
-      "mid_price_usd": 0.775,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.82,
-      "shares": 4.51,
-      "cost_usd": 3.56,
-      "cost_nok": 33,
-      "usd_nok_at_entry": 9.269873,
-      "edge_at_entry": 0.075,
-      "our_probability": 0.85,
-      "signals": [
-        "base:0.040",
-        "cat:0.045",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-21T21:08:07Z",
-      "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_237",
@@ -232,31 +205,6 @@
       "unrealized_pnl_nok": 37
     },
     {
-      "id": "pos_245",
-      "market_id": "2238514",
-      "question": "Getafe CF vs. CA Osasuna: Draw at halftime?",
-      "slug": "lal-get-osa-2026-05-23-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.5052,
-      "mid_price_usd": 0.495,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.05,
-      "shares": 7.9,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.267237,
-      "edge_at_entry": 0.227,
-      "our_probability": 0.732,
-      "signals": [
-        "bookie:draw=27%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-23T07:54:12Z",
-      "end_date": "2026-05-23",
-      "unrealized_pnl_nok": -36
-    },
-    {
       "id": "pos_246",
       "market_id": "2196023",
       "question": "Will CS Cristal vs. AD Tarma end in a draw?",
@@ -291,7 +239,7 @@
       "side": "YES",
       "entry_price_usd": 0.6143,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.595,
+      "current_price_usd": 0.6,
       "slippage_pct": 1.53,
       "shares": 6.5,
       "cost_usd": 3.99,
@@ -306,7 +254,7 @@
       "category": "other",
       "opened_at": "2026-05-23T11:04:44Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_248",
@@ -7690,6 +7638,71 @@
       "profit_nok": -37.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-23T21:35:53Z"
+    },
+    {
+      "id": "pos_235",
+      "market_id": "2086798",
+      "question": "Will St. Louis City SC vs. Austin FC end in a draw?",
+      "slug": "mls-stl-aus-2026-05-23-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7891,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.82,
+      "shares": 4.51,
+      "cost_usd": 3.56,
+      "cost_nok": 33,
+      "usd_nok_at_entry": 9.269873,
+      "edge_at_entry": 0.075,
+      "our_probability": 0.85,
+      "signals": [
+        "base:0.040",
+        "cat:0.045",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-21T21:08:07Z",
+      "end_date": "2026-05-23",
+      "unrealized_pnl_nok": 8,
+      "closing_price": 1.0,
+      "clv": 0.225,
+      "result": "WIN",
+      "profit_nok": 7.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-23T22:34:06Z"
+    },
+    {
+      "id": "pos_245",
+      "market_id": "2238514",
+      "question": "Getafe CF vs. CA Osasuna: Draw at halftime?",
+      "slug": "lal-get-osa-2026-05-23-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.5052,
+      "mid_price_usd": 0.495,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.05,
+      "shares": 7.9,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.267237,
+      "edge_at_entry": 0.227,
+      "our_probability": 0.732,
+      "signals": [
+        "bookie:draw=27%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-23T07:54:12Z",
+      "end_date": "2026-05-23",
+      "unrealized_pnl_nok": -36,
+      "closing_price": 0.0,
+      "clv": -0.495,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-23T22:34:09Z"
     }
   ],
   "trade_log": [
@@ -7826,9 +7839,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 134,
-    "total_losses": 104,
-    "total_realized_pnl_nok": 13.600000000000136,
+    "total_wins": 135,
+    "total_losses": 105,
+    "total_realized_pnl_nok": -15.999999999999858,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8062,9 +8075,11 @@
       -0.305,
       0.295,
       0.6555,
-      -0.585
+      -0.585,
+      0.225,
+      -0.495
     ],
-    "avg_clv": 0.0113
+    "avg_clv": 0.01
   },
   "next_position_id": 252,
   "learning": {
@@ -8074,10 +8089,10 @@
       "moneyline": -0.05,
       "other": 0.019,
       "social_media": 0,
-      "no_draw": 0.033,
+      "no_draw": 0.029,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.3% | other:+1.9% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+2.9% | other:+1.9% | esport:-5.0% | moneyline:-5.0%"
   }
 }
