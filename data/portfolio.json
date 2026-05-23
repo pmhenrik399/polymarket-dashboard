@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-23T07:54:05Z",
+    "last_updated": "2026-05-23T09:51:28Z",
     "currency": "NOK",
     "usd_nok_rate": 9.267237
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 556.0000000000093,
+    "balance_nok": 571.4000000000094,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -32.49999999999987,
-    "trades_this_month": 245,
-    "wins_this_month": 132,
+    "realized_pnl_nok": -17.79999999999987,
+    "trades_this_month": 246,
+    "wins_this_month": 133,
     "losses_this_month": 103
   },
   "positions": [
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.5864,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.665,
+      "current_price_usd": 0.745,
       "slippage_pct": 1.97,
       "shares": 7.02,
       "cost_usd": 4.11,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-22T08:54:12Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 5
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_239",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.3528,
       "mid_price_usd": 0.3445,
-      "current_price_usd": 0.342,
+      "current_price_usd": 0.3365,
       "slippage_pct": 2.42,
       "shares": 11.66,
       "cost_usd": 4.11,
@@ -239,7 +239,7 @@
       "side": "NO",
       "entry_price_usd": 0.5038,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.495,
+      "current_price_usd": 0.485,
       "slippage_pct": 1.78,
       "shares": 8.14,
       "cost_usd": 4.1,
@@ -254,34 +254,7 @@
       "category": "other",
       "opened_at": "2026-05-23T05:24:30Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_244",
-      "market_id": "2079474",
-      "question": "Will Avispa Fukuoka vs. Vissel Kōbe end in a draw?",
-      "slug": "j1100-avi-vis-2026-05-23-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7163,
-      "mid_price_usd": 0.705,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.6,
-      "shares": 5.72,
-      "cost_usd": 4.1,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.267237,
-      "edge_at_entry": 0.069,
-      "our_probability": 0.774,
-      "signals": [
-        "base:0.040",
-        "cat:0.039",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-23T05:24:30Z",
-      "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 15
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_245",
@@ -291,7 +264,7 @@
       "side": "NO",
       "entry_price_usd": 0.5052,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.5052,
+      "current_price_usd": 0.495,
       "slippage_pct": 2.05,
       "shares": 7.9,
       "cost_usd": 3.99,
@@ -306,6 +279,33 @@
       "category": "no_draw",
       "opened_at": "2026-05-23T07:54:12Z",
       "end_date": "2026-05-23",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_246",
+      "market_id": "2196023",
+      "question": "Will CS Cristal vs. AD Tarma end in a draw?",
+      "slug": "per1-csc-adt-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7654,
+      "mid_price_usd": 0.75,
+      "current_price_usd": 0.7654,
+      "slippage_pct": 2.05,
+      "shares": 5.22,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.267237,
+      "edge_at_entry": 0.073,
+      "our_probability": 0.823,
+      "signals": [
+        "base:0.040",
+        "cat:0.043",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-23T09:51:34Z",
+      "end_date": "2026-05-24",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -7516,6 +7516,40 @@
       "profit_nok": -34.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-23T07:54:01Z"
+    },
+    {
+      "id": "pos_244",
+      "market_id": "2079474",
+      "question": "Will Avispa Fukuoka vs. Vissel Kōbe end in a draw?",
+      "slug": "j1100-avi-vis-2026-05-23-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7163,
+      "mid_price_usd": 0.705,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.6,
+      "shares": 5.72,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.267237,
+      "edge_at_entry": 0.069,
+      "our_probability": 0.774,
+      "signals": [
+        "base:0.040",
+        "cat:0.039",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-23T05:24:30Z",
+      "end_date": "2026-05-23",
+      "unrealized_pnl_nok": 15,
+      "closing_price": 1.0,
+      "clv": 0.295,
+      "result": "WIN",
+      "profit_nok": 14.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-23T09:51:27Z"
     }
   ],
   "trade_log": [
@@ -7652,9 +7686,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 132,
+    "total_wins": 133,
     "total_losses": 103,
-    "total_realized_pnl_nok": -32.49999999999987,
+    "total_realized_pnl_nok": -17.79999999999987,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -7885,11 +7919,12 @@
       0.795,
       -0.765,
       0.515,
-      -0.305
+      -0.305,
+      0.295
     ],
-    "avg_clv": 0.0098
+    "avg_clv": 0.0111
   },
-  "next_position_id": 246,
+  "next_position_id": 247,
   "learning": {
     "category_weights": {
       "esport": -0.05,
@@ -7897,10 +7932,10 @@
       "moneyline": -0.05,
       "other": 0.009,
       "social_media": 0,
-      "no_draw": 0.039,
+      "no_draw": 0.043,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.9% | other:+0.9% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+4.3% | other:+0.9% | esport:-5.0% | moneyline:-5.0%"
   }
 }
