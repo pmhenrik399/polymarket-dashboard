@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-23T20:35:44Z",
+    "last_updated": "2026-05-23T21:35:54Z",
     "currency": "NOK",
     "usd_nok_rate": 9.267237
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 384.9000000000094,
+    "balance_nok": 491.6000000000094,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -17.79999999999987,
+    "realized_pnl_nok": 13.600000000000136,
     "trades_this_month": 251,
-    "wins_this_month": 133,
-    "losses_this_month": 103
+    "wins_this_month": 134,
+    "losses_this_month": 104
   },
   "positions": [
     {
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.7891,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.965,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.82,
       "shares": 4.51,
       "cost_usd": 3.56,
@@ -102,7 +102,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-21T21:08:07Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_237",
@@ -128,31 +128,6 @@
       "opened_at": "2026-05-22T08:54:12Z",
       "end_date": "2026-05-23",
       "unrealized_pnl_nok": 26
-    },
-    {
-      "id": "pos_239",
-      "market_id": "2062373",
-      "question": "Will Middlesbrough achieve promotion from the EFL Championship to the English Premier League for the 2026-27 season?",
-      "slug": "will-middlesbrough-achieve-promotion-from-the-efl-championship-to-the-english-premier-league-for-the-2026-27-season",
-      "side": "NO",
-      "entry_price_usd": 0.3528,
-      "mid_price_usd": 0.3445,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.42,
-      "shares": 11.66,
-      "cost_usd": 4.11,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.236737,
-      "edge_at_entry": 0.369,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs34%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-22T16:35:12Z",
-      "end_date": "2026-05-25",
-      "unrealized_pnl_nok": 69
     },
     {
       "id": "pos_240",
@@ -239,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.5038,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.475,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.78,
       "shares": 8.14,
       "cost_usd": 4.1,
@@ -254,7 +229,7 @@
       "category": "other",
       "opened_at": "2026-05-23T05:24:30Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": 37
     },
     {
       "id": "pos_245",
@@ -341,7 +316,7 @@
       "side": "NO",
       "entry_price_usd": 0.351,
       "mid_price_usd": 0.345,
-      "current_price_usd": 0.545,
+      "current_price_usd": 0.0005,
       "slippage_pct": 1.74,
       "shares": 11.37,
       "cost_usd": 3.99,
@@ -355,31 +330,6 @@
       ],
       "category": "social_media",
       "opened_at": "2026-05-23T12:06:11Z",
-      "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 20
-    },
-    {
-      "id": "pos_249",
-      "market_id": "2238326",
-      "question": "RC Celta de Vigo vs. Sevilla FC: Draw at halftime?",
-      "slug": "lal-cel-sev-2026-05-23-halftime-result-draw",
-      "side": "NO",
-      "entry_price_usd": 0.5968,
-      "mid_price_usd": 0.585,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.02,
-      "shares": 6.69,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.267237,
-      "edge_at_entry": 0.158,
-      "our_probability": 0.753,
-      "signals": [
-        "bookie:draw=25%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-23T14:00:54Z",
       "end_date": "2026-05-23",
       "unrealized_pnl_nok": -36
     },
@@ -7677,6 +7627,69 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-23T09:51:27Z"
+    },
+    {
+      "id": "pos_239",
+      "market_id": "2062373",
+      "question": "Will Middlesbrough achieve promotion from the EFL Championship to the English Premier League for the 2026-27 season?",
+      "slug": "will-middlesbrough-achieve-promotion-from-the-efl-championship-to-the-english-premier-league-for-the-2026-27-season",
+      "side": "NO",
+      "entry_price_usd": 0.3528,
+      "mid_price_usd": 0.3445,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.42,
+      "shares": 11.66,
+      "cost_usd": 4.11,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.236737,
+      "edge_at_entry": 0.369,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-22T16:35:12Z",
+      "end_date": "2026-05-25",
+      "unrealized_pnl_nok": 69,
+      "closing_price": 1.0,
+      "clv": 0.6555,
+      "result": "WIN",
+      "profit_nok": 68.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-23T21:35:50Z"
+    },
+    {
+      "id": "pos_249",
+      "market_id": "2238326",
+      "question": "RC Celta de Vigo vs. Sevilla FC: Draw at halftime?",
+      "slug": "lal-cel-sev-2026-05-23-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.5968,
+      "mid_price_usd": 0.585,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.02,
+      "shares": 6.69,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.267237,
+      "edge_at_entry": 0.158,
+      "our_probability": 0.753,
+      "signals": [
+        "bookie:draw=25%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-23T14:00:54Z",
+      "end_date": "2026-05-23",
+      "unrealized_pnl_nok": -36,
+      "closing_price": 0.0,
+      "clv": -0.585,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-23T21:35:53Z"
     }
   ],
   "trade_log": [
@@ -7813,9 +7826,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 133,
-    "total_losses": 103,
-    "total_realized_pnl_nok": -17.79999999999987,
+    "total_wins": 134,
+    "total_losses": 104,
+    "total_realized_pnl_nok": 13.600000000000136,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8047,9 +8060,11 @@
       -0.765,
       0.515,
       -0.305,
-      0.295
+      0.295,
+      0.6555,
+      -0.585
     ],
-    "avg_clv": 0.0111
+    "avg_clv": 0.0113
   },
   "next_position_id": 252,
   "learning": {
@@ -8057,12 +8072,12 @@
       "esport": -0.05,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": 0.009,
+      "other": 0.019,
       "social_media": 0,
-      "no_draw": 0.043,
+      "no_draw": 0.033,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.3% | other:+0.9% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+3.3% | other:+1.9% | esport:-5.0% | moneyline:-5.0%"
   }
 }
