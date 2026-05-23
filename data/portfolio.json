@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-23T14:00:48Z",
+    "last_updated": "2026-05-23T15:13:31Z",
     "currency": "NOK",
     "usd_nok_rate": 9.267237
   },
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.5864,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.885,
+      "current_price_usd": 0.84,
       "slippage_pct": 1.97,
       "shares": 7.02,
       "cost_usd": 4.11,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-22T08:54:12Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 19
+      "unrealized_pnl_nok": 16
     },
     {
       "id": "pos_239",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.3528,
       "mid_price_usd": 0.3445,
-      "current_price_usd": 0.359,
+      "current_price_usd": 0.3375,
       "slippage_pct": 2.42,
       "shares": 11.66,
       "cost_usd": 4.11,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-05-22T16:35:12Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_240",
@@ -264,7 +264,7 @@
       "side": "NO",
       "entry_price_usd": 0.5052,
       "mid_price_usd": 0.495,
-      "current_price_usd": 0.495,
+      "current_price_usd": 0.485,
       "slippage_pct": 2.05,
       "shares": 7.9,
       "cost_usd": 3.99,
@@ -279,7 +279,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-23T07:54:12Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_246",
@@ -366,7 +366,7 @@
       "side": "NO",
       "entry_price_usd": 0.5968,
       "mid_price_usd": 0.585,
-      "current_price_usd": 0.5968,
+      "current_price_usd": 0.57,
       "slippage_pct": 2.02,
       "shares": 6.69,
       "cost_usd": 3.99,
@@ -381,7 +381,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-23T14:00:54Z",
       "end_date": "2026-05-23",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     }
   ],
   "closed_positions": [
