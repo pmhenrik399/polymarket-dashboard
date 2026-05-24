@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-24T14:16:57Z",
+    "last_updated": "2026-05-24T15:38:10Z",
     "currency": "NOK",
     "usd_nok_rate": 9.265746
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 447.90000000000964,
+    "balance_nok": 499.60000000000963,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -27.199999999999847,
+    "realized_pnl_nok": -13.499999999999844,
     "trades_this_month": 257,
-    "wins_this_month": 137,
+    "wins_this_month": 138,
     "losses_this_month": 107
   },
   "positions": [
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.7905,
       "mid_price_usd": 0.775,
-      "current_price_usd": 0.775,
+      "current_price_usd": 0.745,
       "slippage_pct": 1.99,
       "shares": 5.07,
       "cost_usd": 4.01,
@@ -100,7 +100,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-22T21:38:19Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_241",
@@ -110,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.7517,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.755,
       "slippage_pct": 2.27,
       "shares": 5.33,
       "cost_usd": 4.01,
@@ -125,34 +125,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-22T22:41:16Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_242",
-      "market_id": "2088897",
-      "question": "Will Qingdao Hainiu FC vs. Chongqing Tonglianglong FC end in a draw?",
-      "slug": "chi-hai-ton-2026-05-24-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7185,
-      "mid_price_usd": 0.705,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.91,
-      "shares": 5.71,
-      "cost_usd": 4.1,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.267237,
-      "edge_at_entry": 0.069,
-      "our_probability": 0.774,
-      "signals": [
-        "base:0.040",
-        "cat:0.039",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-23T01:31:04Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 14
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_246",
@@ -162,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.7654,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.76,
       "slippage_pct": 2.05,
       "shares": 5.22,
       "cost_usd": 3.99,
@@ -189,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.6143,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.595,
+      "current_price_usd": 0.57,
       "slippage_pct": 1.53,
       "shares": 6.5,
       "cost_usd": 3.99,
@@ -204,7 +177,7 @@
       "category": "other",
       "opened_at": "2026-05-23T11:04:44Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_251",
@@ -214,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.7607,
       "mid_price_usd": 0.745,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.755,
       "slippage_pct": 2.11,
       "shares": 5.25,
       "cost_usd": 3.99,
@@ -291,7 +264,7 @@
       "side": "NO",
       "entry_price_usd": 0.727,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.57,
+      "current_price_usd": 0.505,
       "slippage_pct": 1.68,
       "shares": 5.49,
       "cost_usd": 3.99,
@@ -309,7 +282,7 @@
       "category": "other",
       "opened_at": "2026-05-24T10:10:35Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_255",
@@ -319,7 +292,7 @@
       "side": "YES",
       "entry_price_usd": 0.3414,
       "mid_price_usd": 0.335,
-      "current_price_usd": 0.265,
+      "current_price_usd": 0.355,
       "slippage_pct": 1.9,
       "shares": 11.7,
       "cost_usd": 3.99,
@@ -334,7 +307,7 @@
       "category": "other",
       "opened_at": "2026-05-24T11:42:46Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -8
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_256",
@@ -344,7 +317,7 @@
       "side": "NO",
       "entry_price_usd": 0.7488,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.695,
       "slippage_pct": 1.88,
       "shares": 5.33,
       "cost_usd": 3.99,
@@ -361,7 +334,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-24T11:42:47Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_257",
@@ -371,7 +344,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.215,
+      "current_price_usd": 0.205,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -386,7 +359,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": -9
     }
   ],
   "closed_positions": [
@@ -7884,6 +7857,40 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-24T01:35:27Z"
+    },
+    {
+      "id": "pos_242",
+      "market_id": "2088897",
+      "question": "Will Qingdao Hainiu FC vs. Chongqing Tonglianglong FC end in a draw?",
+      "slug": "chi-hai-ton-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7185,
+      "mid_price_usd": 0.705,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.91,
+      "shares": 5.71,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.267237,
+      "edge_at_entry": 0.069,
+      "our_probability": 0.774,
+      "signals": [
+        "base:0.040",
+        "cat:0.039",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-23T01:31:04Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 14,
+      "closing_price": 1.0,
+      "clv": 0.295,
+      "result": "WIN",
+      "profit_nok": 13.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T15:38:07Z"
     }
   ],
   "trade_log": [
@@ -8020,9 +8027,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 137,
+    "total_wins": 138,
     "total_losses": 107,
-    "total_realized_pnl_nok": -27.199999999999847,
+    "total_realized_pnl_nok": -13.499999999999844,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8262,9 +8269,10 @@
       0.505,
       -0.345,
       -0.405,
-      0.425
+      0.425,
+      0.295
     ],
-    "avg_clv": 0.0106
+    "avg_clv": 0.0119
   },
   "next_position_id": 258,
   "learning": {
@@ -8274,10 +8282,10 @@
       "moneyline": -0.05,
       "other": 0.023,
       "social_media": 0,
-      "no_draw": 0.029,
+      "no_draw": 0.034,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+2.9% | other:+2.3% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+3.4% | other:+2.3% | esport:-5.0% | moneyline:-5.0%"
   }
 }
