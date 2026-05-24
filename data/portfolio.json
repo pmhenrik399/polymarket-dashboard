@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-24T19:59:54Z",
+    "last_updated": "2026-05-24T21:07:15Z",
     "currency": "NOK",
     "usd_nok_rate": 9.265746
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 691.1000000000098,
+    "balance_nok": 739.8000000000098,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -7.299999999999827,
+    "realized_pnl_nok": -32.89999999999982,
     "trades_this_month": 258,
-    "wins_this_month": 142,
-    "losses_this_month": 109
+    "wins_this_month": 143,
+    "losses_this_month": 110
   },
   "positions": [
     {
@@ -105,31 +105,6 @@
       "unrealized_pnl_nok": 11
     },
     {
-      "id": "pos_253",
-      "market_id": "572854",
-      "question": "Will West Ham be relegated from the English Premier League after the 2025–26 season?",
-      "slug": "will-west-ham-be-relegated-from-the-english-premier-league-after-the-202526-season",
-      "side": "NO",
-      "entry_price_usd": 0.6673,
-      "mid_price_usd": 0.655,
-      "current_price_usd": 0.655,
-      "slippage_pct": 1.87,
-      "shares": 5.98,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.265746,
-      "edge_at_entry": 0.059,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs66%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-24T01:35:36Z",
-      "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 0
-    },
-    {
       "id": "pos_254",
       "market_id": "2293507",
       "question": "Will the price of Ethereum be between $2,000 and $2,100 on May 25?",
@@ -137,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.727,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.51,
+      "current_price_usd": 0.485,
       "slippage_pct": 1.68,
       "shares": 5.49,
       "cost_usd": 3.99,
@@ -155,34 +130,7 @@
       "category": "other",
       "opened_at": "2026-05-24T10:10:35Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": -11
-    },
-    {
-      "id": "pos_256",
-      "market_id": "2227160",
-      "question": "Will Tottenham Hotspur FC vs. Everton FC end in a draw?",
-      "slug": "epl-tot-eve-2026-05-24-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7488,
-      "mid_price_usd": 0.735,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.88,
-      "shares": 5.33,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.265746,
-      "edge_at_entry": 0.059,
-      "our_probability": 0.794,
-      "signals": [
-        "base:0.040",
-        "cat:0.029",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-24T11:42:47Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 12
+      "unrealized_pnl_nok": -12
     },
     {
       "id": "pos_257",
@@ -192,7 +140,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.235,
+      "current_price_usd": 0.265,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -207,7 +155,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_258",
@@ -217,7 +165,7 @@
       "side": "NO",
       "entry_price_usd": 0.6907,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.825,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.57,
       "shares": 5.78,
       "cost_usd": 3.99,
@@ -234,7 +182,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-24T17:43:07Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 16
     }
   ],
   "closed_positions": [
@@ -7958,6 +7906,71 @@
       "profit_nok": -37.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-24T19:59:53Z"
+    },
+    {
+      "id": "pos_253",
+      "market_id": "572854",
+      "question": "Will West Ham be relegated from the English Premier League after the 2025–26 season?",
+      "slug": "will-west-ham-be-relegated-from-the-english-premier-league-after-the-202526-season",
+      "side": "NO",
+      "entry_price_usd": 0.6673,
+      "mid_price_usd": 0.655,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.87,
+      "shares": 5.98,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.059,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs66%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-24T01:35:36Z",
+      "end_date": "2026-05-27",
+      "unrealized_pnl_nok": 0,
+      "closing_price": 0.0,
+      "clv": -0.655,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T21:07:13Z"
+    },
+    {
+      "id": "pos_256",
+      "market_id": "2227160",
+      "question": "Will Tottenham Hotspur FC vs. Everton FC end in a draw?",
+      "slug": "epl-tot-eve-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7488,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.88,
+      "shares": 5.33,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.059,
+      "our_probability": 0.794,
+      "signals": [
+        "base:0.040",
+        "cat:0.029",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-24T11:42:47Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 12,
+      "closing_price": 1.0,
+      "clv": 0.265,
+      "result": "WIN",
+      "profit_nok": 11.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T21:07:14Z"
     }
   ],
   "trade_log": [
@@ -8094,9 +8107,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 142,
-    "total_losses": 109,
-    "total_realized_pnl_nok": -7.299999999999827,
+    "total_wins": 143,
+    "total_losses": 110,
+    "total_realized_pnl_nok": -32.89999999999982,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8343,9 +8356,11 @@
       -0.735,
       0.255,
       0.525,
-      -0.335
+      -0.335,
+      -0.655,
+      0.265
     ],
-    "avg_clv": 0.013
+    "avg_clv": 0.0112
   },
   "next_position_id": 259,
   "learning": {
@@ -8353,12 +8368,12 @@
       "esport": -0.05,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": 0.025,
+      "other": 0.016,
       "social_media": 0,
-      "no_draw": 0.034,
+      "no_draw": 0.037,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.4% | other:+2.5% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+3.7% | other:+1.6% | esport:-5.0% | moneyline:-5.0%"
   }
 }
