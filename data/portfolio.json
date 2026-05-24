@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-24T18:51:18Z",
+    "last_updated": "2026-05-24T19:59:54Z",
     "currency": "NOK",
     "usd_nok_rate": 9.265746
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 522.0000000000097,
+    "balance_nok": 691.1000000000098,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 9.20000000000016,
+    "realized_pnl_nok": -7.299999999999827,
     "trades_this_month": 258,
-    "wins_this_month": 139,
-    "losses_this_month": 107
+    "wins_this_month": 142,
+    "losses_this_month": 109
   },
   "positions": [
     {
@@ -78,56 +78,6 @@
       "unrealized_pnl_nok": 9
     },
     {
-      "id": "pos_240",
-      "market_id": "2227127",
-      "question": "Will Brighton & Hove Albion FC vs. Manchester United FC end in a draw?",
-      "slug": "epl-bri-mun-2026-05-24-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7905,
-      "mid_price_usd": 0.775,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.99,
-      "shares": 5.07,
-      "cost_usd": 4.01,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.236737,
-      "edge_at_entry": 0.081,
-      "our_probability": 0.866,
-      "signals": [
-        "bookie:draw=13%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-22T21:38:19Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 9
-    },
-    {
-      "id": "pos_241",
-      "market_id": "2227369",
-      "question": "Will Burnley FC vs. Wolverhampton Wanderers FC end in a draw?",
-      "slug": "epl-bur-wol-2026-05-24-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7517,
-      "mid_price_usd": 0.735,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.27,
-      "shares": 5.33,
-      "cost_usd": 4.01,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.236737,
-      "edge_at_entry": 0.166,
-      "our_probability": 0.911,
-      "signals": [
-        "bookie:draw=9%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-22T22:41:16Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -37
-    },
-    {
       "id": "pos_246",
       "market_id": "2196023",
       "question": "Will CS Cristal vs. AD Tarma end in a draw?",
@@ -153,58 +103,6 @@
       "opened_at": "2026-05-23T09:51:34Z",
       "end_date": "2026-05-24",
       "unrealized_pnl_nok": 11
-    },
-    {
-      "id": "pos_251",
-      "market_id": "2227311",
-      "question": "Will Sunderland AFC vs. Chelsea FC end in a draw?",
-      "slug": "epl-sun-che-2026-05-24-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7607,
-      "mid_price_usd": 0.745,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.11,
-      "shares": 5.25,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.267237,
-      "edge_at_entry": 0.073,
-      "our_probability": 0.818,
-      "signals": [
-        "base:0.040",
-        "cat:0.043",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-23T16:14:54Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 11
-    },
-    {
-      "id": "pos_252",
-      "market_id": "582134",
-      "question": "Will Liverpool finish in the top 4 of the EPL 2025–26 standings?",
-      "slug": "will-liverpool-finish-in-the-top-4-of-the-epl-202526-standings",
-      "side": "NO",
-      "entry_price_usd": 0.4848,
-      "mid_price_usd": 0.475,
-      "current_price_usd": 0.475,
-      "slippage_pct": 2.07,
-      "shares": 8.24,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.265746,
-      "edge_at_entry": 0.079,
-      "our_probability": 0.564,
-      "signals": [
-        "bookie:44%vs48%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-24T01:35:36Z",
-      "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_253",
@@ -239,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.727,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.53,
+      "current_price_usd": 0.51,
       "slippage_pct": 1.68,
       "shares": 5.49,
       "cost_usd": 3.99,
@@ -257,32 +155,7 @@
       "category": "other",
       "opened_at": "2026-05-24T10:10:35Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": -10
-    },
-    {
-      "id": "pos_255",
-      "market_id": "2228314",
-      "question": "Spread: Manchester City FC (-2.5)",
-      "slug": "epl-mac-ast-2026-05-24-spread-home-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.3414,
-      "mid_price_usd": 0.335,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.9,
-      "shares": 11.7,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.265746,
-      "edge_at_entry": 0.447,
-      "our_probability": 0.792,
-      "signals": [
-        "bookie:79%vs34%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-24T11:42:46Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -36
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_256",
@@ -319,7 +192,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.225,
+      "current_price_usd": 0.235,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -334,7 +207,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -6
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_258",
@@ -344,7 +217,7 @@
       "side": "NO",
       "entry_price_usd": 0.6907,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.61,
+      "current_price_usd": 0.825,
       "slippage_pct": 1.57,
       "shares": 5.78,
       "cost_usd": 3.99,
@@ -361,7 +234,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-24T17:43:07Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": 7
     }
   ],
   "closed_positions": [
@@ -7925,6 +7798,166 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-24T18:51:14Z"
+    },
+    {
+      "id": "pos_240",
+      "market_id": "2227127",
+      "question": "Will Brighton & Hove Albion FC vs. Manchester United FC end in a draw?",
+      "slug": "epl-bri-mun-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7905,
+      "mid_price_usd": 0.775,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.99,
+      "shares": 5.07,
+      "cost_usd": 4.01,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.236737,
+      "edge_at_entry": 0.081,
+      "our_probability": 0.866,
+      "signals": [
+        "bookie:draw=13%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-22T21:38:19Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 9,
+      "closing_price": 1.0,
+      "clv": 0.225,
+      "result": "WIN",
+      "profit_nok": 8.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T19:59:49Z"
+    },
+    {
+      "id": "pos_241",
+      "market_id": "2227369",
+      "question": "Will Burnley FC vs. Wolverhampton Wanderers FC end in a draw?",
+      "slug": "epl-bur-wol-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7517,
+      "mid_price_usd": 0.735,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.27,
+      "shares": 5.33,
+      "cost_usd": 4.01,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.236737,
+      "edge_at_entry": 0.166,
+      "our_probability": 0.911,
+      "signals": [
+        "bookie:draw=9%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-22T22:41:16Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": -37,
+      "closing_price": 0.0,
+      "clv": -0.735,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T19:59:49Z"
+    },
+    {
+      "id": "pos_251",
+      "market_id": "2227311",
+      "question": "Will Sunderland AFC vs. Chelsea FC end in a draw?",
+      "slug": "epl-sun-che-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7607,
+      "mid_price_usd": 0.745,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.11,
+      "shares": 5.25,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.267237,
+      "edge_at_entry": 0.073,
+      "our_probability": 0.818,
+      "signals": [
+        "base:0.040",
+        "cat:0.043",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-23T16:14:54Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 11,
+      "closing_price": 1.0,
+      "clv": 0.255,
+      "result": "WIN",
+      "profit_nok": 10.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T19:59:50Z"
+    },
+    {
+      "id": "pos_252",
+      "market_id": "582134",
+      "question": "Will Liverpool finish in the top 4 of the EPL 2025–26 standings?",
+      "slug": "will-liverpool-finish-in-the-top-4-of-the-epl-202526-standings",
+      "side": "NO",
+      "entry_price_usd": 0.4848,
+      "mid_price_usd": 0.475,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.07,
+      "shares": 8.24,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.079,
+      "our_probability": 0.564,
+      "signals": [
+        "bookie:44%vs48%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-24T01:35:36Z",
+      "end_date": "2026-05-27",
+      "unrealized_pnl_nok": 0,
+      "closing_price": 1.0,
+      "clv": 0.525,
+      "result": "WIN",
+      "profit_nok": 38.7,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T19:59:51Z"
+    },
+    {
+      "id": "pos_255",
+      "market_id": "2228314",
+      "question": "Spread: Manchester City FC (-2.5)",
+      "slug": "epl-mac-ast-2026-05-24-spread-home-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3414,
+      "mid_price_usd": 0.335,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.9,
+      "shares": 11.7,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.447,
+      "our_probability": 0.792,
+      "signals": [
+        "bookie:79%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-24T11:42:46Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": -36,
+      "closing_price": 0.0,
+      "clv": -0.335,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T19:59:53Z"
     }
   ],
   "trade_log": [
@@ -8061,9 +8094,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 139,
-    "total_losses": 107,
-    "total_realized_pnl_nok": 9.20000000000016,
+    "total_wins": 142,
+    "total_losses": 109,
+    "total_realized_pnl_nok": -7.299999999999827,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8305,9 +8338,14 @@
       -0.405,
       0.425,
       0.295,
-      0.395
+      0.395,
+      0.225,
+      -0.735,
+      0.255,
+      0.525,
+      -0.335
     ],
-    "avg_clv": 0.0135
+    "avg_clv": 0.013
   },
   "next_position_id": 259,
   "learning": {
@@ -8315,12 +8353,12 @@
       "esport": -0.05,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": 0.03,
+      "other": 0.025,
       "social_media": 0,
       "no_draw": 0.034,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.4% | other:+3.0% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+3.4% | other:+2.5% | esport:-5.0% | moneyline:-5.0%"
   }
 }
