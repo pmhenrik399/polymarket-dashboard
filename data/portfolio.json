@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-24T17:43:02Z",
+    "last_updated": "2026-05-24T18:51:18Z",
     "currency": "NOK",
     "usd_nok_rate": 9.265746
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 462.3000000000096,
+    "balance_nok": 522.0000000000097,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -13.499999999999844,
+    "realized_pnl_nok": 9.20000000000016,
     "trades_this_month": 258,
-    "wins_this_month": 138,
+    "wins_this_month": 139,
     "losses_this_month": 107
   },
   "positions": [
@@ -135,7 +135,7 @@
       "side": "NO",
       "entry_price_usd": 0.7654,
       "mid_price_usd": 0.75,
-      "current_price_usd": 0.505,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.05,
       "shares": 5.22,
       "cost_usd": 3.99,
@@ -152,32 +152,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-23T09:51:34Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": -12
-    },
-    {
-      "id": "pos_247",
-      "market_id": "2228330",
-      "question": "Manchester City FC vs. Aston Villa FC: Both Teams to Score",
-      "slug": "epl-mac-ast-2026-05-24-btts",
-      "side": "YES",
-      "entry_price_usd": 0.6143,
-      "mid_price_usd": 0.605,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.53,
-      "shares": 6.5,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.267237,
-      "edge_at_entry": 0.177,
-      "our_probability": 0.792,
-      "signals": [
-        "bookie:79%vs60%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-23T11:04:44Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 23
+      "unrealized_pnl_nok": 11
     },
     {
       "id": "pos_251",
@@ -264,7 +239,7 @@
       "side": "NO",
       "entry_price_usd": 0.727,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.535,
+      "current_price_usd": 0.53,
       "slippage_pct": 1.68,
       "shares": 5.49,
       "cost_usd": 3.99,
@@ -282,7 +257,7 @@
       "category": "other",
       "opened_at": "2026-05-24T10:10:35Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": -9
+      "unrealized_pnl_nok": -10
     },
     {
       "id": "pos_255",
@@ -344,7 +319,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.235,
+      "current_price_usd": 0.225,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -359,7 +334,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_258",
@@ -369,7 +344,7 @@
       "side": "NO",
       "entry_price_usd": 0.6907,
       "mid_price_usd": 0.68,
-      "current_price_usd": 0.6907,
+      "current_price_usd": 0.61,
       "slippage_pct": 1.57,
       "shares": 5.78,
       "cost_usd": 3.99,
@@ -386,7 +361,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-24T17:43:07Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -4
     }
   ],
   "closed_positions": [
@@ -7918,6 +7893,38 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-24T15:38:07Z"
+    },
+    {
+      "id": "pos_247",
+      "market_id": "2228330",
+      "question": "Manchester City FC vs. Aston Villa FC: Both Teams to Score",
+      "slug": "epl-mac-ast-2026-05-24-btts",
+      "side": "YES",
+      "entry_price_usd": 0.6143,
+      "mid_price_usd": 0.605,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.53,
+      "shares": 6.5,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.267237,
+      "edge_at_entry": 0.177,
+      "our_probability": 0.792,
+      "signals": [
+        "bookie:79%vs60%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-23T11:04:44Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 23,
+      "closing_price": 1.0,
+      "clv": 0.395,
+      "result": "WIN",
+      "profit_nok": 22.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-24T18:51:14Z"
     }
   ],
   "trade_log": [
@@ -8054,9 +8061,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 138,
+    "total_wins": 139,
     "total_losses": 107,
-    "total_realized_pnl_nok": -13.499999999999844,
+    "total_realized_pnl_nok": 9.20000000000016,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8297,9 +8304,10 @@
       -0.345,
       -0.405,
       0.425,
-      0.295
+      0.295,
+      0.395
     ],
-    "avg_clv": 0.0119
+    "avg_clv": 0.0135
   },
   "next_position_id": 259,
   "learning": {
@@ -8307,12 +8315,12 @@
       "esport": -0.05,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": 0.023,
+      "other": 0.03,
       "social_media": 0,
       "no_draw": 0.034,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.4% | other:+2.3% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+3.4% | other:+3.0% | esport:-5.0% | moneyline:-5.0%"
   }
 }
