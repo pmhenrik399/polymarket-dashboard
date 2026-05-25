@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-24T23:14:23Z",
+    "last_updated": "2026-05-25T00:15:57Z",
     "currency": "NOK",
     "usd_nok_rate": 9.265746
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 763.60000000001,
+    "balance_nok": 725.3000000000101,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -6.499999999999815,
-    "trades_this_month": 260,
+    "trades_this_month": 261,
     "wins_this_month": 145,
     "losses_this_month": 110
   },
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.727,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.51,
+      "current_price_usd": 0.535,
       "slippage_pct": 1.68,
       "shares": 5.49,
       "cost_usd": 3.99,
@@ -103,7 +103,7 @@
       "category": "other",
       "opened_at": "2026-05-24T10:10:35Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": -11
+      "unrealized_pnl_nok": -9
     },
     {
       "id": "pos_257",
@@ -113,7 +113,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.255,
+      "current_price_usd": 0.24,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -128,7 +128,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_259",
@@ -138,7 +138,7 @@
       "side": "NO",
       "entry_price_usd": 0.3107,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.3107,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.87,
       "shares": 13.2,
       "cost_usd": 4.1,
@@ -155,7 +155,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-24T23:14:30Z",
       "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 84
     },
     {
       "id": "pos_260",
@@ -165,7 +165,7 @@
       "side": "NO",
       "entry_price_usd": 0.6878,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.6878,
+      "current_price_usd": 0.7,
       "slippage_pct": 1.89,
       "shares": 5.96,
       "cost_usd": 4.1,
@@ -182,6 +182,31 @@
       "category": "no_draw",
       "opened_at": "2026-05-24T23:14:30Z",
       "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_261",
+      "market_id": "2313021",
+      "question": "World Championships: Switzerland vs. Finland",
+      "slug": "wch-sui-fin-2026-05-26",
+      "side": "NO",
+      "entry_price_usd": 0.4927,
+      "mid_price_usd": 0.485,
+      "current_price_usd": 0.4927,
+      "slippage_pct": 1.59,
+      "shares": 8.32,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.229,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs48%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-25T00:16:02Z",
+      "end_date": "2026-05-26",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -8432,7 +8457,7 @@
     ],
     "avg_clv": 0.0135
   },
-  "next_position_id": 261,
+  "next_position_id": 262,
   "learning": {
     "category_weights": {
       "esport": -0.05,
