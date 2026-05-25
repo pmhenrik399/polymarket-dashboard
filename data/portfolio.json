@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-25T20:39:29Z",
+    "last_updated": "2026-05-25T21:51:31Z",
     "currency": "NOK",
     "usd_nok_rate": 9.254956
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 925.8000000000103,
+    "balance_nok": 882.5000000000103,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 120.3000000000002,
-    "trades_this_month": 263,
+    "trades_this_month": 264,
     "wins_this_month": 148,
     "losses_this_month": 111
   },
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.23,
+      "current_price_usd": 0.265,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -5
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_261",
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.4927,
       "mid_price_usd": 0.485,
-      "current_price_usd": 0.485,
+      "current_price_usd": 0.475,
       "slippage_pct": 1.59,
       "shares": 8.32,
       "cost_usd": 4.1,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-05-25T00:16:02Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_262",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.5743,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.005,
+      "current_price_usd": 0.0005,
       "slippage_pct": 1.65,
       "shares": 7.9,
       "cost_usd": 4.54,
@@ -155,6 +155,31 @@
       "opened_at": "2026-05-25T17:24:23Z",
       "end_date": "2026-05-25",
       "unrealized_pnl_nok": -41
+    },
+    {
+      "id": "pos_264",
+      "market_id": "2307645",
+      "question": "Counter-Strike: BET-M 33 vs Aurora Young Blood (BO3) - CIS LAN Championship Group B",
+      "slug": "cs2-33-auryb-2026-05-26",
+      "side": "NO",
+      "entry_price_usd": 0.3119,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.3119,
+      "slippage_pct": 2.25,
+      "shares": 14.9,
+      "cost_usd": 4.65,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.409,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-25T21:51:37Z",
+      "end_date": "2026-05-26",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -8542,7 +8567,7 @@
     ],
     "avg_clv": 0.0172
   },
-  "next_position_id": 264,
+  "next_position_id": 265,
   "learning": {
     "category_weights": {
       "esport": 0,
