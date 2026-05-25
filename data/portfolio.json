@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-25T00:15:57Z",
+    "last_updated": "2026-05-25T04:57:03Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.265746
+    "usd_nok_rate": 9.254956
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 725.3000000000101,
+    "balance_nok": 805.7000000000102,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -6.499999999999815,
-    "trades_this_month": 261,
-    "wins_this_month": 145,
-    "losses_this_month": 110
+    "realized_pnl_nok": 37.90000000000019,
+    "trades_this_month": 262,
+    "wins_this_month": 146,
+    "losses_this_month": 111
   },
   "positions": [
     {
@@ -85,7 +85,7 @@
       "side": "NO",
       "entry_price_usd": 0.727,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.535,
+      "current_price_usd": 0.57,
       "slippage_pct": 1.68,
       "shares": 5.49,
       "cost_usd": 3.99,
@@ -103,7 +103,7 @@
       "category": "other",
       "opened_at": "2026-05-24T10:10:35Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": -9
+      "unrealized_pnl_nok": -7
     },
     {
       "id": "pos_257",
@@ -113,7 +113,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.24,
+      "current_price_usd": 0.22,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -128,61 +128,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -4
-    },
-    {
-      "id": "pos_259",
-      "market_id": "2099456",
-      "question": "Will SC Corinthians Paulista vs. CA Mineiro end in a draw?",
-      "slug": "bra-cor1-cam-2026-05-24-draw",
-      "side": "NO",
-      "entry_price_usd": 0.3107,
-      "mid_price_usd": 0.305,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.87,
-      "shares": 13.2,
-      "cost_usd": 4.1,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.265746,
-      "edge_at_entry": 0.074,
-      "our_probability": 0.379,
-      "signals": [
-        "base:0.040",
-        "cat:0.044",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-24T23:14:30Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 84
-    },
-    {
-      "id": "pos_260",
-      "market_id": "2099485",
-      "question": "Will Operário Ferroviário EC vs. Criciúma EC end in a draw?",
-      "slug": "bra2-ope-cri-2026-05-24-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6878,
-      "mid_price_usd": 0.675,
-      "current_price_usd": 0.7,
-      "slippage_pct": 1.89,
-      "shares": 5.96,
-      "cost_usd": 4.1,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.265746,
-      "edge_at_entry": 0.074,
-      "our_probability": 0.749,
-      "signals": [
-        "base:0.040",
-        "cat:0.044",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-24T23:14:30Z",
-      "end_date": "2026-05-24",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_261",
@@ -192,7 +138,7 @@
       "side": "NO",
       "entry_price_usd": 0.4927,
       "mid_price_usd": 0.485,
-      "current_price_usd": 0.4927,
+      "current_price_usd": 0.49,
       "slippage_pct": 1.59,
       "shares": 8.32,
       "cost_usd": 4.1,
@@ -207,6 +153,33 @@
       "category": "other",
       "opened_at": "2026-05-25T00:16:02Z",
       "end_date": "2026-05-26",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_262",
+      "market_id": "2275792",
+      "question": "Will Notts County FC vs. Salford City FC end in a draw?",
+      "slug": "el2-not-sal-2026-05-25-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6996,
+      "mid_price_usd": 0.685,
+      "current_price_usd": 0.6996,
+      "slippage_pct": 2.13,
+      "shares": 6.18,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.069,
+      "our_probability": 0.754,
+      "signals": [
+        "base:0.040",
+        "cat:0.039",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-25T04:57:08Z",
+      "end_date": "2026-05-25",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -8064,6 +8037,73 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-24T23:14:23Z"
+    },
+    {
+      "id": "pos_259",
+      "market_id": "2099456",
+      "question": "Will SC Corinthians Paulista vs. CA Mineiro end in a draw?",
+      "slug": "bra-cor1-cam-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.3107,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.87,
+      "shares": 13.2,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.074,
+      "our_probability": 0.379,
+      "signals": [
+        "base:0.040",
+        "cat:0.044",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-24T23:14:30Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 84,
+      "closing_price": 1.0,
+      "clv": 0.695,
+      "result": "WIN",
+      "profit_nok": 82.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-25T04:57:02Z"
+    },
+    {
+      "id": "pos_260",
+      "market_id": "2099485",
+      "question": "Will Operário Ferroviário EC vs. Criciúma EC end in a draw?",
+      "slug": "bra2-ope-cri-2026-05-24-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6878,
+      "mid_price_usd": 0.675,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.89,
+      "shares": 5.96,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.074,
+      "our_probability": 0.749,
+      "signals": [
+        "base:0.040",
+        "cat:0.044",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-24T23:14:30Z",
+      "end_date": "2026-05-24",
+      "unrealized_pnl_nok": 0,
+      "closing_price": 0.0,
+      "clv": -0.675,
+      "result": "LOSS",
+      "profit_nok": -38.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-25T04:57:02Z"
     }
   ],
   "trade_log": [
@@ -8200,9 +8240,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 145,
-    "total_losses": 110,
-    "total_realized_pnl_nok": -6.499999999999815,
+    "total_wins": 146,
+    "total_losses": 111,
+    "total_realized_pnl_nok": 37.90000000000019,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8453,22 +8493,24 @@
       -0.655,
       0.265,
       0.25,
-      0.32
+      0.32,
+      0.695,
+      -0.675
     ],
     "avg_clv": 0.0135
   },
-  "next_position_id": 262,
+  "next_position_id": 263,
   "learning": {
     "category_weights": {
-      "esport": -0.05,
+      "esport": 0,
       "over_under": 0,
       "moneyline": -0.05,
       "other": 0.016,
       "social_media": 0,
-      "no_draw": 0.044,
+      "no_draw": 0.039,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.4% | other:+1.6% | esport:-5.0% | moneyline:-5.0%"
+    "summary": "no_draw:+3.9% | other:+1.6% | moneyline:-5.0%"
   }
 }
