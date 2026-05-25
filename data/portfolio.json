@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-25T15:42:32Z",
+    "last_updated": "2026-05-25T17:24:16Z",
     "currency": "NOK",
     "usd_nok_rate": 9.254956
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 918.4000000000102,
+    "balance_nok": 876.1000000000103,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 107.6000000000002,
-    "trades_this_month": 262,
+    "trades_this_month": 263,
     "wins_this_month": 147,
     "losses_this_month": 111
   },
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.727,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.995,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.68,
       "shares": 5.49,
       "cost_usd": 3.99,
@@ -88,7 +88,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.27,
+      "current_price_usd": 0.245,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -103,7 +103,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_261",
@@ -138,7 +138,7 @@
       "side": "NO",
       "entry_price_usd": 0.6996,
       "mid_price_usd": 0.685,
-      "current_price_usd": 0.97,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.13,
       "shares": 6.18,
       "cost_usd": 4.32,
@@ -155,7 +155,34 @@
       "category": "no_draw",
       "opened_at": "2026-05-25T04:57:08Z",
       "end_date": "2026-05-25",
-      "unrealized_pnl_nok": 15
+      "unrealized_pnl_nok": 17
+    },
+    {
+      "id": "pos_263",
+      "market_id": "2347802",
+      "question": "Paderborn vs. Wolfsburg: Draw at halftime?",
+      "slug": "bun-pad-wol-2026-05-25-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.5743,
+      "mid_price_usd": 0.565,
+      "current_price_usd": 0.5743,
+      "slippage_pct": 1.65,
+      "shares": 7.9,
+      "cost_usd": 4.54,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.069,
+      "our_probability": 0.634,
+      "signals": [
+        "base:0.040",
+        "cat:0.039",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-25T17:24:23Z",
+      "end_date": "2026-05-25",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -8507,7 +8534,7 @@
     ],
     "avg_clv": 0.0161
   },
-  "next_position_id": 263,
+  "next_position_id": 264,
   "learning": {
     "category_weights": {
       "esport": 0,
