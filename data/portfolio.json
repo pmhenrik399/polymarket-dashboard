@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-26T22:45:24Z",
+    "last_updated": "2026-05-26T23:52:14Z",
     "currency": "NOK",
     "usd_nok_rate": 9.242817
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 170.7000000000002,
+    "realized_pnl_nok": 132.4000000000002,
     "trades_this_month": 270,
     "wins_this_month": 149,
-    "losses_this_month": 112
+    "losses_this_month": 113
   },
   "positions": [
     {
@@ -76,31 +76,6 @@
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
       "unrealized_pnl_nok": -36
-    },
-    {
-      "id": "pos_261",
-      "market_id": "2313021",
-      "question": "World Championships: Switzerland vs. Finland",
-      "slug": "wch-sui-fin-2026-05-26",
-      "side": "NO",
-      "entry_price_usd": 0.4927,
-      "mid_price_usd": 0.485,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.59,
-      "shares": 8.32,
-      "cost_usd": 4.1,
-      "cost_nok": 38,
-      "usd_nok_at_entry": 9.265746,
-      "edge_at_entry": 0.229,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs48%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-25T00:16:02Z",
-      "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -37
     },
     {
       "id": "pos_262",
@@ -162,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.7219,
       "mid_price_usd": 0.705,
-      "current_price_usd": 0.83,
+      "current_price_usd": 0.915,
       "slippage_pct": 2.4,
       "shares": 6.14,
       "cost_usd": 4.43,
@@ -179,7 +154,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-25T22:52:55Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": 6
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_267",
@@ -214,7 +189,7 @@
       "side": "NO",
       "entry_price_usd": 0.7864,
       "mid_price_usd": 0.77,
-      "current_price_usd": 0.74,
+      "current_price_usd": 0.805,
       "slippage_pct": 2.13,
       "shares": 5.63,
       "cost_usd": 4.43,
@@ -231,7 +206,7 @@
       "category": "other",
       "opened_at": "2026-05-26T00:02:18Z",
       "end_date": "2026-05-27",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_269",
@@ -268,7 +243,7 @@
       "side": "NO",
       "entry_price_usd": 0.7362,
       "mid_price_usd": 0.725,
-      "current_price_usd": 0.7362,
+      "current_price_usd": 0.725,
       "slippage_pct": 1.55,
       "shares": 6.61,
       "cost_usd": 4.87,
@@ -8341,6 +8316,37 @@
       "fee_nok": 1,
       "gas_nok": 0.3,
       "closed_at": "2026-05-26T14:17:01Z"
+    },
+    {
+      "id": "pos_261",
+      "market_id": "2313021",
+      "question": "World Championships: Switzerland vs. Finland",
+      "slug": "wch-sui-fin-2026-05-26",
+      "side": "NO",
+      "entry_price_usd": 0.4927,
+      "mid_price_usd": 0.485,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.59,
+      "shares": 8.32,
+      "cost_usd": 4.1,
+      "cost_nok": 38,
+      "usd_nok_at_entry": 9.265746,
+      "edge_at_entry": 0.229,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs48%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-25T00:16:02Z",
+      "end_date": "2026-05-26",
+      "unrealized_pnl_nok": -37,
+      "closing_price": 0.0,
+      "clv": -0.485,
+      "result": "LOSS",
+      "profit_nok": -38.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-26T23:52:10Z"
     }
   ],
   "trade_log": [
@@ -8478,8 +8484,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 149,
-    "total_losses": 112,
-    "total_realized_pnl_nok": 170.7000000000002,
+    "total_losses": 113,
+    "total_realized_pnl_nok": 132.4000000000002,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8736,9 +8742,10 @@
       0.635,
       0.285,
       -0.565,
-      0.695
+      0.695,
+      -0.485
     ],
-    "avg_clv": 0.0176
+    "avg_clv": 0.0155
   },
   "next_position_id": 271,
   "learning": {
@@ -8746,12 +8753,12 @@
       "esport": 0.022,
       "over_under": 0,
       "moneyline": 0,
-      "other": 0.029,
+      "other": 0.017,
       "social_media": 0,
       "no_draw": 0.032,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.2% | other:+2.9% | esport:+2.2%"
+    "summary": "no_draw:+3.2% | esport:+2.2% | other:+1.7%"
   }
 }
