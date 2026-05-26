@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-26T08:05:10Z",
+    "last_updated": "2026-05-26T14:17:03Z",
     "currency": "NOK",
     "usd_nok_rate": 9.242817
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 717.3000000000105,
+    "balance_nok": 853.0000000000105,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 78.0000000000002,
+    "realized_pnl_nok": 170.7000000000002,
     "trades_this_month": 268,
-    "wins_this_month": 148,
+    "wins_this_month": 149,
     "losses_this_month": 112
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.265,
+      "current_price_usd": 0.125,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -19
     },
     {
       "id": "pos_261",
@@ -128,31 +128,6 @@
       "opened_at": "2026-05-25T04:57:08Z",
       "end_date": "2026-05-25",
       "unrealized_pnl_nok": 17
-    },
-    {
-      "id": "pos_264",
-      "market_id": "2307645",
-      "question": "Counter-Strike: BET-M 33 vs Aurora Young Blood (BO3) - CIS LAN Championship Group B",
-      "slug": "cs2-33-auryb-2026-05-26",
-      "side": "NO",
-      "entry_price_usd": 0.3119,
-      "mid_price_usd": 0.305,
-      "current_price_usd": 0.275,
-      "slippage_pct": 2.25,
-      "shares": 14.9,
-      "cost_usd": 4.65,
-      "cost_nok": 43,
-      "usd_nok_at_entry": 9.254956,
-      "edge_at_entry": 0.409,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs30%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-25T21:51:37Z",
-      "end_date": "2026-05-26",
-      "unrealized_pnl_nok": -5
     },
     {
       "id": "pos_265",
@@ -214,7 +189,7 @@
       "side": "YES",
       "entry_price_usd": 0.2089,
       "mid_price_usd": 0.204,
-      "current_price_usd": 0.0255,
+      "current_price_usd": 0.026,
       "slippage_pct": 2.4,
       "shares": 21.21,
       "cost_usd": 4.43,
@@ -239,7 +214,7 @@
       "side": "NO",
       "entry_price_usd": 0.7864,
       "mid_price_usd": 0.77,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.71,
       "slippage_pct": 2.13,
       "shares": 5.63,
       "cost_usd": 4.43,
@@ -256,7 +231,7 @@
       "category": "other",
       "opened_at": "2026-05-26T00:02:18Z",
       "end_date": "2026-05-27",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -3
     }
   ],
   "closed_positions": [
@@ -8280,6 +8255,38 @@
       "profit_nok": -42.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-25T22:52:48Z"
+    },
+    {
+      "id": "pos_264",
+      "market_id": "2307645",
+      "question": "Counter-Strike: BET-M 33 vs Aurora Young Blood (BO3) - CIS LAN Championship Group B",
+      "slug": "cs2-33-auryb-2026-05-26",
+      "side": "NO",
+      "entry_price_usd": 0.3119,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.25,
+      "shares": 14.9,
+      "cost_usd": 4.65,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.409,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-25T21:51:37Z",
+      "end_date": "2026-05-26",
+      "unrealized_pnl_nok": -5,
+      "closing_price": 1.0,
+      "clv": 0.695,
+      "result": "WIN",
+      "profit_nok": 92.69999999999999,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-26T14:17:01Z"
     }
   ],
   "trade_log": [
@@ -8416,9 +8423,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 148,
+    "total_wins": 149,
     "total_losses": 112,
-    "total_realized_pnl_nok": 78.0000000000002,
+    "total_realized_pnl_nok": 170.7000000000002,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8674,14 +8681,15 @@
       -0.675,
       0.635,
       0.285,
-      -0.565
+      -0.565,
+      0.695
     ],
-    "avg_clv": 0.0148
+    "avg_clv": 0.0176
   },
   "next_position_id": 269,
   "learning": {
     "category_weights": {
-      "esport": 0,
+      "esport": 0.022,
       "over_under": 0,
       "moneyline": 0,
       "other": 0.029,
@@ -8690,6 +8698,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.2% | other:+2.9%"
+    "summary": "no_draw:+3.2% | other:+2.9% | esport:+2.2%"
   }
 }
