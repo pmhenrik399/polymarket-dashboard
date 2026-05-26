@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-25T22:52:49Z",
+    "last_updated": "2026-05-26T00:02:09Z",
     "currency": "NOK",
     "usd_nok_rate": 9.254956
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 799.9000000000104,
+    "balance_nok": 717.3000000000105,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 78.0000000000002,
-    "trades_this_month": 266,
+    "trades_this_month": 268,
     "wins_this_month": 148,
     "losses_this_month": 112
   },
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2712,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.27,
       "slippage_pct": 2.33,
       "shares": 14.72,
       "cost_usd": 3.99,
@@ -75,7 +75,7 @@
       "category": "other",
       "opened_at": "2026-05-24T12:47:47Z",
       "end_date": "2026-05-26",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_261",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.3119,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.305,
+      "current_price_usd": 0.31,
       "slippage_pct": 2.25,
       "shares": 14.9,
       "cost_usd": 4.65,
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2285,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.2285,
+      "current_price_usd": 0.225,
       "slippage_pct": 1.57,
       "shares": 19.39,
       "cost_usd": 4.43,
@@ -187,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.7219,
       "mid_price_usd": 0.705,
-      "current_price_usd": 0.7219,
+      "current_price_usd": 0.705,
       "slippage_pct": 2.4,
       "shares": 6.14,
       "cost_usd": 4.43,
@@ -204,6 +204,58 @@
       "category": "no_draw",
       "opened_at": "2026-05-25T22:52:55Z",
       "end_date": "2026-05-26",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_267",
+      "market_id": "2344699",
+      "question": "Will the lowest temperature in Paris be 14°C on May 28?",
+      "slug": "lowest-temperature-in-paris-on-may-28-2026-14c",
+      "side": "YES",
+      "entry_price_usd": 0.2089,
+      "mid_price_usd": 0.204,
+      "current_price_usd": 0.2089,
+      "slippage_pct": 2.4,
+      "shares": 21.21,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.062,
+      "our_probability": 0.276,
+      "signals": [
+        "bookie:28%vs20%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-26T00:02:18Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_268",
+      "market_id": "2350905",
+      "question": "Will the highest temperature in Wuhan be 28°C on May 27?",
+      "slug": "highest-temperature-in-wuhan-on-may-27-2026-28c",
+      "side": "NO",
+      "entry_price_usd": 0.7864,
+      "mid_price_usd": 0.77,
+      "current_price_usd": 0.7864,
+      "slippage_pct": 2.13,
+      "shares": 5.63,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.054,
+      "our_probability": 0.824,
+      "signals": [
+        "base:0.030",
+        "cat:0.029",
+        "line:0.005",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-26T00:02:18Z",
+      "end_date": "2026-05-27",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -8626,7 +8678,7 @@
     ],
     "avg_clv": 0.0148
   },
-  "next_position_id": 267,
+  "next_position_id": 269,
   "learning": {
     "category_weights": {
       "esport": 0,
