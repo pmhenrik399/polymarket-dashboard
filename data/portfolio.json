@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-27T17:34:51Z",
+    "last_updated": "2026-05-27T19:39:32Z",
     "currency": "NOK",
     "usd_nok_rate": 9.263742
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 475.7000000000109,
+    "balance_nok": 506.1000000000109,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 109.80000000000021,
-    "trades_this_month": 278,
-    "wins_this_month": 150,
+    "realized_pnl_nok": 138.50000000000023,
+    "trades_this_month": 279,
+    "wins_this_month": 151,
     "losses_this_month": 114
   },
   "positions": [
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2285,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.245,
+      "current_price_usd": 0.215,
       "slippage_pct": 1.57,
       "shares": 19.39,
       "cost_usd": 4.43,
@@ -102,7 +102,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-25T22:52:55Z",
       "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_267",
@@ -157,33 +157,6 @@
       "unrealized_pnl_nok": 11
     },
     {
-      "id": "pos_269",
-      "market_id": "2360515",
-      "question": "LoL: Uwinks vs Arneb (BO3) - LJL Regular Season",
-      "slug": "lol-uwinks-arb1-2026-05-27",
-      "side": "NO",
-      "entry_price_usd": 0.6095,
-      "mid_price_usd": 0.6,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.59,
-      "shares": 7.99,
-      "cost_usd": 4.87,
-      "cost_nok": 45,
-      "usd_nok_at_entry": 9.242817,
-      "edge_at_entry": 0.052,
-      "our_probability": 0.652,
-      "signals": [
-        "base:0.040",
-        "cat:0.022",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-26T21:21:06Z",
-      "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 28
-    },
-    {
       "id": "pos_270",
       "market_id": "2125650",
       "question": "Will SC Corinthians Paulista vs. CA Platense end in a draw?",
@@ -218,7 +191,7 @@
       "side": "NO",
       "entry_price_usd": 0.5134,
       "mid_price_usd": 0.505,
-      "current_price_usd": 0.555,
+      "current_price_usd": 0.545,
       "slippage_pct": 1.67,
       "shares": 9.04,
       "cost_usd": 4.64,
@@ -233,7 +206,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-27T06:50:10Z",
       "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 3
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_272",
@@ -243,7 +216,7 @@
       "side": "NO",
       "entry_price_usd": 0.7783,
       "mid_price_usd": 0.765,
-      "current_price_usd": 0.74,
+      "current_price_usd": 0.745,
       "slippage_pct": 1.74,
       "shares": 5.96,
       "cost_usd": 4.64,
@@ -260,7 +233,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-27T06:50:10Z",
       "end_date": "2026-05-29",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_273",
@@ -324,7 +297,7 @@
       "side": "NO",
       "entry_price_usd": 0.6682,
       "mid_price_usd": 0.655,
-      "current_price_usd": 0.65,
+      "current_price_usd": 0.645,
       "slippage_pct": 2.02,
       "shares": 6.79,
       "cost_usd": 4.53,
@@ -351,7 +324,7 @@
       "side": "NO",
       "entry_price_usd": 0.5153,
       "mid_price_usd": 0.505,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.69,
       "slippage_pct": 2.04,
       "shares": 8.8,
       "cost_usd": 4.53,
@@ -366,7 +339,7 @@
       "category": "other",
       "opened_at": "2026-05-27T14:13:31Z",
       "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 14
     },
     {
       "id": "pos_277",
@@ -376,7 +349,7 @@
       "side": "NO",
       "entry_price_usd": 0.5156,
       "mid_price_usd": 0.505,
-      "current_price_usd": 0.52,
+      "current_price_usd": 0.92,
       "slippage_pct": 2.1,
       "shares": 8.79,
       "cost_usd": 4.53,
@@ -391,7 +364,7 @@
       "category": "esport",
       "opened_at": "2026-05-27T14:13:31Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 32
     },
     {
       "id": "pos_278",
@@ -417,6 +390,33 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-27T14:13:31Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_279",
+      "market_id": "2325233",
+      "question": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO3) - LCK Challengers League Rounds 1-2",
+      "slug": "lol-drxc-foxy-2026-05-28",
+      "side": "YES",
+      "entry_price_usd": 0.6163,
+      "mid_price_usd": 0.605,
+      "current_price_usd": 0.6163,
+      "slippage_pct": 1.88,
+      "shares": 7.53,
+      "cost_usd": 4.64,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.263742,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.665,
+      "signals": [
+        "base:0.020",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-27T19:39:37Z",
       "end_date": "2026-05-28",
       "unrealized_pnl_nok": 0
     }
@@ -8570,6 +8570,40 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-27T10:43:53Z"
+    },
+    {
+      "id": "pos_269",
+      "market_id": "2360515",
+      "question": "LoL: Uwinks vs Arneb (BO3) - LJL Regular Season",
+      "slug": "lol-uwinks-arb1-2026-05-27",
+      "side": "NO",
+      "entry_price_usd": 0.6095,
+      "mid_price_usd": 0.6,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.59,
+      "shares": 7.99,
+      "cost_usd": 4.87,
+      "cost_nok": 45,
+      "usd_nok_at_entry": 9.242817,
+      "edge_at_entry": 0.052,
+      "our_probability": 0.652,
+      "signals": [
+        "base:0.040",
+        "cat:0.022",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-26T21:21:06Z",
+      "end_date": "2026-05-27",
+      "unrealized_pnl_nok": 28,
+      "closing_price": 1.0,
+      "clv": 0.4,
+      "result": "WIN",
+      "profit_nok": 28.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-27T19:39:27Z"
     }
   ],
   "trade_log": [
@@ -8706,9 +8740,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 150,
+    "total_wins": 151,
     "total_losses": 114,
-    "total_realized_pnl_nok": 109.80000000000021,
+    "total_realized_pnl_nok": 138.50000000000023,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -8968,14 +9002,15 @@
       0.695,
       -0.485,
       -0.265,
-      0.295
+      0.295,
+      0.4
     ],
-    "avg_clv": 0.0155
+    "avg_clv": 0.017
   },
-  "next_position_id": 279,
+  "next_position_id": 280,
   "learning": {
     "category_weights": {
-      "esport": 0.022,
+      "esport": 0.05,
       "over_under": 0,
       "moneyline": 0,
       "other": 0.006,
@@ -8984,6 +9019,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.7% | esport:+2.2% | other:+0.6%"
+    "summary": "esport:+5.0% | no_draw:+3.7% | other:+0.6%"
   }
 }
