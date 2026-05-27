@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-27T10:44:03Z",
+    "last_updated": "2026-05-27T14:13:25Z",
     "currency": "NOK",
     "usd_nok_rate": 9.263742
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 602.6000000000108,
+    "balance_nok": 475.7000000000109,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 109.80000000000021,
-    "trades_this_month": 275,
+    "trades_this_month": 278,
     "wins_this_month": 150,
     "losses_this_month": 114
   },
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2285,
       "mid_price_usd": 0.225,
-      "current_price_usd": 0.225,
+      "current_price_usd": 0.235,
       "slippage_pct": 1.57,
       "shares": 19.39,
       "cost_usd": 4.43,
@@ -102,7 +102,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-25T22:52:55Z",
       "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_267",
@@ -112,7 +112,7 @@
       "side": "YES",
       "entry_price_usd": 0.2089,
       "mid_price_usd": 0.204,
-      "current_price_usd": 0.0065,
+      "current_price_usd": 0.007,
       "slippage_pct": 2.4,
       "shares": 21.21,
       "cost_usd": 4.43,
@@ -164,7 +164,7 @@
       "side": "NO",
       "entry_price_usd": 0.6095,
       "mid_price_usd": 0.6,
-      "current_price_usd": 0.66,
+      "current_price_usd": 0.995,
       "slippage_pct": 1.59,
       "shares": 7.99,
       "cost_usd": 4.87,
@@ -181,7 +181,7 @@
       "category": "esport",
       "opened_at": "2026-05-26T21:21:06Z",
       "end_date": "2026-05-27",
-      "unrealized_pnl_nok": 3
+      "unrealized_pnl_nok": 28
     },
     {
       "id": "pos_270",
@@ -191,7 +191,7 @@
       "side": "NO",
       "entry_price_usd": 0.7362,
       "mid_price_usd": 0.725,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.735,
       "slippage_pct": 1.55,
       "shares": 6.61,
       "cost_usd": 4.87,
@@ -243,7 +243,7 @@
       "side": "NO",
       "entry_price_usd": 0.7783,
       "mid_price_usd": 0.765,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.74,
       "slippage_pct": 1.74,
       "shares": 5.96,
       "cost_usd": 4.64,
@@ -297,7 +297,7 @@
       "side": "NO",
       "entry_price_usd": 0.585,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.59,
+      "current_price_usd": 0.635,
       "slippage_pct": 1.74,
       "shares": 7.93,
       "cost_usd": 4.64,
@@ -314,7 +314,7 @@
       "category": "esport",
       "opened_at": "2026-05-27T06:50:10Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 3
     },
     {
       "id": "pos_275",
@@ -324,7 +324,7 @@
       "side": "NO",
       "entry_price_usd": 0.6682,
       "mid_price_usd": 0.655,
-      "current_price_usd": 0.6682,
+      "current_price_usd": 0.655,
       "slippage_pct": 2.02,
       "shares": 6.79,
       "cost_usd": 4.53,
@@ -340,6 +340,83 @@
       ],
       "category": "no_draw",
       "opened_at": "2026-05-27T10:44:13Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_276",
+      "market_id": "2258078",
+      "question": "Crystal Palace FC vs. Rayo Vallecano de Madrid: Both Teams to Score",
+      "slug": "col-cry-ray-2026-05-27-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5153,
+      "mid_price_usd": 0.505,
+      "current_price_usd": 0.5153,
+      "slippage_pct": 2.04,
+      "shares": 8.8,
+      "cost_usd": 4.53,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.263742,
+      "edge_at_entry": 0.411,
+      "our_probability": 0.926,
+      "signals": [
+        "bookie:7%vs50%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-27T14:13:31Z",
+      "end_date": "2026-05-27",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_277",
+      "market_id": "2366637",
+      "question": "Counter-Strike: BET-M 33 vs Virtus.pro (BO3) - CIS LAN Championship Playoffs",
+      "slug": "cs2-33-vp-2026-05-27",
+      "side": "NO",
+      "entry_price_usd": 0.5156,
+      "mid_price_usd": 0.505,
+      "current_price_usd": 0.5156,
+      "slippage_pct": 2.1,
+      "shares": 8.79,
+      "cost_usd": 4.53,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.263742,
+      "edge_at_entry": 0.209,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs50%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-27T14:13:31Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_278",
+      "market_id": "2321083",
+      "question": "Will Egypt vs. Russia end in a draw?",
+      "slug": "fif-egy-rus-2026-05-28-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7294,
+      "mid_price_usd": 0.715,
+      "current_price_usd": 0.7294,
+      "slippage_pct": 2.01,
+      "shares": 6.22,
+      "cost_usd": 4.53,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.263742,
+      "edge_at_entry": 0.067,
+      "our_probability": 0.782,
+      "signals": [
+        "base:0.040",
+        "cat:0.037",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-27T14:13:31Z",
       "end_date": "2026-05-28",
       "unrealized_pnl_nok": 0
     }
@@ -8895,7 +8972,7 @@
     ],
     "avg_clv": 0.0155
   },
-  "next_position_id": 276,
+  "next_position_id": 279,
   "learning": {
     "category_weights": {
       "esport": 0.022,
