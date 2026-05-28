@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-28T08:32:01Z",
+    "last_updated": "2026-05-28T12:01:20Z",
     "currency": "NOK",
     "usd_nok_rate": 9.27736
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 468.80000000001115,
+    "balance_nok": 551.9000000000112,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 161.70000000000022,
-    "trades_this_month": 286,
-    "wins_this_month": 155,
+    "realized_pnl_nok": 203.1000000000002,
+    "trades_this_month": 287,
+    "wins_this_month": 157,
     "losses_this_month": 116
   },
   "positions": [
@@ -105,33 +105,6 @@
       "unrealized_pnl_nok": -40
     },
     {
-      "id": "pos_270",
-      "market_id": "2125650",
-      "question": "Will SC Corinthians Paulista vs. CA Platense end in a draw?",
-      "slug": "lib-cor-cp-2026-05-27-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7362,
-      "mid_price_usd": 0.725,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.55,
-      "shares": 6.61,
-      "cost_usd": 4.87,
-      "cost_nok": 45,
-      "usd_nok_at_entry": 9.242817,
-      "edge_at_entry": 0.062,
-      "our_probability": 0.787,
-      "signals": [
-        "base:0.040",
-        "cat:0.032",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-26T22:45:32Z",
-      "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 16
-    },
-    {
       "id": "pos_272",
       "market_id": "2139901",
       "question": "Will Bosnia and Herzegovina vs. North Macedonia end in a draw?",
@@ -166,7 +139,7 @@
       "side": "NO",
       "entry_price_usd": 0.8002,
       "mid_price_usd": 0.785,
-      "current_price_usd": 0.86,
+      "current_price_usd": 0.92,
       "slippage_pct": 1.94,
       "shares": 5.8,
       "cost_usd": 4.64,
@@ -183,7 +156,7 @@
       "category": "esport",
       "opened_at": "2026-05-27T06:50:10Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 3
+      "unrealized_pnl_nok": 6
     },
     {
       "id": "pos_274",
@@ -193,7 +166,7 @@
       "side": "NO",
       "entry_price_usd": 0.585,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.675,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.74,
       "shares": 7.93,
       "cost_usd": 4.64,
@@ -210,7 +183,7 @@
       "category": "esport",
       "opened_at": "2026-05-27T06:50:10Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 6
+      "unrealized_pnl_nok": 30
     },
     {
       "id": "pos_275",
@@ -247,7 +220,7 @@
       "side": "NO",
       "entry_price_usd": 0.7294,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.71,
+      "current_price_usd": 0.69,
       "slippage_pct": 2.01,
       "shares": 6.22,
       "cost_usd": 4.53,
@@ -264,34 +237,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-27T14:13:31Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_279",
-      "market_id": "2325233",
-      "question": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO3) - LCK Challengers League Rounds 1-2",
-      "slug": "lol-drxc-foxy-2026-05-28",
-      "side": "YES",
-      "entry_price_usd": 0.6163,
-      "mid_price_usd": 0.605,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.88,
-      "shares": 7.53,
-      "cost_usd": 4.64,
-      "cost_nok": 43,
-      "usd_nok_at_entry": 9.263742,
-      "edge_at_entry": 0.06,
-      "our_probability": 0.665,
-      "signals": [
-        "base:0.020",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-27T19:39:37Z",
-      "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 26
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_281",
@@ -301,7 +247,7 @@
       "side": "YES",
       "entry_price_usd": 0.6669,
       "mid_price_usd": 0.655,
-      "current_price_usd": 0.68,
+      "current_price_usd": 0.7,
       "slippage_pct": 1.81,
       "shares": 7.28,
       "cost_usd": 4.86,
@@ -318,7 +264,7 @@
       "category": "esport",
       "opened_at": "2026-05-27T23:02:22Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_282",
@@ -328,7 +274,7 @@
       "side": "NO",
       "entry_price_usd": 0.3452,
       "mid_price_usd": 0.34,
-      "current_price_usd": 0.335,
+      "current_price_usd": 0.345,
       "slippage_pct": 1.54,
       "shares": 14.07,
       "cost_usd": 4.86,
@@ -343,7 +289,7 @@
       "category": "other",
       "opened_at": "2026-05-28T00:09:47Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_283",
@@ -353,7 +299,7 @@
       "side": "YES",
       "entry_price_usd": 0.6462,
       "mid_price_usd": 0.635,
-      "current_price_usd": 0.595,
+      "current_price_usd": 0.615,
       "slippage_pct": 1.76,
       "shares": 7.52,
       "cost_usd": 4.86,
@@ -370,7 +316,7 @@
       "category": "esport",
       "opened_at": "2026-05-28T00:09:47Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_284",
@@ -380,7 +326,7 @@
       "side": "NO",
       "entry_price_usd": 0.2616,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.19,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.6,
       "shares": 18.57,
       "cost_usd": 4.86,
@@ -397,7 +343,7 @@
       "category": "esport",
       "opened_at": "2026-05-28T00:09:47Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -12
+      "unrealized_pnl_nok": -44
     },
     {
       "id": "pos_285",
@@ -407,7 +353,7 @@
       "side": "NO",
       "entry_price_usd": 0.538,
       "mid_price_usd": 0.525,
-      "current_price_usd": 0.538,
+      "current_price_usd": 0.52,
       "slippage_pct": 2.48,
       "shares": 8.82,
       "cost_usd": 4.74,
@@ -424,7 +370,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-28T08:32:09Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_286",
@@ -434,7 +380,7 @@
       "side": "YES",
       "entry_price_usd": 0.6263,
       "mid_price_usd": 0.615,
-      "current_price_usd": 0.6263,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.84,
       "shares": 7.57,
       "cost_usd": 4.74,
@@ -451,6 +397,33 @@
       "category": "esport",
       "opened_at": "2026-05-28T08:32:09Z",
       "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 26
+    },
+    {
+      "id": "pos_287",
+      "market_id": "2369483",
+      "question": "Valorant: M80 vs Shopify Rebellion Black (BO3) - VCL North America: Stage 3 Group Stage",
+      "slug": "val-m80-srb-2026-05-28",
+      "side": "YES",
+      "entry_price_usd": 0.6087,
+      "mid_price_usd": 0.595,
+      "current_price_usd": 0.6087,
+      "slippage_pct": 2.3,
+      "shares": 8.15,
+      "cost_usd": 4.96,
+      "cost_nok": 46,
+      "usd_nok_at_entry": 9.27736,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.655,
+      "signals": [
+        "base:0.020",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-28T12:01:28Z",
+      "end_date": "2026-05-29",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -8831,6 +8804,74 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-28T08:31:58Z"
+    },
+    {
+      "id": "pos_270",
+      "market_id": "2125650",
+      "question": "Will SC Corinthians Paulista vs. CA Platense end in a draw?",
+      "slug": "lib-cor-cp-2026-05-27-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7362,
+      "mid_price_usd": 0.725,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.55,
+      "shares": 6.61,
+      "cost_usd": 4.87,
+      "cost_nok": 45,
+      "usd_nok_at_entry": 9.242817,
+      "edge_at_entry": 0.062,
+      "our_probability": 0.787,
+      "signals": [
+        "base:0.040",
+        "cat:0.032",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-26T22:45:32Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 16,
+      "closing_price": 1.0,
+      "clv": 0.275,
+      "result": "WIN",
+      "profit_nok": 15.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-28T12:01:14Z"
+    },
+    {
+      "id": "pos_279",
+      "market_id": "2325233",
+      "question": "LoL: Kiwoom DRX Challengers vs BNK FearX Youth (BO3) - LCK Challengers League Rounds 1-2",
+      "slug": "lol-drxc-foxy-2026-05-28",
+      "side": "YES",
+      "entry_price_usd": 0.6163,
+      "mid_price_usd": 0.605,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.88,
+      "shares": 7.53,
+      "cost_usd": 4.64,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.263742,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.665,
+      "signals": [
+        "base:0.020",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-27T19:39:37Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 26,
+      "closing_price": 1.0,
+      "clv": 0.395,
+      "result": "WIN",
+      "profit_nok": 25.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-28T12:01:17Z"
     }
   ],
   "trade_log": [
@@ -8967,9 +9008,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 155,
+    "total_wins": 157,
     "total_losses": 116,
-    "total_realized_pnl_nok": 161.70000000000022,
+    "total_realized_pnl_nok": 203.1000000000002,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9236,11 +9277,13 @@
       0.495,
       0.23,
       -0.225,
-      0.325
+      0.325,
+      0.275,
+      0.395
     ],
-    "avg_clv": 0.0198
+    "avg_clv": 0.0223
   },
-  "next_position_id": 287,
+  "next_position_id": 288,
   "learning": {
     "category_weights": {
       "esport": 0.05,
@@ -9248,10 +9291,10 @@
       "moneyline": -0.05,
       "other": 0.022,
       "social_media": 0,
-      "no_draw": 0.042,
+      "no_draw": 0.046,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+5.0% | no_draw:+4.2% | other:+2.2% | moneyline:-5.0%"
+    "summary": "esport:+5.0% | no_draw:+4.6% | other:+2.2% | moneyline:-5.0%"
   }
 }
