@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-28T21:18:36Z",
+    "last_updated": "2026-05-28T22:49:01Z",
     "currency": "NOK",
     "usd_nok_rate": 9.27736
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 244.60000000000014,
+    "realized_pnl_nok": 199.30000000000013,
     "trades_this_month": 288,
     "wins_this_month": 161,
-    "losses_this_month": 117
+    "losses_this_month": 118
   },
   "positions": [
     {
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2089,
       "mid_price_usd": 0.204,
-      "current_price_usd": 0.003,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.4,
       "shares": 21.21,
       "cost_usd": 4.43,
@@ -102,7 +102,7 @@
       "category": "other",
       "opened_at": "2026-05-26T00:02:18Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -40
+      "unrealized_pnl_nok": -41
     },
     {
       "id": "pos_272",
@@ -211,33 +211,6 @@
       "unrealized_pnl_nok": -44
     },
     {
-      "id": "pos_283",
-      "market_id": "2368659",
-      "question": "Counter-Strike: KOLESIE vs ex-Zero Tenacity (BO3) - CCT Europe Series 3 Group Stage",
-      "slug": "cs2-kol-zerote-2026-05-28",
-      "side": "YES",
-      "entry_price_usd": 0.6462,
-      "mid_price_usd": 0.635,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.76,
-      "shares": 7.52,
-      "cost_usd": 4.86,
-      "cost_nok": 45,
-      "usd_nok_at_entry": 9.263742,
-      "edge_at_entry": 0.06,
-      "our_probability": 0.695,
-      "signals": [
-        "base:0.020",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-28T00:09:47Z",
-      "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -45
-    },
-    {
       "id": "pos_285",
       "market_id": "2304925",
       "question": "Petrojet SC vs. El Gouna SC: Draw at halftime?",
@@ -272,7 +245,7 @@
       "side": "YES",
       "entry_price_usd": 0.6087,
       "mid_price_usd": 0.595,
-      "current_price_usd": 0.78,
+      "current_price_usd": 0.725,
       "slippage_pct": 2.3,
       "shares": 8.15,
       "cost_usd": 4.96,
@@ -289,7 +262,7 @@
       "category": "esport",
       "opened_at": "2026-05-28T12:01:28Z",
       "end_date": "2026-05-29",
-      "unrealized_pnl_nok": 12
+      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_288",
@@ -8933,6 +8906,39 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-28T16:21:52Z"
+    },
+    {
+      "id": "pos_283",
+      "market_id": "2368659",
+      "question": "Counter-Strike: KOLESIE vs ex-Zero Tenacity (BO3) - CCT Europe Series 3 Group Stage",
+      "slug": "cs2-kol-zerote-2026-05-28",
+      "side": "YES",
+      "entry_price_usd": 0.6462,
+      "mid_price_usd": 0.635,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.76,
+      "shares": 7.52,
+      "cost_usd": 4.86,
+      "cost_nok": 45,
+      "usd_nok_at_entry": 9.263742,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.695,
+      "signals": [
+        "base:0.020",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-28T00:09:47Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": -45,
+      "closing_price": 0.0,
+      "clv": -0.635,
+      "result": "LOSS",
+      "profit_nok": -45.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-28T22:48:59Z"
     }
   ],
   "trade_log": [
@@ -9070,8 +9076,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 161,
-    "total_losses": 117,
-    "total_realized_pnl_nok": 244.60000000000014,
+    "total_losses": 118,
+    "total_realized_pnl_nok": 199.30000000000013,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9345,14 +9351,15 @@
       0.425,
       0.345,
       -0.255,
-      0.385
+      0.385,
+      -0.635
     ],
-    "avg_clv": 0.0261
+    "avg_clv": 0.0236
   },
   "next_position_id": 289,
   "learning": {
     "category_weights": {
-      "esport": 0.05,
+      "esport": 0.049,
       "over_under": 0,
       "moneyline": -0.05,
       "other": 0.022,
@@ -9361,6 +9368,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+5.0% | no_draw:+4.6% | other:+2.2% | moneyline:-5.0%"
+    "summary": "esport:+4.9% | no_draw:+4.6% | other:+2.2% | moneyline:-5.0%"
   }
 }
