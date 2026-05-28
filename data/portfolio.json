@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-28T16:21:53Z",
+    "last_updated": "2026-05-28T19:07:58Z",
     "currency": "NOK",
     "usd_nok_rate": 9.27736
   },
@@ -166,7 +166,7 @@
       "side": "NO",
       "entry_price_usd": 0.7294,
       "mid_price_usd": 0.715,
-      "current_price_usd": 0.735,
+      "current_price_usd": 0.59,
       "slippage_pct": 2.01,
       "shares": 6.22,
       "cost_usd": 4.53,
@@ -183,7 +183,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-27T14:13:31Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -8
     },
     {
       "id": "pos_282",
@@ -193,7 +193,7 @@
       "side": "NO",
       "entry_price_usd": 0.3452,
       "mid_price_usd": 0.34,
-      "current_price_usd": 0.335,
+      "current_price_usd": 0.325,
       "slippage_pct": 1.54,
       "shares": 14.07,
       "cost_usd": 4.86,
@@ -208,7 +208,7 @@
       "category": "other",
       "opened_at": "2026-05-28T00:09:47Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_283",
@@ -218,7 +218,7 @@
       "side": "YES",
       "entry_price_usd": 0.6462,
       "mid_price_usd": 0.635,
-      "current_price_usd": 0.615,
+      "current_price_usd": 0.565,
       "slippage_pct": 1.76,
       "shares": 7.52,
       "cost_usd": 4.86,
@@ -235,7 +235,7 @@
       "category": "esport",
       "opened_at": "2026-05-28T00:09:47Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -5
     },
     {
       "id": "pos_285",
@@ -272,7 +272,7 @@
       "side": "YES",
       "entry_price_usd": 0.6087,
       "mid_price_usd": 0.595,
-      "current_price_usd": 0.57,
+      "current_price_usd": 0.58,
       "slippage_pct": 2.3,
       "shares": 8.15,
       "cost_usd": 4.96,
@@ -299,7 +299,7 @@
       "side": "YES",
       "entry_price_usd": 0.3966,
       "mid_price_usd": 0.39,
-      "current_price_usd": 0.3966,
+      "current_price_usd": 0.385,
       "slippage_pct": 1.68,
       "shares": 13.05,
       "cost_usd": 5.17,
@@ -316,7 +316,7 @@
       "category": "esport",
       "opened_at": "2026-05-28T16:21:59Z",
       "end_date": "2026-05-29",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     }
   ],
   "closed_positions": [
