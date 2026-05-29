@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-28T23:58:49Z",
+    "last_updated": "2026-05-29T04:26:06Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.27736
+    "usd_nok_rate": 9.258016
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 815.2000000000116,
+    "balance_nok": 946.6000000000117,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 210.4000000000001,
+    "realized_pnl_nok": 205.50000000000006,
     "trades_this_month": 290,
-    "wins_this_month": 163,
-    "losses_this_month": 119
+    "wins_this_month": 165,
+    "losses_this_month": 120
   },
   "positions": [
     {
@@ -102,7 +102,7 @@
       "category": "other",
       "opened_at": "2026-05-26T00:02:18Z",
       "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -41
+      "unrealized_pnl_nok": -40
     },
     {
       "id": "pos_272",
@@ -132,87 +132,6 @@
       "unrealized_pnl_nok": -1
     },
     {
-      "id": "pos_278",
-      "market_id": "2321083",
-      "question": "Will Egypt vs. Russia end in a draw?",
-      "slug": "fif-egy-rus-2026-05-28-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7294,
-      "mid_price_usd": 0.715,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.01,
-      "shares": 6.22,
-      "cost_usd": 4.53,
-      "cost_nok": 42,
-      "usd_nok_at_entry": 9.263742,
-      "edge_at_entry": 0.067,
-      "our_probability": 0.782,
-      "signals": [
-        "base:0.040",
-        "cat:0.037",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-27T14:13:31Z",
-      "end_date": "2026-05-28",
-      "unrealized_pnl_nok": 15
-    },
-    {
-      "id": "pos_287",
-      "market_id": "2369483",
-      "question": "Valorant: M80 vs Shopify Rebellion Black (BO3) - VCL North America: Stage 3 Group Stage",
-      "slug": "val-m80-srb-2026-05-28",
-      "side": "YES",
-      "entry_price_usd": 0.6087,
-      "mid_price_usd": 0.595,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.3,
-      "shares": 8.15,
-      "cost_usd": 4.96,
-      "cost_nok": 46,
-      "usd_nok_at_entry": 9.27736,
-      "edge_at_entry": 0.06,
-      "our_probability": 0.655,
-      "signals": [
-        "base:0.020",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-28T12:01:28Z",
-      "end_date": "2026-05-29",
-      "unrealized_pnl_nok": 29
-    },
-    {
-      "id": "pos_288",
-      "market_id": "2369510",
-      "question": "Valorant: Division One vs Azure Dragon Gaming (BO3) - VCL North America: Stage 3 Group Stage",
-      "slug": "val-d1-adg-2026-05-28",
-      "side": "YES",
-      "entry_price_usd": 0.3966,
-      "mid_price_usd": 0.39,
-      "current_price_usd": 0.19,
-      "slippage_pct": 1.68,
-      "shares": 13.05,
-      "cost_usd": 5.17,
-      "cost_nok": 48,
-      "usd_nok_at_entry": 9.27736,
-      "edge_at_entry": 0.06,
-      "our_probability": 0.45,
-      "signals": [
-        "base:0.020",
-        "cat:0.050",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-28T16:21:59Z",
-      "end_date": "2026-05-29",
-      "unrealized_pnl_nok": -25
-    },
-    {
       "id": "pos_289",
       "market_id": "2342388",
       "question": "LoL: CCG Esports vs Conviction - Game 1 Winner",
@@ -220,7 +139,7 @@
       "side": "NO",
       "entry_price_usd": 0.6456,
       "mid_price_usd": 0.635,
-      "current_price_usd": 0.6456,
+      "current_price_usd": 0.625,
       "slippage_pct": 1.68,
       "shares": 7.68,
       "cost_usd": 4.96,
@@ -237,7 +156,7 @@
       "category": "esport",
       "opened_at": "2026-05-28T23:58:56Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_290",
@@ -247,7 +166,7 @@
       "side": "NO",
       "entry_price_usd": 0.6695,
       "mid_price_usd": 0.655,
-      "current_price_usd": 0.6695,
+      "current_price_usd": 0.685,
       "slippage_pct": 2.22,
       "shares": 7.41,
       "cost_usd": 4.96,
@@ -264,7 +183,7 @@
       "category": "esport",
       "opened_at": "2026-05-28T23:58:56Z",
       "end_date": "2026-05-29",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     }
   ],
   "closed_positions": [
@@ -9013,6 +8932,107 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-28T23:58:48Z"
+    },
+    {
+      "id": "pos_278",
+      "market_id": "2321083",
+      "question": "Will Egypt vs. Russia end in a draw?",
+      "slug": "fif-egy-rus-2026-05-28-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7294,
+      "mid_price_usd": 0.715,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.01,
+      "shares": 6.22,
+      "cost_usd": 4.53,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.263742,
+      "edge_at_entry": 0.067,
+      "our_probability": 0.782,
+      "signals": [
+        "base:0.040",
+        "cat:0.037",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-27T14:13:31Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": 15,
+      "closing_price": 1.0,
+      "clv": 0.285,
+      "result": "WIN",
+      "profit_nok": 14.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-29T04:26:04Z"
+    },
+    {
+      "id": "pos_287",
+      "market_id": "2369483",
+      "question": "Valorant: M80 vs Shopify Rebellion Black (BO3) - VCL North America: Stage 3 Group Stage",
+      "slug": "val-m80-srb-2026-05-28",
+      "side": "YES",
+      "entry_price_usd": 0.6087,
+      "mid_price_usd": 0.595,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.3,
+      "shares": 8.15,
+      "cost_usd": 4.96,
+      "cost_nok": 46,
+      "usd_nok_at_entry": 9.27736,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.655,
+      "signals": [
+        "base:0.020",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-28T12:01:28Z",
+      "end_date": "2026-05-29",
+      "unrealized_pnl_nok": 29,
+      "closing_price": 1.0,
+      "clv": 0.405,
+      "result": "WIN",
+      "profit_nok": 28.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-29T04:26:05Z"
+    },
+    {
+      "id": "pos_288",
+      "market_id": "2369510",
+      "question": "Valorant: Division One vs Azure Dragon Gaming (BO3) - VCL North America: Stage 3 Group Stage",
+      "slug": "val-d1-adg-2026-05-28",
+      "side": "YES",
+      "entry_price_usd": 0.3966,
+      "mid_price_usd": 0.39,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.68,
+      "shares": 13.05,
+      "cost_usd": 5.17,
+      "cost_nok": 48,
+      "usd_nok_at_entry": 9.27736,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.45,
+      "signals": [
+        "base:0.020",
+        "cat:0.050",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-28T16:21:59Z",
+      "end_date": "2026-05-29",
+      "unrealized_pnl_nok": -25,
+      "closing_price": 0.0,
+      "clv": -0.39,
+      "result": "LOSS",
+      "profit_nok": -48.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-29T04:26:05Z"
     }
   ],
   "trade_log": [
@@ -9149,9 +9169,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 163,
-    "total_losses": 119,
-    "total_realized_pnl_nok": 210.4000000000001,
+    "total_wins": 165,
+    "total_losses": 120,
+    "total_realized_pnl_nok": 205.50000000000006,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9429,14 +9449,17 @@
       -0.635,
       0.345,
       -0.34,
-      0.475
+      0.475,
+      0.285,
+      0.405,
+      -0.39
     ],
-    "avg_clv": 0.0252
+    "avg_clv": 0.026
   },
   "next_position_id": 291,
   "learning": {
     "category_weights": {
-      "esport": 0.049,
+      "esport": 0.04,
       "over_under": 0,
       "moneyline": -0.05,
       "other": 0.01,
@@ -9445,6 +9468,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | esport:+4.9% | other:+1.0% | moneyline:-5.0%"
+    "summary": "no_draw:+5.0% | esport:+4.0% | other:+1.0% | moneyline:-5.0%"
   }
 }
