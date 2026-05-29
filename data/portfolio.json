@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-29T22:04:13Z",
+    "last_updated": "2026-05-29T23:39:39Z",
     "currency": "NOK",
     "usd_nok_rate": 9.258016
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 813.7000000000119,
+    "balance_nok": 841.100000000012,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 117.90000000000005,
-    "trades_this_month": 293,
-    "wins_this_month": 165,
+    "realized_pnl_nok": 142.60000000000005,
+    "trades_this_month": 294,
+    "wins_this_month": 166,
     "losses_this_month": 122
   },
   "positions": [
@@ -107,33 +107,6 @@
       "unrealized_pnl_nok": -42
     },
     {
-      "id": "pos_289",
-      "market_id": "2342388",
-      "question": "LoL: CCG Esports vs Conviction - Game 1 Winner",
-      "slug": "lol-ccg-cnv-2026-05-28-game1",
-      "side": "NO",
-      "entry_price_usd": 0.6456,
-      "mid_price_usd": 0.635,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.68,
-      "shares": 7.68,
-      "cost_usd": 4.96,
-      "cost_nok": 46,
-      "usd_nok_at_entry": 9.27736,
-      "edge_at_entry": 0.079,
-      "our_probability": 0.714,
-      "signals": [
-        "base:0.040",
-        "cat:0.049",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-05-28T23:58:56Z",
-      "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 25
-    },
-    {
       "id": "pos_291",
       "market_id": "2361417",
       "question": "Will \"The Breadwinner\" score at least 50 on the Rotten Tomatoes Tomatometer?",
@@ -141,7 +114,7 @@
       "side": "YES",
       "entry_price_usd": 0.2252,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.0135,
+      "current_price_usd": 0.0125,
       "slippage_pct": 2.35,
       "shares": 21.1,
       "cost_usd": 4.75,
@@ -166,7 +139,7 @@
       "side": "NO",
       "entry_price_usd": 0.6181,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.57,
+      "current_price_usd": 0.605,
       "slippage_pct": 2.17,
       "shares": 7.69,
       "cost_usd": 4.75,
@@ -181,7 +154,7 @@
       "category": "other",
       "opened_at": "2026-05-29T08:24:38Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_293",
@@ -191,7 +164,7 @@
       "side": "NO",
       "entry_price_usd": 0.337,
       "mid_price_usd": 0.33,
-      "current_price_usd": 0.355,
+      "current_price_usd": 0.33,
       "slippage_pct": 2.11,
       "shares": 14.1,
       "cost_usd": 4.75,
@@ -206,7 +179,32 @@
       "category": "moneyline",
       "opened_at": "2026-05-29T14:28:05Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_294",
+      "market_id": "2324493",
+      "question": "Paris Saint-Germain FC vs. Arsenal FC: Both Teams to Score",
+      "slug": "ucl-psg-ars-2026-05-30-btts",
+      "side": "YES",
+      "entry_price_usd": 0.5259,
+      "mid_price_usd": 0.515,
+      "current_price_usd": 0.5259,
+      "slippage_pct": 2.12,
+      "shares": 8.83,
+      "cost_usd": 4.64,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.258016,
+      "edge_at_entry": 0.344,
+      "our_probability": 0.869,
+      "signals": [
+        "bookie:87%vs52%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-29T23:39:47Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -9120,6 +9118,40 @@
       "profit_nok": -46.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-29T22:04:11Z"
+    },
+    {
+      "id": "pos_289",
+      "market_id": "2342388",
+      "question": "LoL: CCG Esports vs Conviction - Game 1 Winner",
+      "slug": "lol-ccg-cnv-2026-05-28-game1",
+      "side": "NO",
+      "entry_price_usd": 0.6456,
+      "mid_price_usd": 0.635,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.68,
+      "shares": 7.68,
+      "cost_usd": 4.96,
+      "cost_nok": 46,
+      "usd_nok_at_entry": 9.27736,
+      "edge_at_entry": 0.079,
+      "our_probability": 0.714,
+      "signals": [
+        "base:0.040",
+        "cat:0.049",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-28T23:58:56Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 25,
+      "closing_price": 1.0,
+      "clv": 0.365,
+      "result": "WIN",
+      "profit_nok": 24.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-29T23:39:37Z"
     }
   ],
   "trade_log": [
@@ -9256,9 +9288,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 165,
+    "total_wins": 166,
     "total_losses": 122,
-    "total_realized_pnl_nok": 117.90000000000005,
+    "total_realized_pnl_nok": 142.60000000000005,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9541,14 +9573,15 @@
       0.405,
       -0.39,
       -0.204,
-      -0.655
+      -0.655,
+      0.365
     ],
-    "avg_clv": 0.0226
+    "avg_clv": 0.0239
   },
-  "next_position_id": 294,
+  "next_position_id": 295,
   "learning": {
     "category_weights": {
-      "esport": 0.026,
+      "esport": 0.033,
       "over_under": 0,
       "moneyline": -0.05,
       "other": -0.001,
@@ -9557,6 +9590,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | esport:+2.6% | other:-0.1% | moneyline:-5.0%"
+    "summary": "no_draw:+5.0% | esport:+3.3% | other:-0.1% | moneyline:-5.0%"
   }
 }
