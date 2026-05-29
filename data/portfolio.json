@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-29T04:26:06Z",
+    "last_updated": "2026-05-29T08:24:29Z",
     "currency": "NOK",
     "usd_nok_rate": 9.258016
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 946.6000000000117,
+    "balance_nok": 858.0000000000118,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 205.50000000000006,
-    "trades_this_month": 290,
+    "realized_pnl_nok": 164.20000000000005,
+    "trades_this_month": 292,
     "wins_this_month": 165,
-    "losses_this_month": 120
+    "losses_this_month": 121
   },
   "positions": [
     {
@@ -80,31 +80,6 @@
       "unrealized_pnl_nok": 17
     },
     {
-      "id": "pos_267",
-      "market_id": "2344699",
-      "question": "Will the lowest temperature in Paris be 14°C on May 28?",
-      "slug": "lowest-temperature-in-paris-on-may-28-2026-14c",
-      "side": "YES",
-      "entry_price_usd": 0.2089,
-      "mid_price_usd": 0.204,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.4,
-      "shares": 21.21,
-      "cost_usd": 4.43,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.254956,
-      "edge_at_entry": 0.062,
-      "our_probability": 0.276,
-      "signals": [
-        "bookie:28%vs20%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-26T00:02:18Z",
-      "end_date": "2026-05-28",
-      "unrealized_pnl_nok": -40
-    },
-    {
       "id": "pos_272",
       "market_id": "2139901",
       "question": "Will Bosnia and Herzegovina vs. North Macedonia end in a draw?",
@@ -112,7 +87,7 @@
       "side": "NO",
       "entry_price_usd": 0.7783,
       "mid_price_usd": 0.765,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.735,
       "slippage_pct": 1.74,
       "shares": 5.96,
       "cost_usd": 4.64,
@@ -129,7 +104,7 @@
       "category": "no_draw",
       "opened_at": "2026-05-27T06:50:10Z",
       "end_date": "2026-05-29",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_289",
@@ -139,7 +114,7 @@
       "side": "NO",
       "entry_price_usd": 0.6456,
       "mid_price_usd": 0.635,
-      "current_price_usd": 0.625,
+      "current_price_usd": 0.63,
       "slippage_pct": 1.68,
       "shares": 7.68,
       "cost_usd": 4.96,
@@ -166,7 +141,7 @@
       "side": "NO",
       "entry_price_usd": 0.6695,
       "mid_price_usd": 0.655,
-      "current_price_usd": 0.685,
+      "current_price_usd": 0.69,
       "slippage_pct": 2.22,
       "shares": 7.41,
       "cost_usd": 4.96,
@@ -184,6 +159,56 @@
       "opened_at": "2026-05-28T23:58:56Z",
       "end_date": "2026-05-29",
       "unrealized_pnl_nok": 1
+    },
+    {
+      "id": "pos_291",
+      "market_id": "2361417",
+      "question": "Will \"The Breadwinner\" score at least 50 on the Rotten Tomatoes Tomatometer?",
+      "slug": "will-the-breadwinner-score-at-least-50-on-the-rotten-tomatoes-tomatometer",
+      "side": "YES",
+      "entry_price_usd": 0.2252,
+      "mid_price_usd": 0.22,
+      "current_price_usd": 0.2252,
+      "slippage_pct": 2.35,
+      "shares": 21.1,
+      "cost_usd": 4.75,
+      "cost_nok": 44,
+      "usd_nok_at_entry": 9.258016,
+      "edge_at_entry": 0.087,
+      "our_probability": 0.317,
+      "signals": [
+        "bookie:32%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-29T08:24:38Z",
+      "end_date": "2026-06-01",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_292",
+      "market_id": "2375874",
+      "question": "Will the highest temperature in Madrid be 35°C on May 30?",
+      "slug": "highest-temperature-in-madrid-on-may-30-2026-35c",
+      "side": "NO",
+      "entry_price_usd": 0.6181,
+      "mid_price_usd": 0.605,
+      "current_price_usd": 0.6181,
+      "slippage_pct": 2.17,
+      "shares": 7.69,
+      "cost_usd": 4.75,
+      "cost_nok": 44,
+      "usd_nok_at_entry": 9.258016,
+      "edge_at_entry": 0.039,
+      "our_probability": 0.654,
+      "signals": [
+        "bookie:35%vs60%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-29T08:24:38Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -9033,6 +9058,37 @@
       "profit_nok": -48.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-29T04:26:05Z"
+    },
+    {
+      "id": "pos_267",
+      "market_id": "2344699",
+      "question": "Will the lowest temperature in Paris be 14°C on May 28?",
+      "slug": "lowest-temperature-in-paris-on-may-28-2026-14c",
+      "side": "YES",
+      "entry_price_usd": 0.2089,
+      "mid_price_usd": 0.204,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.4,
+      "shares": 21.21,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.062,
+      "our_probability": 0.276,
+      "signals": [
+        "bookie:28%vs20%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-26T00:02:18Z",
+      "end_date": "2026-05-28",
+      "unrealized_pnl_nok": -40,
+      "closing_price": 0.0,
+      "clv": -0.204,
+      "result": "LOSS",
+      "profit_nok": -41.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-29T08:24:27Z"
     }
   ],
   "trade_log": [
@@ -9170,8 +9226,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 165,
-    "total_losses": 120,
-    "total_realized_pnl_nok": 205.50000000000006,
+    "total_losses": 121,
+    "total_realized_pnl_nok": 164.20000000000005,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9452,22 +9508,23 @@
       0.475,
       0.285,
       0.405,
-      -0.39
+      -0.39,
+      -0.204
     ],
-    "avg_clv": 0.026
+    "avg_clv": 0.0251
   },
-  "next_position_id": 291,
+  "next_position_id": 293,
   "learning": {
     "category_weights": {
       "esport": 0.04,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": 0.01,
+      "other": -0.001,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | esport:+4.0% | other:+1.0% | moneyline:-5.0%"
+    "summary": "no_draw:+5.0% | esport:+4.0% | other:-0.1% | moneyline:-5.0%"
   }
 }
