@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-30T08:05:09Z",
+    "last_updated": "2026-05-30T10:13:58Z",
     "currency": "NOK",
     "usd_nok_rate": 9.247466
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 798.800000000012,
+    "balance_nok": 714.2000000000121,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 99.30000000000005,
-    "trades_this_month": 295,
+    "trades_this_month": 297,
     "wins_this_month": 166,
     "losses_this_month": 123
   },
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.6181,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.615,
+      "current_price_usd": 0.56,
       "slippage_pct": 2.17,
       "shares": 7.69,
       "cost_usd": 4.75,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-29T08:24:38Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_293",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.337,
       "mid_price_usd": 0.33,
-      "current_price_usd": 0.32,
+      "current_price_usd": 0.335,
       "slippage_pct": 2.11,
       "shares": 14.1,
       "cost_usd": 4.75,
@@ -152,7 +152,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-29T14:28:05Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_294",
@@ -187,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.5772,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.5772,
+      "current_price_usd": 0.565,
       "slippage_pct": 2.17,
       "shares": 7.87,
       "cost_usd": 4.54,
@@ -202,6 +202,60 @@
       "category": "moneyline",
       "opened_at": "2026-05-30T08:05:14Z",
       "end_date": "2026-05-31",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_296",
+      "market_id": "2310342",
+      "question": "Will AD Ceuta FC vs. Albacete Balompié end in a draw?",
+      "slug": "es2-ceu-alb-2026-05-30-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7374,
+      "mid_price_usd": 0.725,
+      "current_price_usd": 0.7374,
+      "slippage_pct": 1.71,
+      "shares": 6.16,
+      "cost_usd": 4.54,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.247466,
+      "edge_at_entry": 0.074,
+      "our_probability": 0.799,
+      "signals": [
+        "base:0.040",
+        "cat:0.044",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-30T10:14:04Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_297",
+      "market_id": "2373747",
+      "question": "LoL: Eintracht Spandau vs G2 NORD - Game 1 Winner",
+      "slug": "lol-es1-g2nord-2026-05-30-game1",
+      "side": "NO",
+      "entry_price_usd": 0.5777,
+      "mid_price_usd": 0.565,
+      "current_price_usd": 0.5777,
+      "slippage_pct": 2.24,
+      "shares": 7.86,
+      "cost_usd": 4.54,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.247466,
+      "edge_at_entry": 0.063,
+      "our_probability": 0.628,
+      "signals": [
+        "base:0.040",
+        "cat:0.033",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-30T10:14:04Z",
+      "end_date": "2026-05-30",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -9610,7 +9664,7 @@
     ],
     "avg_clv": 0.021
   },
-  "next_position_id": 296,
+  "next_position_id": 298,
   "learning": {
     "category_weights": {
       "esport": 0.033,
