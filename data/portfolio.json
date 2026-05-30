@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-30T05:31:20Z",
+    "last_updated": "2026-05-30T08:05:09Z",
     "currency": "NOK",
     "usd_nok_rate": 9.247466
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 841.100000000012,
+    "balance_nok": 798.800000000012,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 99.30000000000005,
-    "trades_this_month": 294,
+    "trades_this_month": 295,
     "wins_this_month": 166,
     "losses_this_month": 123
   },
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2252,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.0115,
+      "current_price_usd": 0.005,
       "slippage_pct": 2.35,
       "shares": 21.1,
       "cost_usd": 4.75,
@@ -102,7 +102,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-29T08:24:38Z",
       "end_date": "2026-06-01",
-      "unrealized_pnl_nok": -41
+      "unrealized_pnl_nok": -42
     },
     {
       "id": "pos_292",
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.6181,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.605,
+      "current_price_usd": 0.615,
       "slippage_pct": 2.17,
       "shares": 7.69,
       "cost_usd": 4.75,
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.337,
       "mid_price_usd": 0.33,
-      "current_price_usd": 0.325,
+      "current_price_usd": 0.32,
       "slippage_pct": 2.11,
       "shares": 14.1,
       "cost_usd": 4.75,
@@ -152,7 +152,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-29T14:28:05Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_294",
@@ -177,6 +177,31 @@
       "category": "other",
       "opened_at": "2026-05-29T23:39:47Z",
       "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_295",
+      "market_id": "566140",
+      "question": "Will Arsenal win the 2025–26 Champions League?",
+      "slug": "will-arsenal-win-the-202526-champions-league",
+      "side": "NO",
+      "entry_price_usd": 0.5772,
+      "mid_price_usd": 0.565,
+      "current_price_usd": 0.5772,
+      "slippage_pct": 2.17,
+      "shares": 7.87,
+      "cost_usd": 4.54,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.247466,
+      "edge_at_entry": 0.149,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs56%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-05-30T08:05:14Z",
+      "end_date": "2026-05-31",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -9585,7 +9610,7 @@
     ],
     "avg_clv": 0.021
   },
-  "next_position_id": 295,
+  "next_position_id": 296,
   "learning": {
     "category_weights": {
       "esport": 0.033,
