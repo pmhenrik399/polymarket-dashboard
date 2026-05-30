@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-30T18:58:00Z",
+    "last_updated": "2026-05-30T20:13:22Z",
     "currency": "NOK",
     "usd_nok_rate": 9.247466
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 673.9000000000121,
+    "balance_nok": 754.6000000000122,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 12.70000000000006,
+    "realized_pnl_nok": 10.100000000000065,
     "trades_this_month": 298,
-    "wins_this_month": 166,
-    "losses_this_month": 125
+    "wins_this_month": 167,
+    "losses_this_month": 126
   },
   "positions": [
     {
@@ -130,31 +130,6 @@
       "unrealized_pnl_nok": 27
     },
     {
-      "id": "pos_294",
-      "market_id": "2324493",
-      "question": "Paris Saint-Germain FC vs. Arsenal FC: Both Teams to Score",
-      "slug": "ucl-psg-ars-2026-05-30-btts",
-      "side": "YES",
-      "entry_price_usd": 0.5259,
-      "mid_price_usd": 0.515,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.12,
-      "shares": 8.83,
-      "cost_usd": 4.64,
-      "cost_nok": 43,
-      "usd_nok_at_entry": 9.258016,
-      "edge_at_entry": 0.344,
-      "our_probability": 0.869,
-      "signals": [
-        "bookie:87%vs52%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-29T23:39:47Z",
-      "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 38
-    },
-    {
       "id": "pos_295",
       "market_id": "566140",
       "question": "Will Arsenal win the 2025–26 Champions League?",
@@ -162,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.5772,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.475,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.17,
       "shares": 7.87,
       "cost_usd": 4.54,
@@ -177,7 +152,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-30T08:05:14Z",
       "end_date": "2026-05-31",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": 30
     },
     {
       "id": "pos_296",
@@ -205,31 +180,6 @@
       "opened_at": "2026-05-30T10:14:04Z",
       "end_date": "2026-05-30",
       "unrealized_pnl_nok": 14
-    },
-    {
-      "id": "pos_298",
-      "market_id": "2316217",
-      "question": "Will Paris Saint-Germain FC vs. Arsenal FC end in a draw?",
-      "slug": "ucl-psg-ars-2026-05-30-draw",
-      "side": "NO",
-      "entry_price_usd": 0.718,
-      "mid_price_usd": 0.705,
-      "current_price_usd": 0.001,
-      "slippage_pct": 1.84,
-      "shares": 6.02,
-      "cost_usd": 4.33,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.247466,
-      "edge_at_entry": 0.196,
-      "our_probability": 0.911,
-      "signals": [
-        "bookie:draw=9%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-30T14:25:52Z",
-      "end_date": "2026-05-30",
-      "unrealized_pnl_nok": -39
     }
   ],
   "closed_positions": [
@@ -9274,6 +9224,69 @@
       "profit_nok": -44.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-30T17:50:44Z"
+    },
+    {
+      "id": "pos_294",
+      "market_id": "2324493",
+      "question": "Paris Saint-Germain FC vs. Arsenal FC: Both Teams to Score",
+      "slug": "ucl-psg-ars-2026-05-30-btts",
+      "side": "YES",
+      "entry_price_usd": 0.5259,
+      "mid_price_usd": 0.515,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.12,
+      "shares": 8.83,
+      "cost_usd": 4.64,
+      "cost_nok": 43,
+      "usd_nok_at_entry": 9.258016,
+      "edge_at_entry": 0.344,
+      "our_probability": 0.869,
+      "signals": [
+        "bookie:87%vs52%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-29T23:39:47Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 38,
+      "closing_price": 1.0,
+      "clv": 0.485,
+      "result": "WIN",
+      "profit_nok": 37.7,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-30T20:13:20Z"
+    },
+    {
+      "id": "pos_298",
+      "market_id": "2316217",
+      "question": "Will Paris Saint-Germain FC vs. Arsenal FC end in a draw?",
+      "slug": "ucl-psg-ars-2026-05-30-draw",
+      "side": "NO",
+      "entry_price_usd": 0.718,
+      "mid_price_usd": 0.705,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.84,
+      "shares": 6.02,
+      "cost_usd": 4.33,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.247466,
+      "edge_at_entry": 0.196,
+      "our_probability": 0.911,
+      "signals": [
+        "bookie:draw=9%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-30T14:25:52Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": -39,
+      "closing_price": 0.0,
+      "clv": -0.705,
+      "result": "LOSS",
+      "profit_nok": -40.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-30T20:13:21Z"
     }
   ],
   "trade_log": [
@@ -9410,9 +9423,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 166,
-    "total_losses": 125,
-    "total_realized_pnl_nok": 12.70000000000006,
+    "total_wins": 167,
+    "total_losses": 126,
+    "total_realized_pnl_nok": 10.100000000000065,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9699,9 +9712,11 @@
       0.365,
       -0.765,
       -0.565,
-      -0.33
+      -0.33,
+      0.485,
+      -0.705
     ],
-    "avg_clv": 0.0176
+    "avg_clv": 0.0167
   },
   "next_position_id": 299,
   "learning": {
@@ -9709,12 +9724,12 @@
       "esport": 0.02,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.001,
+      "other": 0.012,
       "social_media": 0,
-      "no_draw": 0.044,
+      "no_draw": 0.032,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.4% | esport:+2.0% | other:-0.1% | moneyline:-5.0%"
+    "summary": "no_draw:+3.2% | esport:+2.0% | other:+1.2% | moneyline:-5.0%"
   }
 }
