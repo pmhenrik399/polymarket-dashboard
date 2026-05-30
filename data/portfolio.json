@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-30T12:52:33Z",
+    "last_updated": "2026-05-30T14:25:47Z",
     "currency": "NOK",
     "usd_nok_rate": 9.247466
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 714.2000000000121,
+    "balance_nok": 673.9000000000121,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 99.30000000000005,
-    "trades_this_month": 297,
+    "realized_pnl_nok": 57.00000000000006,
+    "trades_this_month": 298,
     "wins_this_month": 166,
-    "losses_this_month": 123
+    "losses_this_month": 124
   },
   "positions": [
     {
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.6181,
       "mid_price_usd": 0.605,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.9975,
       "slippage_pct": 2.17,
       "shares": 7.69,
       "cost_usd": 4.75,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-29T08:24:38Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": 26
     },
     {
       "id": "pos_293",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.337,
       "mid_price_usd": 0.33,
-      "current_price_usd": 0.5,
+      "current_price_usd": 0.0025,
       "slippage_pct": 2.11,
       "shares": 14.1,
       "cost_usd": 4.75,
@@ -152,7 +152,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-29T14:28:05Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 21
+      "unrealized_pnl_nok": -43
     },
     {
       "id": "pos_294",
@@ -187,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.5772,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.555,
+      "current_price_usd": 0.535,
       "slippage_pct": 2.17,
       "shares": 7.87,
       "cost_usd": 4.54,
@@ -202,7 +202,7 @@
       "category": "moneyline",
       "opened_at": "2026-05-30T08:05:14Z",
       "end_date": "2026-05-31",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_296",
@@ -212,7 +212,7 @@
       "side": "NO",
       "entry_price_usd": 0.7374,
       "mid_price_usd": 0.725,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.755,
       "slippage_pct": 1.71,
       "shares": 6.16,
       "cost_usd": 4.54,
@@ -229,34 +229,32 @@
       "category": "no_draw",
       "opened_at": "2026-05-30T10:14:04Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
-      "id": "pos_297",
-      "market_id": "2373747",
-      "question": "LoL: Eintracht Spandau vs G2 NORD - Game 1 Winner",
-      "slug": "lol-es1-g2nord-2026-05-30-game1",
+      "id": "pos_298",
+      "market_id": "2316217",
+      "question": "Will Paris Saint-Germain FC vs. Arsenal FC end in a draw?",
+      "slug": "ucl-psg-ars-2026-05-30-draw",
       "side": "NO",
-      "entry_price_usd": 0.5777,
-      "mid_price_usd": 0.565,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.24,
-      "shares": 7.86,
-      "cost_usd": 4.54,
-      "cost_nok": 42,
+      "entry_price_usd": 0.718,
+      "mid_price_usd": 0.705,
+      "current_price_usd": 0.718,
+      "slippage_pct": 1.84,
+      "shares": 6.02,
+      "cost_usd": 4.33,
+      "cost_nok": 40,
       "usd_nok_at_entry": 9.247466,
-      "edge_at_entry": 0.063,
-      "our_probability": 0.628,
+      "edge_at_entry": 0.196,
+      "our_probability": 0.911,
       "signals": [
-        "base:0.040",
-        "cat:0.033",
-        "line:0.000",
+        "bookie:draw=9%",
         "ob:-0.010"
       ],
-      "category": "esport",
-      "opened_at": "2026-05-30T10:14:04Z",
+      "category": "no_draw",
+      "opened_at": "2026-05-30T14:25:52Z",
       "end_date": "2026-05-30",
-      "unrealized_pnl_nok": -41
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -9237,6 +9235,39 @@
       "profit_nok": -43.3,
       "gas_nok": 0.3,
       "closed_at": "2026-05-30T05:31:18Z"
+    },
+    {
+      "id": "pos_297",
+      "market_id": "2373747",
+      "question": "LoL: Eintracht Spandau vs G2 NORD - Game 1 Winner",
+      "slug": "lol-es1-g2nord-2026-05-30-game1",
+      "side": "NO",
+      "entry_price_usd": 0.5777,
+      "mid_price_usd": 0.565,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.24,
+      "shares": 7.86,
+      "cost_usd": 4.54,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.247466,
+      "edge_at_entry": 0.063,
+      "our_probability": 0.628,
+      "signals": [
+        "base:0.040",
+        "cat:0.033",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-05-30T10:14:04Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": -41,
+      "closing_price": 0.0,
+      "clv": -0.565,
+      "result": "LOSS",
+      "profit_nok": -42.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-30T14:25:46Z"
     }
   ],
   "trade_log": [
@@ -9374,8 +9405,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 166,
-    "total_losses": 123,
-    "total_realized_pnl_nok": 99.30000000000005,
+    "total_losses": 124,
+    "total_realized_pnl_nok": 57.00000000000006,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9660,14 +9691,15 @@
       -0.204,
       -0.655,
       0.365,
-      -0.765
+      -0.765,
+      -0.565
     ],
-    "avg_clv": 0.021
+    "avg_clv": 0.0189
   },
-  "next_position_id": 298,
+  "next_position_id": 299,
   "learning": {
     "category_weights": {
-      "esport": 0.033,
+      "esport": 0.02,
       "over_under": 0,
       "moneyline": -0.05,
       "other": -0.001,
@@ -9676,6 +9708,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.4% | esport:+3.3% | other:-0.1% | moneyline:-5.0%"
+    "summary": "no_draw:+4.4% | esport:+2.0% | other:-0.1% | moneyline:-5.0%"
   }
 }
