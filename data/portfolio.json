@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-31T19:03:33Z",
+    "last_updated": "2026-05-31T20:19:13Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249652
   },
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2252,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.007,
+      "current_price_usd": 0.0055,
       "slippage_pct": 2.35,
       "shares": 21.1,
       "cost_usd": 4.75,
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.2707,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.2707,
+      "current_price_usd": 0.275,
       "slippage_pct": 2.16,
       "shares": 16.37,
       "cost_usd": 4.43,
