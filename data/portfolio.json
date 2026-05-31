@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-31T11:11:49Z",
+    "last_updated": "2026-05-31T12:48:08Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249652
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 842.7000000000123,
+    "balance_nok": 913.4000000000124,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 53.50000000000007,
+    "realized_pnl_nok": 80.20000000000007,
     "trades_this_month": 299,
-    "wins_this_month": 169,
+    "wins_this_month": 170,
     "losses_this_month": 126
   },
   "positions": [
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2252,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.006,
+      "current_price_usd": 0.007,
       "slippage_pct": 2.35,
       "shares": 21.1,
       "cost_usd": 4.75,
@@ -103,31 +103,6 @@
       "opened_at": "2026-05-29T08:24:38Z",
       "end_date": "2026-06-01",
       "unrealized_pnl_nok": -42
-    },
-    {
-      "id": "pos_292",
-      "market_id": "2375874",
-      "question": "Will the highest temperature in Madrid be 35°C on May 30?",
-      "slug": "highest-temperature-in-madrid-on-may-30-2026-35c",
-      "side": "NO",
-      "entry_price_usd": 0.6181,
-      "mid_price_usd": 0.605,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.17,
-      "shares": 7.69,
-      "cost_usd": 4.75,
-      "cost_nok": 44,
-      "usd_nok_at_entry": 9.258016,
-      "edge_at_entry": 0.039,
-      "our_probability": 0.654,
-      "signals": [
-        "bookie:35%vs60%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-05-29T08:24:38Z",
-      "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 27
     },
     {
       "id": "pos_299",
@@ -9328,6 +9303,38 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-31T06:01:30Z"
+    },
+    {
+      "id": "pos_292",
+      "market_id": "2375874",
+      "question": "Will the highest temperature in Madrid be 35°C on May 30?",
+      "slug": "highest-temperature-in-madrid-on-may-30-2026-35c",
+      "side": "NO",
+      "entry_price_usd": 0.6181,
+      "mid_price_usd": 0.605,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.17,
+      "shares": 7.69,
+      "cost_usd": 4.75,
+      "cost_nok": 44,
+      "usd_nok_at_entry": 9.258016,
+      "edge_at_entry": 0.039,
+      "our_probability": 0.654,
+      "signals": [
+        "bookie:35%vs60%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-05-29T08:24:38Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 27,
+      "closing_price": 1.0,
+      "clv": 0.395,
+      "result": "WIN",
+      "profit_nok": 26.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-31T12:48:07Z"
     }
   ],
   "trade_log": [
@@ -9464,9 +9471,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 169,
+    "total_wins": 170,
     "total_losses": 126,
-    "total_realized_pnl_nok": 53.50000000000007,
+    "total_realized_pnl_nok": 80.20000000000007,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9757,9 +9764,10 @@
       0.485,
       -0.705,
       0.4345,
-      0.275
+      0.275,
+      0.395
     ],
-    "avg_clv": 0.0191
+    "avg_clv": 0.0204
   },
   "next_position_id": 300,
   "learning": {
@@ -9767,12 +9775,12 @@
       "esport": 0.02,
       "over_under": 0,
       "moneyline": -0.036,
-      "other": 0.012,
+      "other": 0.023,
       "social_media": 0,
       "no_draw": 0.038,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.8% | esport:+2.0% | other:+1.2% | moneyline:-3.6%"
+    "summary": "no_draw:+3.8% | other:+2.3% | esport:+2.0% | moneyline:-3.6%"
   }
 }
