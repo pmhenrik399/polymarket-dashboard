@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-31T01:35:35Z",
+    "last_updated": "2026-05-31T06:01:31Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249652
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 787.0000000000123,
+    "balance_nok": 842.7000000000123,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 39.80000000000007,
+    "realized_pnl_nok": 53.50000000000007,
     "trades_this_month": 299,
-    "wins_this_month": 168,
+    "wins_this_month": 169,
     "losses_this_month": 126
   },
   "positions": [
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2252,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.005,
+      "current_price_usd": 0.007,
       "slippage_pct": 2.35,
       "shares": 21.1,
       "cost_usd": 4.75,
@@ -128,33 +128,6 @@
       "opened_at": "2026-05-29T08:24:38Z",
       "end_date": "2026-05-30",
       "unrealized_pnl_nok": 27
-    },
-    {
-      "id": "pos_296",
-      "market_id": "2310342",
-      "question": "Will AD Ceuta FC vs. Albacete Balompié end in a draw?",
-      "slug": "es2-ceu-alb-2026-05-30-draw",
-      "side": "NO",
-      "entry_price_usd": 0.7374,
-      "mid_price_usd": 0.725,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.71,
-      "shares": 6.16,
-      "cost_usd": 4.54,
-      "cost_nok": 42,
-      "usd_nok_at_entry": 9.247466,
-      "edge_at_entry": 0.074,
-      "our_probability": 0.799,
-      "signals": [
-        "base:0.040",
-        "cat:0.044",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-30T10:14:04Z",
-      "end_date": "2026-05-30",
-      "unrealized_pnl_nok": 14
     },
     {
       "id": "pos_299",
@@ -9321,6 +9294,40 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-30T21:15:48Z"
+    },
+    {
+      "id": "pos_296",
+      "market_id": "2310342",
+      "question": "Will AD Ceuta FC vs. Albacete Balompié end in a draw?",
+      "slug": "es2-ceu-alb-2026-05-30-draw",
+      "side": "NO",
+      "entry_price_usd": 0.7374,
+      "mid_price_usd": 0.725,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.71,
+      "shares": 6.16,
+      "cost_usd": 4.54,
+      "cost_nok": 42,
+      "usd_nok_at_entry": 9.247466,
+      "edge_at_entry": 0.074,
+      "our_probability": 0.799,
+      "signals": [
+        "base:0.040",
+        "cat:0.044",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-30T10:14:04Z",
+      "end_date": "2026-05-30",
+      "unrealized_pnl_nok": 14,
+      "closing_price": 1.0,
+      "clv": 0.275,
+      "result": "WIN",
+      "profit_nok": 13.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-05-31T06:01:30Z"
     }
   ],
   "trade_log": [
@@ -9457,9 +9464,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 168,
+    "total_wins": 169,
     "total_losses": 126,
-    "total_realized_pnl_nok": 39.80000000000007,
+    "total_realized_pnl_nok": 53.50000000000007,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9749,9 +9756,10 @@
       -0.33,
       0.485,
       -0.705,
-      0.4345
+      0.4345,
+      0.275
     ],
-    "avg_clv": 0.0182
+    "avg_clv": 0.0191
   },
   "next_position_id": 300,
   "learning": {
@@ -9761,10 +9769,10 @@
       "moneyline": -0.036,
       "other": 0.012,
       "social_media": 0,
-      "no_draw": 0.032,
+      "no_draw": 0.038,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.2% | esport:+2.0% | other:+1.2% | moneyline:-3.6%"
+    "summary": "no_draw:+3.8% | esport:+2.0% | other:+1.2% | moneyline:-3.6%"
   }
 }
