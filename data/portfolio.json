@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-31T14:23:27Z",
+    "last_updated": "2026-05-31T15:47:31Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249652
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 964.1000000000124,
+    "balance_nok": 934.8000000000125,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 91.90000000000008,
-    "trades_this_month": 299,
+    "trades_this_month": 300,
     "wins_this_month": 171,
     "losses_this_month": 126
   },
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2252,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.0065,
+      "current_price_usd": 0.007,
       "slippage_pct": 2.35,
       "shares": 21.1,
       "cost_usd": 4.75,
@@ -103,6 +103,31 @@
       "opened_at": "2026-05-29T08:24:38Z",
       "end_date": "2026-06-01",
       "unrealized_pnl_nok": -42
+    },
+    {
+      "id": "pos_300",
+      "market_id": "2355453",
+      "question": "Will FBC Melgar vs. Club Alianza Atlético end in a draw?",
+      "slug": "per1-fbm-caa-2026-05-31-draw",
+      "side": "YES",
+      "entry_price_usd": 0.23,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.23,
+      "slippage_pct": 2.21,
+      "shares": 13.63,
+      "cost_usd": 3.14,
+      "cost_nok": 29,
+      "usd_nok_at_entry": 9.249652,
+      "edge_at_entry": 0.034,
+      "our_probability": 0.269,
+      "signals": [
+        "bookie:draw=27%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-31T15:47:39Z",
+      "end_date": "2026-05-31",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -9777,7 +9802,7 @@
     ],
     "avg_clv": 0.0213
   },
-  "next_position_id": 300,
+  "next_position_id": 301,
   "learning": {
     "category_weights": {
       "esport": 0.02,
