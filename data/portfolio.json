@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-05-31T23:41:47Z",
+    "last_updated": "2026-06-01T02:02:51Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.249652
+    "usd_nok_rate": 9.249348
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 893.5000000000125,
+    "balance_nok": 852.2000000000126,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 91.90000000000008,
-    "trades_this_month": 301,
+    "trades_this_month": 302,
     "wins_this_month": 171,
     "losses_this_month": 126
   },
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.2707,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.37,
+      "current_price_usd": 0.29,
       "slippage_pct": 2.16,
       "shares": 16.37,
       "cost_usd": 4.43,
@@ -152,7 +152,32 @@
       "category": "other",
       "opened_at": "2026-05-31T19:03:39Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 15
+      "unrealized_pnl_nok": 2
+    },
+    {
+      "id": "pos_302",
+      "market_id": "2404515",
+      "question": "Counter-Strike: Donstu Esports vs Fire Flux Esports (BO3) - ESEA Advanced Europe Playoffs",
+      "slug": "cs2-don-ff-2026-06-01",
+      "side": "NO",
+      "entry_price_usd": 0.4359,
+      "mid_price_usd": 0.425,
+      "current_price_usd": 0.4359,
+      "slippage_pct": 2.56,
+      "shares": 10.17,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.179,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs42%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-01T02:02:58Z",
+      "end_date": "2026-06-01",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -9827,7 +9852,7 @@
     ],
     "avg_clv": 0.0213
   },
-  "next_position_id": 302,
+  "next_position_id": 303,
   "learning": {
     "category_weights": {
       "esport": 0.02,
