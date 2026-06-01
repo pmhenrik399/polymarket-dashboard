@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-01T21:54:29Z",
+    "last_updated": "2026-06-01T23:26:47Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249348
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 614.4000000000128,
+    "balance_nok": 539.8000000000129,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 18.300000000000082,
-    "trades_this_month": 308,
+    "realized_pnl_nok": -21.999999999999915,
+    "trades_this_month": 310,
     "wins_this_month": 171,
-    "losses_this_month": 128
+    "losses_this_month": 129
   },
   "positions": [
     {
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2707,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.365,
+      "current_price_usd": 0.375,
       "slippage_pct": 2.16,
       "shares": 16.37,
       "cost_usd": 4.43,
@@ -102,7 +102,7 @@
       "category": "other",
       "opened_at": "2026-05-31T19:03:39Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 14
+      "unrealized_pnl_nok": 15
     },
     {
       "id": "pos_302",
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.3178,
       "mid_price_usd": 0.31,
-      "current_price_usd": 0.0155,
+      "current_price_usd": 0.0035,
       "slippage_pct": 2.5,
       "shares": 13.61,
       "cost_usd": 4.32,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-06-01T07:18:33Z",
       "end_date": "2026-06-01",
-      "unrealized_pnl_nok": -38
+      "unrealized_pnl_nok": -39
     },
     {
       "id": "pos_304",
@@ -180,31 +180,6 @@
       "opened_at": "2026-06-01T07:18:33Z",
       "end_date": "2026-06-03",
       "unrealized_pnl_nok": -1
-    },
-    {
-      "id": "pos_305",
-      "market_id": "2408217",
-      "question": "Counter-Strike: B8 Academy vs XI Esport (BO3) - ESEA Advanced Europe Playoffs",
-      "slug": "cs2-b8acad-xi-2026-06-01",
-      "side": "NO",
-      "entry_price_usd": 0.3466,
-      "mid_price_usd": 0.34,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.95,
-      "shares": 12.48,
-      "cost_usd": 4.32,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.249348,
-      "edge_at_entry": 0.264,
-      "our_probability": 0.614,
-      "signals": [
-        "bookie:39%vs34%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-01T13:04:10Z",
-      "end_date": "2026-06-01",
-      "unrealized_pnl_nok": -39
     },
     {
       "id": "pos_306",
@@ -239,7 +214,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.245,
+      "current_price_usd": 0.305,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -254,7 +229,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": 11
     },
     {
       "id": "pos_308",
@@ -264,7 +239,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.27,
+      "current_price_usd": 0.235,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -279,7 +254,57 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": 3
+    },
+    {
+      "id": "pos_309",
+      "market_id": "2413262",
+      "question": "Spread: Los Angeles Dodgers (-2.5)",
+      "slug": "mlb-lad-ari-2026-06-01-spread-away-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3818,
+      "mid_price_usd": 0.375,
+      "current_price_usd": 0.3818,
+      "slippage_pct": 1.82,
+      "shares": 10.48,
+      "cost_usd": 4.0,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.204,
+      "our_probability": 0.589,
+      "signals": [
+        "bookie:59%vs38%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-01T23:26:58Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_310",
+      "market_id": "2400021",
+      "question": "Will the highest temperature in San Francisco be between 64-65°F on June 2?",
+      "slug": "highest-temperature-in-san-francisco-on-june-2-2026-64-65f",
+      "side": "YES",
+      "entry_price_usd": 0.2245,
+      "mid_price_usd": 0.22,
+      "current_price_usd": 0.2245,
+      "slippage_pct": 2.02,
+      "shares": 17.82,
+      "cost_usd": 4.0,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.148,
+      "our_probability": 0.379,
+      "signals": [
+        "bookie:38%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-01T23:26:59Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -9581,6 +9606,37 @@
       "profit_nok": -44.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-01T18:47:17Z"
+    },
+    {
+      "id": "pos_305",
+      "market_id": "2408217",
+      "question": "Counter-Strike: B8 Academy vs XI Esport (BO3) - ESEA Advanced Europe Playoffs",
+      "slug": "cs2-b8acad-xi-2026-06-01",
+      "side": "NO",
+      "entry_price_usd": 0.3466,
+      "mid_price_usd": 0.34,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.95,
+      "shares": 12.48,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.264,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-01T13:04:10Z",
+      "end_date": "2026-06-01",
+      "unrealized_pnl_nok": -39,
+      "closing_price": 0.0,
+      "clv": -0.34,
+      "result": "LOSS",
+      "profit_nok": -40.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-01T23:26:46Z"
     }
   ],
   "trade_log": [
@@ -9718,8 +9774,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 171,
-    "total_losses": 128,
-    "total_realized_pnl_nok": 18.300000000000082,
+    "total_losses": 129,
+    "total_realized_pnl_nok": -21.999999999999915,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -10014,14 +10070,15 @@
       0.395,
       0.265,
       -0.225,
-      -0.22
+      -0.22,
+      -0.34
     ],
-    "avg_clv": 0.0196
+    "avg_clv": 0.0183
   },
-  "next_position_id": 309,
+  "next_position_id": 311,
   "learning": {
     "category_weights": {
-      "esport": 0.02,
+      "esport": 0.003,
       "over_under": 0,
       "moneyline": -0.05,
       "other": 0.023,
@@ -10030,6 +10087,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.0% | other:+2.3% | esport:+2.0% | moneyline:-5.0%"
+    "summary": "no_draw:+3.0% | other:+2.3% | esport:+0.3% | moneyline:-5.0%"
   }
 }
