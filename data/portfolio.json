@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-01T02:02:51Z",
+    "last_updated": "2026-06-01T07:18:26Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249348
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 852.2000000000126,
+    "balance_nok": 771.6000000000126,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": 91.90000000000008,
-    "trades_this_month": 302,
+    "realized_pnl_nok": 62.60000000000008,
+    "trades_this_month": 304,
     "wins_this_month": 171,
-    "losses_this_month": 126
+    "losses_this_month": 127
   },
   "positions": [
     {
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2252,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.006,
+      "current_price_usd": 0.005,
       "slippage_pct": 2.35,
       "shares": 21.1,
       "cost_usd": 4.75,
@@ -105,31 +105,6 @@
       "unrealized_pnl_nok": -42
     },
     {
-      "id": "pos_300",
-      "market_id": "2355453",
-      "question": "Will FBC Melgar vs. Club Alianza Atlético end in a draw?",
-      "slug": "per1-fbm-caa-2026-05-31-draw",
-      "side": "YES",
-      "entry_price_usd": 0.23,
-      "mid_price_usd": 0.225,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.21,
-      "shares": 13.63,
-      "cost_usd": 3.14,
-      "cost_nok": 29,
-      "usd_nok_at_entry": 9.249652,
-      "edge_at_entry": 0.034,
-      "our_probability": 0.269,
-      "signals": [
-        "bookie:draw=27%",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-31T15:47:39Z",
-      "end_date": "2026-05-31",
-      "unrealized_pnl_nok": -28
-    },
-    {
       "id": "pos_301",
       "market_id": "2399886",
       "question": "Will the highest temperature in Madrid be 32°C on June 2?",
@@ -137,7 +112,7 @@
       "side": "YES",
       "entry_price_usd": 0.2707,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.29,
+      "current_price_usd": 0.32,
       "slippage_pct": 2.16,
       "shares": 16.37,
       "cost_usd": 4.43,
@@ -152,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-31T19:03:39Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_302",
@@ -162,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.4359,
       "mid_price_usd": 0.425,
-      "current_price_usd": 0.4359,
+      "current_price_usd": 0.425,
       "slippage_pct": 2.56,
       "shares": 10.17,
       "cost_usd": 4.43,
@@ -177,6 +152,58 @@
       "category": "esport",
       "opened_at": "2026-06-01T02:02:58Z",
       "end_date": "2026-06-01",
+      "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_303",
+      "market_id": "2391531",
+      "question": "Will the highest temperature in Los Angeles be between 72-73°F on June 1?",
+      "slug": "highest-temperature-in-los-angeles-on-june-1-2026-72-73f",
+      "side": "YES",
+      "entry_price_usd": 0.3178,
+      "mid_price_usd": 0.31,
+      "current_price_usd": 0.3178,
+      "slippage_pct": 2.5,
+      "shares": 13.61,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.33,
+      "our_probability": 0.65,
+      "signals": [
+        "bookie:65%vs31%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-01T07:18:33Z",
+      "end_date": "2026-06-01",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_304",
+      "market_id": "2211686",
+      "question": "Luxembourg vs. Italy: Draw at halftime?",
+      "slug": "fif-lux-ita-2026-06-03-halftime-result-draw",
+      "side": "NO",
+      "entry_price_usd": 0.5907,
+      "mid_price_usd": 0.58,
+      "current_price_usd": 0.5907,
+      "slippage_pct": 1.85,
+      "shares": 7.32,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.06,
+      "our_probability": 0.64,
+      "signals": [
+        "base:0.040",
+        "cat:0.030",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-06-01T07:18:33Z",
+      "end_date": "2026-06-03",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -9417,6 +9444,37 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-05-31T14:23:26Z"
+    },
+    {
+      "id": "pos_300",
+      "market_id": "2355453",
+      "question": "Will FBC Melgar vs. Club Alianza Atlético end in a draw?",
+      "slug": "per1-fbm-caa-2026-05-31-draw",
+      "side": "YES",
+      "entry_price_usd": 0.23,
+      "mid_price_usd": 0.225,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.21,
+      "shares": 13.63,
+      "cost_usd": 3.14,
+      "cost_nok": 29,
+      "usd_nok_at_entry": 9.249652,
+      "edge_at_entry": 0.034,
+      "our_probability": 0.269,
+      "signals": [
+        "bookie:draw=27%",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-31T15:47:39Z",
+      "end_date": "2026-05-31",
+      "unrealized_pnl_nok": -28,
+      "closing_price": 0.0,
+      "clv": -0.225,
+      "result": "LOSS",
+      "profit_nok": -29.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-01T07:18:25Z"
     }
   ],
   "trade_log": [
@@ -9554,8 +9612,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 171,
-    "total_losses": 126,
-    "total_realized_pnl_nok": 91.90000000000008,
+    "total_losses": 127,
+    "total_realized_pnl_nok": 62.60000000000008,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -9848,11 +9906,12 @@
       0.4345,
       0.275,
       0.395,
-      0.265
+      0.265,
+      -0.225
     ],
-    "avg_clv": 0.0213
+    "avg_clv": 0.0204
   },
-  "next_position_id": 303,
+  "next_position_id": 305,
   "learning": {
     "category_weights": {
       "esport": 0.02,
@@ -9860,10 +9919,10 @@
       "moneyline": -0.036,
       "other": 0.023,
       "social_media": 0,
-      "no_draw": 0.043,
+      "no_draw": 0.03,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+4.3% | other:+2.3% | esport:+2.0% | moneyline:-3.6%"
+    "summary": "no_draw:+3.0% | other:+2.3% | esport:+2.0% | moneyline:-3.6%"
   }
 }
