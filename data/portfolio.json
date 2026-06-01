@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-01T07:18:26Z",
+    "last_updated": "2026-06-01T13:03:59Z",
     "currency": "NOK",
     "usd_nok_rate": 9.249348
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 771.6000000000126,
+    "balance_nok": 691.0000000000127,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": 62.60000000000008,
-    "trades_this_month": 304,
+    "trades_this_month": 306,
     "wins_this_month": 171,
     "losses_this_month": 127
   },
@@ -112,7 +112,7 @@
       "side": "YES",
       "entry_price_usd": 0.2707,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.32,
+      "current_price_usd": 0.295,
       "slippage_pct": 2.16,
       "shares": 16.37,
       "cost_usd": 4.43,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-05-31T19:03:39Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 3
     },
     {
       "id": "pos_302",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.4359,
       "mid_price_usd": 0.425,
-      "current_price_usd": 0.425,
+      "current_price_usd": 0.405,
       "slippage_pct": 2.56,
       "shares": 10.17,
       "cost_usd": 4.43,
@@ -152,7 +152,7 @@
       "category": "esport",
       "opened_at": "2026-06-01T02:02:58Z",
       "end_date": "2026-06-01",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_303",
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.3178,
       "mid_price_usd": 0.31,
-      "current_price_usd": 0.3178,
+      "current_price_usd": 0.375,
       "slippage_pct": 2.5,
       "shares": 13.61,
       "cost_usd": 4.32,
@@ -177,7 +177,7 @@
       "category": "other",
       "opened_at": "2026-06-01T07:18:33Z",
       "end_date": "2026-06-01",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_304",
@@ -187,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.5907,
       "mid_price_usd": 0.58,
-      "current_price_usd": 0.5907,
+      "current_price_usd": 0.57,
       "slippage_pct": 1.85,
       "shares": 7.32,
       "cost_usd": 4.32,
@@ -204,6 +204,56 @@
       "category": "no_draw",
       "opened_at": "2026-06-01T07:18:33Z",
       "end_date": "2026-06-03",
+      "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_305",
+      "market_id": "2408217",
+      "question": "Counter-Strike: B8 Academy vs XI Esport (BO3) - ESEA Advanced Europe Playoffs",
+      "slug": "cs2-b8acad-xi-2026-06-01",
+      "side": "NO",
+      "entry_price_usd": 0.3466,
+      "mid_price_usd": 0.34,
+      "current_price_usd": 0.3466,
+      "slippage_pct": 1.95,
+      "shares": 12.48,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.264,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-01T13:04:10Z",
+      "end_date": "2026-06-01",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_306",
+      "market_id": "2399754",
+      "question": "Will the highest temperature in Miami be between 92-93°F on June 2?",
+      "slug": "highest-temperature-in-miami-on-june-2-2026-92-93f",
+      "side": "YES",
+      "entry_price_usd": 0.3024,
+      "mid_price_usd": 0.295,
+      "current_price_usd": 0.3024,
+      "slippage_pct": 2.5,
+      "shares": 14.3,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.128,
+      "our_probability": 0.432,
+      "signals": [
+        "bookie:43%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-01T13:04:10Z",
+      "end_date": "2026-06-02",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -9911,7 +9961,7 @@
     ],
     "avg_clv": 0.0204
   },
-  "next_position_id": 305,
+  "next_position_id": 307,
   "learning": {
     "category_weights": {
       "esport": 0.02,
