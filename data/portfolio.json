@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-02T01:59:42Z",
+    "last_updated": "2026-06-02T06:50:56Z",
     "currency": "NOK",
     "usd_nok_rate": 9.271106
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 465.2000000000129,
+    "balance_nok": 429.9000000000129,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -21.999999999999915,
-    "trades_this_month": 312,
+    "realized_pnl_nok": -59.29999999999991,
+    "trades_this_month": 313,
     "wins_this_month": 171,
-    "losses_this_month": 129
+    "losses_this_month": 130
   },
   "positions": [
     {
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2707,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.365,
+      "current_price_usd": 0.345,
       "slippage_pct": 2.16,
       "shares": 16.37,
       "cost_usd": 4.43,
@@ -102,7 +102,7 @@
       "category": "other",
       "opened_at": "2026-05-31T19:03:39Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 14
+      "unrealized_pnl_nok": 11
     },
     {
       "id": "pos_302",
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.4359,
       "mid_price_usd": 0.425,
-      "current_price_usd": 0.365,
+      "current_price_usd": 0.38,
       "slippage_pct": 2.56,
       "shares": 10.17,
       "cost_usd": 4.43,
@@ -127,7 +127,7 @@
       "category": "esport",
       "opened_at": "2026-06-01T02:02:58Z",
       "end_date": "2026-06-01",
-      "unrealized_pnl_nok": -6
+      "unrealized_pnl_nok": -5
     },
     {
       "id": "pos_303",
@@ -162,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.5907,
       "mid_price_usd": 0.58,
-      "current_price_usd": 0.575,
+      "current_price_usd": 0.58,
       "slippage_pct": 1.85,
       "shares": 7.32,
       "cost_usd": 4.32,
@@ -179,7 +179,7 @@
       "category": "no_draw",
       "opened_at": "2026-06-01T07:18:33Z",
       "end_date": "2026-06-03",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_306",
@@ -189,7 +189,7 @@
       "side": "YES",
       "entry_price_usd": 0.3024,
       "mid_price_usd": 0.295,
-      "current_price_usd": 0.325,
+      "current_price_usd": 0.375,
       "slippage_pct": 2.5,
       "shares": 14.3,
       "cost_usd": 4.32,
@@ -204,7 +204,7 @@
       "category": "other",
       "opened_at": "2026-06-01T13:04:10Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 2
+      "unrealized_pnl_nok": 9
     },
     {
       "id": "pos_307",
@@ -214,7 +214,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.285,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -229,7 +229,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 7
+      "unrealized_pnl_nok": 8
     },
     {
       "id": "pos_308",
@@ -239,7 +239,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.26,
+      "current_price_usd": 0.275,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -254,32 +254,7 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 7
-    },
-    {
-      "id": "pos_309",
-      "market_id": "2413262",
-      "question": "Spread: Los Angeles Dodgers (-2.5)",
-      "slug": "mlb-lad-ari-2026-06-01-spread-away-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.3818,
-      "mid_price_usd": 0.375,
-      "current_price_usd": 0.34,
-      "slippage_pct": 1.82,
-      "shares": 10.48,
-      "cost_usd": 4.0,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.249348,
-      "edge_at_entry": 0.204,
-      "our_probability": 0.589,
-      "signals": [
-        "bookie:59%vs38%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-06-01T23:26:58Z",
-      "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -4
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_310",
@@ -289,7 +264,7 @@
       "side": "YES",
       "entry_price_usd": 0.2245,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.25,
+      "current_price_usd": 0.22,
       "slippage_pct": 2.02,
       "shares": 17.82,
       "cost_usd": 4.0,
@@ -304,7 +279,7 @@
       "category": "other",
       "opened_at": "2026-06-01T23:26:59Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 4
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_311",
@@ -314,7 +289,7 @@
       "side": "NO",
       "entry_price_usd": 0.3234,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.3234,
+      "current_price_usd": 0.455,
       "slippage_pct": 2.66,
       "shares": 12.34,
       "cost_usd": 3.99,
@@ -329,7 +304,7 @@
       "category": "other",
       "opened_at": "2026-06-02T01:59:51Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 15
     },
     {
       "id": "pos_312",
@@ -339,7 +314,7 @@
       "side": "NO",
       "entry_price_usd": 0.2792,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.2792,
+      "current_price_usd": 0.275,
       "slippage_pct": 1.53,
       "shares": 14.29,
       "cost_usd": 3.99,
@@ -354,6 +329,31 @@
       "category": "moneyline",
       "opened_at": "2026-06-02T01:59:51Z",
       "end_date": "2026-06-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_313",
+      "market_id": "2413332",
+      "question": "Dota 2: L1ga Team vs Poor Rangers - Game 1 Winner",
+      "slug": "dota2-l1ga-poorra-2026-06-02-game1",
+      "side": "YES",
+      "entry_price_usd": 0.4146,
+      "mid_price_usd": 0.405,
+      "current_price_usd": 0.4146,
+      "slippage_pct": 2.36,
+      "shares": 9.11,
+      "cost_usd": 3.78,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.094,
+      "our_probability": 0.509,
+      "signals": [
+        "bookie:51%vs40%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-02T06:51:04Z",
+      "end_date": "2026-06-02",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -9687,6 +9687,37 @@
       "profit_nok": -40.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-01T23:26:46Z"
+    },
+    {
+      "id": "pos_309",
+      "market_id": "2413262",
+      "question": "Spread: Los Angeles Dodgers (-2.5)",
+      "slug": "mlb-lad-ari-2026-06-01-spread-away-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3818,
+      "mid_price_usd": 0.375,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.82,
+      "shares": 10.48,
+      "cost_usd": 4.0,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.204,
+      "our_probability": 0.589,
+      "signals": [
+        "bookie:59%vs38%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-01T23:26:58Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": -4,
+      "closing_price": 0.0,
+      "clv": -0.375,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-02T06:50:55Z"
     }
   ],
   "trade_log": [
@@ -9824,8 +9855,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 171,
-    "total_losses": 129,
-    "total_realized_pnl_nok": -21.999999999999915,
+    "total_losses": 130,
+    "total_realized_pnl_nok": -59.29999999999991,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -10121,11 +10152,12 @@
       0.265,
       -0.225,
       -0.22,
-      -0.34
+      -0.34,
+      -0.375
     ],
-    "avg_clv": 0.0183
+    "avg_clv": 0.0169
   },
-  "next_position_id": 313,
+  "next_position_id": 314,
   "learning": {
     "category_weights": {
       "esport": 0.003,
