@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-02T15:11:30Z",
+    "last_updated": "2026-06-02T18:54:59Z",
     "currency": "NOK",
     "usd_nok_rate": 9.271106
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 292.70000000001284,
+    "balance_nok": 260.4000000000128,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -99.59999999999991,
-    "trades_this_month": 317,
+    "realized_pnl_nok": -134.89999999999992,
+    "trades_this_month": 318,
     "wins_this_month": 171,
-    "losses_this_month": 131
+    "losses_this_month": 132
   },
   "positions": [
     {
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2707,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.04,
+      "current_price_usd": 0.0025,
       "slippage_pct": 2.16,
       "shares": 16.37,
       "cost_usd": 4.43,
@@ -102,7 +102,7 @@
       "category": "other",
       "opened_at": "2026-05-31T19:03:39Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -35
+      "unrealized_pnl_nok": -40
     },
     {
       "id": "pos_302",
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.4359,
       "mid_price_usd": 0.425,
-      "current_price_usd": 0.365,
+      "current_price_usd": 0.17,
       "slippage_pct": 2.56,
       "shares": 10.17,
       "cost_usd": 4.43,
@@ -127,7 +127,7 @@
       "category": "esport",
       "opened_at": "2026-06-01T02:02:58Z",
       "end_date": "2026-06-01",
-      "unrealized_pnl_nok": -6
+      "unrealized_pnl_nok": -25
     },
     {
       "id": "pos_304",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.5907,
       "mid_price_usd": 0.58,
-      "current_price_usd": 0.6,
+      "current_price_usd": 0.585,
       "slippage_pct": 1.85,
       "shares": 7.32,
       "cost_usd": 4.32,
@@ -164,7 +164,7 @@
       "side": "YES",
       "entry_price_usd": 0.3024,
       "mid_price_usd": 0.295,
-      "current_price_usd": 0.515,
+      "current_price_usd": 0.675,
       "slippage_pct": 2.5,
       "shares": 14.3,
       "cost_usd": 4.32,
@@ -179,7 +179,7 @@
       "category": "other",
       "opened_at": "2026-06-01T13:04:10Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 28
+      "unrealized_pnl_nok": 49
     },
     {
       "id": "pos_307",
@@ -239,7 +239,7 @@
       "side": "YES",
       "entry_price_usd": 0.2245,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.395,
+      "current_price_usd": 0.485,
       "slippage_pct": 2.02,
       "shares": 17.82,
       "cost_usd": 4.0,
@@ -254,7 +254,7 @@
       "category": "other",
       "opened_at": "2026-06-01T23:26:59Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 28
+      "unrealized_pnl_nok": 43
     },
     {
       "id": "pos_311",
@@ -307,31 +307,6 @@
       "unrealized_pnl_nok": -1
     },
     {
-      "id": "pos_313",
-      "market_id": "2413332",
-      "question": "Dota 2: L1ga Team vs Poor Rangers - Game 1 Winner",
-      "slug": "dota2-l1ga-poorra-2026-06-02-game1",
-      "side": "YES",
-      "entry_price_usd": 0.4146,
-      "mid_price_usd": 0.405,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.36,
-      "shares": 9.11,
-      "cost_usd": 3.78,
-      "cost_nok": 35,
-      "usd_nok_at_entry": 9.271106,
-      "edge_at_entry": 0.094,
-      "our_probability": 0.509,
-      "signals": [
-        "bookie:51%vs40%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-02T06:51:04Z",
-      "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -34
-    },
-    {
       "id": "pos_314",
       "market_id": "2416040",
       "question": "Will the highest temperature in Atlanta be between 82-83°F on June 4?",
@@ -339,7 +314,7 @@
       "side": "YES",
       "entry_price_usd": 0.2954,
       "mid_price_usd": 0.29,
-      "current_price_usd": 0.295,
+      "current_price_usd": 0.31,
       "slippage_pct": 1.86,
       "shares": 12.41,
       "cost_usd": 3.67,
@@ -354,7 +329,7 @@
       "category": "other",
       "opened_at": "2026-06-02T11:11:10Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_315",
@@ -364,7 +339,7 @@
       "side": "NO",
       "entry_price_usd": 0.5026,
       "mid_price_usd": 0.49,
-      "current_price_usd": 0.36,
+      "current_price_usd": 0.275,
       "slippage_pct": 2.58,
       "shares": 7.3,
       "cost_usd": 3.67,
@@ -379,7 +354,7 @@
       "category": "other",
       "opened_at": "2026-06-02T11:11:11Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -9
+      "unrealized_pnl_nok": -15
     },
     {
       "id": "pos_316",
@@ -389,7 +364,7 @@
       "side": "YES",
       "entry_price_usd": 0.3079,
       "mid_price_usd": 0.3,
-      "current_price_usd": 0.3079,
+      "current_price_usd": 0.285,
       "slippage_pct": 2.65,
       "shares": 11.91,
       "cost_usd": 3.67,
@@ -404,7 +379,7 @@
       "category": "other",
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_317",
@@ -414,7 +389,7 @@
       "side": "NO",
       "entry_price_usd": 0.7362,
       "mid_price_usd": 0.725,
-      "current_price_usd": 0.7362,
+      "current_price_usd": 0.725,
       "slippage_pct": 1.54,
       "shares": 4.98,
       "cost_usd": 3.67,
@@ -431,6 +406,31 @@
       "category": "no_draw",
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-03",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_318",
+      "market_id": "2414543",
+      "question": "Spread: Chicago White Sox (-2.5)",
+      "slug": "mlb-cws-min-2026-06-02-spread-away-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3104,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.3104,
+      "slippage_pct": 1.77,
+      "shares": 11.12,
+      "cost_usd": 3.45,
+      "cost_nok": 32,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.222,
+      "our_probability": 0.537,
+      "signals": [
+        "bookie:54%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-02T18:55:07Z",
+      "end_date": "2026-06-02",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -9826,6 +9826,37 @@
       "profit_nok": -40.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-02T11:10:59Z"
+    },
+    {
+      "id": "pos_313",
+      "market_id": "2413332",
+      "question": "Dota 2: L1ga Team vs Poor Rangers - Game 1 Winner",
+      "slug": "dota2-l1ga-poorra-2026-06-02-game1",
+      "side": "YES",
+      "entry_price_usd": 0.4146,
+      "mid_price_usd": 0.405,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.36,
+      "shares": 9.11,
+      "cost_usd": 3.78,
+      "cost_nok": 35,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.094,
+      "our_probability": 0.509,
+      "signals": [
+        "bookie:51%vs40%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-02T06:51:04Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.405,
+      "result": "LOSS",
+      "profit_nok": -35.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-02T18:54:57Z"
     }
   ],
   "trade_log": [
@@ -9963,8 +9994,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 171,
-    "total_losses": 131,
-    "total_realized_pnl_nok": -99.59999999999991,
+    "total_losses": 132,
+    "total_realized_pnl_nok": -134.89999999999992,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -10262,14 +10293,15 @@
       -0.22,
       -0.34,
       -0.375,
-      -0.31
+      -0.31,
+      -0.405
     ],
-    "avg_clv": 0.0158
+    "avg_clv": 0.0143
   },
-  "next_position_id": 318,
+  "next_position_id": 319,
   "learning": {
     "category_weights": {
-      "esport": 0.003,
+      "esport": -0.012,
       "over_under": 0,
       "moneyline": -0.05,
       "other": 0.003,
@@ -10278,6 +10310,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.0% | esport:+0.3% | other:+0.3% | moneyline:-5.0%"
+    "summary": "no_draw:+3.0% | other:+0.3% | esport:-1.2% | moneyline:-5.0%"
   }
 }
