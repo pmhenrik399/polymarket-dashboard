@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-02T21:47:53Z",
+    "last_updated": "2026-06-02T23:23:38Z",
     "currency": "NOK",
     "usd_nok_rate": 9.271106
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 260.4000000000128,
+    "balance_nok": 318.8000000000128,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -134.89999999999992,
-    "trades_this_month": 318,
-    "wins_this_month": 171,
+    "realized_pnl_nok": -83.19999999999992,
+    "trades_this_month": 319,
+    "wins_this_month": 172,
     "losses_this_month": 132
   },
   "positions": [
@@ -105,31 +105,6 @@
       "unrealized_pnl_nok": -41
     },
     {
-      "id": "pos_302",
-      "market_id": "2404515",
-      "question": "Counter-Strike: Donstu Esports vs Fire Flux Esports (BO3) - ESEA Advanced Europe Playoffs",
-      "slug": "cs2-don-ff-2026-06-01",
-      "side": "NO",
-      "entry_price_usd": 0.4359,
-      "mid_price_usd": 0.425,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.56,
-      "shares": 10.17,
-      "cost_usd": 4.43,
-      "cost_nok": 41,
-      "usd_nok_at_entry": 9.249348,
-      "edge_at_entry": 0.179,
-      "our_probability": 0.614,
-      "signals": [
-        "bookie:39%vs42%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-01T02:02:58Z",
-      "end_date": "2026-06-01",
-      "unrealized_pnl_nok": 53
-    },
-    {
       "id": "pos_304",
       "market_id": "2211686",
       "question": "Luxembourg vs. Italy: Draw at halftime?",
@@ -164,7 +139,7 @@
       "side": "YES",
       "entry_price_usd": 0.3024,
       "mid_price_usd": 0.295,
-      "current_price_usd": 0.998,
+      "current_price_usd": 0.9995,
       "slippage_pct": 2.5,
       "shares": 14.3,
       "cost_usd": 4.32,
@@ -189,7 +164,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.395,
+      "current_price_usd": 0.385,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -204,7 +179,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 25
+      "unrealized_pnl_nok": 24
     },
     {
       "id": "pos_308",
@@ -214,7 +189,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.25,
+      "current_price_usd": 0.26,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -229,7 +204,7 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 6
+      "unrealized_pnl_nok": 7
     },
     {
       "id": "pos_310",
@@ -239,7 +214,7 @@
       "side": "YES",
       "entry_price_usd": 0.2245,
       "mid_price_usd": 0.22,
-      "current_price_usd": 0.0015,
+      "current_price_usd": 0.001,
       "slippage_pct": 2.02,
       "shares": 17.82,
       "cost_usd": 4.0,
@@ -264,7 +239,7 @@
       "side": "NO",
       "entry_price_usd": 0.3234,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.47,
       "slippage_pct": 2.66,
       "shares": 12.34,
       "cost_usd": 3.99,
@@ -279,7 +254,7 @@
       "category": "other",
       "opened_at": "2026-06-02T01:59:51Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 16
     },
     {
       "id": "pos_312",
@@ -314,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.2954,
       "mid_price_usd": 0.29,
-      "current_price_usd": 0.31,
+      "current_price_usd": 0.305,
       "slippage_pct": 1.86,
       "shares": 12.41,
       "cost_usd": 3.67,
@@ -339,7 +314,7 @@
       "side": "NO",
       "entry_price_usd": 0.5026,
       "mid_price_usd": 0.49,
-      "current_price_usd": 0.011,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.58,
       "shares": 7.3,
       "cost_usd": 3.67,
@@ -364,7 +339,7 @@
       "side": "YES",
       "entry_price_usd": 0.3079,
       "mid_price_usd": 0.3,
-      "current_price_usd": 0.3,
+      "current_price_usd": 0.29,
       "slippage_pct": 2.65,
       "shares": 11.91,
       "cost_usd": 3.67,
@@ -379,7 +354,7 @@
       "category": "other",
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_317",
@@ -431,6 +406,31 @@
       "category": "moneyline",
       "opened_at": "2026-06-02T18:55:07Z",
       "end_date": "2026-06-02",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_319",
+      "market_id": "2423143",
+      "question": "Spread: Seattle Mariners (-3.5)",
+      "slug": "mlb-nym-sea-2026-06-03-spread-home-3pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2241,
+      "mid_price_usd": 0.22,
+      "current_price_usd": 0.2241,
+      "slippage_pct": 1.86,
+      "shares": 16.36,
+      "cost_usd": 3.67,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.344,
+      "our_probability": 0.574,
+      "signals": [
+        "bookie:57%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-02T23:23:49Z",
+      "end_date": "2026-06-03",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -9857,6 +9857,38 @@
       "profit_nok": -35.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-02T18:54:57Z"
+    },
+    {
+      "id": "pos_302",
+      "market_id": "2404515",
+      "question": "Counter-Strike: Donstu Esports vs Fire Flux Esports (BO3) - ESEA Advanced Europe Playoffs",
+      "slug": "cs2-don-ff-2026-06-01",
+      "side": "NO",
+      "entry_price_usd": 0.4359,
+      "mid_price_usd": 0.425,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.56,
+      "shares": 10.17,
+      "cost_usd": 4.43,
+      "cost_nok": 41,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.179,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs42%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-01T02:02:58Z",
+      "end_date": "2026-06-01",
+      "unrealized_pnl_nok": 53,
+      "closing_price": 1.0,
+      "clv": 0.575,
+      "result": "WIN",
+      "profit_nok": 51.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-02T23:23:32Z"
     }
   ],
   "trade_log": [
@@ -9993,9 +10025,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 171,
+    "total_wins": 172,
     "total_losses": 132,
-    "total_realized_pnl_nok": -134.89999999999992,
+    "total_realized_pnl_nok": -83.19999999999992,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -10294,14 +10326,15 @@
       -0.34,
       -0.375,
       -0.31,
-      -0.405
+      -0.405,
+      0.575
     ],
-    "avg_clv": 0.0143
+    "avg_clv": 0.0163
   },
-  "next_position_id": 319,
+  "next_position_id": 320,
   "learning": {
     "category_weights": {
-      "esport": -0.012,
+      "esport": 0.003,
       "over_under": 0,
       "moneyline": -0.05,
       "other": 0.003,
@@ -10310,6 +10343,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.0% | other:+0.3% | esport:-1.2% | moneyline:-5.0%"
+    "summary": "no_draw:+3.0% | esport:+0.3% | other:+0.3% | moneyline:-5.0%"
   }
 }
