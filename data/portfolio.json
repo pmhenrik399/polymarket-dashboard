@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-03T02:07:30Z",
+    "last_updated": "2026-06-03T07:07:10Z",
     "currency": "NOK",
     "usd_nok_rate": 9.280651
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 285.5000000000128,
+    "balance_nok": 384.90000000001277,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -124.49999999999991,
-    "trades_this_month": 320,
-    "wins_this_month": 172,
-    "losses_this_month": 133
+    "realized_pnl_nok": -170.99999999999994,
+    "trades_this_month": 321,
+    "wins_this_month": 173,
+    "losses_this_month": 137
   },
   "positions": [
     {
@@ -107,31 +107,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_306",
-      "market_id": "2399754",
-      "question": "Will the highest temperature in Miami be between 92-93°F on June 2?",
-      "slug": "highest-temperature-in-miami-on-june-2-2026-92-93f",
-      "side": "YES",
-      "entry_price_usd": 0.3024,
-      "mid_price_usd": 0.295,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.5,
-      "shares": 14.3,
-      "cost_usd": 4.32,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.249348,
-      "edge_at_entry": 0.128,
-      "our_probability": 0.432,
-      "signals": [
-        "bookie:43%vs30%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-01T13:04:10Z",
-      "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 92
-    },
-    {
       "id": "pos_307",
       "market_id": "2262323",
       "question": "Will Karen Bass win the first round of the 2026 Los Angeles Mayoral Election by 5–10%?",
@@ -139,7 +114,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.385,
+      "current_price_usd": 0.255,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -154,7 +129,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 24
+      "unrealized_pnl_nok": 3
     },
     {
       "id": "pos_308",
@@ -164,7 +139,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.24,
+      "current_price_usd": 0.465,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -179,7 +154,7 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 4
+      "unrealized_pnl_nok": 44
     },
     {
       "id": "pos_310",
@@ -214,7 +189,7 @@
       "side": "NO",
       "entry_price_usd": 0.3234,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.46,
+      "current_price_usd": 0.41,
       "slippage_pct": 2.66,
       "shares": 12.34,
       "cost_usd": 3.99,
@@ -229,32 +204,7 @@
       "category": "other",
       "opened_at": "2026-06-02T01:59:51Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 15
-    },
-    {
-      "id": "pos_312",
-      "market_id": "2308968",
-      "question": "Las Vegas Aces vs. Los Angeles Sparks",
-      "slug": "wnba-las-la-2026-06-02",
-      "side": "NO",
-      "entry_price_usd": 0.2792,
-      "mid_price_usd": 0.275,
-      "current_price_usd": 0.285,
-      "slippage_pct": 1.53,
-      "shares": 14.29,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.271106,
-      "edge_at_entry": 0.126,
-      "our_probability": 0.411,
-      "signals": [
-        "bookie:59%vs28%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-06-02T01:59:51Z",
-      "end_date": "2026-06-03",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 9
     },
     {
       "id": "pos_314",
@@ -264,7 +214,7 @@
       "side": "YES",
       "entry_price_usd": 0.2954,
       "mid_price_usd": 0.29,
-      "current_price_usd": 0.32,
+      "current_price_usd": 0.415,
       "slippage_pct": 1.86,
       "shares": 12.41,
       "cost_usd": 3.67,
@@ -279,32 +229,7 @@
       "category": "other",
       "opened_at": "2026-06-02T11:11:10Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": 2
-    },
-    {
-      "id": "pos_315",
-      "market_id": "2399721",
-      "question": "Will the highest temperature in New York City be between 76-77°F on June 2?",
-      "slug": "highest-temperature-in-nyc-on-june-2-2026-76-77f",
-      "side": "NO",
-      "entry_price_usd": 0.5026,
-      "mid_price_usd": 0.49,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.58,
-      "shares": 7.3,
-      "cost_usd": 3.67,
-      "cost_nok": 34,
-      "usd_nok_at_entry": 9.271106,
-      "edge_at_entry": 0.134,
-      "our_probability": 0.634,
-      "signals": [
-        "bookie:37%vs49%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-02T11:11:11Z",
-      "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -34
+      "unrealized_pnl_nok": 13
     },
     {
       "id": "pos_316",
@@ -314,7 +239,7 @@
       "side": "YES",
       "entry_price_usd": 0.3079,
       "mid_price_usd": 0.3,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.325,
       "slippage_pct": 2.65,
       "shares": 11.91,
       "cost_usd": 3.67,
@@ -329,7 +254,7 @@
       "category": "other",
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_317",
@@ -339,7 +264,7 @@
       "side": "NO",
       "entry_price_usd": 0.7362,
       "mid_price_usd": 0.725,
-      "current_price_usd": 0.72,
+      "current_price_usd": 0.715,
       "slippage_pct": 1.54,
       "shares": 4.98,
       "cost_usd": 3.67,
@@ -357,31 +282,6 @@
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-03",
       "unrealized_pnl_nok": 0
-    },
-    {
-      "id": "pos_318",
-      "market_id": "2414543",
-      "question": "Spread: Chicago White Sox (-2.5)",
-      "slug": "mlb-cws-min-2026-06-02-spread-away-2pt5",
-      "side": "YES",
-      "entry_price_usd": 0.3104,
-      "mid_price_usd": 0.305,
-      "current_price_usd": 0.03,
-      "slippage_pct": 1.77,
-      "shares": 11.12,
-      "cost_usd": 3.45,
-      "cost_nok": 32,
-      "usd_nok_at_entry": 9.271106,
-      "edge_at_entry": 0.222,
-      "our_probability": 0.537,
-      "signals": [
-        "bookie:54%vs30%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-06-02T18:55:07Z",
-      "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -28
     },
     {
       "id": "pos_319",
@@ -409,27 +309,27 @@
       "unrealized_pnl_nok": -5
     },
     {
-      "id": "pos_320",
-      "market_id": "2394629",
-      "question": "Spread: Hurricanes (-1.5)",
-      "slug": "nhl-las-car-2026-06-02-spread-home-1pt5",
+      "id": "pos_321",
+      "market_id": "2423165",
+      "question": "Spread: Boston Red Sox (-3.5)",
+      "slug": "mlb-bal-bos-2026-06-03-spread-home-3pt5",
       "side": "YES",
-      "entry_price_usd": 0.2092,
-      "mid_price_usd": 0.205,
-      "current_price_usd": 0.2092,
-      "slippage_pct": 2.07,
-      "shares": 17.0,
-      "cost_usd": 3.56,
-      "cost_nok": 33,
+      "entry_price_usd": 0.2191,
+      "mid_price_usd": 0.215,
+      "current_price_usd": 0.2191,
+      "slippage_pct": 1.9,
+      "shares": 15.25,
+      "cost_usd": 3.34,
+      "cost_nok": 31,
       "usd_nok_at_entry": 9.280651,
-      "edge_at_entry": 0.134,
-      "our_probability": 0.349,
+      "edge_at_entry": 0.346,
+      "our_probability": 0.571,
       "signals": [
-        "bookie:35%vs20%",
+        "bookie:57%vs22%",
         "ob:-0.010"
       ],
       "category": "moneyline",
-      "opened_at": "2026-06-03T02:07:38Z",
+      "opened_at": "2026-06-03T07:07:20Z",
       "end_date": "2026-06-03",
       "unrealized_pnl_nok": 0
     }
@@ -9920,6 +9820,162 @@
       "profit_nok": -41.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-03T02:07:25Z"
+    },
+    {
+      "id": "pos_306",
+      "market_id": "2399754",
+      "question": "Will the highest temperature in Miami be between 92-93°F on June 2?",
+      "slug": "highest-temperature-in-miami-on-june-2-2026-92-93f",
+      "side": "YES",
+      "entry_price_usd": 0.3024,
+      "mid_price_usd": 0.295,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.5,
+      "shares": 14.3,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.249348,
+      "edge_at_entry": 0.128,
+      "our_probability": 0.432,
+      "signals": [
+        "bookie:43%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-01T13:04:10Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": 92,
+      "closing_price": 1.0,
+      "clv": 0.705,
+      "result": "WIN",
+      "profit_nok": 90.69999999999999,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-03T07:07:03Z"
+    },
+    {
+      "id": "pos_312",
+      "market_id": "2308968",
+      "question": "Las Vegas Aces vs. Los Angeles Sparks",
+      "slug": "wnba-las-la-2026-06-02",
+      "side": "NO",
+      "entry_price_usd": 0.2792,
+      "mid_price_usd": 0.275,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.53,
+      "shares": 14.29,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.126,
+      "our_probability": 0.411,
+      "signals": [
+        "bookie:59%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-02T01:59:51Z",
+      "end_date": "2026-06-03",
+      "unrealized_pnl_nok": 0,
+      "closing_price": 0.0,
+      "clv": -0.275,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-03T07:07:06Z"
+    },
+    {
+      "id": "pos_315",
+      "market_id": "2399721",
+      "question": "Will the highest temperature in New York City be between 76-77°F on June 2?",
+      "slug": "highest-temperature-in-nyc-on-june-2-2026-76-77f",
+      "side": "NO",
+      "entry_price_usd": 0.5026,
+      "mid_price_usd": 0.49,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.58,
+      "shares": 7.3,
+      "cost_usd": 3.67,
+      "cost_nok": 34,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.134,
+      "our_probability": 0.634,
+      "signals": [
+        "bookie:37%vs49%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-02T11:11:11Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": -34,
+      "closing_price": 0.0,
+      "clv": -0.49,
+      "result": "LOSS",
+      "profit_nok": -34.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-03T07:07:07Z"
+    },
+    {
+      "id": "pos_318",
+      "market_id": "2414543",
+      "question": "Spread: Chicago White Sox (-2.5)",
+      "slug": "mlb-cws-min-2026-06-02-spread-away-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3104,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.77,
+      "shares": 11.12,
+      "cost_usd": 3.45,
+      "cost_nok": 32,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.222,
+      "our_probability": 0.537,
+      "signals": [
+        "bookie:54%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-02T18:55:07Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": -28,
+      "closing_price": 0.0,
+      "clv": -0.305,
+      "result": "LOSS",
+      "profit_nok": -32.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-03T07:07:09Z"
+    },
+    {
+      "id": "pos_320",
+      "market_id": "2394629",
+      "question": "Spread: Hurricanes (-1.5)",
+      "slug": "nhl-las-car-2026-06-02-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2092,
+      "mid_price_usd": 0.205,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.07,
+      "shares": 17.0,
+      "cost_usd": 3.56,
+      "cost_nok": 33,
+      "usd_nok_at_entry": 9.280651,
+      "edge_at_entry": 0.134,
+      "our_probability": 0.349,
+      "signals": [
+        "bookie:35%vs20%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-03T02:07:38Z",
+      "end_date": "2026-06-03",
+      "unrealized_pnl_nok": 0,
+      "closing_price": 0.0,
+      "clv": -0.205,
+      "result": "LOSS",
+      "profit_nok": -33.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-03T07:07:10Z"
     }
   ],
   "trade_log": [
@@ -10056,9 +10112,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 172,
-    "total_losses": 133,
-    "total_realized_pnl_nok": -124.49999999999991,
+    "total_wins": 173,
+    "total_losses": 137,
+    "total_realized_pnl_nok": -170.99999999999994,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -10359,22 +10415,27 @@
       -0.31,
       -0.405,
       0.575,
-      -0.265
+      -0.265,
+      0.705,
+      -0.275,
+      -0.49,
+      -0.305,
+      -0.205
     ],
-    "avg_clv": 0.0153
+    "avg_clv": 0.0131
   },
-  "next_position_id": 321,
+  "next_position_id": 322,
   "learning": {
     "category_weights": {
       "esport": 0.003,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.014,
+      "other": -0.01,
       "social_media": 0,
       "no_draw": 0.03,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.0% | esport:+0.3% | other:-1.4% | moneyline:-5.0%"
+    "summary": "no_draw:+3.0% | esport:+0.3% | other:-1.0% | moneyline:-5.0%"
   }
 }
