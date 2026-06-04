@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-04T12:15:42Z",
+    "last_updated": "2026-06-04T15:49:20Z",
     "currency": "NOK",
     "usd_nok_rate": 9.312545
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 339.30000000001263,
+    "balance_nok": 314.0000000000126,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -283.30000000000007,
-    "trades_this_month": 331,
+    "realized_pnl_nok": -309.6000000000001,
+    "trades_this_month": 332,
     "wins_this_month": 175,
-    "losses_this_month": 146
+    "losses_this_month": 147
   },
   "positions": [
     {
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.72,
+      "current_price_usd": 0.685,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 89
+      "unrealized_pnl_nok": 83
     },
     {
       "id": "pos_311",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.3234,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.41,
+      "current_price_usd": 0.27,
       "slippage_pct": 2.66,
       "shares": 12.34,
       "cost_usd": 3.99,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-06-02T01:59:51Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 9
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_314",
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2954,
       "mid_price_usd": 0.29,
-      "current_price_usd": 0.635,
+      "current_price_usd": 0.57,
       "slippage_pct": 1.86,
       "shares": 12.41,
       "cost_usd": 3.67,
@@ -177,7 +177,7 @@
       "category": "other",
       "opened_at": "2026-06-02T11:11:10Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": 39
+      "unrealized_pnl_nok": 31
     },
     {
       "id": "pos_316",
@@ -187,7 +187,7 @@
       "side": "YES",
       "entry_price_usd": 0.3079,
       "mid_price_usd": 0.3,
-      "current_price_usd": 0.19,
+      "current_price_usd": 0.335,
       "slippage_pct": 2.65,
       "shares": 11.91,
       "cost_usd": 3.67,
@@ -202,7 +202,7 @@
       "category": "other",
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": -13
+      "unrealized_pnl_nok": 3
     },
     {
       "id": "pos_323",
@@ -212,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.3406,
       "mid_price_usd": 0.335,
-      "current_price_usd": 0.2,
+      "current_price_usd": 0.39,
       "slippage_pct": 1.67,
       "shares": 9.17,
       "cost_usd": 3.12,
@@ -227,7 +227,7 @@
       "category": "other",
       "opened_at": "2026-06-03T12:07:59Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": -12
+      "unrealized_pnl_nok": 4
     },
     {
       "id": "pos_324",
@@ -237,7 +237,7 @@
       "side": "YES",
       "entry_price_usd": 0.326,
       "mid_price_usd": 0.32,
-      "current_price_usd": 0.33,
+      "current_price_usd": 0.335,
       "slippage_pct": 1.89,
       "shares": 9.25,
       "cost_usd": 3.02,
@@ -255,31 +255,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_330",
-      "market_id": "2419049",
-      "question": "Dota 2: Aurora vs Team Yandex (BO3) - BLAST Slam Playoffs",
-      "slug": "dota2-aur1-ty-2026-06-04",
-      "side": "YES",
-      "entry_price_usd": 0.464,
-      "mid_price_usd": 0.455,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.97,
-      "shares": 6.02,
-      "cost_usd": 2.79,
-      "cost_nok": 26,
-      "usd_nok_at_entry": 9.312545,
-      "edge_at_entry": 0.149,
-      "our_probability": 0.614,
-      "signals": [
-        "bookie:61%vs46%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-04T05:17:25Z",
-      "end_date": "2026-06-04",
-      "unrealized_pnl_nok": -25
-    },
-    {
       "id": "pos_331",
       "market_id": "2429061",
       "question": "Spread: New York Yankees (-1.5)",
@@ -287,7 +262,7 @@
       "side": "NO",
       "entry_price_usd": 0.5871,
       "mid_price_usd": 0.575,
-      "current_price_usd": 0.575,
+      "current_price_usd": 0.565,
       "slippage_pct": 2.11,
       "shares": 4.76,
       "cost_usd": 2.79,
@@ -302,6 +277,31 @@
       "category": "moneyline",
       "opened_at": "2026-06-04T09:05:34Z",
       "end_date": "2026-06-04",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_332",
+      "market_id": "2336495",
+      "question": "Connecticut Sun vs. Chicago Sky",
+      "slug": "wnba-conn-chi-2026-06-05",
+      "side": "YES",
+      "entry_price_usd": 0.2768,
+      "mid_price_usd": 0.27,
+      "current_price_usd": 0.2768,
+      "slippage_pct": 2.52,
+      "shares": 9.7,
+      "cost_usd": 2.68,
+      "cost_nok": 25,
+      "usd_nok_at_entry": 9.312545,
+      "edge_at_entry": 0.27,
+      "our_probability": 0.55,
+      "signals": [
+        "bookie:55%vs27%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-04T15:49:29Z",
+      "end_date": "2026-06-05",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -10294,6 +10294,37 @@
       "fee_nok": 1,
       "gas_nok": 0.3,
       "closed_at": "2026-06-04T05:17:16Z"
+    },
+    {
+      "id": "pos_330",
+      "market_id": "2419049",
+      "question": "Dota 2: Aurora vs Team Yandex (BO3) - BLAST Slam Playoffs",
+      "slug": "dota2-aur1-ty-2026-06-04",
+      "side": "YES",
+      "entry_price_usd": 0.464,
+      "mid_price_usd": 0.455,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.97,
+      "shares": 6.02,
+      "cost_usd": 2.79,
+      "cost_nok": 26,
+      "usd_nok_at_entry": 9.312545,
+      "edge_at_entry": 0.149,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:61%vs46%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-04T05:17:25Z",
+      "end_date": "2026-06-04",
+      "unrealized_pnl_nok": -25,
+      "closing_price": 0.0,
+      "clv": -0.455,
+      "result": "LOSS",
+      "profit_nok": -26.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-04T15:49:19Z"
     }
   ],
   "trade_log": [
@@ -10431,8 +10462,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 175,
-    "total_losses": 146,
-    "total_realized_pnl_nok": -283.30000000000007,
+    "total_losses": 147,
+    "total_realized_pnl_nok": -309.6000000000001,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -10749,14 +10780,15 @@
       -0.305,
       -0.285,
       -0.445,
-      0.74
+      0.74,
+      -0.455
     ],
-    "avg_clv": 0.0065
+    "avg_clv": 0.005
   },
-  "next_position_id": 332,
+  "next_position_id": 333,
   "learning": {
     "category_weights": {
-      "esport": 0.003,
+      "esport": -0.014,
       "over_under": 0,
       "moneyline": -0.05,
       "other": -0.021,
@@ -10765,6 +10797,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+0.3% | no_draw:-0.3% | other:-2.1% | moneyline:-5.0%"
+    "summary": "no_draw:-0.3% | esport:-1.4% | other:-2.1% | moneyline:-5.0%"
   }
 }
