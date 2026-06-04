@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-04T20:21:39Z",
+    "last_updated": "2026-06-04T21:58:13Z",
     "currency": "NOK",
     "usd_nok_rate": 9.312545
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 357.7000000000126,
+    "balance_nok": 331.4000000000126,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -291.9000000000001,
-    "trades_this_month": 332,
+    "trades_this_month": 333,
     "wins_this_month": 176,
     "losses_this_month": 147
   },
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.755,
+      "current_price_usd": 0.745,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -102,7 +102,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 84
+      "unrealized_pnl_nok": 83
     },
     {
       "id": "pos_308",
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.655,
+      "current_price_usd": 0.665,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 78
+      "unrealized_pnl_nok": 79
     },
     {
       "id": "pos_311",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.3234,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.26,
+      "current_price_usd": 0.265,
       "slippage_pct": 2.66,
       "shares": 12.34,
       "cost_usd": 3.99,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-06-02T01:59:51Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": -6
     },
     {
       "id": "pos_314",
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2954,
       "mid_price_usd": 0.29,
-      "current_price_usd": 0.55,
+      "current_price_usd": 0.982,
       "slippage_pct": 1.86,
       "shares": 12.41,
       "cost_usd": 3.67,
@@ -177,7 +177,7 @@
       "category": "other",
       "opened_at": "2026-06-02T11:11:10Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": 29
+      "unrealized_pnl_nok": 79
     },
     {
       "id": "pos_316",
@@ -187,7 +187,7 @@
       "side": "YES",
       "entry_price_usd": 0.3079,
       "mid_price_usd": 0.3,
-      "current_price_usd": 0.05,
+      "current_price_usd": 0.0055,
       "slippage_pct": 2.65,
       "shares": 11.91,
       "cost_usd": 3.67,
@@ -202,7 +202,7 @@
       "category": "other",
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": -28
+      "unrealized_pnl_nok": -33
     },
     {
       "id": "pos_323",
@@ -212,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.3406,
       "mid_price_usd": 0.335,
-      "current_price_usd": 0.18,
+      "current_price_usd": 0.185,
       "slippage_pct": 1.67,
       "shares": 9.17,
       "cost_usd": 3.12,
@@ -237,7 +237,7 @@
       "side": "YES",
       "entry_price_usd": 0.326,
       "mid_price_usd": 0.32,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.335,
       "slippage_pct": 1.89,
       "shares": 9.25,
       "cost_usd": 3.02,
@@ -252,7 +252,7 @@
       "category": "other",
       "opened_at": "2026-06-03T12:07:59Z",
       "end_date": "2026-06-05",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_332",
@@ -278,6 +278,31 @@
       "opened_at": "2026-06-04T15:49:29Z",
       "end_date": "2026-06-05",
       "unrealized_pnl_nok": -2
+    },
+    {
+      "id": "pos_333",
+      "market_id": "2432565",
+      "question": "Spread: Atlanta Braves (-3.5)",
+      "slug": "mlb-tor-atl-2026-06-04-spread-home-3pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2918,
+      "mid_price_usd": 0.285,
+      "current_price_usd": 0.2918,
+      "slippage_pct": 2.4,
+      "shares": 9.57,
+      "cost_usd": 2.79,
+      "cost_nok": 26,
+      "usd_nok_at_entry": 9.312545,
+      "edge_at_entry": 0.399,
+      "our_probability": 0.694,
+      "signals": [
+        "bookie:69%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-04T21:58:20Z",
+      "end_date": "2026-06-04",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -10793,7 +10818,7 @@
     ],
     "avg_clv": 0.0064
   },
-  "next_position_id": 333,
+  "next_position_id": 334,
   "learning": {
     "category_weights": {
       "esport": -0.014,
