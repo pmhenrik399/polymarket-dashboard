@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-05T13:26:52Z",
+    "last_updated": "2026-06-05T16:13:45Z",
     "currency": "NOK",
     "usd_nok_rate": 9.332212
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 287.3000000000125,
+    "balance_nok": 236.7000000000125,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -302.10000000000014,
-    "trades_this_month": 339,
+    "trades_this_month": 341,
     "wins_this_month": 177,
     "losses_this_month": 150
   },
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.84,
+      "current_price_usd": 0.79,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 111
+      "unrealized_pnl_nok": 102
     },
     {
       "id": "pos_311",
@@ -137,7 +137,7 @@
       "side": "NO",
       "entry_price_usd": 0.3234,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.185,
+      "current_price_usd": 0.41,
       "slippage_pct": 2.66,
       "shares": 12.34,
       "cost_usd": 3.99,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-06-02T01:59:51Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -15
+      "unrealized_pnl_nok": 9
     },
     {
       "id": "pos_324",
@@ -187,7 +187,7 @@
       "side": "YES",
       "entry_price_usd": 0.2768,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.305,
       "slippage_pct": 2.52,
       "shares": 9.7,
       "cost_usd": 2.68,
@@ -202,7 +202,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-04T15:49:29Z",
       "end_date": "2026-06-05",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_334",
@@ -262,7 +262,7 @@
       "side": "YES",
       "entry_price_usd": 0.2342,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.225,
+      "current_price_usd": 0.22,
       "slippage_pct": 1.83,
       "shares": 11.9,
       "cost_usd": 2.79,
@@ -287,7 +287,7 @@
       "side": "YES",
       "entry_price_usd": 0.3169,
       "mid_price_usd": 0.31,
-      "current_price_usd": 0.315,
+      "current_price_usd": 0.305,
       "slippage_pct": 2.22,
       "shares": 8.79,
       "cost_usd": 2.79,
@@ -337,7 +337,7 @@
       "side": "YES",
       "entry_price_usd": 0.4983,
       "mid_price_usd": 0.49,
-      "current_price_usd": 0.4983,
+      "current_price_usd": 0.475,
       "slippage_pct": 1.7,
       "shares": 5.38,
       "cost_usd": 2.68,
@@ -352,6 +352,56 @@
       "category": "moneyline",
       "opened_at": "2026-06-05T13:26:59Z",
       "end_date": "2026-06-05",
+      "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_340",
+      "market_id": "2439381",
+      "question": "Spread: Detroit Tigers (-1.5)",
+      "slug": "mlb-sea-det-2026-06-05-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2996,
+      "mid_price_usd": 0.295,
+      "current_price_usd": 0.2996,
+      "slippage_pct": 1.57,
+      "shares": 8.94,
+      "cost_usd": 2.68,
+      "cost_nok": 25,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.165,
+      "our_probability": 0.47,
+      "signals": [
+        "bookie:47%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-05T16:13:53Z",
+      "end_date": "2026-06-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_341",
+      "market_id": "2419515",
+      "question": "AHL: Colorado Eagles vs. Chicago Wolves",
+      "slug": "ahl-col-chi-2026-06-06",
+      "side": "NO",
+      "entry_price_usd": 0.419,
+      "mid_price_usd": 0.41,
+      "current_price_usd": 0.419,
+      "slippage_pct": 2.19,
+      "shares": 6.39,
+      "cost_usd": 2.68,
+      "cost_nok": 25,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.163,
+      "our_probability": 0.583,
+      "signals": [
+        "bookie:42%vs41%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-05T16:13:53Z",
+      "end_date": "2026-06-06",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -10997,7 +11047,7 @@
     ],
     "avg_clv": 0.0056
   },
-  "next_position_id": 340,
+  "next_position_id": 342,
   "learning": {
     "category_weights": {
       "esport": -0.014,
