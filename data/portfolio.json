@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-04T23:16:50Z",
+    "last_updated": "2026-06-05T01:32:37Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.312545
+    "usd_nok_rate": 9.332212
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 331.4000000000126,
+    "balance_nok": 226.20000000001255,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -291.9000000000001,
-    "trades_this_month": 333,
+    "trades_this_month": 337,
     "wins_this_month": 176,
     "losses_this_month": 147
   },
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.745,
+      "current_price_usd": 0.82,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -102,7 +102,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 83
+      "unrealized_pnl_nok": 95
     },
     {
       "id": "pos_308",
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.665,
+      "current_price_usd": 0.82,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -127,7 +127,7 @@
       "category": "other",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 79
+      "unrealized_pnl_nok": 107
     },
     {
       "id": "pos_311",
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2954,
       "mid_price_usd": 0.29,
-      "current_price_usd": 0.998,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.86,
       "shares": 12.41,
       "cost_usd": 3.67,
@@ -187,7 +187,7 @@
       "side": "YES",
       "entry_price_usd": 0.3079,
       "mid_price_usd": 0.3,
-      "current_price_usd": 0.0015,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.65,
       "shares": 11.91,
       "cost_usd": 3.67,
@@ -202,7 +202,7 @@
       "category": "other",
       "opened_at": "2026-06-02T15:11:38Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": -33
+      "unrealized_pnl_nok": -34
     },
     {
       "id": "pos_323",
@@ -212,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.3406,
       "mid_price_usd": 0.335,
-      "current_price_usd": 0.0035,
+      "current_price_usd": 0.0005,
       "slippage_pct": 1.67,
       "shares": 9.17,
       "cost_usd": 3.12,
@@ -227,7 +227,7 @@
       "category": "other",
       "opened_at": "2026-06-03T12:07:59Z",
       "end_date": "2026-06-04",
-      "unrealized_pnl_nok": -28
+      "unrealized_pnl_nok": -29
     },
     {
       "id": "pos_324",
@@ -237,7 +237,7 @@
       "side": "YES",
       "entry_price_usd": 0.326,
       "mid_price_usd": 0.32,
-      "current_price_usd": 0.335,
+      "current_price_usd": 0.39,
       "slippage_pct": 1.89,
       "shares": 9.25,
       "cost_usd": 3.02,
@@ -252,7 +252,7 @@
       "category": "other",
       "opened_at": "2026-06-03T12:07:59Z",
       "end_date": "2026-06-05",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 5
     },
     {
       "id": "pos_332",
@@ -262,7 +262,7 @@
       "side": "YES",
       "entry_price_usd": 0.2768,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.25,
+      "current_price_usd": 0.255,
       "slippage_pct": 2.52,
       "shares": 9.7,
       "cost_usd": 2.68,
@@ -277,7 +277,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-04T15:49:29Z",
       "end_date": "2026-06-05",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_333",
@@ -287,7 +287,7 @@
       "side": "YES",
       "entry_price_usd": 0.2918,
       "mid_price_usd": 0.285,
-      "current_price_usd": 0.285,
+      "current_price_usd": 0.0235,
       "slippage_pct": 2.4,
       "shares": 9.57,
       "cost_usd": 2.79,
@@ -302,6 +302,106 @@
       "category": "moneyline",
       "opened_at": "2026-06-04T21:58:20Z",
       "end_date": "2026-06-04",
+      "unrealized_pnl_nok": -23
+    },
+    {
+      "id": "pos_334",
+      "market_id": "2439867",
+      "question": "Spread: Toronto Blue Jays (-3.5)",
+      "slug": "mlb-bal-tor-2026-06-05-spread-home-3pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2562,
+      "mid_price_usd": 0.25,
+      "current_price_usd": 0.2562,
+      "slippage_pct": 2.5,
+      "shares": 10.87,
+      "cost_usd": 2.79,
+      "cost_nok": 26,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.571,
+      "our_probability": 0.831,
+      "signals": [
+        "bookie:83%vs25%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-05T01:32:46Z",
+      "end_date": "2026-06-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_335",
+      "market_id": "2439866",
+      "question": "Spread: Toronto Blue Jays (-2.5)",
+      "slug": "mlb-bal-tor-2026-06-05-spread-home-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.337,
+      "mid_price_usd": 0.33,
+      "current_price_usd": 0.337,
+      "slippage_pct": 2.11,
+      "shares": 8.27,
+      "cost_usd": 2.79,
+      "cost_nok": 26,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.491,
+      "our_probability": 0.831,
+      "signals": [
+        "bookie:83%vs33%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-05T01:32:46Z",
+      "end_date": "2026-06-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_336",
+      "market_id": "2439864",
+      "question": "Spread: Baltimore Orioles (-2.5)",
+      "slug": "mlb-bal-tor-2026-06-05-spread-away-2pt5",
+      "side": "YES",
+      "entry_price_usd": 0.2342,
+      "mid_price_usd": 0.23,
+      "current_price_usd": 0.2342,
+      "slippage_pct": 1.83,
+      "shares": 11.9,
+      "cost_usd": 2.79,
+      "cost_nok": 26,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.179,
+      "our_probability": 0.419,
+      "signals": [
+        "bookie:42%vs23%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-05T01:32:46Z",
+      "end_date": "2026-06-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_337",
+      "market_id": "2439863",
+      "question": "Spread: Baltimore Orioles (-1.5)",
+      "slug": "mlb-bal-tor-2026-06-05-spread-away-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3169,
+      "mid_price_usd": 0.31,
+      "current_price_usd": 0.3169,
+      "slippage_pct": 2.22,
+      "shares": 8.79,
+      "cost_usd": 2.79,
+      "cost_nok": 26,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.099,
+      "our_probability": 0.419,
+      "signals": [
+        "bookie:42%vs31%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-05T01:32:47Z",
+      "end_date": "2026-06-05",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -10818,7 +10918,7 @@
     ],
     "avg_clv": 0.0064
   },
-  "next_position_id": 334,
+  "next_position_id": 338,
   "learning": {
     "category_weights": {
       "esport": -0.014,
