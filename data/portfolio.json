@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-05T20:16:52Z",
+    "last_updated": "2026-06-05T21:49:41Z",
     "currency": "NOK",
     "usd_nok_rate": 9.332212
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 211.40000000001248,
+    "balance_nok": 273.80000000001246,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -302.10000000000014,
-    "trades_this_month": 342,
-    "wins_this_month": 177,
+    "realized_pnl_nok": -238.40000000000015,
+    "trades_this_month": 343,
+    "wins_this_month": 178,
     "losses_this_month": 150
   },
   "positions": [
@@ -262,7 +262,7 @@
       "side": "YES",
       "entry_price_usd": 0.2342,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.22,
+      "current_price_usd": 0.225,
       "slippage_pct": 1.83,
       "shares": 11.9,
       "cost_usd": 2.79,
@@ -287,7 +287,7 @@
       "side": "YES",
       "entry_price_usd": 0.3169,
       "mid_price_usd": 0.31,
-      "current_price_usd": 0.305,
+      "current_price_usd": 0.31,
       "slippage_pct": 2.22,
       "shares": 8.79,
       "cost_usd": 2.79,
@@ -305,31 +305,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_338",
-      "market_id": "2435552",
-      "question": "Counter-Strike: LFO vs XI Esport (BO3) - ESEA Advanced Europe Playoffs",
-      "slug": "cs2-lfo9-xi-2026-06-05",
-      "side": "NO",
-      "entry_price_usd": 0.291,
-      "mid_price_usd": 0.285,
-      "current_price_usd": 0.997,
-      "slippage_pct": 2.11,
-      "shares": 9.94,
-      "cost_usd": 2.89,
-      "cost_nok": 27,
-      "usd_nok_at_entry": 9.332212,
-      "edge_at_entry": 0.319,
-      "our_probability": 0.614,
-      "signals": [
-        "bookie:39%vs28%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-05T06:04:41Z",
-      "end_date": "2026-06-05",
-      "unrealized_pnl_nok": 65
-    },
-    {
       "id": "pos_339",
       "market_id": "2443734",
       "question": "Spread: Chicago Sky (-6.5)",
@@ -337,7 +312,7 @@
       "side": "YES",
       "entry_price_usd": 0.4983,
       "mid_price_usd": 0.49,
-      "current_price_usd": 0.475,
+      "current_price_usd": 0.49,
       "slippage_pct": 1.7,
       "shares": 5.38,
       "cost_usd": 2.68,
@@ -352,7 +327,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-05T13:26:59Z",
       "end_date": "2026-06-05",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_340",
@@ -387,7 +362,7 @@
       "side": "NO",
       "entry_price_usd": 0.419,
       "mid_price_usd": 0.41,
-      "current_price_usd": 0.39,
+      "current_price_usd": 0.405,
       "slippage_pct": 2.19,
       "shares": 6.39,
       "cost_usd": 2.68,
@@ -402,7 +377,7 @@
       "category": "other",
       "opened_at": "2026-06-05T16:13:53Z",
       "end_date": "2026-06-06",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_342",
@@ -427,6 +402,31 @@
       "category": "moneyline",
       "opened_at": "2026-06-05T18:14:49Z",
       "end_date": "2026-06-05",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_343",
+      "market_id": "2409749",
+      "question": "Mobile Legends Bang Bang: Team Yandex vs Verso Time (BO5) - MLBB Continental Championships Playoffs",
+      "slug": "mlbb-yndx-ver-2026-06-06",
+      "side": "YES",
+      "entry_price_usd": 0.2803,
+      "mid_price_usd": 0.275,
+      "current_price_usd": 0.2803,
+      "slippage_pct": 1.94,
+      "shares": 10.7,
+      "cost_usd": 3.0,
+      "cost_nok": 28,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.329,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:61%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-05T21:49:51Z",
+      "end_date": "2026-06-06",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -10607,6 +10607,38 @@
       "profit_nok": -29.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-05T10:12:41Z"
+    },
+    {
+      "id": "pos_338",
+      "market_id": "2435552",
+      "question": "Counter-Strike: LFO vs XI Esport (BO3) - ESEA Advanced Europe Playoffs",
+      "slug": "cs2-lfo9-xi-2026-06-05",
+      "side": "NO",
+      "entry_price_usd": 0.291,
+      "mid_price_usd": 0.285,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.11,
+      "shares": 9.94,
+      "cost_usd": 2.89,
+      "cost_nok": 27,
+      "usd_nok_at_entry": 9.332212,
+      "edge_at_entry": 0.319,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-05T06:04:41Z",
+      "end_date": "2026-06-05",
+      "unrealized_pnl_nok": 65,
+      "closing_price": 1.0,
+      "clv": 0.715,
+      "result": "WIN",
+      "profit_nok": 63.7,
+      "fee_nok": 1,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-05T21:49:38Z"
     }
   ],
   "trade_log": [
@@ -10743,9 +10775,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 177,
+    "total_wins": 178,
     "total_losses": 150,
-    "total_realized_pnl_nok": -302.10000000000014,
+    "total_realized_pnl_nok": -238.40000000000015,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -11068,14 +11100,15 @@
       0.71,
       -0.3,
       -0.285,
-      -0.335
+      -0.335,
+      0.715
     ],
-    "avg_clv": 0.0056
+    "avg_clv": 0.0079
   },
-  "next_position_id": 343,
+  "next_position_id": 344,
   "learning": {
     "category_weights": {
-      "esport": -0.014,
+      "esport": 0.006,
       "over_under": 0,
       "moneyline": -0.05,
       "other": -0.025,
@@ -11084,6 +11117,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:-0.3% | esport:-1.4% | other:-2.5% | moneyline:-5.0%"
+    "summary": "esport:+0.6% | no_draw:-0.3% | other:-2.5% | moneyline:-5.0%"
   }
 }
