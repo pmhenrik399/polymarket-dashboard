@@ -1,23 +1,7 @@
 {
   "last_scan": "17:04",
   "price_snapshots": {
-    "2379177_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.225
-      }
-    ],
-    "2379177_no": [
-      {
-        "t": 1780696190,
-        "p": 0.775
-      }
-    ],
     "2280103_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.45
-      },
       {
         "t": 1780738497,
         "p": 0.435
@@ -37,10 +21,6 @@
     ],
     "2280103_no": [
       {
-        "t": 1780696190,
-        "p": 0.55
-      },
-      {
         "t": 1780738497,
         "p": 0.565
       },
@@ -57,35 +37,7 @@
         "p": 0.57
       }
     ],
-    "2421901_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.49
-      }
-    ],
-    "2421901_no": [
-      {
-        "t": 1780696190,
-        "p": 0.51
-      }
-    ],
-    "2439095_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.525
-      }
-    ],
-    "2439095_no": [
-      {
-        "t": 1780696190,
-        "p": 0.475
-      }
-    ],
     "2405751_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.595
-      },
       {
         "t": 1780719396,
         "p": 0.595
@@ -109,10 +61,6 @@
     ],
     "2405751_no": [
       {
-        "t": 1780696190,
-        "p": 0.405
-      },
-      {
         "t": 1780719396,
         "p": 0.405
       },
@@ -133,23 +81,7 @@
         "p": 0.415
       }
     ],
-    "2230287_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.275
-      }
-    ],
-    "2230287_no": [
-      {
-        "t": 1780696190,
-        "p": 0.725
-      }
-    ],
     "2405752_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.585
-      },
       {
         "t": 1780719397,
         "p": 0.585
@@ -169,10 +101,6 @@
     ],
     "2405752_no": [
       {
-        "t": 1780696190,
-        "p": 0.415
-      },
-      {
         "t": 1780719397,
         "p": 0.415
       },
@@ -190,10 +118,6 @@
       }
     ],
     "2405753_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.585
-      },
       {
         "t": 1780719397,
         "p": 0.585
@@ -213,10 +137,6 @@
     ],
     "2405753_no": [
       {
-        "t": 1780696190,
-        "p": 0.415
-      },
-      {
         "t": 1780719397,
         "p": 0.415
       },
@@ -233,167 +153,7 @@
         "p": 0.415
       }
     ],
-    "2427410_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.235
-      }
-    ],
-    "2427410_no": [
-      {
-        "t": 1780696190,
-        "p": 0.765
-      }
-    ],
-    "2441192_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.255
-      }
-    ],
-    "2441192_no": [
-      {
-        "t": 1780696190,
-        "p": 0.745
-      }
-    ],
-    "2224606_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.465
-      }
-    ],
-    "2224606_no": [
-      {
-        "t": 1780696190,
-        "p": 0.535
-      }
-    ],
-    "2224559_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.715
-      }
-    ],
-    "2224559_no": [
-      {
-        "t": 1780696190,
-        "p": 0.285
-      }
-    ],
-    "2216804_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.43
-      }
-    ],
-    "2216804_no": [
-      {
-        "t": 1780696190,
-        "p": 0.57
-      }
-    ],
-    "2224618_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.415
-      }
-    ],
-    "2224618_no": [
-      {
-        "t": 1780696190,
-        "p": 0.585
-      }
-    ],
-    "2439069_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.465
-      }
-    ],
-    "2439069_no": [
-      {
-        "t": 1780696190,
-        "p": 0.535
-      }
-    ],
-    "2402648_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.665
-      }
-    ],
-    "2402648_no": [
-      {
-        "t": 1780696190,
-        "p": 0.335
-      }
-    ],
-    "2433636_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.755
-      }
-    ],
-    "2433636_no": [
-      {
-        "t": 1780696190,
-        "p": 0.245
-      }
-    ],
-    "2441138_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.26
-      }
-    ],
-    "2441138_no": [
-      {
-        "t": 1780696190,
-        "p": 0.74
-      }
-    ],
-    "2216817_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.265
-      }
-    ],
-    "2216817_no": [
-      {
-        "t": 1780696190,
-        "p": 0.735
-      }
-    ],
-    "2441224_yes": [
-      {
-        "t": 1780696190,
-        "p": 0.28
-      }
-    ],
-    "2441224_no": [
-      {
-        "t": 1780696190,
-        "p": 0.72
-      }
-    ],
-    "2418733_yes": [
-      {
-        "t": 1780696191,
-        "p": 0.635
-      }
-    ],
-    "2418733_no": [
-      {
-        "t": 1780696191,
-        "p": 0.365
-      }
-    ],
     "2324984_yes": [
-      {
-        "t": 1780696191,
-        "p": 0.445
-      },
       {
         "t": 1780719396,
         "p": 0.445
@@ -437,10 +197,6 @@
     ],
     "2324984_no": [
       {
-        "t": 1780696191,
-        "p": 0.555
-      },
-      {
         "t": 1780719396,
         "p": 0.555
       },
@@ -479,18 +235,6 @@
       {
         "t": 1780774742,
         "p": 0.555
-      }
-    ],
-    "2444028_yes": [
-      {
-        "t": 1780696191,
-        "p": 0.385
-      }
-    ],
-    "2444028_no": [
-      {
-        "t": 1780696191,
-        "p": 0.615
       }
     ],
     "2435865_yes": [
@@ -1821,6 +1565,10 @@
       {
         "t": 1780782402,
         "p": 0.57
+      },
+      {
+        "t": 1780786027,
+        "p": 0.57
       }
     ],
     "2418757_no": [
@@ -1830,6 +1578,10 @@
       },
       {
         "t": 1780782402,
+        "p": 0.43
+      },
+      {
+        "t": 1780786027,
         "p": 0.43
       }
     ],
@@ -1841,6 +1593,10 @@
       {
         "t": 1780782402,
         "p": 0.275
+      },
+      {
+        "t": 1780786027,
+        "p": 0.265
       }
     ],
     "2448896_no": [
@@ -1851,6 +1607,10 @@
       {
         "t": 1780782402,
         "p": 0.725
+      },
+      {
+        "t": 1780786027,
+        "p": 0.735
       }
     ],
     "2457109_yes": [
@@ -1893,11 +1653,19 @@
       {
         "t": 1780782402,
         "p": 0.275
+      },
+      {
+        "t": 1780786026,
+        "p": 0.275
       }
     ],
     "2449313_no": [
       {
         "t": 1780782402,
+        "p": 0.725
+      },
+      {
+        "t": 1780786026,
         "p": 0.725
       }
     ],
@@ -1917,11 +1685,19 @@
       {
         "t": 1780782402,
         "p": 0.575
+      },
+      {
+        "t": 1780786027,
+        "p": 0.575
       }
     ],
     "2233685_no": [
       {
         "t": 1780782402,
+        "p": 0.425
+      },
+      {
+        "t": 1780786027,
         "p": 0.425
       }
     ],
@@ -1929,24 +1705,112 @@
       {
         "t": 1780782402,
         "p": 0.26
+      },
+      {
+        "t": 1780786027,
+        "p": 0.265
       }
     ],
     "2233719_no": [
       {
         "t": 1780782402,
         "p": 0.74
+      },
+      {
+        "t": 1780786027,
+        "p": 0.735
       }
     ],
     "2233717_yes": [
       {
         "t": 1780782402,
         "p": 0.735
+      },
+      {
+        "t": 1780786027,
+        "p": 0.74
       }
     ],
     "2233717_no": [
       {
         "t": 1780782402,
         "p": 0.265
+      },
+      {
+        "t": 1780786027,
+        "p": 0.26
+      }
+    ],
+    "2457176_yes": [
+      {
+        "t": 1780786026,
+        "p": 0.43
+      }
+    ],
+    "2457176_no": [
+      {
+        "t": 1780786026,
+        "p": 0.57
+      }
+    ],
+    "2456179_yes": [
+      {
+        "t": 1780786026,
+        "p": 0.28
+      }
+    ],
+    "2456179_no": [
+      {
+        "t": 1780786026,
+        "p": 0.72
+      }
+    ],
+    "2438101_yes": [
+      {
+        "t": 1780786027,
+        "p": 0.31
+      }
+    ],
+    "2438101_no": [
+      {
+        "t": 1780786027,
+        "p": 0.69
+      }
+    ],
+    "2450064_yes": [
+      {
+        "t": 1780786027,
+        "p": 0.32
+      }
+    ],
+    "2450064_no": [
+      {
+        "t": 1780786027,
+        "p": 0.68
+      }
+    ],
+    "2422875_yes": [
+      {
+        "t": 1780786027,
+        "p": 0.515
+      }
+    ],
+    "2422875_no": [
+      {
+        "t": 1780786027,
+        "p": 0.485
+      }
+    ],
+    "2456421_yes": [
+      {
+        "t": 1780786027,
+        "p": 0.465
+      }
+    ],
+    "2456421_no": [
+      {
+        "t": 1780786027,
+        "p": 0.535
       }
     ]
   },
@@ -1956,8 +1820,8 @@
     "new york knicks vs san antonio spurs": {
       "home": "New York Knicks",
       "away": "San Antonio Spurs",
-      "home_prob": 0.5446,
-      "away_prob": 0.4554,
+      "home_prob": 0.5448,
+      "away_prob": 0.4552,
       "draw_prob": 0,
       "commence": "2026-06-09T00:40:00Z",
       "sport": "basketball_nba",
@@ -1966,208 +1830,178 @@
     "vegas golden knights vs carolina hurricanes": {
       "home": "Vegas Golden Knights",
       "away": "Carolina Hurricanes",
-      "home_prob": 0.3857,
-      "away_prob": 0.3961,
-      "draw_prob": 0.2181,
+      "home_prob": 0.3864,
+      "away_prob": 0.3954,
+      "draw_prob": 0.2182,
       "commence": "2026-06-07T00:10:00Z",
       "sport": "icehockey_nhl",
       "bookmaker_count": 21
     },
-    "toronto blue jays vs baltimore orioles": {
-      "home": "Toronto Blue Jays",
-      "away": "Baltimore Orioles",
-      "home_prob": 0.5507,
-      "away_prob": 0.4493,
-      "draw_prob": 0,
-      "commence": "2026-06-07T17:38:00Z",
-      "sport": "baseball_mlb",
-      "bookmaker_count": 12
-    },
     "philadelphia phillies vs chicago white sox": {
       "home": "Philadelphia Phillies",
       "away": "Chicago White Sox",
-      "home_prob": 0.5898,
-      "away_prob": 0.4102,
+      "home_prob": 0.5882,
+      "away_prob": 0.4118,
       "draw_prob": 0,
       "commence": "2026-06-07T17:36:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 12
+      "bookmaker_count": 18
     },
     "arizona diamondbacks vs washington nationals": {
       "home": "Arizona Diamondbacks",
       "away": "Washington Nationals",
-      "home_prob": 0.5488,
-      "away_prob": 0.4512,
+      "home_prob": 0.548,
+      "away_prob": 0.452,
       "draw_prob": 0,
       "commence": "2026-06-07T19:16:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 11
+      "bookmaker_count": 12
     },
     "houston astros vs athletics": {
       "home": "Houston Astros",
       "away": "Athletics",
-      "home_prob": 0.499,
-      "away_prob": 0.501,
+      "home_prob": 0.4984,
+      "away_prob": 0.5016,
       "draw_prob": 0,
       "commence": "2026-06-07T18:11:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 12
+      "bookmaker_count": 18
     },
     "atlanta braves vs pittsburgh pirates": {
       "home": "Atlanta Braves",
       "away": "Pittsburgh Pirates",
-      "home_prob": 0.5693,
-      "away_prob": 0.4307,
+      "home_prob": 0.569,
+      "away_prob": 0.431,
       "draw_prob": 0,
       "commence": "2026-06-07T17:36:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 12
+      "bookmaker_count": 18
     },
     "miami marlins vs tampa bay rays": {
       "home": "Miami Marlins",
       "away": "Tampa Bay Rays",
-      "home_prob": 0.4896,
-      "away_prob": 0.5104,
+      "home_prob": 0.4887,
+      "away_prob": 0.5113,
       "draw_prob": 0,
       "commence": "2026-06-07T17:41:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 12
+      "bookmaker_count": 18
     },
     "new york yankees vs boston red sox": {
       "home": "New York Yankees",
       "away": "Boston Red Sox",
-      "home_prob": 0.606,
-      "away_prob": 0.394,
+      "home_prob": 0.6054,
+      "away_prob": 0.3946,
       "draw_prob": 0,
       "commence": "2026-06-07T17:36:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 12
+      "bookmaker_count": 18
     },
     "texas rangers vs cleveland guardians": {
       "home": "Texas Rangers",
       "away": "Cleveland Guardians",
-      "home_prob": 0.5498,
-      "away_prob": 0.4502,
+      "home_prob": 0.5509,
+      "away_prob": 0.4491,
       "draw_prob": 0,
       "commence": "2026-06-07T18:36:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 11
+      "bookmaker_count": 15
     },
     "colorado rockies vs milwaukee brewers": {
       "home": "Colorado Rockies",
       "away": "Milwaukee Brewers",
-      "home_prob": 0.386,
-      "away_prob": 0.614,
+      "home_prob": 0.3875,
+      "away_prob": 0.6125,
       "draw_prob": 0,
       "commence": "2026-06-07T19:11:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 11
+      "bookmaker_count": 16
     },
     "los angeles dodgers vs los angeles angels": {
       "home": "Los Angeles Dodgers",
       "away": "Los Angeles Angels",
-      "home_prob": 0.6373,
-      "away_prob": 0.3627,
+      "home_prob": 0.6367,
+      "away_prob": 0.3633,
       "draw_prob": 0,
       "commence": "2026-06-07T20:11:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 11
+      "bookmaker_count": 12
     },
     "san diego padres vs new york mets": {
       "home": "San Diego Padres",
       "away": "New York Mets",
-      "home_prob": 0.5074,
-      "away_prob": 0.4926,
+      "home_prob": 0.5085,
+      "away_prob": 0.4915,
       "draw_prob": 0,
       "commence": "2026-06-07T20:11:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 7
+      "bookmaker_count": 8
+    },
+    "toronto blue jays vs baltimore orioles": {
+      "home": "Toronto Blue Jays",
+      "away": "Baltimore Orioles",
+      "home_prob": 0.5509,
+      "away_prob": 0.4491,
+      "draw_prob": 0,
+      "commence": "2026-06-07T17:38:00Z",
+      "sport": "baseball_mlb",
+      "bookmaker_count": 18
     },
     "detroit tigers vs seattle mariners": {
       "home": "Detroit Tigers",
       "away": "Seattle Mariners",
-      "home_prob": 0.4742,
-      "away_prob": 0.5258,
+      "home_prob": 0.4754,
+      "away_prob": 0.5246,
       "draw_prob": 0,
       "commence": "2026-06-07T17:41:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 12
+      "bookmaker_count": 18
     },
     "minnesota twins vs kansas royals": {
       "home": "Minnesota Twins",
       "away": "Kansas City Royals",
-      "home_prob": 0.4996,
-      "away_prob": 0.5004,
+      "home_prob": 0.4983,
+      "away_prob": 0.5017,
       "draw_prob": 0,
       "commence": "2026-06-07T18:11:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 11
+      "bookmaker_count": 18
     },
     "st louisrdinals vs cincinnati reds": {
       "home": "St. Louis Cardinals",
       "away": "Cincinnati Reds",
-      "home_prob": 0.5493,
-      "away_prob": 0.4507,
+      "home_prob": 0.5479,
+      "away_prob": 0.4521,
       "draw_prob": 0,
       "commence": "2026-06-07T18:16:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 11
+      "bookmaker_count": 18
     },
     "chicago cubs vs san francisco giants": {
       "home": "Chicago Cubs",
       "away": "San Francisco Giants",
-      "home_prob": 0.5182,
-      "away_prob": 0.4818,
+      "home_prob": 0.518,
+      "away_prob": 0.482,
       "draw_prob": 0,
       "commence": "2026-06-08T00:21:00Z",
       "sport": "baseball_mlb",
-      "bookmaker_count": 9
-    },
-    "jeisla chaves vs yuneisy duben": {
-      "home": "Jeisla Chaves",
-      "away": "Yuneisy Duben",
-      "home_prob": 0.8825,
-      "away_prob": 0.1175,
-      "draw_prob": 0,
-      "commence": "2026-06-06T21:30:00Z",
-      "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 4
-    },
-    "jordan leavitt vs joanderson brito": {
-      "home": "Jordan Leavitt",
-      "away": "Joanderson Brito",
-      "home_prob": 0.383,
-      "away_prob": 0.598,
-      "draw_prob": 0.0189,
-      "commence": "2026-06-06T22:00:00Z",
-      "sport": "mma_mixed_martial_arts",
       "bookmaker_count": 10
-    },
-    "priscilachoeira vs chelsea chandler": {
-      "home": "Priscila Cachoeira",
-      "away": "Chelsea Chandler",
-      "home_prob": 0.439,
-      "away_prob": 0.5421,
-      "draw_prob": 0.0189,
-      "commence": "2026-06-06T22:25:00Z",
-      "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 9
     },
     "bruno silva vs edgar chairez": {
       "home": "Bruno Silva",
       "away": "Edgar Chairez",
-      "home_prob": 0.5172,
-      "away_prob": 0.4639,
-      "draw_prob": 0.0189,
+      "home_prob": 0.4682,
+      "away_prob": 0.5318,
+      "draw_prob": 0,
       "commence": "2026-06-06T22:50:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 7
+      "bookmaker_count": 6
     },
     "marcus mcghee vs john yannis": {
       "home": "Marcus McGhee",
       "away": "John Yannis",
-      "home_prob": 0.7507,
-      "away_prob": 0.2304,
+      "home_prob": 0.7538,
+      "away_prob": 0.2274,
       "draw_prob": 0.0189,
       "commence": "2026-06-06T23:15:00Z",
       "sport": "mma_mixed_martial_arts",
@@ -2176,8 +2010,8 @@
     "matthnell vs alessandro costa": {
       "home": "Matt Schnell",
       "away": "Alessandro Costa",
-      "home_prob": 0.217,
-      "away_prob": 0.7641,
+      "home_prob": 0.2149,
+      "away_prob": 0.7663,
       "draw_prob": 0.0189,
       "commence": "2026-06-06T23:40:00Z",
       "sport": "mma_mixed_martial_arts",
@@ -2186,8 +2020,8 @@
     "iwo baraniewski vs junior tafa": {
       "home": "Iwo Baraniewski",
       "away": "Junior Tafa",
-      "home_prob": 0.7589,
-      "away_prob": 0.2224,
+      "home_prob": 0.7601,
+      "away_prob": 0.2212,
       "draw_prob": 0.0187,
       "commence": "2026-06-07T00:15:00Z",
       "sport": "mma_mixed_martial_arts",
@@ -2196,8 +2030,8 @@
     "bryce mitchell vs santiago luna": {
       "home": "Bryce Mitchell",
       "away": "Santiago Luna",
-      "home_prob": 0.5177,
-      "away_prob": 0.4636,
+      "home_prob": 0.5184,
+      "away_prob": 0.4629,
       "draw_prob": 0.0188,
       "commence": "2026-06-07T00:45:00Z",
       "sport": "mma_mixed_martial_arts",
@@ -2206,8 +2040,8 @@
     "fares ziam vs tom nolan": {
       "home": "Fares Ziam",
       "away": "Tom Nolan",
-      "home_prob": 0.7119,
-      "away_prob": 0.2694,
+      "home_prob": 0.7142,
+      "away_prob": 0.267,
       "draw_prob": 0.0188,
       "commence": "2026-06-07T01:15:00Z",
       "sport": "mma_mixed_martial_arts",
@@ -2216,22 +2050,22 @@
     "brendan allen vs edmen shahbazyan": {
       "home": "Brendan Allen",
       "away": "Edmen Shahbazyan",
-      "home_prob": 0.6037,
-      "away_prob": 0.3776,
-      "draw_prob": 0.0187,
+      "home_prob": 0.6054,
+      "away_prob": 0.3758,
+      "draw_prob": 0.0188,
       "commence": "2026-06-07T01:45:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 13
+      "bookmaker_count": 14
     },
     "belal muhammad vs gabriel bonfim": {
       "home": "Belal Muhammad",
       "away": "Gabriel Bonfim",
-      "home_prob": 0.496,
-      "away_prob": 0.4854,
-      "draw_prob": 0.0186,
+      "home_prob": 0.4945,
+      "away_prob": 0.4868,
+      "draw_prob": 0.0187,
       "commence": "2026-06-07T02:15:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 13
+      "bookmaker_count": 14
     },
     "alex pereira vs carlos ulberg": {
       "home": "Alex Pereira",
@@ -2326,12 +2160,12 @@
     "alex pereira vs ciryl gane": {
       "home": "Alex Pereira",
       "away": "Ciryl Gane",
-      "home_prob": 0.487,
-      "away_prob": 0.4944,
+      "home_prob": 0.4866,
+      "away_prob": 0.4948,
       "draw_prob": 0.0186,
       "commence": "2026-06-15T00:30:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 13
+      "bookmaker_count": 14
     },
     "ilia topuria vs justin gaethje": {
       "home": "Ilia Topuria",
@@ -2406,32 +2240,32 @@
     "brandon royval vs loneer kavanagh": {
       "home": "Brandon Royval",
       "away": "Lone'er Kavanagh",
-      "home_prob": 0.3698,
-      "away_prob": 0.6022,
-      "draw_prob": 0.028,
+      "home_prob": 0.3704,
+      "away_prob": 0.6017,
+      "draw_prob": 0.0279,
       "commence": "2026-07-12T02:00:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 6
+      "bookmaker_count": 8
     },
     "cory sandhagen vs mario bautista": {
       "home": "Cory Sandhagen",
       "away": "Mario Bautista",
-      "home_prob": 0.5592,
-      "away_prob": 0.4129,
-      "draw_prob": 0.0279,
+      "home_prob": 0.5631,
+      "away_prob": 0.4091,
+      "draw_prob": 0.0278,
       "commence": "2026-07-12T02:00:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 7
+      "bookmaker_count": 9
     },
     "gable steveson vs elisha ellison": {
       "home": "Gable Steveson",
       "away": "Elisha Ellison",
-      "home_prob": 0.8953,
-      "away_prob": 0.0774,
-      "draw_prob": 0.0273,
+      "home_prob": 0.8957,
+      "away_prob": 0.0771,
+      "draw_prob": 0.0272,
       "commence": "2026-07-12T02:00:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 6
+      "bookmaker_count": 8
     },
     "paddy pimblett vs benoit saintdenis": {
       "home": "Paddy Pimblett",
@@ -2446,8 +2280,8 @@
     "conor mcgregor vs max holloway": {
       "home": "Conor McGregor",
       "away": "Max Holloway",
-      "home_prob": 0.2655,
-      "away_prob": 0.7066,
+      "home_prob": 0.2654,
+      "away_prob": 0.7067,
       "draw_prob": 0.0279,
       "commence": "2026-07-12T03:30:00Z",
       "sport": "mma_mixed_martial_arts",
@@ -2456,12 +2290,12 @@
     "dricus du plessis vs kamaru usman": {
       "home": "Dricus Du Plessis",
       "away": "Kamaru Usman",
-      "home_prob": 0.749,
-      "away_prob": 0.251,
+      "home_prob": 0.7335,
+      "away_prob": 0.2665,
       "draw_prob": 0,
       "commence": "2026-07-18T22:00:00Z",
       "sport": "mma_mixed_martial_arts",
-      "bookmaker_count": 1
+      "bookmaker_count": 3
     },
     "magomed ankalaev vs khalil rountree": {
       "home": "Magomed Ankalaev",
@@ -2544,5 +2378,5 @@
       "bookmaker_count": 1
     }
   },
-  "odds_last_fetched": 1780782395
+  "odds_last_fetched": 1780786019
 }
