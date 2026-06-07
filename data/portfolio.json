@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-07T20:39:08Z",
+    "last_updated": "2026-06-07T21:50:13Z",
     "currency": "NOK",
     "usd_nok_rate": 9.407086
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 83.60000000001234,
+    "balance_nok": 107.00000000001235,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -447.4000000000004,
-    "trades_this_month": 363,
-    "wins_this_month": 182,
-    "losses_this_month": 166
+    "realized_pnl_nok": -449.0000000000004,
+    "trades_this_month": 364,
+    "wins_this_month": 183,
+    "losses_this_month": 167
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "NO",
       "entry_price_usd": 0.6996,
       "mid_price_usd": 0.685,
-      "current_price_usd": 0.9955,
+      "current_price_usd": 0.996,
       "slippage_pct": 2.13,
       "shares": 6.18,
       "cost_usd": 4.32,
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.9915,
+      "current_price_usd": 0.9925,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -187,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.577,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.83,
+      "current_price_usd": 0.855,
       "slippage_pct": 2.13,
       "shares": 5.34,
       "cost_usd": 3.08,
@@ -202,7 +202,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-06T11:08:27Z",
       "end_date": "2026-06-08",
-      "unrealized_pnl_nok": 12
+      "unrealized_pnl_nok": 13
     },
     {
       "id": "pos_350",
@@ -212,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.307,
       "mid_price_usd": 0.3,
-      "current_price_usd": 0.01,
+      "current_price_usd": 0.001,
       "slippage_pct": 2.34,
       "shares": 9.34,
       "cost_usd": 2.87,
@@ -237,7 +237,7 @@
       "side": "YES",
       "entry_price_usd": 0.2319,
       "mid_price_usd": 0.2275,
-      "current_price_usd": 0.281,
+      "current_price_usd": 0.74,
       "slippage_pct": 1.92,
       "shares": 11.91,
       "cost_usd": 2.76,
@@ -252,7 +252,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-06T22:47:07Z",
       "end_date": "2026-06-07",
-      "unrealized_pnl_nok": 5
+      "unrealized_pnl_nok": 56
     },
     {
       "id": "pos_357",
@@ -262,7 +262,7 @@
       "side": "YES",
       "entry_price_usd": 0.3116,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.715,
+      "current_price_usd": 0.76,
       "slippage_pct": 2.18,
       "shares": 8.86,
       "cost_usd": 2.76,
@@ -277,32 +277,7 @@
       "category": "other",
       "opened_at": "2026-06-06T23:51:32Z",
       "end_date": "2026-06-07",
-      "unrealized_pnl_nok": 33
-    },
-    {
-      "id": "pos_358",
-      "market_id": "2350252",
-      "question": "Chicago Sky vs. Toronto Tempo",
-      "slug": "wnba-chi-tor-2026-06-07",
-      "side": "YES",
-      "entry_price_usd": 0.4473,
-      "mid_price_usd": 0.44,
-      "current_price_usd": 0.024,
-      "slippage_pct": 1.65,
-      "shares": 5.94,
-      "cost_usd": 2.66,
-      "cost_nok": 25,
-      "usd_nok_at_entry": 9.407086,
-      "edge_at_entry": 0.068,
-      "our_probability": 0.518,
-      "signals": [
-        "bookie:52%vs44%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-06-07T02:40:02Z",
-      "end_date": "2026-06-07",
-      "unrealized_pnl_nok": -23
+      "unrealized_pnl_nok": 37
     },
     {
       "id": "pos_359",
@@ -312,7 +287,7 @@
       "side": "YES",
       "entry_price_usd": 0.2095,
       "mid_price_usd": 0.205,
-      "current_price_usd": 0.1115,
+      "current_price_usd": 0.0905,
       "slippage_pct": 2.17,
       "shares": 10.66,
       "cost_usd": 2.23,
@@ -327,32 +302,7 @@
       "category": "other",
       "opened_at": "2026-06-07T06:50:04Z",
       "end_date": "2026-06-07",
-      "unrealized_pnl_nok": -9
-    },
-    {
-      "id": "pos_360",
-      "market_id": "2455760",
-      "question": "Spread: Philadelphia Phillies (-1.5)",
-      "slug": "mlb-cws-phi-2026-06-07-spread-home-1pt5",
-      "side": "YES",
-      "entry_price_usd": 0.4451,
-      "mid_price_usd": 0.435,
-      "current_price_usd": 0.92,
-      "slippage_pct": 2.33,
-      "shares": 4.78,
-      "cost_usd": 2.13,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.407086,
-      "edge_at_entry": 0.159,
-      "our_probability": 0.604,
-      "signals": [
-        "bookie:60%vs44%",
-        "ob:-0.010"
-      ],
-      "category": "moneyline",
-      "opened_at": "2026-06-07T09:53:41Z",
-      "end_date": "2026-06-07",
-      "unrealized_pnl_nok": 21
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_361",
@@ -362,7 +312,7 @@
       "side": "YES",
       "entry_price_usd": 0.4251,
       "mid_price_usd": 0.415,
-      "current_price_usd": 0.005,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.44,
       "shares": 5.0,
       "cost_usd": 2.13,
@@ -387,7 +337,7 @@
       "side": "YES",
       "entry_price_usd": 0.4482,
       "mid_price_usd": 0.44,
-      "current_price_usd": 0.415,
+      "current_price_usd": 0.405,
       "slippage_pct": 1.86,
       "shares": 4.74,
       "cost_usd": 2.13,
@@ -412,7 +362,7 @@
       "side": "YES",
       "entry_price_usd": 0.4281,
       "mid_price_usd": 0.42,
-      "current_price_usd": 0.405,
+      "current_price_usd": 0.395,
       "slippage_pct": 1.92,
       "shares": 4.97,
       "cost_usd": 2.13,
@@ -428,6 +378,31 @@
       "opened_at": "2026-06-07T15:01:35Z",
       "end_date": "2026-06-08",
       "unrealized_pnl_nok": -1
+    },
+    {
+      "id": "pos_364",
+      "market_id": "2452386",
+      "question": "Counter-Strike: Misa Esports vs eternal premium (BO3) - ESEA Advanced Europe Playoffs",
+      "slug": "cs2-mis-ep-2026-06-08",
+      "side": "NO",
+      "entry_price_usd": 0.4563,
+      "mid_price_usd": 0.445,
+      "current_price_usd": 0.4563,
+      "slippage_pct": 2.53,
+      "shares": 4.66,
+      "cost_usd": 2.13,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.407086,
+      "edge_at_entry": 0.159,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-07T21:50:20Z",
+      "end_date": "2026-06-08",
+      "unrealized_pnl_nok": 0
     }
   ],
   "closed_positions": [
@@ -11263,6 +11238,69 @@
       "profit_nok": -31.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-07T09:53:31Z"
+    },
+    {
+      "id": "pos_358",
+      "market_id": "2350252",
+      "question": "Chicago Sky vs. Toronto Tempo",
+      "slug": "wnba-chi-tor-2026-06-07",
+      "side": "YES",
+      "entry_price_usd": 0.4473,
+      "mid_price_usd": 0.44,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.65,
+      "shares": 5.94,
+      "cost_usd": 2.66,
+      "cost_nok": 25,
+      "usd_nok_at_entry": 9.407086,
+      "edge_at_entry": 0.068,
+      "our_probability": 0.518,
+      "signals": [
+        "bookie:52%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-07T02:40:02Z",
+      "end_date": "2026-06-07",
+      "unrealized_pnl_nok": -23,
+      "closing_price": 0.0,
+      "clv": -0.44,
+      "result": "LOSS",
+      "profit_nok": -25.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-07T21:50:11Z"
+    },
+    {
+      "id": "pos_360",
+      "market_id": "2455760",
+      "question": "Spread: Philadelphia Phillies (-1.5)",
+      "slug": "mlb-cws-phi-2026-06-07-spread-home-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.4451,
+      "mid_price_usd": 0.435,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.33,
+      "shares": 4.78,
+      "cost_usd": 2.13,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.407086,
+      "edge_at_entry": 0.159,
+      "our_probability": 0.604,
+      "signals": [
+        "bookie:60%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-07T09:53:41Z",
+      "end_date": "2026-06-07",
+      "unrealized_pnl_nok": 21,
+      "closing_price": 1.0,
+      "clv": 0.565,
+      "result": "WIN",
+      "profit_nok": 23.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-07T21:50:12Z"
     }
   ],
   "trade_log": [
@@ -11399,9 +11437,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 182,
-    "total_losses": 166,
-    "total_realized_pnl_nok": -447.4000000000004,
+    "total_wins": 183,
+    "total_losses": 167,
+    "total_realized_pnl_nok": -449.0000000000004,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -11745,22 +11783,24 @@
       -0.29,
       -0.435,
       -0.395,
-      -0.38
+      -0.38,
+      -0.44,
+      0.565
     ],
-    "avg_clv": -0.001
+    "avg_clv": -0.0006
   },
-  "next_position_id": 364,
+  "next_position_id": 365,
   "learning": {
     "category_weights": {
       "esport": 0.006,
       "over_under": 0,
-      "moneyline": -0.05,
+      "moneyline": -0.047,
       "other": -0.05,
       "social_media": 0,
       "no_draw": -0.003,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+0.6% | no_draw:-0.3% | moneyline:-5.0% | other:-5.0%"
+    "summary": "esport:+0.6% | no_draw:-0.3% | moneyline:-4.7% | other:-5.0%"
   }
 }
