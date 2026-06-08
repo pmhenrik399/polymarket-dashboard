@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-08T14:00:43Z",
+    "last_updated": "2026-06-08T17:26:57Z",
     "currency": "NOK",
     "usd_nok_rate": 9.444223
   },
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.2693,
       "mid_price_usd": 0.265,
-      "current_price_usd": 0.32,
+      "current_price_usd": 0.14,
       "slippage_pct": 1.64,
       "shares": 12.22,
       "cost_usd": 3.29,
@@ -177,7 +177,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-06T04:16:37Z",
       "end_date": "2026-06-08",
-      "unrealized_pnl_nok": 5
+      "unrealized_pnl_nok": -14
     },
     {
       "id": "pos_347",
@@ -187,7 +187,7 @@
       "side": "NO",
       "entry_price_usd": 0.577,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.804,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.13,
       "shares": 5.34,
       "cost_usd": 3.08,
@@ -202,7 +202,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-06T11:08:27Z",
       "end_date": "2026-06-08",
-      "unrealized_pnl_nok": 11
+      "unrealized_pnl_nok": -29
     },
     {
       "id": "pos_362",
@@ -212,7 +212,7 @@
       "side": "YES",
       "entry_price_usd": 0.4482,
       "mid_price_usd": 0.44,
-      "current_price_usd": 0.38,
+      "current_price_usd": 0.165,
       "slippage_pct": 1.86,
       "shares": 4.74,
       "cost_usd": 2.13,
@@ -227,7 +227,7 @@
       "category": "other",
       "opened_at": "2026-06-07T15:01:35Z",
       "end_date": "2026-06-08",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -12
     },
     {
       "id": "pos_363",
@@ -237,7 +237,7 @@
       "side": "YES",
       "entry_price_usd": 0.4281,
       "mid_price_usd": 0.42,
-      "current_price_usd": 0.385,
+      "current_price_usd": 0.345,
       "slippage_pct": 1.92,
       "shares": 4.97,
       "cost_usd": 2.13,
@@ -252,7 +252,7 @@
       "category": "other",
       "opened_at": "2026-06-07T15:01:35Z",
       "end_date": "2026-06-08",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_364",
