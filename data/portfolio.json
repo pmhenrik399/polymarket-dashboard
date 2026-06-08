@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-08T21:27:54Z",
+    "last_updated": "2026-06-08T22:59:48Z",
     "currency": "NOK",
     "usd_nok_rate": 9.444223
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 188.70000000001235,
+    "balance_nok": 232.40000000001237,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -549.1000000000004,
+    "realized_pnl_nok": -525.4000000000003,
     "trades_this_month": 364,
-    "wins_this_month": 184,
+    "wins_this_month": 185,
     "losses_this_month": 173
   },
   "positions": [
@@ -112,7 +112,7 @@
       "side": "NO",
       "entry_price_usd": 0.2154,
       "mid_price_usd": 0.21,
-      "current_price_usd": 0.993,
+      "current_price_usd": 0.9935,
       "slippage_pct": 2.55,
       "shares": 19.07,
       "cost_usd": 4.11,
@@ -162,7 +162,7 @@
       "side": "YES",
       "entry_price_usd": 0.4482,
       "mid_price_usd": 0.44,
-      "current_price_usd": 0.0075,
+      "current_price_usd": 0.0015,
       "slippage_pct": 1.86,
       "shares": 4.74,
       "cost_usd": 2.13,
@@ -203,31 +203,6 @@
       "opened_at": "2026-06-07T15:01:35Z",
       "end_date": "2026-06-08",
       "unrealized_pnl_nok": -20
-    },
-    {
-      "id": "pos_364",
-      "market_id": "2452386",
-      "question": "Counter-Strike: Misa Esports vs eternal premium (BO3) - ESEA Advanced Europe Playoffs",
-      "slug": "cs2-mis-ep-2026-06-08",
-      "side": "NO",
-      "entry_price_usd": 0.4563,
-      "mid_price_usd": 0.445,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.53,
-      "shares": 4.66,
-      "cost_usd": 2.13,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.407086,
-      "edge_at_entry": 0.159,
-      "our_probability": 0.614,
-      "signals": [
-        "bookie:39%vs44%",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-07T21:50:20Z",
-      "end_date": "2026-06-08",
-      "unrealized_pnl_nok": 23
     }
   ],
   "closed_positions": [
@@ -11344,6 +11319,38 @@
       "profit_nok": -29.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-08T19:40:12Z"
+    },
+    {
+      "id": "pos_364",
+      "market_id": "2452386",
+      "question": "Counter-Strike: Misa Esports vs eternal premium (BO3) - ESEA Advanced Europe Playoffs",
+      "slug": "cs2-mis-ep-2026-06-08",
+      "side": "NO",
+      "entry_price_usd": 0.4563,
+      "mid_price_usd": 0.445,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.53,
+      "shares": 4.66,
+      "cost_usd": 2.13,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.407086,
+      "edge_at_entry": 0.159,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-07T21:50:20Z",
+      "end_date": "2026-06-08",
+      "unrealized_pnl_nok": 23,
+      "closing_price": 1.0,
+      "clv": 0.555,
+      "result": "WIN",
+      "profit_nok": 23.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-08T22:59:48Z"
     }
   ],
   "trade_log": [
@@ -11480,9 +11487,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 184,
+    "total_wins": 185,
     "total_losses": 173,
-    "total_realized_pnl_nok": -549.1000000000004,
+    "total_realized_pnl_nok": -525.4000000000003,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -11835,14 +11842,15 @@
       0.695,
       -0.205,
       -0.265,
-      -0.565
+      -0.565,
+      0.555
     ],
-    "avg_clv": -0.0044
+    "avg_clv": -0.0028
   },
   "next_position_id": 365,
   "learning": {
     "category_weights": {
-      "esport": 0.006,
+      "esport": 0.031,
       "over_under": 0,
       "moneyline": -0.05,
       "other": -0.048,
@@ -11851,6 +11859,6 @@
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+0.6% | no_draw:-0.3% | other:-4.8% | moneyline:-5.0%"
+    "summary": "esport:+3.1% | no_draw:-0.3% | other:-4.8% | moneyline:-5.0%"
   }
 }
