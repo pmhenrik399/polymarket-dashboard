@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-09T04:37:58Z",
+    "last_updated": "2026-06-09T08:20:48Z",
     "currency": "NOK",
     "usd_nok_rate": 9.465285
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 365.50000000001234,
+    "balance_nok": 345.2000000000123,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -385.70000000000033,
-    "trades_this_month": 366,
+    "realized_pnl_nok": -426.30000000000035,
+    "trades_this_month": 367,
     "wins_this_month": 186,
-    "losses_this_month": 173
+    "losses_this_month": 175
   },
   "positions": [
     {
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.0185,
+      "current_price_usd": 0.1155,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -102,7 +102,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -35
+      "unrealized_pnl_nok": -19
     },
     {
       "id": "pos_311",
@@ -130,56 +130,6 @@
       "unrealized_pnl_nok": 8
     },
     {
-      "id": "pos_362",
-      "market_id": "2458896",
-      "question": "Will the highest temperature in New York City be between 76-77°F on June 8?",
-      "slug": "highest-temperature-in-nyc-on-june-8-2026-76-77f",
-      "side": "YES",
-      "entry_price_usd": 0.4482,
-      "mid_price_usd": 0.44,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.86,
-      "shares": 4.74,
-      "cost_usd": 2.13,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.407086,
-      "edge_at_entry": 0.095,
-      "our_probability": 0.545,
-      "signals": [
-        "bookie:54%vs44%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-07T15:01:35Z",
-      "end_date": "2026-06-08",
-      "unrealized_pnl_nok": -20
-    },
-    {
-      "id": "pos_363",
-      "market_id": "2458931",
-      "question": "Will the highest temperature in Miami be between 88-89°F on June 8?",
-      "slug": "highest-temperature-in-miami-on-june-8-2026-88-89f",
-      "side": "YES",
-      "entry_price_usd": 0.4281,
-      "mid_price_usd": 0.42,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.92,
-      "shares": 4.97,
-      "cost_usd": 2.13,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.407086,
-      "edge_at_entry": 0.064,
-      "our_probability": 0.493,
-      "signals": [
-        "bookie:49%vs42%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-07T15:01:35Z",
-      "end_date": "2026-06-08",
-      "unrealized_pnl_nok": -20
-    },
-    {
       "id": "pos_365",
       "market_id": "2466951",
       "question": "Will the highest temperature in Los Angeles be between 74-75°F on June 9?",
@@ -187,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.2774,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.2774,
+      "current_price_usd": 0.255,
       "slippage_pct": 2.75,
       "shares": 8.38,
       "cost_usd": 2.32,
@@ -202,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-06-09T04:38:06Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_366",
@@ -212,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.6862,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.6862,
+      "current_price_usd": 0.67,
       "slippage_pct": 1.66,
       "shares": 3.39,
       "cost_usd": 2.32,
@@ -228,6 +178,31 @@
       ],
       "category": "esport",
       "opened_at": "2026-06-09T04:38:06Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_367",
+      "market_id": "2466962",
+      "question": "Will the highest temperature in San Francisco be between 66-67°F on June 9?",
+      "slug": "highest-temperature-in-san-francisco-on-june-9-2026-66-67f",
+      "side": "YES",
+      "entry_price_usd": 0.4548,
+      "mid_price_usd": 0.445,
+      "current_price_usd": 0.4548,
+      "slippage_pct": 2.21,
+      "shares": 4.65,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.056,
+      "our_probability": 0.511,
+      "signals": [
+        "bookie:51%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T08:20:56Z",
       "end_date": "2026-06-09",
       "unrealized_pnl_nok": 0
     }
@@ -11410,6 +11385,68 @@
       "fee_nok": 2,
       "gas_nok": 0.3,
       "closed_at": "2026-06-09T04:37:57Z"
+    },
+    {
+      "id": "pos_362",
+      "market_id": "2458896",
+      "question": "Will the highest temperature in New York City be between 76-77°F on June 8?",
+      "slug": "highest-temperature-in-nyc-on-june-8-2026-76-77f",
+      "side": "YES",
+      "entry_price_usd": 0.4482,
+      "mid_price_usd": 0.44,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.86,
+      "shares": 4.74,
+      "cost_usd": 2.13,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.407086,
+      "edge_at_entry": 0.095,
+      "our_probability": 0.545,
+      "signals": [
+        "bookie:54%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-07T15:01:35Z",
+      "end_date": "2026-06-08",
+      "unrealized_pnl_nok": -20,
+      "closing_price": 0.0,
+      "clv": -0.44,
+      "result": "LOSS",
+      "profit_nok": -20.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-09T08:20:47Z"
+    },
+    {
+      "id": "pos_363",
+      "market_id": "2458931",
+      "question": "Will the highest temperature in Miami be between 88-89°F on June 8?",
+      "slug": "highest-temperature-in-miami-on-june-8-2026-88-89f",
+      "side": "YES",
+      "entry_price_usd": 0.4281,
+      "mid_price_usd": 0.42,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.92,
+      "shares": 4.97,
+      "cost_usd": 2.13,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.407086,
+      "edge_at_entry": 0.064,
+      "our_probability": 0.493,
+      "signals": [
+        "bookie:49%vs42%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-07T15:01:35Z",
+      "end_date": "2026-06-08",
+      "unrealized_pnl_nok": -20,
+      "closing_price": 0.0,
+      "clv": -0.42,
+      "result": "LOSS",
+      "profit_nok": -20.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-09T08:20:47Z"
     }
   ],
   "trade_log": [
@@ -11547,8 +11584,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 186,
-    "total_losses": 173,
-    "total_realized_pnl_nok": -385.70000000000033,
+    "total_losses": 175,
+    "total_realized_pnl_nok": -426.30000000000035,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -11903,22 +11940,24 @@
       -0.265,
       -0.565,
       0.555,
-      0.79
+      0.79,
+      -0.44,
+      -0.42
     ],
-    "avg_clv": -0.0004
+    "avg_clv": -0.0029
   },
-  "next_position_id": 367,
+  "next_position_id": 368,
   "learning": {
     "category_weights": {
       "esport": 0.031,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.033,
+      "other": -0.045,
       "social_media": 0,
       "no_draw": -0.003,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+3.1% | no_draw:-0.3% | other:-3.3% | moneyline:-5.0%"
+    "summary": "esport:+3.1% | no_draw:-0.3% | other:-4.5% | moneyline:-5.0%"
   }
 }
