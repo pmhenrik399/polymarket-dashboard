@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-09T14:02:56Z",
+    "last_updated": "2026-06-09T16:41:06Z",
     "currency": "NOK",
     "usd_nok_rate": 9.465285
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 304.6000000000123,
+    "balance_nok": 264.0000000000123,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -47,7 +47,7 @@
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
     "realized_pnl_nok": -426.30000000000035,
-    "trades_this_month": 369,
+    "trades_this_month": 371,
     "wins_this_month": 186,
     "losses_this_month": 175
   },
@@ -87,7 +87,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.118,
+      "current_price_usd": 0.155,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -102,7 +102,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -19
+      "unrealized_pnl_nok": -13
     },
     {
       "id": "pos_311",
@@ -137,7 +137,7 @@
       "side": "YES",
       "entry_price_usd": 0.2774,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.19,
+      "current_price_usd": 0.16,
       "slippage_pct": 2.75,
       "shares": 8.38,
       "cost_usd": 2.32,
@@ -152,7 +152,7 @@
       "category": "other",
       "opened_at": "2026-06-09T04:38:06Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -6
+      "unrealized_pnl_nok": -9
     },
     {
       "id": "pos_366",
@@ -162,7 +162,7 @@
       "side": "NO",
       "entry_price_usd": 0.6862,
       "mid_price_usd": 0.675,
-      "current_price_usd": 0.655,
+      "current_price_usd": 0.9995,
       "slippage_pct": 1.66,
       "shares": 3.39,
       "cost_usd": 2.32,
@@ -179,7 +179,7 @@
       "category": "esport",
       "opened_at": "2026-06-09T04:38:06Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 10
     },
     {
       "id": "pos_367",
@@ -189,7 +189,7 @@
       "side": "YES",
       "entry_price_usd": 0.4548,
       "mid_price_usd": 0.445,
-      "current_price_usd": 0.42,
+      "current_price_usd": 0.46,
       "slippage_pct": 2.21,
       "shares": 4.65,
       "cost_usd": 2.11,
@@ -204,7 +204,7 @@
       "category": "other",
       "opened_at": "2026-06-09T08:20:56Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": 0
     },
     {
       "id": "pos_368",
@@ -214,7 +214,7 @@
       "side": "YES",
       "entry_price_usd": 0.2798,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.265,
+      "current_price_usd": 0.25,
       "slippage_pct": 1.75,
       "shares": 7.55,
       "cost_usd": 2.11,
@@ -229,7 +229,7 @@
       "category": "other",
       "opened_at": "2026-06-09T11:35:21Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -2
     },
     {
       "id": "pos_369",
@@ -239,7 +239,7 @@
       "side": "NO",
       "entry_price_usd": 0.5763,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.5763,
+      "current_price_usd": 0.56,
       "slippage_pct": 2.0,
       "shares": 3.67,
       "cost_usd": 2.11,
@@ -253,6 +253,56 @@
       ],
       "category": "other",
       "opened_at": "2026-06-09T14:03:03Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_370",
+      "market_id": "2467253",
+      "question": "Will the highest temperature in New York City be between 78-79°F on June 9?",
+      "slug": "highest-temperature-in-nyc-on-june-9-2026-78-79f",
+      "side": "NO",
+      "entry_price_usd": 0.3122,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 0.3122,
+      "slippage_pct": 2.37,
+      "shares": 6.77,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.15,
+      "our_probability": 0.465,
+      "signals": [
+        "bookie:54%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T16:41:13Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_371",
+      "market_id": "2472742",
+      "question": "Spread: Atlanta Braves (-1.5)",
+      "slug": "mlb-atl-cws-2026-06-09-spread-away-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.4865,
+      "mid_price_usd": 0.475,
+      "current_price_usd": 0.4865,
+      "slippage_pct": 2.41,
+      "shares": 4.34,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.094,
+      "our_probability": 0.579,
+      "signals": [
+        "bookie:58%vs48%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-09T16:41:13Z",
       "end_date": "2026-06-09",
       "unrealized_pnl_nok": 0
     }
@@ -11996,7 +12046,7 @@
     ],
     "avg_clv": -0.0029
   },
-  "next_position_id": 370,
+  "next_position_id": 372,
   "learning": {
     "category_weights": {
       "esport": 0.031,
