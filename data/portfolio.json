@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-09T18:59:34Z",
+    "last_updated": "2026-06-09T21:04:28Z",
     "currency": "NOK",
     "usd_nok_rate": 9.465285
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 308.80000000001223,
+    "balance_nok": 297.9000000000122,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -398.9000000000004,
-    "trades_this_month": 373,
-    "wins_this_month": 188,
+    "realized_pnl_nok": -385.2000000000004,
+    "trades_this_month": 375,
+    "wins_this_month": 189,
     "losses_this_month": 175
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.1545,
+      "current_price_usd": 0.1655,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -75,7 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": -13
+      "unrealized_pnl_nok": -11
     },
     {
       "id": "pos_311",
@@ -110,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.2774,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.085,
+      "current_price_usd": 0.01,
       "slippage_pct": 2.75,
       "shares": 8.38,
       "cost_usd": 2.32,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-06-09T04:38:06Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -15
+      "unrealized_pnl_nok": -21
     },
     {
       "id": "pos_367",
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.4548,
       "mid_price_usd": 0.445,
-      "current_price_usd": 0.29,
+      "current_price_usd": 0.385,
       "slippage_pct": 2.21,
       "shares": 4.65,
       "cost_usd": 2.11,
@@ -150,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-06-09T08:20:56Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -7
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_368",
@@ -178,31 +178,6 @@
       "unrealized_pnl_nok": -3
     },
     {
-      "id": "pos_369",
-      "market_id": "2435443",
-      "question": "RCA Zemamra vs. UnionTouargaSports: Both Teams to Score",
-      "slug": "mar1-rcz-uts-2026-06-09-btts",
-      "side": "NO",
-      "entry_price_usd": 0.5763,
-      "mid_price_usd": 0.565,
-      "current_price_usd": 0.465,
-      "slippage_pct": 2.0,
-      "shares": 3.67,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.465285,
-      "edge_at_entry": 0.127,
-      "our_probability": 0.702,
-      "signals": [
-        "bookie:30%vs56%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-09T14:03:03Z",
-      "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -3
-    },
-    {
       "id": "pos_370",
       "market_id": "2467253",
       "question": "Will the highest temperature in New York City be between 78-79°F on June 9?",
@@ -210,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.3122,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.995,
+      "current_price_usd": 0.999,
       "slippage_pct": 2.37,
       "shares": 6.77,
       "cost_usd": 2.11,
@@ -225,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-06-09T16:41:13Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 43
+      "unrealized_pnl_nok": 44
     },
     {
       "id": "pos_371",
@@ -235,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.4865,
       "mid_price_usd": 0.475,
-      "current_price_usd": 0.475,
+      "current_price_usd": 0.485,
       "slippage_pct": 2.41,
       "shares": 4.34,
       "cost_usd": 2.11,
@@ -260,7 +235,7 @@
       "side": "YES",
       "entry_price_usd": 0.2822,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.2822,
+      "current_price_usd": 0.22,
       "slippage_pct": 2.6,
       "shares": 8.24,
       "cost_usd": 2.32,
@@ -275,7 +250,7 @@
       "category": "other",
       "opened_at": "2026-06-09T18:59:42Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_373",
@@ -285,7 +260,7 @@
       "side": "YES",
       "entry_price_usd": 0.3523,
       "mid_price_usd": 0.345,
-      "current_price_usd": 0.3523,
+      "current_price_usd": 0.345,
       "slippage_pct": 2.11,
       "shares": 6.6,
       "cost_usd": 2.32,
@@ -299,6 +274,56 @@
       ],
       "category": "moneyline",
       "opened_at": "2026-06-09T18:59:43Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_374",
+      "market_id": "2367061",
+      "question": "Atlanta Dream vs. Chicago Sky",
+      "slug": "wnba-atl-chi-2026-06-09",
+      "side": "NO",
+      "entry_price_usd": 0.2193,
+      "mid_price_usd": 0.215,
+      "current_price_usd": 0.2193,
+      "slippage_pct": 2.01,
+      "shares": 10.6,
+      "cost_usd": 2.32,
+      "cost_nok": 22,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.193,
+      "our_probability": 0.418,
+      "signals": [
+        "bookie:58%vs22%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-09T21:04:38Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_375",
+      "market_id": "2472498",
+      "question": "Will Lindsey Graham win the first round of the South Carolina Republican Senate Primary by 30–40%?",
+      "slug": "will-lindsey-graham-win-the-first-round-of-the-south-carolina-republican-senate-primary-by-3040-20260608180215521",
+      "side": "YES",
+      "entry_price_usd": 0.2594,
+      "mid_price_usd": 0.255,
+      "current_price_usd": 0.2594,
+      "slippage_pct": 1.72,
+      "shares": 8.96,
+      "cost_usd": 2.32,
+      "cost_nok": 22,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.133,
+      "our_probability": 0.398,
+      "signals": [
+        "bookie:40%vs26%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-09T21:04:38Z",
       "end_date": "2026-06-09",
       "unrealized_pnl_nok": 0
     }
@@ -11611,6 +11636,38 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-06-09T18:59:32Z"
+    },
+    {
+      "id": "pos_369",
+      "market_id": "2435443",
+      "question": "RCA Zemamra vs. UnionTouargaSports: Both Teams to Score",
+      "slug": "mar1-rcz-uts-2026-06-09-btts",
+      "side": "NO",
+      "entry_price_usd": 0.5763,
+      "mid_price_usd": 0.565,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.0,
+      "shares": 3.67,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.127,
+      "our_probability": 0.702,
+      "signals": [
+        "bookie:30%vs56%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T14:03:03Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": -3,
+      "closing_price": 1.0,
+      "clv": 0.435,
+      "result": "WIN",
+      "profit_nok": 13.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-09T21:04:26Z"
     }
   ],
   "trade_log": [
@@ -11747,9 +11804,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 188,
+    "total_wins": 189,
     "total_losses": 175,
-    "total_realized_pnl_nok": -398.9000000000004,
+    "total_realized_pnl_nok": -385.2000000000004,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -12108,22 +12165,23 @@
       -0.44,
       -0.42,
       0.315,
-      0.325
+      0.325,
+      0.435
     ],
-    "avg_clv": -0.0011
+    "avg_clv": 0.0002
   },
-  "next_position_id": 374,
+  "next_position_id": 376,
   "learning": {
     "category_weights": {
       "esport": 0.048,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.045,
+      "other": -0.031,
       "social_media": 0,
       "no_draw": 0.031,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+4.8% | no_draw:+3.1% | other:-4.5% | moneyline:-5.0%"
+    "summary": "esport:+4.8% | no_draw:+3.1% | other:-3.1% | moneyline:-5.0%"
   }
 }
