@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-09T16:41:06Z",
+    "last_updated": "2026-06-09T18:59:34Z",
     "currency": "NOK",
     "usd_nok_rate": 9.465285
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 264.0000000000123,
+    "balance_nok": 308.80000000001223,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,39 +46,12 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -426.30000000000035,
-    "trades_this_month": 371,
-    "wins_this_month": 186,
+    "realized_pnl_nok": -398.9000000000004,
+    "trades_this_month": 373,
+    "wins_this_month": 188,
     "losses_this_month": 175
   },
   "positions": [
-    {
-      "id": "pos_262",
-      "market_id": "2275792",
-      "question": "Will Notts County FC vs. Salford City FC end in a draw?",
-      "slug": "el2-not-sal-2026-05-25-draw",
-      "side": "NO",
-      "entry_price_usd": 0.6996,
-      "mid_price_usd": 0.685,
-      "current_price_usd": 0.9955,
-      "slippage_pct": 2.13,
-      "shares": 6.18,
-      "cost_usd": 4.32,
-      "cost_nok": 40,
-      "usd_nok_at_entry": 9.254956,
-      "edge_at_entry": 0.069,
-      "our_probability": 0.754,
-      "signals": [
-        "base:0.040",
-        "cat:0.039",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-05-25T04:57:08Z",
-      "end_date": "2026-05-25",
-      "unrealized_pnl_nok": 17
-    },
     {
       "id": "pos_307",
       "market_id": "2262323",
@@ -87,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.155,
+      "current_price_usd": 0.1545,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -137,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.2774,
       "mid_price_usd": 0.27,
-      "current_price_usd": 0.16,
+      "current_price_usd": 0.085,
       "slippage_pct": 2.75,
       "shares": 8.38,
       "cost_usd": 2.32,
@@ -152,34 +125,7 @@
       "category": "other",
       "opened_at": "2026-06-09T04:38:06Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -9
-    },
-    {
-      "id": "pos_366",
-      "market_id": "2465000",
-      "question": "Valorant: Dragon Ranger Gaming vs XLG Gaming - Map 2 Winner",
-      "slug": "val-drg-xlg-2026-06-09-game2",
-      "side": "NO",
-      "entry_price_usd": 0.6862,
-      "mid_price_usd": 0.675,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 1.66,
-      "shares": 3.39,
-      "cost_usd": 2.32,
-      "cost_nok": 22,
-      "usd_nok_at_entry": 9.465285,
-      "edge_at_entry": 0.061,
-      "our_probability": 0.736,
-      "signals": [
-        "base:0.040",
-        "cat:0.031",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-09T04:38:06Z",
-      "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 10
+      "unrealized_pnl_nok": -15
     },
     {
       "id": "pos_367",
@@ -189,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.4548,
       "mid_price_usd": 0.445,
-      "current_price_usd": 0.46,
+      "current_price_usd": 0.29,
       "slippage_pct": 2.21,
       "shares": 4.65,
       "cost_usd": 2.11,
@@ -204,7 +150,7 @@
       "category": "other",
       "opened_at": "2026-06-09T08:20:56Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -7
     },
     {
       "id": "pos_368",
@@ -214,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.2798,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.25,
+      "current_price_usd": 0.225,
       "slippage_pct": 1.75,
       "shares": 7.55,
       "cost_usd": 2.11,
@@ -229,7 +175,7 @@
       "category": "other",
       "opened_at": "2026-06-09T11:35:21Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_369",
@@ -239,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.5763,
       "mid_price_usd": 0.565,
-      "current_price_usd": 0.56,
+      "current_price_usd": 0.465,
       "slippage_pct": 2.0,
       "shares": 3.67,
       "cost_usd": 2.11,
@@ -254,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-06-09T14:03:03Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_370",
@@ -264,7 +210,7 @@
       "side": "NO",
       "entry_price_usd": 0.3122,
       "mid_price_usd": 0.305,
-      "current_price_usd": 0.3122,
+      "current_price_usd": 0.995,
       "slippage_pct": 2.37,
       "shares": 6.77,
       "cost_usd": 2.11,
@@ -279,7 +225,7 @@
       "category": "other",
       "opened_at": "2026-06-09T16:41:13Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 43
     },
     {
       "id": "pos_371",
@@ -289,7 +235,7 @@
       "side": "YES",
       "entry_price_usd": 0.4865,
       "mid_price_usd": 0.475,
-      "current_price_usd": 0.4865,
+      "current_price_usd": 0.475,
       "slippage_pct": 2.41,
       "shares": 4.34,
       "cost_usd": 2.11,
@@ -303,6 +249,56 @@
       ],
       "category": "moneyline",
       "opened_at": "2026-06-09T16:41:13Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_372",
+      "market_id": "2475372",
+      "question": "Will the highest temperature in San Francisco be between 72-73°F on June 10?",
+      "slug": "highest-temperature-in-san-francisco-on-june-10-2026-72-73f",
+      "side": "YES",
+      "entry_price_usd": 0.2822,
+      "mid_price_usd": 0.275,
+      "current_price_usd": 0.2822,
+      "slippage_pct": 2.6,
+      "shares": 8.24,
+      "cost_usd": 2.32,
+      "cost_nok": 22,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.253,
+      "our_probability": 0.538,
+      "signals": [
+        "bookie:54%vs28%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T18:59:42Z",
+      "end_date": "2026-06-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_373",
+      "market_id": "2474594",
+      "question": "Spread: St. Louis Cardinals (-1.5)",
+      "slug": "mlb-stl-nym-2026-06-09-spread-away-1pt5",
+      "side": "YES",
+      "entry_price_usd": 0.3523,
+      "mid_price_usd": 0.345,
+      "current_price_usd": 0.3523,
+      "slippage_pct": 2.11,
+      "shares": 6.6,
+      "cost_usd": 2.32,
+      "cost_nok": 22,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.092,
+      "our_probability": 0.447,
+      "signals": [
+        "bookie:45%vs34%",
+        "ob:-0.010"
+      ],
+      "category": "moneyline",
+      "opened_at": "2026-06-09T18:59:43Z",
       "end_date": "2026-06-09",
       "unrealized_pnl_nok": 0
     }
@@ -11547,6 +11543,74 @@
       "profit_nok": -20.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-09T08:20:47Z"
+    },
+    {
+      "id": "pos_262",
+      "market_id": "2275792",
+      "question": "Will Notts County FC vs. Salford City FC end in a draw?",
+      "slug": "el2-not-sal-2026-05-25-draw",
+      "side": "NO",
+      "entry_price_usd": 0.6996,
+      "mid_price_usd": 0.685,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.13,
+      "shares": 6.18,
+      "cost_usd": 4.32,
+      "cost_nok": 40,
+      "usd_nok_at_entry": 9.254956,
+      "edge_at_entry": 0.069,
+      "our_probability": 0.754,
+      "signals": [
+        "base:0.040",
+        "cat:0.039",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-05-25T04:57:08Z",
+      "end_date": "2026-05-25",
+      "unrealized_pnl_nok": 17,
+      "closing_price": 1.0,
+      "clv": 0.315,
+      "result": "WIN",
+      "profit_nok": 17.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-09T18:59:30Z"
+    },
+    {
+      "id": "pos_366",
+      "market_id": "2465000",
+      "question": "Valorant: Dragon Ranger Gaming vs XLG Gaming - Map 2 Winner",
+      "slug": "val-drg-xlg-2026-06-09-game2",
+      "side": "NO",
+      "entry_price_usd": 0.6862,
+      "mid_price_usd": 0.675,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.66,
+      "shares": 3.39,
+      "cost_usd": 2.32,
+      "cost_nok": 22,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.061,
+      "our_probability": 0.736,
+      "signals": [
+        "base:0.040",
+        "cat:0.031",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-09T04:38:06Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 10,
+      "closing_price": 1.0,
+      "clv": 0.325,
+      "result": "WIN",
+      "profit_nok": 9.7,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-09T18:59:32Z"
     }
   ],
   "trade_log": [
@@ -11683,9 +11747,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 186,
+    "total_wins": 188,
     "total_losses": 175,
-    "total_realized_pnl_nok": -426.30000000000035,
+    "total_realized_pnl_nok": -398.9000000000004,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -12042,22 +12106,24 @@
       0.555,
       0.79,
       -0.44,
-      -0.42
+      -0.42,
+      0.315,
+      0.325
     ],
-    "avg_clv": -0.0029
+    "avg_clv": -0.0011
   },
-  "next_position_id": 372,
+  "next_position_id": 374,
   "learning": {
     "category_weights": {
-      "esport": 0.031,
+      "esport": 0.048,
       "over_under": 0,
       "moneyline": -0.05,
       "other": -0.045,
       "social_media": 0,
-      "no_draw": -0.003,
+      "no_draw": 0.031,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+3.1% | no_draw:-0.3% | other:-4.5% | moneyline:-5.0%"
+    "summary": "esport:+4.8% | no_draw:+3.1% | other:-4.5% | moneyline:-5.0%"
   }
 }
