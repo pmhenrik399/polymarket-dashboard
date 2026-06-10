@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-10T04:41:12Z",
+    "last_updated": "2026-06-10T08:37:01Z",
     "currency": "NOK",
     "usd_nok_rate": 9.489863
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 168.90000000001208,
+    "balance_nok": 215.40000000001203,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -432.70000000000044,
-    "trades_this_month": 384,
-    "wins_this_month": 190,
-    "losses_this_month": 179
+    "realized_pnl_nok": -424.9000000000005,
+    "trades_this_month": 387,
+    "wins_this_month": 192,
+    "losses_this_month": 181
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.843,
+      "current_price_usd": 0.835,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -75,82 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 100
-    },
-    {
-      "id": "pos_311",
-      "market_id": "2045871",
-      "question": "Will Chuong Vo advance from the CA-45 primary election?",
-      "slug": "will-chuong-vo-advance-from-the-ca-45-primary-election",
-      "side": "NO",
-      "entry_price_usd": 0.3234,
-      "mid_price_usd": 0.315,
-      "current_price_usd": 0.34,
-      "slippage_pct": 2.66,
-      "shares": 12.34,
-      "cost_usd": 3.99,
-      "cost_nok": 37,
-      "usd_nok_at_entry": 9.271106,
-      "edge_at_entry": 0.289,
-      "our_probability": 0.614,
-      "signals": [
-        "bookie:39%vs32%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-02T01:59:51Z",
-      "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 1
-    },
-    {
-      "id": "pos_365",
-      "market_id": "2466951",
-      "question": "Will the highest temperature in Los Angeles be between 74-75°F on June 9?",
-      "slug": "highest-temperature-in-los-angeles-on-june-9-2026-74-75f",
-      "side": "YES",
-      "entry_price_usd": 0.2774,
-      "mid_price_usd": 0.27,
-      "current_price_usd": 0.0025,
-      "slippage_pct": 2.75,
-      "shares": 8.38,
-      "cost_usd": 2.32,
-      "cost_nok": 22,
-      "usd_nok_at_entry": 9.465285,
-      "edge_at_entry": 0.189,
-      "our_probability": 0.469,
-      "signals": [
-        "bookie:47%vs27%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-09T04:38:06Z",
-      "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -21
-    },
-    {
-      "id": "pos_367",
-      "market_id": "2466962",
-      "question": "Will the highest temperature in San Francisco be between 66-67°F on June 9?",
-      "slug": "highest-temperature-in-san-francisco-on-june-9-2026-66-67f",
-      "side": "YES",
-      "entry_price_usd": 0.4548,
-      "mid_price_usd": 0.445,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.21,
-      "shares": 4.65,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.465285,
-      "edge_at_entry": 0.056,
-      "our_probability": 0.511,
-      "signals": [
-        "bookie:51%vs44%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-09T08:20:56Z",
-      "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 24
+      "unrealized_pnl_nok": 99
     },
     {
       "id": "pos_368",
@@ -160,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.2798,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.215,
+      "current_price_usd": 0.16,
       "slippage_pct": 1.75,
       "shares": 7.55,
       "cost_usd": 2.11,
@@ -175,32 +100,7 @@
       "category": "other",
       "opened_at": "2026-06-09T11:35:21Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -4
-    },
-    {
-      "id": "pos_370",
-      "market_id": "2467253",
-      "question": "Will the highest temperature in New York City be between 78-79°F on June 9?",
-      "slug": "highest-temperature-in-nyc-on-june-9-2026-78-79f",
-      "side": "NO",
-      "entry_price_usd": 0.3122,
-      "mid_price_usd": 0.305,
-      "current_price_usd": 0.9995,
-      "slippage_pct": 2.37,
-      "shares": 6.77,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.465285,
-      "edge_at_entry": 0.15,
-      "our_probability": 0.465,
-      "signals": [
-        "bookie:54%vs30%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-09T16:41:13Z",
-      "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 44
+      "unrealized_pnl_nok": -8
     },
     {
       "id": "pos_372",
@@ -210,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.2822,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.3,
+      "current_price_usd": 0.17,
       "slippage_pct": 2.6,
       "shares": 8.24,
       "cost_usd": 2.32,
@@ -225,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-06-09T18:59:42Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 1
+      "unrealized_pnl_nok": -8
     },
     {
       "id": "pos_375",
@@ -235,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.2594,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.41,
+      "current_price_usd": 0.0125,
       "slippage_pct": 1.72,
       "shares": 8.96,
       "cost_usd": 2.32,
@@ -250,7 +150,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-09T21:04:38Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": 12
+      "unrealized_pnl_nok": -20
     },
     {
       "id": "pos_376",
@@ -260,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.2506,
       "mid_price_usd": 0.245,
-      "current_price_usd": 0.25,
+      "current_price_usd": 0.235,
       "slippage_pct": 2.28,
       "shares": 9.27,
       "cost_usd": 2.32,
@@ -275,7 +175,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-09T22:45:48Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_377",
@@ -285,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.4659,
       "mid_price_usd": 0.455,
-      "current_price_usd": 0.575,
+      "current_price_usd": 0.53,
       "slippage_pct": 2.4,
       "shares": 4.99,
       "cost_usd": 2.32,
@@ -300,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-06-09T22:45:49Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 5
+      "unrealized_pnl_nok": 3
     },
     {
       "id": "pos_380",
@@ -310,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.2204,
       "mid_price_usd": 0.215,
-      "current_price_usd": 0.2204,
+      "current_price_usd": 0.205,
       "slippage_pct": 2.52,
       "shares": 9.56,
       "cost_usd": 2.11,
@@ -325,7 +225,7 @@
       "category": "other",
       "opened_at": "2026-06-10T04:41:20Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_381",
@@ -335,7 +235,7 @@
       "side": "NO",
       "entry_price_usd": 0.494,
       "mid_price_usd": 0.485,
-      "current_price_usd": 0.494,
+      "current_price_usd": 0.006,
       "slippage_pct": 1.85,
       "shares": 4.27,
       "cost_usd": 2.11,
@@ -350,7 +250,7 @@
       "category": "other",
       "opened_at": "2026-06-10T04:41:21Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -19
     },
     {
       "id": "pos_382",
@@ -360,7 +260,7 @@
       "side": "YES",
       "entry_price_usd": 0.392,
       "mid_price_usd": 0.385,
-      "current_price_usd": 0.392,
+      "current_price_usd": 0.375,
       "slippage_pct": 1.81,
       "shares": 5.38,
       "cost_usd": 2.11,
@@ -385,7 +285,7 @@
       "side": "YES",
       "entry_price_usd": 0.432,
       "mid_price_usd": 0.425,
-      "current_price_usd": 0.432,
+      "current_price_usd": 0.455,
       "slippage_pct": 1.65,
       "shares": 4.88,
       "cost_usd": 2.11,
@@ -400,7 +300,7 @@
       "category": "other",
       "opened_at": "2026-06-10T04:41:21Z",
       "end_date": "2026-06-11",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 1
     },
     {
       "id": "pos_384",
@@ -410,7 +310,7 @@
       "side": "NO",
       "entry_price_usd": 0.7531,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.7531,
+      "current_price_usd": 0.735,
       "slippage_pct": 2.47,
       "shares": 2.8,
       "cost_usd": 2.11,
@@ -427,6 +327,85 @@
       "category": "no_draw",
       "opened_at": "2026-06-10T04:41:21Z",
       "end_date": "2026-06-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_385",
+      "market_id": "2487838",
+      "question": "Dota 2: Yangon Galacticos vs InterActive Philippines (BO3) - The International Southeast Asia Open Qualifier 1 Playoffs",
+      "slug": "dota2-yg-iac-2026-06-10",
+      "side": "NO",
+      "entry_price_usd": 0.3308,
+      "mid_price_usd": 0.325,
+      "current_price_usd": 0.3308,
+      "slippage_pct": 1.78,
+      "shares": 6.37,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.389,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs32%",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-10T08:37:11Z",
+      "end_date": "2026-06-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_386",
+      "market_id": "2474525",
+      "question": "Counter-Strike: KOLESIE vs Leo Team - Map 1 Winner",
+      "slug": "cs2-kol-leo2-2026-06-10-game1",
+      "side": "YES",
+      "entry_price_usd": 0.5942,
+      "mid_price_usd": 0.585,
+      "current_price_usd": 0.5942,
+      "slippage_pct": 1.57,
+      "shares": 3.55,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.058,
+      "our_probability": 0.643,
+      "signals": [
+        "base:0.020",
+        "cat:0.048",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-10T08:37:11Z",
+      "end_date": "2026-06-10",
+      "unrealized_pnl_nok": 0
+    },
+    {
+      "id": "pos_387",
+      "market_id": "2472516",
+      "question": "Will COD Meknès vs. RCA Zemamra end in a draw?",
+      "slug": "mar1-com-rcz-2026-06-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.631,
+      "mid_price_usd": 0.62,
+      "current_price_usd": 0.631,
+      "slippage_pct": 1.77,
+      "shares": 3.34,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.061,
+      "our_probability": 0.681,
+      "signals": [
+        "base:0.040",
+        "cat:0.031",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-06-10T08:37:11Z",
+      "end_date": "2026-06-12",
       "unrealized_pnl_nok": 0
     }
   ],
@@ -11926,6 +11905,132 @@
       "profit_nok": -22.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-10T04:41:11Z"
+    },
+    {
+      "id": "pos_311",
+      "market_id": "2045871",
+      "question": "Will Chuong Vo advance from the CA-45 primary election?",
+      "slug": "will-chuong-vo-advance-from-the-ca-45-primary-election",
+      "side": "NO",
+      "entry_price_usd": 0.3234,
+      "mid_price_usd": 0.315,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.66,
+      "shares": 12.34,
+      "cost_usd": 3.99,
+      "cost_nok": 37,
+      "usd_nok_at_entry": 9.271106,
+      "edge_at_entry": 0.289,
+      "our_probability": 0.614,
+      "signals": [
+        "bookie:39%vs32%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-02T01:59:51Z",
+      "end_date": "2026-06-02",
+      "unrealized_pnl_nok": 1,
+      "closing_price": 0.0,
+      "clv": -0.315,
+      "result": "LOSS",
+      "profit_nok": -37.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-10T08:36:55Z"
+    },
+    {
+      "id": "pos_365",
+      "market_id": "2466951",
+      "question": "Will the highest temperature in Los Angeles be between 74-75°F on June 9?",
+      "slug": "highest-temperature-in-los-angeles-on-june-9-2026-74-75f",
+      "side": "YES",
+      "entry_price_usd": 0.2774,
+      "mid_price_usd": 0.27,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.75,
+      "shares": 8.38,
+      "cost_usd": 2.32,
+      "cost_nok": 22,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.189,
+      "our_probability": 0.469,
+      "signals": [
+        "bookie:47%vs27%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T04:38:06Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": -21,
+      "closing_price": 0.0,
+      "clv": -0.27,
+      "result": "LOSS",
+      "profit_nok": -22.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-10T08:36:55Z"
+    },
+    {
+      "id": "pos_367",
+      "market_id": "2466962",
+      "question": "Will the highest temperature in San Francisco be between 66-67°F on June 9?",
+      "slug": "highest-temperature-in-san-francisco-on-june-9-2026-66-67f",
+      "side": "YES",
+      "entry_price_usd": 0.4548,
+      "mid_price_usd": 0.445,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.21,
+      "shares": 4.65,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.056,
+      "our_probability": 0.511,
+      "signals": [
+        "bookie:51%vs44%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T08:20:56Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 24,
+      "closing_price": 1.0,
+      "clv": 0.555,
+      "result": "WIN",
+      "profit_nok": 23.700000000000003,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-10T08:36:56Z"
+    },
+    {
+      "id": "pos_370",
+      "market_id": "2467253",
+      "question": "Will the highest temperature in New York City be between 78-79°F on June 9?",
+      "slug": "highest-temperature-in-nyc-on-june-9-2026-78-79f",
+      "side": "NO",
+      "entry_price_usd": 0.3122,
+      "mid_price_usd": 0.305,
+      "current_price_usd": 1.0,
+      "slippage_pct": 2.37,
+      "shares": 6.77,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.15,
+      "our_probability": 0.465,
+      "signals": [
+        "bookie:54%vs30%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T16:41:13Z",
+      "end_date": "2026-06-09",
+      "unrealized_pnl_nok": 44,
+      "closing_price": 1.0,
+      "clv": 0.695,
+      "result": "WIN",
+      "profit_nok": 43.7,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-10T08:36:57Z"
     }
   ],
   "trade_log": [
@@ -12062,9 +12167,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 190,
-    "total_losses": 179,
-    "total_realized_pnl_nok": -432.70000000000044,
+    "total_wins": 192,
+    "total_losses": 181,
+    "total_realized_pnl_nok": -424.9000000000005,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -12429,22 +12534,26 @@
       0.655,
       -0.215,
       -0.4,
-      -0.385
+      -0.385,
+      -0.315,
+      -0.27,
+      0.555,
+      0.695
     ],
-    "avg_clv": -0.0021
+    "avg_clv": -0.0003
   },
-  "next_position_id": 385,
+  "next_position_id": 388,
   "learning": {
     "category_weights": {
       "esport": 0.048,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.031,
+      "other": -0.022,
       "social_media": 0,
       "no_draw": 0.031,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "esport:+4.8% | no_draw:+3.1% | other:-3.1% | moneyline:-5.0%"
+    "summary": "esport:+4.8% | no_draw:+3.1% | other:-2.2% | moneyline:-5.0%"
   }
 }
