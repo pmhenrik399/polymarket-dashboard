@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-10T15:58:02Z",
+    "last_updated": "2026-06-10T18:35:48Z",
     "currency": "NOK",
     "usd_nok_rate": 9.489863
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -436.5000000000005,
+    "realized_pnl_nok": -477.10000000000053,
     "trades_this_month": 390,
     "wins_this_month": 193,
-    "losses_this_month": 182
+    "losses_this_month": 184
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.8935,
+      "current_price_usd": 0.8905,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -75,7 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 109
+      "unrealized_pnl_nok": 108
     },
     {
       "id": "pos_368",
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.2798,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.225,
+      "current_price_usd": 0.22,
       "slippage_pct": 1.75,
       "shares": 7.55,
       "cost_usd": 2.11,
@@ -100,7 +100,7 @@
       "category": "other",
       "opened_at": "2026-06-09T11:35:21Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -3
+      "unrealized_pnl_nok": -4
     },
     {
       "id": "pos_372",
@@ -110,7 +110,7 @@
       "side": "YES",
       "entry_price_usd": 0.2822,
       "mid_price_usd": 0.275,
-      "current_price_usd": 0.095,
+      "current_price_usd": 0.087,
       "slippage_pct": 2.6,
       "shares": 8.24,
       "cost_usd": 2.32,
@@ -125,7 +125,7 @@
       "category": "other",
       "opened_at": "2026-06-09T18:59:42Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -14
+      "unrealized_pnl_nok": -15
     },
     {
       "id": "pos_375",
@@ -160,7 +160,7 @@
       "side": "YES",
       "entry_price_usd": 0.2506,
       "mid_price_usd": 0.245,
-      "current_price_usd": 0.245,
+      "current_price_usd": 0.21,
       "slippage_pct": 2.28,
       "shares": 9.27,
       "cost_usd": 2.32,
@@ -175,7 +175,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-09T22:45:48Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_377",
@@ -185,7 +185,7 @@
       "side": "NO",
       "entry_price_usd": 0.4659,
       "mid_price_usd": 0.455,
-      "current_price_usd": 0.0055,
+      "current_price_usd": 0.0005,
       "slippage_pct": 2.4,
       "shares": 4.99,
       "cost_usd": 2.32,
@@ -200,7 +200,7 @@
       "category": "other",
       "opened_at": "2026-06-09T22:45:49Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -21
+      "unrealized_pnl_nok": -22
     },
     {
       "id": "pos_380",
@@ -210,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.2204,
       "mid_price_usd": 0.215,
-      "current_price_usd": 0.355,
+      "current_price_usd": 0.385,
       "slippage_pct": 2.52,
       "shares": 9.56,
       "cost_usd": 2.11,
@@ -225,32 +225,7 @@
       "category": "other",
       "opened_at": "2026-06-10T04:41:20Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 12
-    },
-    {
-      "id": "pos_381",
-      "market_id": "2467895",
-      "question": "Will the highest temperature in Shanghai be 28°C on June 10?",
-      "slug": "highest-temperature-in-shanghai-on-june-10-2026-28c",
-      "side": "NO",
-      "entry_price_usd": 0.494,
-      "mid_price_usd": 0.485,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.85,
-      "shares": 4.27,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.489863,
-      "edge_at_entry": 0.229,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs48%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-10T04:41:21Z",
-      "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -19
+      "unrealized_pnl_nok": 14
     },
     {
       "id": "pos_382",
@@ -260,7 +235,7 @@
       "side": "YES",
       "entry_price_usd": 0.392,
       "mid_price_usd": 0.385,
-      "current_price_usd": 0.28,
+      "current_price_usd": 0.14,
       "slippage_pct": 1.81,
       "shares": 5.38,
       "cost_usd": 2.11,
@@ -275,7 +250,7 @@
       "category": "other",
       "opened_at": "2026-06-10T04:41:21Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -5
+      "unrealized_pnl_nok": -12
     },
     {
       "id": "pos_383",
@@ -330,33 +305,6 @@
       "unrealized_pnl_nok": 0
     },
     {
-      "id": "pos_386",
-      "market_id": "2474525",
-      "question": "Counter-Strike: KOLESIE vs Leo Team - Map 1 Winner",
-      "slug": "cs2-kol-leo2-2026-06-10-game1",
-      "side": "YES",
-      "entry_price_usd": 0.5942,
-      "mid_price_usd": 0.585,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.57,
-      "shares": 3.55,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.489863,
-      "edge_at_entry": 0.058,
-      "our_probability": 0.643,
-      "signals": [
-        "base:0.020",
-        "cat:0.048",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "esport",
-      "opened_at": "2026-06-10T08:37:11Z",
-      "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -20
-    },
-    {
       "id": "pos_387",
       "market_id": "2472516",
       "question": "Will COD Meknès vs. RCA Zemamra end in a draw?",
@@ -364,7 +312,7 @@
       "side": "NO",
       "entry_price_usd": 0.631,
       "mid_price_usd": 0.62,
-      "current_price_usd": 0.65,
+      "current_price_usd": 0.72,
       "slippage_pct": 1.77,
       "shares": 3.34,
       "cost_usd": 2.11,
@@ -381,7 +329,7 @@
       "category": "no_draw",
       "opened_at": "2026-06-10T08:37:11Z",
       "end_date": "2026-06-12",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": 2
     },
     {
       "id": "pos_389",
@@ -391,7 +339,7 @@
       "side": "YES",
       "entry_price_usd": 0.322,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.322,
+      "current_price_usd": 0.32,
       "slippage_pct": 2.24,
       "shares": 6.55,
       "cost_usd": 2.11,
@@ -416,7 +364,7 @@
       "side": "NO",
       "entry_price_usd": 0.6813,
       "mid_price_usd": 0.665,
-      "current_price_usd": 0.6813,
+      "current_price_usd": 0.58,
       "slippage_pct": 2.46,
       "shares": 3.09,
       "cost_usd": 2.11,
@@ -431,7 +379,7 @@
       "category": "other",
       "opened_at": "2026-06-10T15:58:09Z",
       "end_date": "2026-06-11",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -2
     }
   ],
   "closed_positions": [
@@ -12119,6 +12067,70 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-06-10T15:58:01Z"
+    },
+    {
+      "id": "pos_381",
+      "market_id": "2467895",
+      "question": "Will the highest temperature in Shanghai be 28°C on June 10?",
+      "slug": "highest-temperature-in-shanghai-on-june-10-2026-28c",
+      "side": "NO",
+      "entry_price_usd": 0.494,
+      "mid_price_usd": 0.485,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.85,
+      "shares": 4.27,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.229,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs48%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-10T04:41:21Z",
+      "end_date": "2026-06-10",
+      "unrealized_pnl_nok": -19,
+      "closing_price": 0.0,
+      "clv": -0.485,
+      "result": "LOSS",
+      "profit_nok": -20.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-10T18:35:45Z"
+    },
+    {
+      "id": "pos_386",
+      "market_id": "2474525",
+      "question": "Counter-Strike: KOLESIE vs Leo Team - Map 1 Winner",
+      "slug": "cs2-kol-leo2-2026-06-10-game1",
+      "side": "YES",
+      "entry_price_usd": 0.5942,
+      "mid_price_usd": 0.585,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.57,
+      "shares": 3.55,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.058,
+      "our_probability": 0.643,
+      "signals": [
+        "base:0.020",
+        "cat:0.048",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "esport",
+      "opened_at": "2026-06-10T08:37:11Z",
+      "end_date": "2026-06-10",
+      "unrealized_pnl_nok": -20,
+      "closing_price": 0.0,
+      "clv": -0.585,
+      "result": "LOSS",
+      "profit_nok": -20.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-10T18:35:47Z"
     }
   ],
   "trade_log": [
@@ -12256,8 +12268,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 193,
-    "total_losses": 182,
-    "total_realized_pnl_nok": -436.5000000000005,
+    "total_losses": 184,
+    "total_realized_pnl_nok": -477.10000000000053,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -12628,22 +12640,24 @@
       0.555,
       0.695,
       -0.325,
-      0.335
+      0.335,
+      -0.485,
+      -0.585
     ],
-    "avg_clv": -0.0002
+    "avg_clv": -0.0032
   },
   "next_position_id": 391,
   "learning": {
     "category_weights": {
-      "esport": 0.014,
+      "esport": -0.008,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.022,
+      "other": -0.028,
       "social_media": 0,
       "no_draw": 0.031,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.1% | esport:+1.4% | other:-2.2% | moneyline:-5.0%"
+    "summary": "no_draw:+3.1% | esport:-0.8% | other:-2.8% | moneyline:-5.0%"
   }
 }
