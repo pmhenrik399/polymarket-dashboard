@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-10T21:12:46Z",
+    "last_updated": "2026-06-10T22:57:57Z",
     "currency": "NOK",
     "usd_nok_rate": 9.489863
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -499.40000000000055,
+    "realized_pnl_nok": -521.7000000000005,
     "trades_this_month": 390,
     "wins_this_month": 193,
-    "losses_this_month": 185
+    "losses_this_month": 186
   },
   "positions": [
     {
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.8855,
+      "current_price_usd": 0.8845,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -135,7 +135,7 @@
       "side": "YES",
       "entry_price_usd": 0.2594,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.0165,
+      "current_price_usd": 0.0135,
       "slippage_pct": 1.72,
       "shares": 8.96,
       "cost_usd": 2.32,
@@ -151,31 +151,6 @@
       "opened_at": "2026-06-09T21:04:38Z",
       "end_date": "2026-06-09",
       "unrealized_pnl_nok": -20
-    },
-    {
-      "id": "pos_377",
-      "market_id": "2468063",
-      "question": "Will the highest temperature in Helsinki be 19°C on June 10?",
-      "slug": "highest-temperature-in-helsinki-on-june-10-2026-19c",
-      "side": "NO",
-      "entry_price_usd": 0.4659,
-      "mid_price_usd": 0.455,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.4,
-      "shares": 4.99,
-      "cost_usd": 2.32,
-      "cost_nok": 22,
-      "usd_nok_at_entry": 9.465285,
-      "edge_at_entry": 0.259,
-      "our_probability": 0.724,
-      "signals": [
-        "bookie:28%vs46%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-09T22:45:49Z",
-      "end_date": "2026-06-10",
-      "unrealized_pnl_nok": -22
     },
     {
       "id": "pos_380",
@@ -210,7 +185,7 @@
       "side": "YES",
       "entry_price_usd": 0.392,
       "mid_price_usd": 0.385,
-      "current_price_usd": 0.005,
+      "current_price_usd": 0.0015,
       "slippage_pct": 1.81,
       "shares": 5.38,
       "cost_usd": 2.11,
@@ -235,7 +210,7 @@
       "side": "YES",
       "entry_price_usd": 0.432,
       "mid_price_usd": 0.425,
-      "current_price_usd": 0.55,
+      "current_price_usd": 0.575,
       "slippage_pct": 1.65,
       "shares": 4.88,
       "cost_usd": 2.11,
@@ -250,7 +225,7 @@
       "category": "other",
       "opened_at": "2026-06-10T04:41:21Z",
       "end_date": "2026-06-11",
-      "unrealized_pnl_nok": 5
+      "unrealized_pnl_nok": 6
     },
     {
       "id": "pos_384",
@@ -260,7 +235,7 @@
       "side": "NO",
       "entry_price_usd": 0.7531,
       "mid_price_usd": 0.735,
-      "current_price_usd": 0.725,
+      "current_price_usd": 0.715,
       "slippage_pct": 2.47,
       "shares": 2.8,
       "cost_usd": 2.11,
@@ -277,7 +252,7 @@
       "category": "no_draw",
       "opened_at": "2026-06-10T04:41:21Z",
       "end_date": "2026-06-10",
-      "unrealized_pnl_nok": 0
+      "unrealized_pnl_nok": -1
     },
     {
       "id": "pos_387",
@@ -314,7 +289,7 @@
       "side": "YES",
       "entry_price_usd": 0.322,
       "mid_price_usd": 0.315,
-      "current_price_usd": 0.305,
+      "current_price_usd": 0.265,
       "slippage_pct": 2.24,
       "shares": 6.55,
       "cost_usd": 2.11,
@@ -329,7 +304,7 @@
       "category": "other",
       "opened_at": "2026-06-10T15:58:09Z",
       "end_date": "2026-06-11",
-      "unrealized_pnl_nok": -1
+      "unrealized_pnl_nok": -3
     },
     {
       "id": "pos_390",
@@ -339,7 +314,7 @@
       "side": "NO",
       "entry_price_usd": 0.6813,
       "mid_price_usd": 0.665,
-      "current_price_usd": 0.6,
+      "current_price_usd": 0.635,
       "slippage_pct": 2.46,
       "shares": 3.09,
       "cost_usd": 2.11,
@@ -354,7 +329,7 @@
       "category": "other",
       "opened_at": "2026-06-10T15:58:09Z",
       "end_date": "2026-06-11",
-      "unrealized_pnl_nok": -2
+      "unrealized_pnl_nok": -1
     }
   ],
   "closed_positions": [
@@ -12137,6 +12112,37 @@
       "profit_nok": -22.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-10T21:12:42Z"
+    },
+    {
+      "id": "pos_377",
+      "market_id": "2468063",
+      "question": "Will the highest temperature in Helsinki be 19°C on June 10?",
+      "slug": "highest-temperature-in-helsinki-on-june-10-2026-19c",
+      "side": "NO",
+      "entry_price_usd": 0.4659,
+      "mid_price_usd": 0.455,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.4,
+      "shares": 4.99,
+      "cost_usd": 2.32,
+      "cost_nok": 22,
+      "usd_nok_at_entry": 9.465285,
+      "edge_at_entry": 0.259,
+      "our_probability": 0.724,
+      "signals": [
+        "bookie:28%vs46%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-09T22:45:49Z",
+      "end_date": "2026-06-10",
+      "unrealized_pnl_nok": -22,
+      "closing_price": 0.0,
+      "clv": -0.455,
+      "result": "LOSS",
+      "profit_nok": -22.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-10T22:57:54Z"
     }
   ],
   "trade_log": [
@@ -12274,8 +12280,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 193,
-    "total_losses": 185,
-    "total_realized_pnl_nok": -499.40000000000055,
+    "total_losses": 186,
+    "total_realized_pnl_nok": -521.7000000000005,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -12649,9 +12655,10 @@
       0.335,
       -0.485,
       -0.585,
-      -0.245
+      -0.245,
+      -0.455
     ],
-    "avg_clv": -0.0039
+    "avg_clv": -0.0051
   },
   "next_position_id": 391,
   "learning": {
@@ -12659,12 +12666,12 @@
       "esport": -0.008,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.028,
+      "other": -0.033,
       "social_media": 0,
       "no_draw": 0.031,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+3.1% | esport:-0.8% | other:-2.8% | moneyline:-5.0%"
+    "summary": "no_draw:+3.1% | esport:-0.8% | other:-3.3% | moneyline:-5.0%"
   }
 }
