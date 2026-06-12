@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-12T01:40:33Z",
+    "last_updated": "2026-06-12T06:19:46Z",
     "currency": "NOK",
     "usd_nok_rate": 9.500261
   },
@@ -46,10 +46,10 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -590.5000000000002,
+    "realized_pnl_nok": -631.1000000000001,
     "trades_this_month": 390,
     "wins_this_month": 195,
-    "losses_this_month": 190
+    "losses_this_month": 192
   },
   "positions": [
     {
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.2594,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.014,
+      "current_price_usd": 0.007,
       "slippage_pct": 1.72,
       "shares": 8.96,
       "cost_usd": 2.32,
@@ -100,32 +100,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-09T21:04:38Z",
       "end_date": "2026-06-09",
-      "unrealized_pnl_nok": -20
-    },
-    {
-      "id": "pos_383",
-      "market_id": "2487056",
-      "question": "Will the highest temperature in Atlanta be between 90-91°F on June 11?",
-      "slug": "highest-temperature-in-atlanta-on-june-11-2026-90-91f",
-      "side": "YES",
-      "entry_price_usd": 0.432,
-      "mid_price_usd": 0.425,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 1.65,
-      "shares": 4.88,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.489863,
-      "edge_at_entry": 0.148,
-      "our_probability": 0.583,
-      "signals": [
-        "bookie:58%vs42%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-10T04:41:21Z",
-      "end_date": "2026-06-11",
-      "unrealized_pnl_nok": -20
+      "unrealized_pnl_nok": -21
     },
     {
       "id": "pos_387",
@@ -135,7 +110,7 @@
       "side": "NO",
       "entry_price_usd": 0.631,
       "mid_price_usd": 0.62,
-      "current_price_usd": 0.67,
+      "current_price_usd": 0.675,
       "slippage_pct": 1.77,
       "shares": 3.34,
       "cost_usd": 2.11,
@@ -153,31 +128,6 @@
       "opened_at": "2026-06-10T08:37:11Z",
       "end_date": "2026-06-12",
       "unrealized_pnl_nok": 1
-    },
-    {
-      "id": "pos_389",
-      "market_id": "2487371",
-      "question": "Will the highest temperature in New York City be between 92-93°F on June 11?",
-      "slug": "highest-temperature-in-nyc-on-june-11-2026-92-93f",
-      "side": "YES",
-      "entry_price_usd": 0.322,
-      "mid_price_usd": 0.315,
-      "current_price_usd": 0.0005,
-      "slippage_pct": 2.24,
-      "shares": 6.55,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.489863,
-      "edge_at_entry": 0.216,
-      "our_probability": 0.541,
-      "signals": [
-        "bookie:54%vs32%",
-        "ob:-0.010"
-      ],
-      "category": "other",
-      "opened_at": "2026-06-10T15:58:09Z",
-      "end_date": "2026-06-11",
-      "unrealized_pnl_nok": -20
     }
   ],
   "closed_positions": [
@@ -12181,6 +12131,68 @@
       "fee_nok": 0,
       "gas_nok": 0.3,
       "closed_at": "2026-06-11T21:50:18Z"
+    },
+    {
+      "id": "pos_383",
+      "market_id": "2487056",
+      "question": "Will the highest temperature in Atlanta be between 90-91°F on June 11?",
+      "slug": "highest-temperature-in-atlanta-on-june-11-2026-90-91f",
+      "side": "YES",
+      "entry_price_usd": 0.432,
+      "mid_price_usd": 0.425,
+      "current_price_usd": 0.0,
+      "slippage_pct": 1.65,
+      "shares": 4.88,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.148,
+      "our_probability": 0.583,
+      "signals": [
+        "bookie:58%vs42%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-10T04:41:21Z",
+      "end_date": "2026-06-11",
+      "unrealized_pnl_nok": -20,
+      "closing_price": 0.0,
+      "clv": -0.425,
+      "result": "LOSS",
+      "profit_nok": -20.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-12T06:19:45Z"
+    },
+    {
+      "id": "pos_389",
+      "market_id": "2487371",
+      "question": "Will the highest temperature in New York City be between 92-93°F on June 11?",
+      "slug": "highest-temperature-in-nyc-on-june-11-2026-92-93f",
+      "side": "YES",
+      "entry_price_usd": 0.322,
+      "mid_price_usd": 0.315,
+      "current_price_usd": 0.0,
+      "slippage_pct": 2.24,
+      "shares": 6.55,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.216,
+      "our_probability": 0.541,
+      "signals": [
+        "bookie:54%vs32%",
+        "ob:-0.010"
+      ],
+      "category": "other",
+      "opened_at": "2026-06-10T15:58:09Z",
+      "end_date": "2026-06-11",
+      "unrealized_pnl_nok": -20,
+      "closing_price": 0.0,
+      "clv": -0.315,
+      "result": "LOSS",
+      "profit_nok": -20.3,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-12T06:19:46Z"
     }
   ],
   "trade_log": [
@@ -12318,8 +12330,8 @@
   "statistics": {
     "total_trades": 17,
     "total_wins": 195,
-    "total_losses": 190,
-    "total_realized_pnl_nok": -590.5000000000002,
+    "total_losses": 192,
+    "total_realized_pnl_nok": -631.1000000000001,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -12700,9 +12712,11 @@
       -0.275,
       -0.215,
       -0.385,
-      0.335
+      0.335,
+      -0.425,
+      -0.315
     ],
-    "avg_clv": -0.0065
+    "avg_clv": -0.0085
   },
   "next_position_id": 391,
   "learning": {
@@ -12710,12 +12724,12 @@
       "esport": -0.008,
       "over_under": 0,
       "moneyline": -0.05,
-      "other": -0.04,
+      "other": -0.047,
       "social_media": 0,
       "no_draw": 0.05,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | esport:-0.8% | other:-4.0% | moneyline:-5.0%"
+    "summary": "no_draw:+5.0% | esport:-0.8% | other:-4.7% | moneyline:-5.0%"
   }
 }
