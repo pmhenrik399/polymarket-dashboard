@@ -2,13 +2,13 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-12T18:30:54Z",
+    "last_updated": "2026-06-12T20:38:06Z",
     "currency": "NOK",
     "usd_nok_rate": 9.500261
   },
   "account": {
     "starting_capital": 1000,
-    "balance_nok": 237.60000000001196,
+    "balance_nok": 268.30000000001195,
     "total_deposited_nok": 1000
   },
   "risk_rules": {
@@ -46,9 +46,9 @@
     "month_start_value_nok": 1000,
     "target_profit_nok": 3300,
     "daily_target_pct": 0.05,
-    "realized_pnl_nok": -631.1000000000001,
+    "realized_pnl_nok": -620.4000000000001,
     "trades_this_month": 390,
-    "wins_this_month": 195,
+    "wins_this_month": 196,
     "losses_this_month": 192
   },
   "positions": [
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.9105,
+      "current_price_usd": 0.925,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -75,7 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 112
+      "unrealized_pnl_nok": 114
     },
     {
       "id": "pos_375",
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.2594,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.014,
+      "current_price_usd": 0.0135,
       "slippage_pct": 1.72,
       "shares": 8.96,
       "cost_usd": 2.32,
@@ -101,33 +101,6 @@
       "opened_at": "2026-06-09T21:04:38Z",
       "end_date": "2026-06-09",
       "unrealized_pnl_nok": -20
-    },
-    {
-      "id": "pos_387",
-      "market_id": "2472516",
-      "question": "Will COD Meknès vs. RCA Zemamra end in a draw?",
-      "slug": "mar1-com-rcz-2026-06-12-draw",
-      "side": "NO",
-      "entry_price_usd": 0.631,
-      "mid_price_usd": 0.62,
-      "current_price_usd": 0.71,
-      "slippage_pct": 1.77,
-      "shares": 3.34,
-      "cost_usd": 2.11,
-      "cost_nok": 20,
-      "usd_nok_at_entry": 9.489863,
-      "edge_at_entry": 0.061,
-      "our_probability": 0.681,
-      "signals": [
-        "base:0.040",
-        "cat:0.031",
-        "line:0.000",
-        "ob:-0.010"
-      ],
-      "category": "no_draw",
-      "opened_at": "2026-06-10T08:37:11Z",
-      "end_date": "2026-06-12",
-      "unrealized_pnl_nok": 2
     }
   ],
   "closed_positions": [
@@ -12193,6 +12166,40 @@
       "profit_nok": -20.3,
       "gas_nok": 0.3,
       "closed_at": "2026-06-12T06:19:46Z"
+    },
+    {
+      "id": "pos_387",
+      "market_id": "2472516",
+      "question": "Will COD Meknès vs. RCA Zemamra end in a draw?",
+      "slug": "mar1-com-rcz-2026-06-12-draw",
+      "side": "NO",
+      "entry_price_usd": 0.631,
+      "mid_price_usd": 0.62,
+      "current_price_usd": 1.0,
+      "slippage_pct": 1.77,
+      "shares": 3.34,
+      "cost_usd": 2.11,
+      "cost_nok": 20,
+      "usd_nok_at_entry": 9.489863,
+      "edge_at_entry": 0.061,
+      "our_probability": 0.681,
+      "signals": [
+        "base:0.040",
+        "cat:0.031",
+        "line:0.000",
+        "ob:-0.010"
+      ],
+      "category": "no_draw",
+      "opened_at": "2026-06-10T08:37:11Z",
+      "end_date": "2026-06-12",
+      "unrealized_pnl_nok": 2,
+      "closing_price": 1.0,
+      "clv": 0.38,
+      "result": "WIN",
+      "profit_nok": 10.7,
+      "fee_nok": 0,
+      "gas_nok": 0.3,
+      "closed_at": "2026-06-12T20:38:06Z"
     }
   ],
   "trade_log": [
@@ -12329,9 +12336,9 @@
   "monthly_history": [],
   "statistics": {
     "total_trades": 17,
-    "total_wins": 195,
+    "total_wins": 196,
     "total_losses": 192,
-    "total_realized_pnl_nok": -631.1000000000001,
+    "total_realized_pnl_nok": -620.4000000000001,
     "best_trade_nok": 112,
     "worst_trade_nok": -126,
     "avg_edge_at_entry": 0.044,
@@ -12714,9 +12721,10 @@
       -0.385,
       0.335,
       -0.425,
-      -0.315
+      -0.315,
+      0.38
     ],
-    "avg_clv": -0.0085
+    "avg_clv": -0.0074
   },
   "next_position_id": 391,
   "learning": {
