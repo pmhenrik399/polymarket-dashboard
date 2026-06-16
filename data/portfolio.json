@@ -2,7 +2,7 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-16T01:47:49Z",
+    "last_updated": "2026-06-16T07:09:57Z",
     "currency": "NOK",
     "usd_nok_rate": 9.524927
   },
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.9415,
+      "current_price_usd": 0.94,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -85,7 +85,7 @@
       "side": "YES",
       "entry_price_usd": 0.2594,
       "mid_price_usd": 0.255,
-      "current_price_usd": 0.013,
+      "current_price_usd": 0.012,
       "slippage_pct": 1.72,
       "shares": 8.96,
       "cost_usd": 2.32,
@@ -12729,15 +12729,15 @@
   "next_position_id": 391,
   "learning": {
     "category_weights": {
-      "esport": -0.008,
+      "esport": 0,
       "over_under": 0,
       "moneyline": -0.05,
       "other": -0.047,
       "social_media": 0,
-      "no_draw": 0.05,
+      "no_draw": 0,
       "crypto_flip": 0,
       "economics": 0
     },
-    "summary": "no_draw:+5.0% | esport:-0.8% | other:-4.7% | moneyline:-5.0%"
+    "summary": "other:-4.7% | moneyline:-5.0%"
   }
 }
