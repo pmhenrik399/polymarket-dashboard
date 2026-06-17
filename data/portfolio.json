@@ -2,9 +2,9 @@
   "meta": {
     "version": "3.0",
     "created_at": "2026-04-01T14:30:00+02:00",
-    "last_updated": "2026-06-17T00:00:02Z",
+    "last_updated": "2026-06-17T05:04:59Z",
     "currency": "NOK",
-    "usd_nok_rate": 9.524927
+    "usd_nok_rate": 9.492553
   },
   "account": {
     "starting_capital": 1000,
@@ -60,7 +60,7 @@
       "side": "YES",
       "entry_price_usd": 0.2351,
       "mid_price_usd": 0.23,
-      "current_price_usd": 0.9645,
+      "current_price_usd": 0.9635,
       "slippage_pct": 2.22,
       "shares": 17.48,
       "cost_usd": 4.11,
@@ -75,7 +75,7 @@
       "category": "moneyline",
       "opened_at": "2026-06-01T18:47:28Z",
       "end_date": "2026-06-02",
-      "unrealized_pnl_nok": 121
+      "unrealized_pnl_nok": 120
     },
     {
       "id": "pos_375",
